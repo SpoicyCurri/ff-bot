@@ -1,0 +1,96 @@
+2025-10-05 23:18:51,625 - INFO - Starting FBRef data collection for Premier League
+2025-10-05 23:18:51,626 - INFO - Processing league: Premier-League from https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-10-05 23:18:51,626 - INFO - Getting fixture data...
+2025-10-05 23:18:59,311 - INFO - Navigating to https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-10-05 23:19:10,060 - ERROR - Error fetching fixture data: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+Traceback (most recent call last):
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\pandas\compat\_optional.py", line 135, in import_optional_dependency
+    module = importlib.import_module(name)
+  File "C:\Users\spoic\AppData\Roaming\uv\python\cpython-3.13.7-windows-x86_64-none\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'lxml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\data-scraper.py", line 139, in get_fixture_data
+    fixtures = self._process_fixture_table(page)
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\data-scraper.py", line 158, in _process_fixture_table
+    tables = pd.read_html(html_content)
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\pandas\io\html.py", line 1240, in read_html
+    return _parse(
+        flavor=flavor,
+    ...<16 lines>...
+        storage_options=storage_options,
+    )
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\pandas\io\html.py", line 971, in _parse
+    parser = _parser_dispatch(flav)
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\pandas\io\html.py", line 918, in _parser_dispatch
+    import_optional_dependency("lxml.etree")
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\pandas\compat\_optional.py", line 138, in import_optional_dependency
+    raise ImportError(msg)
+ImportError: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-10-05 23:19:39,856 - INFO - Starting FBRef data collection for Premier League
+2025-10-05 23:19:39,856 - INFO - Processing league: Premier-League from https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-10-05 23:19:39,857 - INFO - Getting fixture data...
+2025-10-05 23:19:41,039 - INFO - Navigating to https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-10-05 23:19:52,705 - INFO - Found 10 tables on page
+2025-10-05 23:19:52,705 - INFO - Fixture table shape: (426, 14)
+2025-10-05 23:19:55,383 - INFO - Found 380 match report links
+2025-10-05 23:19:55,391 - INFO - Fixture data saved to data\fixture_data.csv
+2025-10-05 23:19:55,518 - INFO - Successfully retrieved 380 fixtures
+2025-10-05 23:19:55,519 - INFO - Starting player data collection
+2025-10-05 23:19:56,572 - INFO - Processing match 1/65: https://fbref.com/en/matches/a071faa8/Liverpool-Bournemouth-August-15-2025-Premier-League
+2025-10-05 23:19:59,654 - INFO - Added 31 rows to summary data (total: 31)
+2025-10-05 23:19:59,656 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-05 23:19:59,659 - INFO - Added 31 rows to passing data (total: 31)
+2025-10-05 23:19:59,662 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-05 23:19:59,665 - INFO - Added 31 rows to passing_types data (total: 31)
+2025-10-05 23:19:59,668 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-05 23:19:59,672 - INFO - Added 31 rows to defensive_actions data (total: 31)
+2025-10-05 23:19:59,675 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-05 23:19:59,679 - INFO - Added 31 rows to possession data (total: 31)
+2025-10-05 23:19:59,682 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-05 23:19:59,685 - INFO - Added 31 rows to miscellaneous data (total: 31)
+2025-10-05 23:19:59,688 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-05 23:19:59,693 - INFO - Added 2 rows to goalkeeper data (total: 2)
+2025-10-05 23:19:59,696 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-05 23:20:04,108 - ERROR - An error occurred: Browser.close: Connection closed while reading from the driver
+Traceback (most recent call last):
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\data-scraper.py", line 310, in run
+    self.get_player_data(fixtures)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\data-scraper.py", line 235, in get_player_data
+    self._cleanup_browser()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\data-scraper.py", line 115, in _cleanup_browser
+    self._browser.close()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 14269, in close
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.close(reason=reason)))
+                                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_browser.py", line 241, in close
+    raise e
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_browser.py", line 238, in close
+    await self._channel.send("close", None, {"reason": reason})
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Browser.close: Connection closed while reading from the driver
