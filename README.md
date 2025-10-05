@@ -1,8 +1,6 @@
 # ⚽ Football Analytics Dashboard
 
-A Python-based analytics dashboard for visualizing and comparing Prem
-
-Feel free to submit issues, fork the repository, and create pull requests for any improvements! League player statistics. The project consists of two main components:
+A Python-based analytics dashboard for visualizing and comparing Premier League player statistics. The project consists of two main components:
 1. 🤖 A data scraper that collects player statistics from FBRef
 2. 📊 A Streamlit web application for interactive data visualization and analysis
 
@@ -36,74 +34,134 @@ source .venv/bin/activate  # On Unix/MacOS
 
 3. Install dependencies:
 ```bash
-uv pip install -r requirements.txt
+uv pip install pandas numpy playwright streamlit altair
+playwright install chromium
 ```
+
+This will install:
+- 🐼 pandas: For data manipulation
+- 🔢 numpy: For numerical computations
+- 🎭 playwright: For web scraping
+- 📊 streamlit: For the web dashboard
+- 📈 altair: For interactive visualizations
 
 ## 🎮 Usage
 
 ### 🤖 Data Scraper
 
-The data scraper collects player statistics from FBRef. To update the data:
+The data scraper uses Playwright to collect player statistics from FBRef. To update the data:
 
 ```bash
 python data-scraper.py
 ```
 
 This will:
-- 📥 Fetch the latest fixture data
-- 🔄 Update player statistics across multiple categories
-- 💾 Store the data in the `data/` directory
+- 📥 Fetch the latest Premier League fixture data
+- 🔄 Update player statistics across 7 categories:
+  - Summary stats
+  - Passing stats
+  - Passing types
+  - Defensive actions
+  - Possession stats
+  - Miscellaneous stats
+  - Goalkeeper stats
+- 💾 Store the data in CSV format in the `data/` directory
+- 📝 Log all operations to `data/fbref_scraper.log`
+
+The scraper includes anti-blocking measures with random delays between requests.
 
 ### 📊 Streamlit Dashboard
 
 To run the analytics dashboard:
 
 ```bash
-streamlit run app_simple.py
+streamlit run app.py
 ```
 
 The dashboard provides two main views:
 
 1. 🔄 Player Comparison
-   - 📊 Select metrics to compare (xG, Goals, Assists, etc.)
-   - 🔢 Choose number of players to display
-   - ⏰ Filter by recent weeks
-   - 📈 View cumulative statistics and per 90 metrics
+   - 📊 Select from 17 key metrics including:
+     - xG, Goals, Assists, xAG
+     - Shots, Shots on Target
+     - Carries, Progressive Carries/Passes
+     - Shot/Goal Creating Actions
+     - Defensive metrics (Tackles, Interceptions)
+   - 🔢 Customize display (5-20 players)
+   - ⏰ Filter by gameweek range
+   - 📈 View both cumulative and per-90 statistics
+   - 📊 Interactive charts with hover details
 
 2. 👤 Individual Player Analysis
-   - 📋 Detailed player statistics
-   - 📊 Performance breakdowns by different metrics
-   - 📝 Match history
-   - 📈 Interactive charts for:
-     - ⚽ Goal involvement
-     - 🎯 Progressive actions
-     - 🛡️ Defensive contributions
+   - 📋 Real-time performance metrics:
+     - Match count and minutes played
+     - Goals vs xG comparison
+     - Assists vs xAG comparison
+     - Shot conversion rate
+   - 📊 Three detailed analysis tabs:
+     - ⚽ Goal Involvement (customizable bar charts)
+     - 🎯 Progression (line charts with tooltips)
+     - 🛡️ Defensive Actions (area charts)
+   - 📝 Complete match history table
 
 ## 📁 Data Structure
 
 The scraped data is organized in the following structure:
 ```
 data/
-├── fixture_data.csv
-└── players/
-    ├── players_summary.csv
-    ├── players_passing.csv
-    ├── players_defensive_actions.csv
-    ├── players_possession.csv
-    ├── players_miscellaneous.csv
-    └── players_goalkeeper.csv
+├── fbref_scraper.log        # Detailed scraping logs
+├── fixture_data.csv         # Match schedule and results
+└── players/                 # Player statistics by category
+    ├── players_summary.csv      # Key performance metrics
+    ├── players_passing.csv      # Detailed passing stats
+    ├── players_passing_types.csv # Pass types analysis
+    ├── players_defensive_actions.csv # Defensive metrics
+    ├── players_possession.csv    # Ball control stats
+    ├── players_miscellaneous.csv # Additional metrics
+    └── players_goalkeeper.csv    # Goalkeeper statistics
 ```
+
+Each player statistics file includes:
+- Player identification
+- Team information
+- Match-specific stats
+- Home/Away indicator
+- Game ID for fixture linking
 
 ## ⚙️ Customization
 
-You can modify the metrics displayed in the dashboard by editing the `all_metrics` list in `app_simple.py`. The current metrics include:
-- 🎯 Expected Goals (xG)
-- ⚽ Goals (Gls)
-- 🎯 Assists (Ast)
-- 📊 Expected Assisted Goals (xAG)
-- 🎯 Shots (Sh)
-- 🎯 Shots on Target (SoT)
-- And many more...
+The dashboard can be customized through several components:
+
+### 📊 Available Metrics
+Core metrics available for comparison include:
+```python
+all_metrics = [
+    'xG',    # Expected Goals
+    'Gls',   # Goals Scored
+    'Ast',   # Assists
+    'xAG',   # Expected Assisted Goals
+    'Sh',    # Total Shots
+    'SoT',   # Shots on Target
+    'Min',   # Minutes Played
+    'Carries', # Ball Carries
+    'PrgC',  # Progressive Carries
+    'PrgP',  # Progressive Passes
+    'Cmp%',  # Pass Completion %
+    'SCA',   # Shot-Creating Actions
+    'GCA',   # Goal-Creating Actions
+    'Tkl',   # Tackles
+    'Int',   # Interceptions
+    'Blocks', # Blocks
+    'Touches' # Ball Touches
+]
+```
+
+### 📈 Derived Statistics
+The dashboard automatically calculates:
+- Minutes per goal
+- Goal involvement (Goals + Assists)
+- xG overperformance
+- Shot conversion rate (%)
 
 ## 🤝 Contributing
 
