@@ -319,12 +319,14 @@ if not df.empty:
             bind='legend'
         )
         
+        x_axis_values = list(range(int(comparison_df['Gameweek'].min()), int(comparison_df['Gameweek'].max()) + 1))
+        
         # Create comparison chart with selectable legend
         comparison_chart = (
             alt.Chart(comparison_df)
             .mark_line(point=True)
             .encode(
-                x=alt.X("Gameweek:O", title="Gameweek"),
+                x=alt.X("Gameweek:Q", title="Gameweek", axis=alt.Axis(values=x_axis_values)),
                 y=alt.Y("Value:Q", title=f"Cumulative {selected_metric}"),
                 color=alt.Color(
                     "Player:N",
