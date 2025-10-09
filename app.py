@@ -320,7 +320,11 @@ if not df.empty:
             .encode(
                 x=alt.X("Gameweek:O", title="Gameweek"),
                 y=alt.Y("Value:Q", title=f"Cumulative {selected_metric}"),
-                color=alt.Color("Player:N", sort=None),
+                color=alt.Color(
+                    "Player:N",
+                    sort=None,
+                    scale=alt.Scale(scheme="darkred")
+                ),
                 tooltip=["Player", "Team", "Opponent", "Value", "Game Value"],
             )
             .properties(height=500, title=f"Cumulative {selected_metric} Over Time")
