@@ -197,8 +197,15 @@ class FBRefScraper:
 
         # Add computed columns
         fixtures["game_played"] = np.where(fixtures["Score"].isna(), False, True)
+        
+        # Create a deterministic game_id by combining home team, away team, and date
+        # Remove any spaces and special characters, then join with underscores
         fixtures["game_id"] = fixtures.apply(
-            lambda row: hash((str(row["Home"]), str(row["Away"]), str(row["Date"]))),
+            lambda row: "_".join([
+                str(row["Home"]).replace(" ", ""),
+                str(row["Away"]).replace(" ", ""),
+                str(row["Date"]).replace("-", "")
+            ]),
             axis=1,
         )
 
@@ -215,20 +222,63 @@ class FBRefScraper:
         self.logger.info(f"Found {len(links)} match report links")
         return links
 
+    def _load_existing_data(self) -> Tuple[Dict[str, DataFrameType], set]:
+        """Load existing player data and return existing game IDs."""
+        player_data_dict = {}
+        existing_game_ids = set()
+
+        # Try to load existing summary data to get game IDs
+        summary_path = self.config.players_dir / "players_summary.csv"
+        if summary_path.exists():
+            try:
+                summary_df = pd.read_csv(summary_path)
+                existing_game_ids = set(summary_df["game_id"].unique())
+                self.logger.info(f"Found {len(existing_game_ids)} existing games")
+            except Exception as e:
+                self.logger.warning(f"Error loading existing summary data: {e}")
+
+        # Load all existing player data files
+        for stat_type in self.PLAYER_TABLES.keys():
+            file_path = self.config.players_dir / f"players_{stat_type}.csv"
+            if file_path.exists():
+                try:
+                    player_data_dict[stat_type] = pd.read_csv(file_path)
+                    self.logger.info(f"Loaded existing {stat_type} data")
+                except Exception as e:
+                    self.logger.warning(f"Error loading {stat_type} data: {e}")
+                    player_data_dict[stat_type] = pd.DataFrame([])
+            else:
+                player_data_dict[stat_type] = pd.DataFrame([])
+
+        return player_data_dict, existing_game_ids
+
     def get_player_data(self, fixtures: DataFrameType) -> None:
         """Collect player data for all matches in fixtures."""
         self.logger.info("Starting player data collection")
 
-        match_links = fixtures[fixtures["game_played"]]["Match Report"]
-        game_ids = fixtures[fixtures["game_played"]]["game_id"]
+        # Load existing data and game IDs
+        player_data_dict, existing_game_ids = self._load_existing_data()
+
+        # Filter for only new played games
+        played_games = fixtures[fixtures["game_played"]]
+        new_games = played_games[~played_games["game_id"].isin(existing_game_ids)]
+        
+        if new_games.empty:
+            self.logger.info("No new games to process")
+            return
+
+        self.logger.info(f"Found {len(new_games)} new games to process")
+        match_links = new_games["Match Report"]
+        game_ids = new_games["game_id"]
 
         try:
             _, _, context = self._setup_browser()
             page = context.new_page()
 
-            player_data_dict = {
-                name: pd.DataFrame([]) for name in self.PLAYER_TABLES.keys()
-            }
+            # Initialize with empty DataFrames only for missing stat types
+            for stat_type in self.PLAYER_TABLES.keys():
+                if stat_type not in player_data_dict:
+                    player_data_dict[stat_type] = pd.DataFrame([])
 
             for count, (link, game_id) in enumerate(zip(match_links, game_ids)):
                 self._process_match(
@@ -276,19 +326,39 @@ class FBRefScraper:
     def _extract_and_save_player_stats(
         self,
         tables: List[DataFrameType],
-        game_id: int,
+        game_id: str,  # Changed type to str since we now use string game_ids
         player_data_dict: Dict[str, DataFrameType],
     ) -> None:
         """Extract and save player statistics for all stat types."""
         for stat_type in self.PLAYER_TABLES.keys():
+            # Get both teams' data
             team_home = self._extract_player_data(tables, True, stat_type)
             team_away = self._extract_player_data(tables, False, stat_type)
 
+            # Ensure both DataFrames have the same columns
+            all_columns = list(set(team_home.columns) | set(team_away.columns))
+            for df in [team_home, team_away]:
+                for col in all_columns:
+                    if col not in df.columns:
+                        df[col] = None
+
+            # Reset indices before concatenation
+            team_home = team_home.reset_index(drop=True)
+            team_away = team_away.reset_index(drop=True)
+            
             both_teams = pd.concat([team_home, team_away], ignore_index=True)
             both_teams["game_id"] = game_id
 
-            # Update and save data
+            # Update data, keeping all existing data and adding new data
             prev_rows = len(player_data_dict[stat_type])
+            
+            # Remove any existing data for this game_id to avoid duplicates
+            if not player_data_dict[stat_type].empty:
+                player_data_dict[stat_type] = player_data_dict[stat_type][
+                    player_data_dict[stat_type]["game_id"] != game_id
+                ]
+            
+            # Append new data
             player_data_dict[stat_type] = pd.concat(
                 [player_data_dict[stat_type], both_teams], ignore_index=True
             )
@@ -315,7 +385,14 @@ class FBRefScraper:
         )
         df = tables[index]
         df = df.assign(home=home)
-        return df[~df["Nation"].isna()]
+        
+        # Reset index to avoid duplicate index issues
+        df = df[~df["Nation"].isna()].reset_index(drop=True)
+        
+        # Ensure all columns are properly named and no duplicate columns exist
+        df = df.loc[:, ~df.columns.duplicated()]
+        
+        return df
 
     def run(self, league_name: str = "Premier League") -> None:
         """Main method to run the scraper."""

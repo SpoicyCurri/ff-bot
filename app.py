@@ -289,14 +289,15 @@ if not df.empty:
         # Create comparison dataframe
         comparison_data = []
         for player in top_players:
-            player_stats = df[df["Player"] == player]
-            # Filter for recent weeks
-            player_stats = player_stats[
-                player_stats["gameweek_number"] > (max_gameweek - recent_weeks)
-            ]
+            # Filter for recent weeks first
+            player_stats = recent_data[recent_data["Player"] == player]
             player_stats = player_stats.sort_values("gameweek_number")
-            # Calculate cumulative sum for the metric within the selected period
+            
+            # Reset index to ensure proper cumulative calculation
+            player_stats = player_stats.reset_index(drop=True)
+            # Calculate cumulative sum starting from 0 for the selected period
             cumulative_value = player_stats[selected_metric].cumsum()
+            
             for idx, row in player_stats.iterrows():
                 comparison_data.append(
                     {
@@ -323,7 +324,6 @@ if not df.empty:
                 tooltip=["Player", "Team", "Opponent", "Value", "Game Value"],
             )
             .properties(height=500, title=f"Cumulative {selected_metric} Over Time")
-            .interactive()
         )
 
         st.altair_chart(comparison_chart, use_container_width=True)

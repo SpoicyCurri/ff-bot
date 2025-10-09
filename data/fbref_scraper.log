@@ -94,3 +94,1158 @@ Traceback (most recent call last):
   File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
 Exception: Browser.close: Connection closed while reading from the driver
+2025-10-06 23:04:31,829 - INFO - Starting FBRef data collection for Premier League
+2025-10-06 23:04:31,830 - INFO - Processing league: Premier-League from https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-10-06 23:04:31,831 - INFO - Getting fixture data...
+2025-10-06 23:04:44,490 - INFO - Navigating to https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-10-06 23:04:55,999 - INFO - Found 10 tables on page
+2025-10-06 23:04:56,000 - INFO - Fixture table shape: (426, 14)
+2025-10-06 23:04:59,525 - INFO - Found 380 match report links
+2025-10-06 23:04:59,592 - INFO - Fixture data saved to data\fixture_data.csv
+2025-10-06 23:04:59,772 - INFO - Successfully retrieved 380 fixtures
+2025-10-06 23:04:59,772 - INFO - Starting player data collection
+2025-10-06 23:04:59,803 - INFO - Found 65 existing games
+2025-10-06 23:04:59,814 - INFO - Loaded existing summary data
+2025-10-06 23:04:59,842 - INFO - Loaded existing passing data
+2025-10-06 23:04:59,869 - INFO - Loaded existing passing_types data
+2025-10-06 23:04:59,896 - INFO - Loaded existing defensive_actions data
+2025-10-06 23:04:59,925 - INFO - Loaded existing possession data
+2025-10-06 23:04:59,953 - INFO - Loaded existing miscellaneous data
+2025-10-06 23:04:59,972 - INFO - Loaded existing goalkeeper data
+2025-10-06 23:04:59,977 - INFO - Found 70 new games to process
+2025-10-06 23:05:01,242 - INFO - Processing match 1/70: https://fbref.com/en/matches/a071faa8/Liverpool-Bournemouth-August-15-2025-Premier-League
+2025-10-06 23:05:05,693 - ERROR - Error processing match https://fbref.com/en/matches/a071faa8/Liverpool-Bournemouth-August-15-2025-Premier-League: Reindexing only valid with uniquely valued Index objects
+Traceback (most recent call last):
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\data-scraper.py", line 314, in _process_match
+    self._extract_and_save_player_stats(tables, game_id, player_data_dict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\data-scraper.py", line 343, in _extract_and_save_player_stats
+    player_data_dict[stat_type] = pd.concat(
+                                  ~~~~~~~~~^
+        [player_data_dict[stat_type], both_teams], ignore_index=True
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\pandas\core\reshape\concat.py", line 395, in concat
+    return op.get_result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\pandas\core\reshape\concat.py", line 680, in get_result
+    indexers[ax] = obj_labels.get_indexer(new_labels)
+                   ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3892, in get_indexer
+    raise InvalidIndexError(self._requires_unique_msg)
+pandas.errors.InvalidIndexError: Reindexing only valid with uniquely valued Index objects
+2025-10-06 23:05:13,966 - INFO - Processing match 2/70: https://fbref.com/en/matches/bbdf4739/Aston-Villa-Newcastle-United-August-16-2025-Premier-League
+2025-10-06 23:05:16,725 - ERROR - Error processing match https://fbref.com/en/matches/bbdf4739/Aston-Villa-Newcastle-United-August-16-2025-Premier-League: Reindexing only valid with uniquely valued Index objects
+Traceback (most recent call last):
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\data-scraper.py", line 314, in _process_match
+    self._extract_and_save_player_stats(tables, game_id, player_data_dict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\data-scraper.py", line 343, in _extract_and_save_player_stats
+    player_data_dict[stat_type] = pd.concat(
+                                  ~~~~~~~~~^
+        [player_data_dict[stat_type], both_teams], ignore_index=True
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\pandas\core\reshape\concat.py", line 395, in concat
+    return op.get_result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\pandas\core\reshape\concat.py", line 680, in get_result
+    indexers[ax] = obj_labels.get_indexer(new_labels)
+                   ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3892, in get_indexer
+    raise InvalidIndexError(self._requires_unique_msg)
+pandas.errors.InvalidIndexError: Reindexing only valid with uniquely valued Index objects
+2025-10-06 23:05:25,086 - ERROR - An error occurred: Browser.close: Connection closed while reading from the driver
+Traceback (most recent call last):
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\data-scraper.py", line 382, in run
+    self.get_player_data(fixtures)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\data-scraper.py", line 288, in get_player_data
+    self._cleanup_browser()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\data-scraper.py", line 125, in _cleanup_browser
+    self._browser.close()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 14269, in close
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.close(reason=reason)))
+                                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_browser.py", line 241, in close
+    raise e
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_browser.py", line 238, in close
+    await self._channel.send("close", None, {"reason": reason})
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Browser.close: Connection closed while reading from the driver
+2025-10-06 23:15:57,274 - INFO - Starting FBRef data collection for Premier League
+2025-10-06 23:15:57,275 - INFO - Processing league: Premier-League from https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-10-06 23:15:57,276 - INFO - Getting fixture data...
+2025-10-06 23:15:58,636 - INFO - Navigating to https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-10-06 23:16:09,580 - INFO - Found 10 tables on page
+2025-10-06 23:16:09,580 - INFO - Fixture table shape: (426, 14)
+2025-10-06 23:16:12,352 - INFO - Found 380 match report links
+2025-10-06 23:16:12,360 - INFO - Fixture data saved to data\fixture_data.csv
+2025-10-06 23:16:12,512 - INFO - Successfully retrieved 380 fixtures
+2025-10-06 23:16:12,513 - INFO - Starting player data collection
+2025-10-06 23:16:12,519 - INFO - Found 70 new games to process
+2025-10-06 23:16:13,479 - INFO - Processing match 1/70: https://fbref.com/en/matches/a071faa8/Liverpool-Bournemouth-August-15-2025-Premier-League
+2025-10-06 23:16:16,974 - INFO - Added 31 rows to summary data (total: 31)
+2025-10-06 23:16:16,978 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:16:16,986 - INFO - Added 31 rows to passing data (total: 31)
+2025-10-06 23:16:17,001 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:16:17,014 - INFO - Added 31 rows to passing_types data (total: 31)
+2025-10-06 23:16:17,021 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:16:17,032 - INFO - Added 31 rows to defensive_actions data (total: 31)
+2025-10-06 23:16:17,038 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:16:17,046 - INFO - Added 31 rows to possession data (total: 31)
+2025-10-06 23:16:17,052 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:16:17,061 - INFO - Added 31 rows to miscellaneous data (total: 31)
+2025-10-06 23:16:17,068 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:16:17,079 - INFO - Added 2 rows to goalkeeper data (total: 2)
+2025-10-06 23:16:17,083 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:16:25,443 - INFO - Processing match 2/70: https://fbref.com/en/matches/bbdf4739/Aston-Villa-Newcastle-United-August-16-2025-Premier-League
+2025-10-06 23:16:27,744 - INFO - Added 26 rows to summary data (total: 57)
+2025-10-06 23:16:27,748 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:16:27,754 - INFO - Added 26 rows to passing data (total: 57)
+2025-10-06 23:16:27,757 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:16:27,763 - INFO - Added 26 rows to passing_types data (total: 57)
+2025-10-06 23:16:27,770 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:16:27,775 - INFO - Added 26 rows to defensive_actions data (total: 57)
+2025-10-06 23:16:27,780 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:16:27,786 - INFO - Added 26 rows to possession data (total: 57)
+2025-10-06 23:16:27,790 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:16:27,797 - INFO - Added 26 rows to miscellaneous data (total: 57)
+2025-10-06 23:16:27,802 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:16:27,807 - INFO - Added 2 rows to goalkeeper data (total: 4)
+2025-10-06 23:16:27,813 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:16:35,799 - INFO - Processing match 3/70: https://fbref.com/en/matches/e1058522/Sunderland-West-Ham-United-August-16-2025-Premier-League
+2025-10-06 23:16:37,998 - INFO - Added 29 rows to summary data (total: 86)
+2025-10-06 23:16:38,002 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:16:38,009 - INFO - Added 29 rows to passing data (total: 86)
+2025-10-06 23:16:38,014 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:16:38,019 - INFO - Added 29 rows to passing_types data (total: 86)
+2025-10-06 23:16:38,023 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:16:38,030 - INFO - Added 29 rows to defensive_actions data (total: 86)
+2025-10-06 23:16:38,034 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:16:38,040 - INFO - Added 29 rows to possession data (total: 86)
+2025-10-06 23:16:38,045 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:16:38,050 - INFO - Added 29 rows to miscellaneous data (total: 86)
+2025-10-06 23:16:38,055 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:16:38,061 - INFO - Added 2 rows to goalkeeper data (total: 6)
+2025-10-06 23:16:38,064 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:16:46,689 - INFO - Processing match 4/70: https://fbref.com/en/matches/d41bb8b3/Tottenham-Hotspur-Burnley-August-16-2025-Premier-League
+2025-10-06 23:16:48,754 - INFO - Added 32 rows to summary data (total: 118)
+2025-10-06 23:16:48,758 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:16:48,765 - INFO - Added 32 rows to passing data (total: 118)
+2025-10-06 23:16:48,768 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:16:48,774 - INFO - Added 32 rows to passing_types data (total: 118)
+2025-10-06 23:16:48,777 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:16:48,784 - INFO - Added 32 rows to defensive_actions data (total: 118)
+2025-10-06 23:16:48,788 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:16:48,793 - INFO - Added 32 rows to possession data (total: 118)
+2025-10-06 23:16:48,798 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:16:48,804 - INFO - Added 32 rows to miscellaneous data (total: 118)
+2025-10-06 23:16:48,808 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:16:48,813 - INFO - Added 2 rows to goalkeeper data (total: 8)
+2025-10-06 23:16:48,815 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:16:57,774 - INFO - Processing match 5/70: https://fbref.com/en/matches/57c49bae/Brighton-and-Hove-Albion-Fulham-August-16-2025-Premier-League
+2025-10-06 23:17:00,232 - INFO - Added 32 rows to summary data (total: 150)
+2025-10-06 23:17:00,236 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:17:00,240 - INFO - Added 32 rows to passing data (total: 150)
+2025-10-06 23:17:00,246 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:17:00,250 - INFO - Added 32 rows to passing_types data (total: 150)
+2025-10-06 23:17:00,253 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:17:00,259 - INFO - Added 32 rows to defensive_actions data (total: 150)
+2025-10-06 23:17:00,263 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:17:00,268 - INFO - Added 32 rows to possession data (total: 150)
+2025-10-06 23:17:00,272 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:17:00,278 - INFO - Added 32 rows to miscellaneous data (total: 150)
+2025-10-06 23:17:00,282 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:17:00,287 - INFO - Added 2 rows to goalkeeper data (total: 10)
+2025-10-06 23:17:00,290 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:17:08,663 - INFO - Processing match 6/70: https://fbref.com/en/matches/8613020d/Wolverhampton-Wanderers-Manchester-City-August-16-2025-Premier-League
+2025-10-06 23:17:11,216 - INFO - Added 32 rows to summary data (total: 182)
+2025-10-06 23:17:11,222 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:17:11,231 - INFO - Added 32 rows to passing data (total: 182)
+2025-10-06 23:17:11,236 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:17:11,242 - INFO - Added 32 rows to passing_types data (total: 182)
+2025-10-06 23:17:11,248 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:17:11,256 - INFO - Added 32 rows to defensive_actions data (total: 182)
+2025-10-06 23:17:11,261 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:17:11,268 - INFO - Added 32 rows to possession data (total: 182)
+2025-10-06 23:17:11,273 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:17:11,281 - INFO - Added 32 rows to miscellaneous data (total: 182)
+2025-10-06 23:17:11,285 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:17:11,292 - INFO - Added 2 rows to goalkeeper data (total: 12)
+2025-10-06 23:17:11,298 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:17:17,674 - INFO - Processing match 7/70: https://fbref.com/en/matches/855f8b5e/Nottingham-Forest-Brentford-August-17-2025-Premier-League
+2025-10-06 23:17:19,922 - INFO - Added 29 rows to summary data (total: 211)
+2025-10-06 23:17:19,929 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:17:19,936 - INFO - Added 29 rows to passing data (total: 211)
+2025-10-06 23:17:19,939 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:17:19,943 - INFO - Added 29 rows to passing_types data (total: 211)
+2025-10-06 23:17:19,949 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:17:19,954 - INFO - Added 29 rows to defensive_actions data (total: 211)
+2025-10-06 23:17:19,958 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:17:19,964 - INFO - Added 29 rows to possession data (total: 211)
+2025-10-06 23:17:19,969 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:17:19,974 - INFO - Added 29 rows to miscellaneous data (total: 211)
+2025-10-06 23:17:19,980 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:17:19,986 - INFO - Added 2 rows to goalkeeper data (total: 14)
+2025-10-06 23:17:19,989 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:17:26,906 - INFO - Processing match 8/70: https://fbref.com/en/matches/2185fc64/Chelsea-Crystal-Palace-August-17-2025-Premier-League
+2025-10-06 23:17:29,321 - INFO - Added 28 rows to summary data (total: 239)
+2025-10-06 23:17:29,328 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:17:29,337 - INFO - Added 28 rows to passing data (total: 239)
+2025-10-06 23:17:29,342 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:17:29,350 - INFO - Added 28 rows to passing_types data (total: 239)
+2025-10-06 23:17:29,355 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:17:29,363 - INFO - Added 28 rows to defensive_actions data (total: 239)
+2025-10-06 23:17:29,370 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:17:29,377 - INFO - Added 28 rows to possession data (total: 239)
+2025-10-06 23:17:29,386 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:17:29,391 - INFO - Added 28 rows to miscellaneous data (total: 239)
+2025-10-06 23:17:29,398 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:17:29,406 - INFO - Added 2 rows to goalkeeper data (total: 16)
+2025-10-06 23:17:29,411 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:17:37,856 - INFO - Processing match 9/70: https://fbref.com/en/matches/643d26fd/Manchester-United-Arsenal-August-17-2025-Premier-League
+2025-10-06 23:17:40,553 - INFO - Added 31 rows to summary data (total: 270)
+2025-10-06 23:17:40,560 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:17:40,568 - INFO - Added 31 rows to passing data (total: 270)
+2025-10-06 23:17:40,574 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:17:40,584 - INFO - Added 31 rows to passing_types data (total: 270)
+2025-10-06 23:17:40,590 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:17:40,597 - INFO - Added 31 rows to defensive_actions data (total: 270)
+2025-10-06 23:17:40,602 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:17:40,608 - INFO - Added 31 rows to possession data (total: 270)
+2025-10-06 23:17:40,616 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:17:40,623 - INFO - Added 31 rows to miscellaneous data (total: 270)
+2025-10-06 23:17:40,629 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:17:40,637 - INFO - Added 2 rows to goalkeeper data (total: 18)
+2025-10-06 23:17:40,640 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:17:47,079 - INFO - Processing match 10/70: https://fbref.com/en/matches/0701e218/Leeds-United-Everton-August-18-2025-Premier-League
+2025-10-06 23:17:48,391 - INFO - Added 29 rows to summary data (total: 299)
+2025-10-06 23:17:48,401 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:17:48,408 - INFO - Added 29 rows to passing data (total: 299)
+2025-10-06 23:17:48,415 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:17:48,420 - INFO - Added 29 rows to passing_types data (total: 299)
+2025-10-06 23:17:48,427 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:17:48,434 - INFO - Added 29 rows to defensive_actions data (total: 299)
+2025-10-06 23:17:48,440 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:17:48,447 - INFO - Added 29 rows to possession data (total: 299)
+2025-10-06 23:17:48,453 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:17:48,460 - INFO - Added 29 rows to miscellaneous data (total: 299)
+2025-10-06 23:17:48,465 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:17:48,473 - INFO - Added 2 rows to goalkeeper data (total: 20)
+2025-10-06 23:17:48,477 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:17:56,636 - INFO - Processing match 11/70: https://fbref.com/en/matches/57b35843/West-Ham-United-Chelsea-August-22-2025-Premier-League
+2025-10-06 23:17:59,204 - INFO - Added 30 rows to summary data (total: 329)
+2025-10-06 23:17:59,212 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:17:59,219 - INFO - Added 30 rows to passing data (total: 329)
+2025-10-06 23:17:59,226 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:17:59,232 - INFO - Added 30 rows to passing_types data (total: 329)
+2025-10-06 23:17:59,237 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:17:59,243 - INFO - Added 30 rows to defensive_actions data (total: 329)
+2025-10-06 23:17:59,250 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:17:59,257 - INFO - Added 30 rows to possession data (total: 329)
+2025-10-06 23:17:59,263 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:17:59,269 - INFO - Added 30 rows to miscellaneous data (total: 329)
+2025-10-06 23:17:59,275 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:17:59,281 - INFO - Added 2 rows to goalkeeper data (total: 22)
+2025-10-06 23:17:59,285 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:18:06,840 - INFO - Processing match 12/70: https://fbref.com/en/matches/f7e2c9c7/Manchester-City-Tottenham-Hotspur-August-23-2025-Premier-League
+2025-10-06 23:18:09,277 - INFO - Added 31 rows to summary data (total: 360)
+2025-10-06 23:18:09,294 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:18:09,300 - INFO - Added 31 rows to passing data (total: 360)
+2025-10-06 23:18:09,307 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:18:09,312 - INFO - Added 31 rows to passing_types data (total: 360)
+2025-10-06 23:18:09,317 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:18:09,323 - INFO - Added 31 rows to defensive_actions data (total: 360)
+2025-10-06 23:18:09,328 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:18:09,333 - INFO - Added 31 rows to possession data (total: 360)
+2025-10-06 23:18:09,339 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:18:09,343 - INFO - Added 31 rows to miscellaneous data (total: 360)
+2025-10-06 23:18:09,348 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:18:09,354 - INFO - Added 2 rows to goalkeeper data (total: 24)
+2025-10-06 23:18:09,356 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:18:15,477 - INFO - Processing match 13/70: https://fbref.com/en/matches/a515fb3a/Bournemouth-Wolverhampton-Wanderers-August-23-2025-Premier-League
+2025-10-06 23:18:18,203 - INFO - Added 32 rows to summary data (total: 392)
+2025-10-06 23:18:18,213 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:18:18,220 - INFO - Added 32 rows to passing data (total: 392)
+2025-10-06 23:18:18,231 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:18:18,236 - INFO - Added 32 rows to passing_types data (total: 392)
+2025-10-06 23:18:18,243 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:18:18,249 - INFO - Added 32 rows to defensive_actions data (total: 392)
+2025-10-06 23:18:18,255 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:18:18,261 - INFO - Added 32 rows to possession data (total: 392)
+2025-10-06 23:18:18,269 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:18:18,276 - INFO - Added 32 rows to miscellaneous data (total: 392)
+2025-10-06 23:18:18,282 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:18:18,288 - INFO - Added 2 rows to goalkeeper data (total: 26)
+2025-10-06 23:18:18,292 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:18:27,853 - INFO - Processing match 14/70: https://fbref.com/en/matches/4e287736/Burnley-Sunderland-August-23-2025-Premier-League
+2025-10-06 23:18:30,689 - INFO - Added 32 rows to summary data (total: 424)
+2025-10-06 23:18:30,717 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:18:30,728 - INFO - Added 32 rows to passing data (total: 424)
+2025-10-06 23:18:30,737 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:18:30,757 - INFO - Added 32 rows to passing_types data (total: 424)
+2025-10-06 23:18:30,772 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:18:30,780 - INFO - Added 32 rows to defensive_actions data (total: 424)
+2025-10-06 23:18:30,797 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:18:30,806 - INFO - Added 32 rows to possession data (total: 424)
+2025-10-06 23:18:30,815 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:18:30,825 - INFO - Added 32 rows to miscellaneous data (total: 424)
+2025-10-06 23:18:30,861 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:18:30,924 - INFO - Added 2 rows to goalkeeper data (total: 28)
+2025-10-06 23:18:30,935 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:18:40,913 - INFO - Processing match 15/70: https://fbref.com/en/matches/860c7af2/Brentford-Aston-Villa-August-23-2025-Premier-League
+2025-10-06 23:18:43,665 - INFO - Added 32 rows to summary data (total: 456)
+2025-10-06 23:18:43,677 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:18:43,686 - INFO - Added 32 rows to passing data (total: 456)
+2025-10-06 23:18:43,695 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:18:43,703 - INFO - Added 32 rows to passing_types data (total: 456)
+2025-10-06 23:18:43,711 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:18:43,720 - INFO - Added 32 rows to defensive_actions data (total: 456)
+2025-10-06 23:18:43,731 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:18:43,793 - INFO - Added 32 rows to possession data (total: 456)
+2025-10-06 23:18:43,806 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:18:43,813 - INFO - Added 32 rows to miscellaneous data (total: 456)
+2025-10-06 23:18:43,821 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:18:43,829 - INFO - Added 2 rows to goalkeeper data (total: 30)
+2025-10-06 23:18:43,834 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:18:50,127 - INFO - Processing match 16/70: https://fbref.com/en/matches/e8724659/Arsenal-Leeds-United-August-23-2025-Premier-League
+2025-10-06 23:18:52,859 - INFO - Added 32 rows to summary data (total: 488)
+2025-10-06 23:18:52,872 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:18:52,883 - INFO - Added 32 rows to passing data (total: 488)
+2025-10-06 23:18:52,893 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:18:52,902 - INFO - Added 32 rows to passing_types data (total: 488)
+2025-10-06 23:18:52,910 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:18:52,919 - INFO - Added 32 rows to defensive_actions data (total: 488)
+2025-10-06 23:18:52,928 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:18:52,936 - INFO - Added 32 rows to possession data (total: 488)
+2025-10-06 23:18:52,948 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:18:52,958 - INFO - Added 32 rows to miscellaneous data (total: 488)
+2025-10-06 23:18:52,968 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:18:52,979 - INFO - Added 2 rows to goalkeeper data (total: 32)
+2025-10-06 23:18:52,984 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:18:59,011 - INFO - Processing match 17/70: https://fbref.com/en/matches/a3984be1/Crystal-Palace-Nottingham-Forest-August-24-2025-Premier-League
+2025-10-06 23:19:01,470 - INFO - Added 30 rows to summary data (total: 518)
+2025-10-06 23:19:01,482 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:19:01,489 - INFO - Added 30 rows to passing data (total: 518)
+2025-10-06 23:19:01,499 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:19:01,505 - INFO - Added 30 rows to passing_types data (total: 518)
+2025-10-06 23:19:01,514 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:19:01,520 - INFO - Added 30 rows to defensive_actions data (total: 518)
+2025-10-06 23:19:01,530 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:19:01,536 - INFO - Added 30 rows to possession data (total: 518)
+2025-10-06 23:19:01,548 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:19:01,553 - INFO - Added 30 rows to miscellaneous data (total: 518)
+2025-10-06 23:19:01,562 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:19:01,568 - INFO - Added 2 rows to goalkeeper data (total: 34)
+2025-10-06 23:19:01,574 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:19:09,582 - INFO - Processing match 18/70: https://fbref.com/en/matches/0bad74e2/Everton-Brighton-and-Hove-Albion-August-24-2025-Premier-League
+2025-10-06 23:19:11,145 - INFO - Added 30 rows to summary data (total: 548)
+2025-10-06 23:19:11,156 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:19:11,162 - INFO - Added 30 rows to passing data (total: 548)
+2025-10-06 23:19:11,174 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:19:11,179 - INFO - Added 30 rows to passing_types data (total: 548)
+2025-10-06 23:19:11,188 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:19:11,195 - INFO - Added 30 rows to defensive_actions data (total: 548)
+2025-10-06 23:19:11,204 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:19:11,212 - INFO - Added 30 rows to possession data (total: 548)
+2025-10-06 23:19:11,222 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:19:11,228 - INFO - Added 30 rows to miscellaneous data (total: 548)
+2025-10-06 23:19:11,237 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:19:11,243 - INFO - Added 2 rows to goalkeeper data (total: 36)
+2025-10-06 23:19:11,248 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:19:19,992 - INFO - Processing match 19/70: https://fbref.com/en/matches/fc45a8b2/Fulham-Manchester-United-August-24-2025-Premier-League
+2025-10-06 23:19:22,587 - INFO - Added 31 rows to summary data (total: 579)
+2025-10-06 23:19:22,599 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:19:22,608 - INFO - Added 31 rows to passing data (total: 579)
+2025-10-06 23:19:22,617 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:19:22,624 - INFO - Added 31 rows to passing_types data (total: 579)
+2025-10-06 23:19:22,632 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:19:22,640 - INFO - Added 31 rows to defensive_actions data (total: 579)
+2025-10-06 23:19:22,651 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:19:22,661 - INFO - Added 31 rows to possession data (total: 579)
+2025-10-06 23:19:22,673 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:19:22,680 - INFO - Added 31 rows to miscellaneous data (total: 579)
+2025-10-06 23:19:22,689 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:19:22,696 - INFO - Added 2 rows to goalkeeper data (total: 38)
+2025-10-06 23:19:22,706 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:19:32,040 - INFO - Processing match 20/70: https://fbref.com/en/matches/2c75d21a/Newcastle-United-Liverpool-August-25-2025-Premier-League
+2025-10-06 23:19:34,373 - INFO - Added 32 rows to summary data (total: 611)
+2025-10-06 23:19:34,384 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:19:34,392 - INFO - Added 32 rows to passing data (total: 611)
+2025-10-06 23:19:34,402 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:19:34,407 - INFO - Added 32 rows to passing_types data (total: 611)
+2025-10-06 23:19:34,416 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:19:34,423 - INFO - Added 32 rows to defensive_actions data (total: 611)
+2025-10-06 23:19:34,430 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:19:34,437 - INFO - Added 32 rows to possession data (total: 611)
+2025-10-06 23:19:34,447 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:19:34,454 - INFO - Added 32 rows to miscellaneous data (total: 611)
+2025-10-06 23:19:34,463 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:19:34,484 - INFO - Added 2 rows to goalkeeper data (total: 40)
+2025-10-06 23:19:34,488 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:19:41,767 - INFO - Processing match 21/70: https://fbref.com/en/matches/2dbd7fbd/Chelsea-Fulham-August-30-2025-Premier-League
+2025-10-06 23:19:44,218 - INFO - Added 31 rows to summary data (total: 642)
+2025-10-06 23:19:44,230 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:19:44,238 - INFO - Added 31 rows to passing data (total: 642)
+2025-10-06 23:19:44,246 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:19:44,252 - INFO - Added 31 rows to passing_types data (total: 642)
+2025-10-06 23:19:44,259 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:19:44,264 - INFO - Added 31 rows to defensive_actions data (total: 642)
+2025-10-06 23:19:44,273 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:19:44,278 - INFO - Added 31 rows to possession data (total: 642)
+2025-10-06 23:19:44,288 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:19:44,294 - INFO - Added 31 rows to miscellaneous data (total: 642)
+2025-10-06 23:19:44,301 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:19:44,306 - INFO - Added 2 rows to goalkeeper data (total: 42)
+2025-10-06 23:19:44,310 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:19:51,307 - INFO - Processing match 22/70: https://fbref.com/en/matches/0e30cf4b/Tottenham-Hotspur-Bournemouth-August-30-2025-Premier-League
+2025-10-06 23:19:53,680 - INFO - Added 31 rows to summary data (total: 673)
+2025-10-06 23:19:53,693 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:19:53,702 - INFO - Added 31 rows to passing data (total: 673)
+2025-10-06 23:19:53,713 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:19:53,720 - INFO - Added 31 rows to passing_types data (total: 673)
+2025-10-06 23:19:53,730 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:19:53,739 - INFO - Added 31 rows to defensive_actions data (total: 673)
+2025-10-06 23:19:53,748 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:19:53,755 - INFO - Added 31 rows to possession data (total: 673)
+2025-10-06 23:19:53,766 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:19:53,773 - INFO - Added 31 rows to miscellaneous data (total: 673)
+2025-10-06 23:19:53,782 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:19:53,790 - INFO - Added 2 rows to goalkeeper data (total: 44)
+2025-10-06 23:19:53,794 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:20:03,729 - INFO - Processing match 23/70: https://fbref.com/en/matches/f03152d1/Sunderland-Brentford-August-30-2025-Premier-League
+2025-10-06 23:20:06,207 - INFO - Added 28 rows to summary data (total: 701)
+2025-10-06 23:20:06,223 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:20:06,229 - INFO - Added 28 rows to passing data (total: 701)
+2025-10-06 23:20:06,241 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:20:06,247 - INFO - Added 28 rows to passing_types data (total: 701)
+2025-10-06 23:20:06,258 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:20:06,265 - INFO - Added 28 rows to defensive_actions data (total: 701)
+2025-10-06 23:20:06,276 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:20:06,285 - INFO - Added 28 rows to possession data (total: 701)
+2025-10-06 23:20:06,298 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:20:06,305 - INFO - Added 28 rows to miscellaneous data (total: 701)
+2025-10-06 23:20:06,315 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:20:06,322 - INFO - Added 2 rows to goalkeeper data (total: 46)
+2025-10-06 23:20:06,326 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:20:13,983 - INFO - Processing match 24/70: https://fbref.com/en/matches/3c399f5e/Wolverhampton-Wanderers-Everton-August-30-2025-Premier-League
+2025-10-06 23:20:16,578 - INFO - Added 31 rows to summary data (total: 732)
+2025-10-06 23:20:16,590 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:20:16,601 - INFO - Added 31 rows to passing data (total: 732)
+2025-10-06 23:20:16,612 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:20:16,619 - INFO - Added 31 rows to passing_types data (total: 732)
+2025-10-06 23:20:16,628 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:20:16,637 - INFO - Added 31 rows to defensive_actions data (total: 732)
+2025-10-06 23:20:16,647 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:20:16,656 - INFO - Added 31 rows to possession data (total: 732)
+2025-10-06 23:20:16,669 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:20:16,674 - INFO - Added 31 rows to miscellaneous data (total: 732)
+2025-10-06 23:20:16,686 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:20:16,691 - INFO - Added 2 rows to goalkeeper data (total: 48)
+2025-10-06 23:20:16,697 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:20:22,941 - INFO - Processing match 25/70: https://fbref.com/en/matches/0050df89/Manchester-United-Burnley-August-30-2025-Premier-League
+2025-10-06 23:20:25,677 - INFO - Added 30 rows to summary data (total: 762)
+2025-10-06 23:20:25,691 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:20:25,701 - INFO - Added 30 rows to passing data (total: 762)
+2025-10-06 23:20:25,713 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:20:25,720 - INFO - Added 30 rows to passing_types data (total: 762)
+2025-10-06 23:20:25,730 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:20:25,738 - INFO - Added 30 rows to defensive_actions data (total: 762)
+2025-10-06 23:20:25,749 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:20:25,756 - INFO - Added 30 rows to possession data (total: 762)
+2025-10-06 23:20:25,770 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:20:25,776 - INFO - Added 30 rows to miscellaneous data (total: 762)
+2025-10-06 23:20:25,787 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:20:25,794 - INFO - Added 2 rows to goalkeeper data (total: 50)
+2025-10-06 23:20:25,799 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:20:34,193 - INFO - Processing match 26/70: https://fbref.com/en/matches/bc110e0b/Leeds-United-Newcastle-United-August-30-2025-Premier-League
+2025-10-06 23:20:36,601 - INFO - Added 30 rows to summary data (total: 792)
+2025-10-06 23:20:36,616 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:20:36,624 - INFO - Added 30 rows to passing data (total: 792)
+2025-10-06 23:20:36,639 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:20:36,646 - INFO - Added 30 rows to passing_types data (total: 792)
+2025-10-06 23:20:36,658 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:20:36,666 - INFO - Added 30 rows to defensive_actions data (total: 792)
+2025-10-06 23:20:36,677 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:20:36,685 - INFO - Added 30 rows to possession data (total: 792)
+2025-10-06 23:20:36,700 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:20:36,707 - INFO - Added 30 rows to miscellaneous data (total: 792)
+2025-10-06 23:20:36,721 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:20:36,729 - INFO - Added 2 rows to goalkeeper data (total: 52)
+2025-10-06 23:20:36,732 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:20:44,019 - INFO - Processing match 27/70: https://fbref.com/en/matches/299beb27/Nottingham-Forest-West-Ham-United-August-31-2025-Premier-League
+2025-10-06 23:20:46,435 - INFO - Added 29 rows to summary data (total: 821)
+2025-10-06 23:20:46,451 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:20:46,460 - INFO - Added 29 rows to passing data (total: 821)
+2025-10-06 23:20:46,473 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:20:46,481 - INFO - Added 29 rows to passing_types data (total: 821)
+2025-10-06 23:20:46,493 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:20:46,499 - INFO - Added 29 rows to defensive_actions data (total: 821)
+2025-10-06 23:20:46,511 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:20:46,525 - INFO - Added 29 rows to possession data (total: 821)
+2025-10-06 23:20:46,539 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:20:46,546 - INFO - Added 29 rows to miscellaneous data (total: 821)
+2025-10-06 23:20:46,558 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:20:46,564 - INFO - Added 2 rows to goalkeeper data (total: 54)
+2025-10-06 23:20:46,569 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:20:53,562 - INFO - Processing match 28/70: https://fbref.com/en/matches/810d81e7/Brighton-and-Hove-Albion-Manchester-City-August-31-2025-Premier-League
+2025-10-06 23:20:54,868 - INFO - Added 31 rows to summary data (total: 852)
+2025-10-06 23:20:54,883 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:20:54,889 - INFO - Added 31 rows to passing data (total: 852)
+2025-10-06 23:20:54,901 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:20:54,907 - INFO - Added 31 rows to passing_types data (total: 852)
+2025-10-06 23:20:54,917 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:20:54,924 - INFO - Added 31 rows to defensive_actions data (total: 852)
+2025-10-06 23:20:54,935 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:20:54,942 - INFO - Added 31 rows to possession data (total: 852)
+2025-10-06 23:20:54,956 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:20:54,961 - INFO - Added 31 rows to miscellaneous data (total: 852)
+2025-10-06 23:20:54,975 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:20:54,981 - INFO - Added 2 rows to goalkeeper data (total: 56)
+2025-10-06 23:20:54,985 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:21:01,245 - INFO - Processing match 29/70: https://fbref.com/en/matches/b0005978/Liverpool-Arsenal-August-31-2025-Premier-League
+2025-10-06 23:21:03,732 - INFO - Added 30 rows to summary data (total: 882)
+2025-10-06 23:21:03,749 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:21:03,757 - INFO - Added 30 rows to passing data (total: 882)
+2025-10-06 23:21:03,770 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:21:03,777 - INFO - Added 30 rows to passing_types data (total: 882)
+2025-10-06 23:21:03,789 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:21:03,797 - INFO - Added 30 rows to defensive_actions data (total: 882)
+2025-10-06 23:21:03,812 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:21:03,819 - INFO - Added 30 rows to possession data (total: 882)
+2025-10-06 23:21:03,833 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:21:03,840 - INFO - Added 30 rows to miscellaneous data (total: 882)
+2025-10-06 23:21:03,851 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:21:03,872 - INFO - Added 2 rows to goalkeeper data (total: 58)
+2025-10-06 23:21:03,877 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:21:11,007 - INFO - Processing match 30/70: https://fbref.com/en/matches/cd51ed93/Aston-Villa-Crystal-Palace-August-31-2025-Premier-League
+2025-10-06 23:21:13,459 - INFO - Added 31 rows to summary data (total: 913)
+2025-10-06 23:21:13,475 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:21:13,486 - INFO - Added 31 rows to passing data (total: 913)
+2025-10-06 23:21:13,499 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:21:13,506 - INFO - Added 31 rows to passing_types data (total: 913)
+2025-10-06 23:21:13,517 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:21:13,526 - INFO - Added 31 rows to defensive_actions data (total: 913)
+2025-10-06 23:21:13,537 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:21:13,544 - INFO - Added 31 rows to possession data (total: 913)
+2025-10-06 23:21:13,558 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:21:13,564 - INFO - Added 31 rows to miscellaneous data (total: 913)
+2025-10-06 23:21:13,577 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:21:13,582 - INFO - Added 2 rows to goalkeeper data (total: 60)
+2025-10-06 23:21:13,586 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:21:20,163 - INFO - Processing match 31/70: https://fbref.com/en/matches/4fe3e679/Arsenal-Nottingham-Forest-September-13-2025-Premier-League
+2025-10-06 23:21:22,602 - INFO - Added 32 rows to summary data (total: 945)
+2025-10-06 23:21:22,618 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:21:22,625 - INFO - Added 32 rows to passing data (total: 945)
+2025-10-06 23:21:22,638 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:21:22,645 - INFO - Added 32 rows to passing_types data (total: 945)
+2025-10-06 23:21:22,659 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:21:22,666 - INFO - Added 32 rows to defensive_actions data (total: 945)
+2025-10-06 23:21:22,678 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:21:22,685 - INFO - Added 32 rows to possession data (total: 945)
+2025-10-06 23:21:22,701 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:21:22,708 - INFO - Added 32 rows to miscellaneous data (total: 945)
+2025-10-06 23:21:22,722 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:21:22,728 - INFO - Added 2 rows to goalkeeper data (total: 62)
+2025-10-06 23:21:22,731 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:21:28,815 - INFO - Processing match 32/70: https://fbref.com/en/matches/a624dc89/Everton-Aston-Villa-September-13-2025-Premier-League
+2025-10-06 23:21:31,382 - INFO - Added 28 rows to summary data (total: 973)
+2025-10-06 23:21:31,403 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:21:31,411 - INFO - Added 28 rows to passing data (total: 973)
+2025-10-06 23:21:31,427 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:21:31,437 - INFO - Added 28 rows to passing_types data (total: 973)
+2025-10-06 23:21:31,449 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:21:31,457 - INFO - Added 28 rows to defensive_actions data (total: 973)
+2025-10-06 23:21:31,468 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:21:31,476 - INFO - Added 28 rows to possession data (total: 973)
+2025-10-06 23:21:31,491 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:21:31,498 - INFO - Added 28 rows to miscellaneous data (total: 973)
+2025-10-06 23:21:31,511 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:21:31,519 - INFO - Added 2 rows to goalkeeper data (total: 64)
+2025-10-06 23:21:31,526 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:21:40,382 - INFO - Processing match 33/70: https://fbref.com/en/matches/ab8543fb/Fulham-Leeds-United-September-13-2025-Premier-League
+2025-10-06 23:21:42,500 - INFO - Added 31 rows to summary data (total: 1004)
+2025-10-06 23:21:42,513 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:21:42,519 - INFO - Added 31 rows to passing data (total: 1004)
+2025-10-06 23:21:42,530 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:21:42,536 - INFO - Added 31 rows to passing_types data (total: 1004)
+2025-10-06 23:21:42,546 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:21:42,555 - INFO - Added 31 rows to defensive_actions data (total: 1004)
+2025-10-06 23:21:42,564 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:21:42,570 - INFO - Added 31 rows to possession data (total: 1004)
+2025-10-06 23:21:42,583 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:21:42,590 - INFO - Added 31 rows to miscellaneous data (total: 1004)
+2025-10-06 23:21:42,601 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:21:42,607 - INFO - Added 2 rows to goalkeeper data (total: 66)
+2025-10-06 23:21:42,611 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:21:48,750 - INFO - Processing match 34/70: https://fbref.com/en/matches/55fbbbe6/Newcastle-United-Wolverhampton-Wanderers-September-13-2025-Premier-League
+2025-10-06 23:21:51,036 - INFO - Added 31 rows to summary data (total: 1035)
+2025-10-06 23:21:51,051 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:21:51,058 - INFO - Added 31 rows to passing data (total: 1035)
+2025-10-06 23:21:51,071 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:21:51,077 - INFO - Added 31 rows to passing_types data (total: 1035)
+2025-10-06 23:21:51,088 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:21:51,096 - INFO - Added 31 rows to defensive_actions data (total: 1035)
+2025-10-06 23:21:51,107 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:21:51,113 - INFO - Added 31 rows to possession data (total: 1035)
+2025-10-06 23:21:51,128 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:21:51,135 - INFO - Added 31 rows to miscellaneous data (total: 1035)
+2025-10-06 23:21:51,147 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:21:51,154 - INFO - Added 2 rows to goalkeeper data (total: 68)
+2025-10-06 23:21:51,157 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:21:59,255 - INFO - Processing match 35/70: https://fbref.com/en/matches/e3cade07/Crystal-Palace-Sunderland-September-13-2025-Premier-League
+2025-10-06 23:22:01,456 - INFO - Added 27 rows to summary data (total: 1062)
+2025-10-06 23:22:01,481 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:22:01,490 - INFO - Added 27 rows to passing data (total: 1062)
+2025-10-06 23:22:01,505 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:22:01,510 - INFO - Added 27 rows to passing_types data (total: 1062)
+2025-10-06 23:22:01,525 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:22:01,532 - INFO - Added 27 rows to defensive_actions data (total: 1062)
+2025-10-06 23:22:01,544 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:22:01,554 - INFO - Added 27 rows to possession data (total: 1062)
+2025-10-06 23:22:01,568 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:22:01,575 - INFO - Added 27 rows to miscellaneous data (total: 1062)
+2025-10-06 23:22:01,587 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:22:01,593 - INFO - Added 2 rows to goalkeeper data (total: 70)
+2025-10-06 23:22:01,598 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:22:09,289 - INFO - Processing match 36/70: https://fbref.com/en/matches/8398bbef/Bournemouth-Brighton-and-Hove-Albion-September-13-2025-Premier-League
+2025-10-06 23:22:11,699 - INFO - Added 32 rows to summary data (total: 1094)
+2025-10-06 23:22:11,717 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:22:11,725 - INFO - Added 32 rows to passing data (total: 1094)
+2025-10-06 23:22:11,740 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:22:11,746 - INFO - Added 32 rows to passing_types data (total: 1094)
+2025-10-06 23:22:11,760 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:22:11,767 - INFO - Added 32 rows to defensive_actions data (total: 1094)
+2025-10-06 23:22:11,782 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:22:11,791 - INFO - Added 32 rows to possession data (total: 1094)
+2025-10-06 23:22:11,807 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:22:11,814 - INFO - Added 32 rows to miscellaneous data (total: 1094)
+2025-10-06 23:22:11,827 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:22:11,834 - INFO - Added 2 rows to goalkeeper data (total: 72)
+2025-10-06 23:22:11,839 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:22:19,110 - INFO - Processing match 37/70: https://fbref.com/en/matches/86c7261a/West-Ham-United-Tottenham-Hotspur-September-13-2025-Premier-League
+2025-10-06 23:22:20,865 - INFO - Added 31 rows to summary data (total: 1125)
+2025-10-06 23:22:20,892 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:22:20,904 - INFO - Added 31 rows to passing data (total: 1125)
+2025-10-06 23:22:20,923 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:22:20,931 - INFO - Added 31 rows to passing_types data (total: 1125)
+2025-10-06 23:22:20,945 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:22:20,957 - INFO - Added 31 rows to defensive_actions data (total: 1125)
+2025-10-06 23:22:20,973 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:22:20,981 - INFO - Added 31 rows to possession data (total: 1125)
+2025-10-06 23:22:21,002 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:22:21,009 - INFO - Added 31 rows to miscellaneous data (total: 1125)
+2025-10-06 23:22:21,025 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:22:21,035 - INFO - Added 2 rows to goalkeeper data (total: 74)
+2025-10-06 23:22:21,040 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:22:28,183 - INFO - Processing match 38/70: https://fbref.com/en/matches/d8104c65/Brentford-Chelsea-September-13-2025-Premier-League
+2025-10-06 23:22:30,648 - INFO - Added 32 rows to summary data (total: 1157)
+2025-10-06 23:22:30,669 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:22:30,676 - INFO - Added 32 rows to passing data (total: 1157)
+2025-10-06 23:22:30,692 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:22:30,698 - INFO - Added 32 rows to passing_types data (total: 1157)
+2025-10-06 23:22:30,712 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:22:30,721 - INFO - Added 32 rows to defensive_actions data (total: 1157)
+2025-10-06 23:22:30,733 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:22:30,742 - INFO - Added 32 rows to possession data (total: 1157)
+2025-10-06 23:22:30,760 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:22:30,768 - INFO - Added 32 rows to miscellaneous data (total: 1157)
+2025-10-06 23:22:30,782 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:22:30,800 - INFO - Added 2 rows to goalkeeper data (total: 76)
+2025-10-06 23:22:30,804 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:22:40,400 - INFO - Processing match 39/70: https://fbref.com/en/matches/fed27aaa/Burnley-Liverpool-September-14-2025-Premier-League
+2025-10-06 23:22:42,915 - INFO - Added 31 rows to summary data (total: 1188)
+2025-10-06 23:22:42,939 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:22:42,945 - INFO - Added 31 rows to passing data (total: 1188)
+2025-10-06 23:22:42,961 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:22:42,971 - INFO - Added 31 rows to passing_types data (total: 1188)
+2025-10-06 23:22:42,983 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:22:42,996 - INFO - Added 31 rows to defensive_actions data (total: 1188)
+2025-10-06 23:22:43,012 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:22:43,021 - INFO - Added 31 rows to possession data (total: 1188)
+2025-10-06 23:22:43,038 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:22:43,044 - INFO - Added 31 rows to miscellaneous data (total: 1188)
+2025-10-06 23:22:43,058 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:22:43,064 - INFO - Added 2 rows to goalkeeper data (total: 78)
+2025-10-06 23:22:43,069 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:22:52,052 - INFO - Processing match 40/70: https://fbref.com/en/matches/f2b1061a/Manchester-Derby-Manchester-City-Manchester-United-September-14-2025-Premier-League
+2025-10-06 23:22:54,285 - INFO - Added 30 rows to summary data (total: 1218)
+2025-10-06 23:22:54,300 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:22:54,306 - INFO - Added 30 rows to passing data (total: 1218)
+2025-10-06 23:22:54,316 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:22:54,323 - INFO - Added 30 rows to passing_types data (total: 1218)
+2025-10-06 23:22:54,332 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:22:54,340 - INFO - Added 30 rows to defensive_actions data (total: 1218)
+2025-10-06 23:22:54,350 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:22:54,357 - INFO - Added 30 rows to possession data (total: 1218)
+2025-10-06 23:22:54,373 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:22:54,377 - INFO - Added 30 rows to miscellaneous data (total: 1218)
+2025-10-06 23:22:54,391 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:22:54,395 - INFO - Added 2 rows to goalkeeper data (total: 80)
+2025-10-06 23:22:54,400 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:23:01,096 - INFO - Processing match 41/70: https://fbref.com/en/matches/5da72d0e/Merseyside-Derby-Liverpool-Everton-September-20-2025-Premier-League
+2025-10-06 23:23:03,585 - INFO - Added 28 rows to summary data (total: 1246)
+2025-10-06 23:23:03,607 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:23:03,613 - INFO - Added 28 rows to passing data (total: 1246)
+2025-10-06 23:23:03,632 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:23:03,639 - INFO - Added 28 rows to passing_types data (total: 1246)
+2025-10-06 23:23:03,653 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:23:03,660 - INFO - Added 28 rows to defensive_actions data (total: 1246)
+2025-10-06 23:23:03,676 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:23:03,684 - INFO - Added 28 rows to possession data (total: 1246)
+2025-10-06 23:23:03,707 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:23:03,718 - INFO - Added 28 rows to miscellaneous data (total: 1246)
+2025-10-06 23:23:03,738 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:23:03,749 - INFO - Added 2 rows to goalkeeper data (total: 82)
+2025-10-06 23:23:03,754 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:23:10,286 - INFO - Processing match 42/70: https://fbref.com/en/matches/15b707b3/West-Ham-United-Crystal-Palace-September-20-2025-Premier-League
+2025-10-06 23:23:12,436 - INFO - Added 28 rows to summary data (total: 1274)
+2025-10-06 23:23:12,456 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:23:12,463 - INFO - Added 28 rows to passing data (total: 1274)
+2025-10-06 23:23:12,480 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:23:12,487 - INFO - Added 28 rows to passing_types data (total: 1274)
+2025-10-06 23:23:12,500 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:23:12,510 - INFO - Added 28 rows to defensive_actions data (total: 1274)
+2025-10-06 23:23:12,524 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:23:12,530 - INFO - Added 28 rows to possession data (total: 1274)
+2025-10-06 23:23:12,549 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:23:12,558 - INFO - Added 28 rows to miscellaneous data (total: 1274)
+2025-10-06 23:23:12,574 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:23:12,580 - INFO - Added 2 rows to goalkeeper data (total: 84)
+2025-10-06 23:23:12,585 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:23:22,223 - INFO - Processing match 43/70: https://fbref.com/en/matches/fa03feeb/Brighton-and-Hove-Albion-Tottenham-Hotspur-September-20-2025-Premier-League
+2025-10-06 23:23:24,647 - INFO - Added 31 rows to summary data (total: 1305)
+2025-10-06 23:23:24,668 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:23:24,679 - INFO - Added 31 rows to passing data (total: 1305)
+2025-10-06 23:23:24,701 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:23:24,708 - INFO - Added 31 rows to passing_types data (total: 1305)
+2025-10-06 23:23:24,722 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:23:24,730 - INFO - Added 31 rows to defensive_actions data (total: 1305)
+2025-10-06 23:23:24,745 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:23:24,755 - INFO - Added 31 rows to possession data (total: 1305)
+2025-10-06 23:23:24,774 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:23:24,782 - INFO - Added 31 rows to miscellaneous data (total: 1305)
+2025-10-06 23:23:24,798 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:23:24,805 - INFO - Added 2 rows to goalkeeper data (total: 86)
+2025-10-06 23:23:24,809 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:23:32,831 - INFO - Processing match 44/70: https://fbref.com/en/matches/45650a33/Wolverhampton-Wanderers-Leeds-United-September-20-2025-Premier-League
+2025-10-06 23:23:35,274 - INFO - Added 32 rows to summary data (total: 1337)
+2025-10-06 23:23:35,301 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:23:35,310 - INFO - Added 32 rows to passing data (total: 1337)
+2025-10-06 23:23:35,335 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:23:35,344 - INFO - Added 32 rows to passing_types data (total: 1337)
+2025-10-06 23:23:35,362 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:23:35,371 - INFO - Added 32 rows to defensive_actions data (total: 1337)
+2025-10-06 23:23:35,387 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:23:35,394 - INFO - Added 32 rows to possession data (total: 1337)
+2025-10-06 23:23:35,412 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:23:35,419 - INFO - Added 32 rows to miscellaneous data (total: 1337)
+2025-10-06 23:23:35,435 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:23:35,443 - INFO - Added 2 rows to goalkeeper data (total: 88)
+2025-10-06 23:23:35,448 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:23:44,014 - INFO - Processing match 45/70: https://fbref.com/en/matches/e523c1cd/Burnley-Nottingham-Forest-September-20-2025-Premier-League
+2025-10-06 23:23:46,173 - INFO - Added 28 rows to summary data (total: 1365)
+2025-10-06 23:23:46,189 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:23:46,195 - INFO - Added 28 rows to passing data (total: 1365)
+2025-10-06 23:23:46,210 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:23:46,214 - INFO - Added 28 rows to passing_types data (total: 1365)
+2025-10-06 23:23:46,229 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:23:46,240 - INFO - Added 28 rows to defensive_actions data (total: 1365)
+2025-10-06 23:23:46,257 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:23:46,263 - INFO - Added 28 rows to possession data (total: 1365)
+2025-10-06 23:23:46,286 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:23:46,293 - INFO - Added 28 rows to miscellaneous data (total: 1365)
+2025-10-06 23:23:46,308 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:23:46,314 - INFO - Added 2 rows to goalkeeper data (total: 90)
+2025-10-06 23:23:46,319 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:23:54,408 - INFO - Processing match 46/70: https://fbref.com/en/matches/a562da13/Manchester-United-Chelsea-September-20-2025-Premier-League
+2025-10-06 23:23:56,883 - INFO - Added 32 rows to summary data (total: 1397)
+2025-10-06 23:23:56,907 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:23:56,914 - INFO - Added 32 rows to passing data (total: 1397)
+2025-10-06 23:23:56,933 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:23:56,940 - INFO - Added 32 rows to passing_types data (total: 1397)
+2025-10-06 23:23:56,956 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:23:56,963 - INFO - Added 32 rows to defensive_actions data (total: 1397)
+2025-10-06 23:23:56,980 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:23:56,988 - INFO - Added 32 rows to possession data (total: 1397)
+2025-10-06 23:23:57,010 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:23:57,015 - INFO - Added 32 rows to miscellaneous data (total: 1397)
+2025-10-06 23:23:57,033 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:23:57,041 - INFO - Added 3 rows to goalkeeper data (total: 93)
+2025-10-06 23:23:57,046 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:24:06,000 - INFO - Processing match 47/70: https://fbref.com/en/matches/295b388b/Fulham-Brentford-September-20-2025-Premier-League
+2025-10-06 23:24:08,238 - INFO - Added 32 rows to summary data (total: 1429)
+2025-10-06 23:24:08,259 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:24:08,265 - INFO - Added 32 rows to passing data (total: 1429)
+2025-10-06 23:24:08,281 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:24:08,285 - INFO - Added 32 rows to passing_types data (total: 1429)
+2025-10-06 23:24:08,297 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:24:08,301 - INFO - Added 32 rows to defensive_actions data (total: 1429)
+2025-10-06 23:24:08,314 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:24:08,320 - INFO - Added 32 rows to possession data (total: 1429)
+2025-10-06 23:24:08,334 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:24:08,340 - INFO - Added 32 rows to miscellaneous data (total: 1429)
+2025-10-06 23:24:08,355 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:24:08,360 - INFO - Added 2 rows to goalkeeper data (total: 95)
+2025-10-06 23:24:08,364 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:24:16,937 - INFO - Processing match 48/70: https://fbref.com/en/matches/4e615d10/Sunderland-Aston-Villa-September-21-2025-Premier-League
+2025-10-06 23:24:19,353 - INFO - Added 32 rows to summary data (total: 1461)
+2025-10-06 23:24:19,381 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:24:19,389 - INFO - Added 32 rows to passing data (total: 1461)
+2025-10-06 23:24:19,410 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:24:19,416 - INFO - Added 32 rows to passing_types data (total: 1461)
+2025-10-06 23:24:19,435 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:24:19,445 - INFO - Added 32 rows to defensive_actions data (total: 1461)
+2025-10-06 23:24:19,463 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:24:19,469 - INFO - Added 32 rows to possession data (total: 1461)
+2025-10-06 23:24:19,493 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:24:19,499 - INFO - Added 32 rows to miscellaneous data (total: 1461)
+2025-10-06 23:24:19,517 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:24:19,527 - INFO - Added 2 rows to goalkeeper data (total: 97)
+2025-10-06 23:24:19,532 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:24:28,430 - INFO - Processing match 49/70: https://fbref.com/en/matches/f55b1b65/Bournemouth-Newcastle-United-September-21-2025-Premier-League
+2025-10-06 23:24:30,810 - INFO - Added 30 rows to summary data (total: 1491)
+2025-10-06 23:24:30,827 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:24:30,834 - INFO - Added 30 rows to passing data (total: 1491)
+2025-10-06 23:24:30,849 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:24:30,854 - INFO - Added 30 rows to passing_types data (total: 1491)
+2025-10-06 23:24:30,867 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:24:30,874 - INFO - Added 30 rows to defensive_actions data (total: 1491)
+2025-10-06 23:24:30,886 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:24:30,893 - INFO - Added 30 rows to possession data (total: 1491)
+2025-10-06 23:24:30,908 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:24:30,912 - INFO - Added 30 rows to miscellaneous data (total: 1491)
+2025-10-06 23:24:30,927 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:24:30,931 - INFO - Added 2 rows to goalkeeper data (total: 99)
+2025-10-06 23:24:30,936 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:24:39,038 - INFO - Processing match 50/70: https://fbref.com/en/matches/2045939c/Arsenal-Manchester-City-September-21-2025-Premier-League
+2025-10-06 23:24:41,249 - INFO - Added 32 rows to summary data (total: 1523)
+2025-10-06 23:24:41,268 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:24:41,275 - INFO - Added 32 rows to passing data (total: 1523)
+2025-10-06 23:24:41,291 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:24:41,297 - INFO - Added 32 rows to passing_types data (total: 1523)
+2025-10-06 23:24:41,312 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:24:41,318 - INFO - Added 32 rows to defensive_actions data (total: 1523)
+2025-10-06 23:24:41,335 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:24:41,344 - INFO - Added 32 rows to possession data (total: 1523)
+2025-10-06 23:24:41,361 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:24:41,367 - INFO - Added 32 rows to miscellaneous data (total: 1523)
+2025-10-06 23:24:41,382 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:24:41,388 - INFO - Added 2 rows to goalkeeper data (total: 101)
+2025-10-06 23:24:41,392 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:24:49,668 - INFO - Processing match 51/70: https://fbref.com/en/matches/f96a49ea/Brentford-Manchester-United-September-27-2025-Premier-League
+2025-10-06 23:24:52,317 - INFO - Added 31 rows to summary data (total: 1554)
+2025-10-06 23:24:52,343 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:24:52,350 - INFO - Added 31 rows to passing data (total: 1554)
+2025-10-06 23:24:52,372 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:24:52,380 - INFO - Added 31 rows to passing_types data (total: 1554)
+2025-10-06 23:24:52,398 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:24:52,406 - INFO - Added 31 rows to defensive_actions data (total: 1554)
+2025-10-06 23:24:52,426 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:24:52,433 - INFO - Added 31 rows to possession data (total: 1554)
+2025-10-06 23:24:52,457 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:24:52,463 - INFO - Added 31 rows to miscellaneous data (total: 1554)
+2025-10-06 23:24:52,482 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:24:52,490 - INFO - Added 2 rows to goalkeeper data (total: 103)
+2025-10-06 23:24:52,495 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:24:58,950 - INFO - Processing match 52/70: https://fbref.com/en/matches/d2fc69e6/Leeds-United-Bournemouth-September-27-2025-Premier-League
+2025-10-06 23:25:01,398 - INFO - Added 30 rows to summary data (total: 1584)
+2025-10-06 23:25:01,424 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:25:01,431 - INFO - Added 30 rows to passing data (total: 1584)
+2025-10-06 23:25:01,452 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:25:01,462 - INFO - Added 30 rows to passing_types data (total: 1584)
+2025-10-06 23:25:01,479 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:25:01,487 - INFO - Added 30 rows to defensive_actions data (total: 1584)
+2025-10-06 23:25:01,508 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:25:01,514 - INFO - Added 30 rows to possession data (total: 1584)
+2025-10-06 23:25:01,540 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:25:01,547 - INFO - Added 30 rows to miscellaneous data (total: 1584)
+2025-10-06 23:25:01,567 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:25:01,574 - INFO - Added 2 rows to goalkeeper data (total: 105)
+2025-10-06 23:25:01,580 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:25:08,890 - INFO - Processing match 53/70: https://fbref.com/en/matches/8a5edb7f/Crystal-Palace-Liverpool-September-27-2025-Premier-League
+2025-10-06 23:25:10,250 - INFO - Added 31 rows to summary data (total: 1615)
+2025-10-06 23:25:10,278 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:25:10,286 - INFO - Added 31 rows to passing data (total: 1615)
+2025-10-06 23:25:10,309 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:25:10,316 - INFO - Added 31 rows to passing_types data (total: 1615)
+2025-10-06 23:25:10,334 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:25:10,343 - INFO - Added 31 rows to defensive_actions data (total: 1615)
+2025-10-06 23:25:10,361 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:25:10,368 - INFO - Added 31 rows to possession data (total: 1615)
+2025-10-06 23:25:10,394 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:25:10,399 - INFO - Added 31 rows to miscellaneous data (total: 1615)
+2025-10-06 23:25:10,418 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:25:10,428 - INFO - Added 2 rows to goalkeeper data (total: 107)
+2025-10-06 23:25:10,432 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:25:16,906 - INFO - Processing match 54/70: https://fbref.com/en/matches/b3a3df9a/Chelsea-Brighton-and-Hove-Albion-September-27-2025-Premier-League
+2025-10-06 23:25:18,240 - INFO - Added 31 rows to summary data (total: 1646)
+2025-10-06 23:25:18,268 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:25:18,277 - INFO - Added 31 rows to passing data (total: 1646)
+2025-10-06 23:25:18,299 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:25:18,306 - INFO - Added 31 rows to passing_types data (total: 1646)
+2025-10-06 23:25:18,326 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:25:18,333 - INFO - Added 31 rows to defensive_actions data (total: 1646)
+2025-10-06 23:25:18,351 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:25:18,361 - INFO - Added 31 rows to possession data (total: 1646)
+2025-10-06 23:25:18,385 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:25:18,394 - INFO - Added 31 rows to miscellaneous data (total: 1646)
+2025-10-06 23:25:18,413 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:25:18,420 - INFO - Added 2 rows to goalkeeper data (total: 109)
+2025-10-06 23:25:18,431 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:25:25,590 - INFO - Processing match 55/70: https://fbref.com/en/matches/53db8cb5/Manchester-City-Burnley-September-27-2025-Premier-League
+2025-10-06 23:25:28,012 - INFO - Added 31 rows to summary data (total: 1677)
+2025-10-06 23:25:28,043 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:25:28,049 - INFO - Added 31 rows to passing data (total: 1677)
+2025-10-06 23:25:28,071 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:25:28,081 - INFO - Added 31 rows to passing_types data (total: 1677)
+2025-10-06 23:25:28,101 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:25:28,110 - INFO - Added 31 rows to defensive_actions data (total: 1677)
+2025-10-06 23:25:28,130 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:25:28,140 - INFO - Added 31 rows to possession data (total: 1677)
+2025-10-06 23:25:28,165 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:25:28,173 - INFO - Added 31 rows to miscellaneous data (total: 1677)
+2025-10-06 23:25:28,198 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:25:28,206 - INFO - Added 2 rows to goalkeeper data (total: 111)
+2025-10-06 23:25:28,212 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:25:35,396 - INFO - Processing match 56/70: https://fbref.com/en/matches/78970349/Nottingham-Forest-Sunderland-September-27-2025-Premier-League
+2025-10-06 23:25:37,912 - INFO - Added 32 rows to summary data (total: 1709)
+2025-10-06 23:25:37,941 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:25:37,950 - INFO - Added 32 rows to passing data (total: 1709)
+2025-10-06 23:25:37,978 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:25:37,986 - INFO - Added 32 rows to passing_types data (total: 1709)
+2025-10-06 23:25:38,007 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:25:38,016 - INFO - Added 32 rows to defensive_actions data (total: 1709)
+2025-10-06 23:25:38,037 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:25:38,047 - INFO - Added 32 rows to possession data (total: 1709)
+2025-10-06 23:25:38,073 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:25:38,081 - INFO - Added 32 rows to miscellaneous data (total: 1709)
+2025-10-06 23:25:38,101 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:25:38,109 - INFO - Added 2 rows to goalkeeper data (total: 113)
+2025-10-06 23:25:38,114 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:25:46,124 - INFO - Processing match 57/70: https://fbref.com/en/matches/116cff7d/Tottenham-Hotspur-Wolverhampton-Wanderers-September-27-2025-Premier-League
+2025-10-06 23:25:48,425 - INFO - Added 32 rows to summary data (total: 1741)
+2025-10-06 23:25:48,453 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:25:48,460 - INFO - Added 32 rows to passing data (total: 1741)
+2025-10-06 23:25:48,479 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:25:48,485 - INFO - Added 32 rows to passing_types data (total: 1741)
+2025-10-06 23:25:48,502 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:25:48,509 - INFO - Added 32 rows to defensive_actions data (total: 1741)
+2025-10-06 23:25:48,525 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:25:48,531 - INFO - Added 32 rows to possession data (total: 1741)
+2025-10-06 23:25:48,552 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:25:48,557 - INFO - Added 32 rows to miscellaneous data (total: 1741)
+2025-10-06 23:25:48,574 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:25:48,580 - INFO - Added 2 rows to goalkeeper data (total: 115)
+2025-10-06 23:25:48,584 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:25:56,569 - INFO - Processing match 58/70: https://fbref.com/en/matches/7345f259/Aston-Villa-Fulham-September-28-2025-Premier-League
+2025-10-06 23:25:59,127 - INFO - Added 32 rows to summary data (total: 1773)
+2025-10-06 23:25:59,157 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:25:59,165 - INFO - Added 32 rows to passing data (total: 1773)
+2025-10-06 23:25:59,187 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:25:59,198 - INFO - Added 32 rows to passing_types data (total: 1773)
+2025-10-06 23:25:59,217 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:25:59,227 - INFO - Added 32 rows to defensive_actions data (total: 1773)
+2025-10-06 23:25:59,246 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:25:59,252 - INFO - Added 32 rows to possession data (total: 1773)
+2025-10-06 23:25:59,278 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:25:59,283 - INFO - Added 32 rows to miscellaneous data (total: 1773)
+2025-10-06 23:25:59,302 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:25:59,310 - INFO - Added 2 rows to goalkeeper data (total: 117)
+2025-10-06 23:25:59,314 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:26:07,681 - INFO - Processing match 59/70: https://fbref.com/en/matches/e851cb5c/Newcastle-United-Arsenal-September-28-2025-Premier-League
+2025-10-06 23:26:10,167 - INFO - Added 32 rows to summary data (total: 1805)
+2025-10-06 23:26:10,195 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:26:10,203 - INFO - Added 32 rows to passing data (total: 1805)
+2025-10-06 23:26:10,225 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:26:10,232 - INFO - Added 32 rows to passing_types data (total: 1805)
+2025-10-06 23:26:10,251 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:26:10,259 - INFO - Added 32 rows to defensive_actions data (total: 1805)
+2025-10-06 23:26:10,279 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:26:10,286 - INFO - Added 32 rows to possession data (total: 1805)
+2025-10-06 23:26:10,314 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:26:10,320 - INFO - Added 32 rows to miscellaneous data (total: 1805)
+2025-10-06 23:26:10,342 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:26:10,349 - INFO - Added 2 rows to goalkeeper data (total: 119)
+2025-10-06 23:26:10,355 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:26:18,853 - INFO - Processing match 60/70: https://fbref.com/en/matches/1163f46d/Everton-West-Ham-United-September-29-2025-Premier-League
+2025-10-06 23:26:21,415 - INFO - Added 28 rows to summary data (total: 1833)
+2025-10-06 23:26:21,446 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:26:21,454 - INFO - Added 28 rows to passing data (total: 1833)
+2025-10-06 23:26:21,478 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:26:21,484 - INFO - Added 28 rows to passing_types data (total: 1833)
+2025-10-06 23:26:21,504 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:26:21,513 - INFO - Added 28 rows to defensive_actions data (total: 1833)
+2025-10-06 23:26:21,535 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:26:21,544 - INFO - Added 28 rows to possession data (total: 1833)
+2025-10-06 23:26:21,569 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:26:21,578 - INFO - Added 28 rows to miscellaneous data (total: 1833)
+2025-10-06 23:26:21,599 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:26:21,605 - INFO - Added 2 rows to goalkeeper data (total: 121)
+2025-10-06 23:26:21,611 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:26:30,967 - INFO - Processing match 61/70: https://fbref.com/en/matches/200f4acc/Bournemouth-Fulham-October-3-2025-Premier-League
+2025-10-06 23:26:33,428 - INFO - Added 32 rows to summary data (total: 1865)
+2025-10-06 23:26:33,458 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:26:33,466 - INFO - Added 32 rows to passing data (total: 1865)
+2025-10-06 23:26:33,492 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:26:33,499 - INFO - Added 32 rows to passing_types data (total: 1865)
+2025-10-06 23:26:33,519 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:26:33,528 - INFO - Added 32 rows to defensive_actions data (total: 1865)
+2025-10-06 23:26:33,547 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:26:33,554 - INFO - Added 32 rows to possession data (total: 1865)
+2025-10-06 23:26:33,582 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:26:33,589 - INFO - Added 32 rows to miscellaneous data (total: 1865)
+2025-10-06 23:26:33,612 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:26:33,619 - INFO - Added 2 rows to goalkeeper data (total: 123)
+2025-10-06 23:26:33,625 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:26:40,364 - INFO - Processing match 62/70: https://fbref.com/en/matches/3e588df8/Leeds-United-Tottenham-Hotspur-October-4-2025-Premier-League
+2025-10-06 23:26:42,951 - INFO - Added 31 rows to summary data (total: 1896)
+2025-10-06 23:26:42,984 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:26:42,992 - INFO - Added 31 rows to passing data (total: 1896)
+2025-10-06 23:26:43,016 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:26:43,025 - INFO - Added 31 rows to passing_types data (total: 1896)
+2025-10-06 23:26:43,048 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:26:43,056 - INFO - Added 31 rows to defensive_actions data (total: 1896)
+2025-10-06 23:26:43,078 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:26:43,086 - INFO - Added 31 rows to possession data (total: 1896)
+2025-10-06 23:26:43,112 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:26:43,119 - INFO - Added 31 rows to miscellaneous data (total: 1896)
+2025-10-06 23:26:43,142 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:26:43,152 - INFO - Added 2 rows to goalkeeper data (total: 125)
+2025-10-06 23:26:43,157 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:26:50,037 - INFO - Processing match 63/70: https://fbref.com/en/matches/266bddc6/Arsenal-West-Ham-United-October-4-2025-Premier-League
+2025-10-06 23:26:51,455 - INFO - Added 30 rows to summary data (total: 1926)
+2025-10-06 23:26:51,488 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:26:51,497 - INFO - Added 30 rows to passing data (total: 1926)
+2025-10-06 23:26:51,524 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:26:51,530 - INFO - Added 30 rows to passing_types data (total: 1926)
+2025-10-06 23:26:51,550 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:26:51,558 - INFO - Added 30 rows to defensive_actions data (total: 1926)
+2025-10-06 23:26:51,580 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:26:51,587 - INFO - Added 30 rows to possession data (total: 1926)
+2025-10-06 23:26:51,614 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:26:51,621 - INFO - Added 30 rows to miscellaneous data (total: 1926)
+2025-10-06 23:26:51,646 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:26:51,652 - INFO - Added 2 rows to goalkeeper data (total: 127)
+2025-10-06 23:26:51,658 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:27:01,533 - INFO - Processing match 64/70: https://fbref.com/en/matches/e33ea33d/Manchester-United-Sunderland-October-4-2025-Premier-League
+2025-10-06 23:27:04,019 - INFO - Added 32 rows to summary data (total: 1958)
+2025-10-06 23:27:04,051 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:27:04,058 - INFO - Added 32 rows to passing data (total: 1958)
+2025-10-06 23:27:04,084 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:27:04,093 - INFO - Added 32 rows to passing_types data (total: 1958)
+2025-10-06 23:27:04,115 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:27:04,122 - INFO - Added 32 rows to defensive_actions data (total: 1958)
+2025-10-06 23:27:04,145 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:27:04,152 - INFO - Added 32 rows to possession data (total: 1958)
+2025-10-06 23:27:04,178 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:27:04,184 - INFO - Added 32 rows to miscellaneous data (total: 1958)
+2025-10-06 23:27:04,209 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:27:04,216 - INFO - Added 2 rows to goalkeeper data (total: 129)
+2025-10-06 23:27:04,222 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:27:12,563 - INFO - Processing match 65/70: https://fbref.com/en/matches/780d534e/Chelsea-Liverpool-October-4-2025-Premier-League
+2025-10-06 23:27:14,988 - INFO - Added 32 rows to summary data (total: 1990)
+2025-10-06 23:27:15,018 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:27:15,026 - INFO - Added 32 rows to passing data (total: 1990)
+2025-10-06 23:27:15,050 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:27:15,058 - INFO - Added 32 rows to passing_types data (total: 1990)
+2025-10-06 23:27:15,079 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:27:15,086 - INFO - Added 32 rows to defensive_actions data (total: 1990)
+2025-10-06 23:27:15,108 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:27:15,116 - INFO - Added 32 rows to possession data (total: 1990)
+2025-10-06 23:27:15,144 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:27:15,149 - INFO - Added 32 rows to miscellaneous data (total: 1990)
+2025-10-06 23:27:15,172 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:27:15,180 - INFO - Added 2 rows to goalkeeper data (total: 131)
+2025-10-06 23:27:15,187 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:27:21,692 - INFO - Processing match 66/70: https://fbref.com/en/matches/e33f1657/Newcastle-United-Nottingham-Forest-October-5-2025-Premier-League
+2025-10-06 23:27:24,095 - INFO - Added 30 rows to summary data (total: 2020)
+2025-10-06 23:27:24,129 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:27:24,136 - INFO - Added 30 rows to passing data (total: 2020)
+2025-10-06 23:27:24,164 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:27:24,170 - INFO - Added 30 rows to passing_types data (total: 2020)
+2025-10-06 23:27:24,194 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:27:24,200 - INFO - Added 30 rows to defensive_actions data (total: 2020)
+2025-10-06 23:27:24,224 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:27:24,231 - INFO - Added 30 rows to possession data (total: 2020)
+2025-10-06 23:27:24,259 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:27:24,265 - INFO - Added 30 rows to miscellaneous data (total: 2020)
+2025-10-06 23:27:24,289 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:27:24,297 - INFO - Added 2 rows to goalkeeper data (total: 133)
+2025-10-06 23:27:24,302 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:27:32,589 - INFO - Processing match 67/70: https://fbref.com/en/matches/88e53add/Everton-Crystal-Palace-October-5-2025-Premier-League
+2025-10-06 23:27:35,194 - INFO - Added 30 rows to summary data (total: 2050)
+2025-10-06 23:27:35,235 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:27:35,242 - INFO - Added 30 rows to passing data (total: 2050)
+2025-10-06 23:27:35,272 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:27:35,284 - INFO - Added 30 rows to passing_types data (total: 2050)
+2025-10-06 23:27:35,315 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:27:35,324 - INFO - Added 30 rows to defensive_actions data (total: 2050)
+2025-10-06 23:27:35,356 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:27:35,368 - INFO - Added 30 rows to possession data (total: 2050)
+2025-10-06 23:27:35,401 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:27:35,408 - INFO - Added 30 rows to miscellaneous data (total: 2050)
+2025-10-06 23:27:35,430 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:27:35,436 - INFO - Added 2 rows to goalkeeper data (total: 135)
+2025-10-06 23:27:35,442 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:27:44,903 - INFO - Processing match 68/70: https://fbref.com/en/matches/1314f9fd/Wolverhampton-Wanderers-Brighton-and-Hove-Albion-October-5-2025-Premier-League
+2025-10-06 23:27:47,383 - INFO - Added 31 rows to summary data (total: 2081)
+2025-10-06 23:27:47,411 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:27:47,417 - INFO - Added 31 rows to passing data (total: 2081)
+2025-10-06 23:27:47,439 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:27:47,446 - INFO - Added 31 rows to passing_types data (total: 2081)
+2025-10-06 23:27:47,463 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:27:47,470 - INFO - Added 31 rows to defensive_actions data (total: 2081)
+2025-10-06 23:27:47,489 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:27:47,498 - INFO - Added 31 rows to possession data (total: 2081)
+2025-10-06 23:27:47,523 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:27:47,530 - INFO - Added 31 rows to miscellaneous data (total: 2081)
+2025-10-06 23:27:47,550 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:27:47,557 - INFO - Added 2 rows to goalkeeper data (total: 137)
+2025-10-06 23:27:47,563 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:27:57,402 - INFO - Processing match 69/70: https://fbref.com/en/matches/db870461/Aston-Villa-Burnley-October-5-2025-Premier-League
+2025-10-06 23:27:59,709 - INFO - Added 33 rows to summary data (total: 2114)
+2025-10-06 23:27:59,736 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:27:59,743 - INFO - Added 33 rows to passing data (total: 2114)
+2025-10-06 23:27:59,765 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:27:59,770 - INFO - Added 33 rows to passing_types data (total: 2114)
+2025-10-06 23:27:59,789 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:27:59,798 - INFO - Added 33 rows to defensive_actions data (total: 2114)
+2025-10-06 23:27:59,817 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:27:59,825 - INFO - Added 33 rows to possession data (total: 2114)
+2025-10-06 23:27:59,849 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:27:59,856 - INFO - Added 33 rows to miscellaneous data (total: 2114)
+2025-10-06 23:27:59,879 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:27:59,887 - INFO - Added 2 rows to goalkeeper data (total: 139)
+2025-10-06 23:27:59,892 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:28:07,073 - INFO - Processing match 70/70: https://fbref.com/en/matches/8c0ee359/Brentford-Manchester-City-October-5-2025-Premier-League
+2025-10-06 23:28:09,205 - INFO - Added 30 rows to summary data (total: 2144)
+2025-10-06 23:28:09,232 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-06 23:28:09,238 - INFO - Added 30 rows to passing data (total: 2144)
+2025-10-06 23:28:09,259 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-06 23:28:09,265 - INFO - Added 30 rows to passing_types data (total: 2144)
+2025-10-06 23:28:09,281 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-06 23:28:09,288 - INFO - Added 30 rows to defensive_actions data (total: 2144)
+2025-10-06 23:28:09,307 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-06 23:28:09,315 - INFO - Added 30 rows to possession data (total: 2144)
+2025-10-06 23:28:09,339 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-06 23:28:09,344 - INFO - Added 30 rows to miscellaneous data (total: 2144)
+2025-10-06 23:28:09,362 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-06 23:28:09,368 - INFO - Added 2 rows to goalkeeper data (total: 141)
+2025-10-06 23:28:09,372 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-06 23:28:19,332 - INFO - Data collection completed successfully
