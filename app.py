@@ -313,7 +313,13 @@ if not df.empty:
                 )
         comparison_df = pd.DataFrame(comparison_data)
 
-        # Create comparison chart
+        # Create a selection for the legend
+        selection = alt.selection_point(
+            fields=['Player'],
+            bind='legend'
+        )
+        
+        # Create comparison chart with selectable legend
         comparison_chart = (
             alt.Chart(comparison_df)
             .mark_line(point=True)
@@ -325,9 +331,11 @@ if not df.empty:
                     sort=None,
                     scale=alt.Scale(scheme="darkred")
                 ),
+                opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
                 tooltip=["Player", "Team", "Opponent", "Value", "Game Value"],
             )
             .properties(height=500, title=f"Cumulative {selected_metric} Over Time")
+            .add_params(selection)
         )
 
         st.altair_chart(comparison_chart, use_container_width=True)
