@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"data": {"name": "data-130f98fc400f0acfacb286aa45b33e3c"}, "mark": {"type": "point"}, "encoding": {"text": {"field": "Team", "type": "nominal"}, "tooltip": [{"field": "Team", "type": "nominal"}, {"field": "Attacking_Rating_Norm", "type": "quantitative"}, {"field": "Attacking_Rating", "type": "quantitative"}, {"field": "Defensive_Rating_Norm", "type": "quantitative"}, {"field": "Defensive_Rating", "type": "quantitative"}], "x": {"field": "Defensive_Rating_Norm", "type": "quantitative"}, "y": {"field": "Attacking_Rating_Norm", "type": "quantitative"}}}, {"data": {"name": "data-3a10ac337a97dc375e4824a97342d683"}, "mark": {"type": "rule", "color": "gray", "strokeDash": [5, 5]}, "encoding": {"x": {"field": "x", "type": "quantitative"}}}, {"data": {"name": "data-56e8450a96e5483e8a99fd90422daa8f"}, "mark": {"type": "rule", "color": "gray", "strokeDash": [5, 5]}, "encoding": {"y": {"field": "y", "type": "quantitative"}}}], "height": 600, "title": "Fixture Difficulty Ratings by Team", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-130f98fc400f0acfacb286aa45b33e3c": [{"Team": "Arsenal", "Attacking_Rating": 1.725, "Defensive_Rating": 0.5875, "Attacking_Rating_Norm": 0.7241379310344828, "Defensive_Rating_Norm": 1.0}, {"Team": "Aston Villa", "Attacking_Rating": 0.7875000000000001, "Defensive_Rating": 1.3375, "Attacking_Rating_Norm": 0.07758620689655175, "Defensive_Rating_Norm": 0.4642857142857144}, {"Team": "Bournemouth", "Attacking_Rating": 1.2875, "Defensive_Rating": 1.35, "Attacking_Rating_Norm": 0.42241379310344834, "Defensive_Rating_Norm": 0.45535714285714285}, {"Team": "Brentford", "Attacking_Rating": 1.2, "Defensive_Rating": 1.3857142857142857, "Attacking_Rating_Norm": 0.3620689655172413, "Defensive_Rating_Norm": 0.4298469387755103}, {"Team": "Brighton", "Attacking_Rating": 1.5125, "Defensive_Rating": 1.3125, "Attacking_Rating_Norm": 0.5775862068965517, "Defensive_Rating_Norm": 0.4821428571428572}, {"Team": "Burnley", "Attacking_Rating": 0.675, "Defensive_Rating": 1.9875, "Attacking_Rating_Norm": 0.0, "Defensive_Rating_Norm": 0.0}, {"Team": "Chelsea", "Attacking_Rating": 1.575, "Defensive_Rating": 1.475, "Attacking_Rating_Norm": 0.6206896551724137, "Defensive_Rating_Norm": 0.36607142857142855}, {"Team": "Crystal Palace", "Attacking_Rating": 2.125, "Defensive_Rating": 1.3375, "Attacking_Rating_Norm": 1.0, "Defensive_Rating_Norm": 0.4642857142857144}, {"Team": "Everton", "Attacking_Rating": 1.35, "Defensive_Rating": 1.475, "Attacking_Rating_Norm": 0.4655172413793104, "Defensive_Rating_Norm": 0.36607142857142855}, {"Team": "Fulham", "Attacking_Rating": 0.9500000000000001, "Defensive_Rating": 1.3375000000000001, "Attacking_Rating_Norm": 0.18965517241379312, "Defensive_Rating_Norm": 0.46428571428571425}, {"Team": "Leeds United", "Attacking_Rating": 1.2625, "Defensive_Rating": 1.0625, "Attacking_Rating_Norm": 0.4051724137931034, "Defensive_Rating_Norm": 0.6607142857142858}, {"Team": "Liverpool", "Attacking_Rating": 1.7000000000000002, "Defensive_Rating": 1.1375, "Attacking_Rating_Norm": 0.706896551724138, "Defensive_Rating_Norm": 0.6071428571428572}, {"Team": "Manchester City", "Attacking_Rating": 1.8125, "Defensive_Rating": 1.0250000000000001, "Attacking_Rating_Norm": 0.7844827586206896, "Defensive_Rating_Norm": 0.6875}, {"Team": "Manchester Utd", "Attacking_Rating": 1.85, "Defensive_Rating": 1.575, "Attacking_Rating_Norm": 0.810344827586207, "Defensive_Rating_Norm": 0.2946428571428572}, {"Team": "Newcastle Utd", "Attacking_Rating": 1.225, "Defensive_Rating": 0.7125, "Attacking_Rating_Norm": 0.37931034482758624, "Defensive_Rating_Norm": 0.9107142857142857}, {"Team": "Nott'ham Forest", "Attacking_Rating": 1.0875000000000001, "Defensive_Rating": 1.7625, "Attacking_Rating_Norm": 0.2844827586206897, "Defensive_Rating_Norm": 0.16071428571428578}, {"Team": "Sunderland", "Attacking_Rating": 0.9125, "Defensive_Rating": 1.2, "Attacking_Rating_Norm": 0.16379310344827583, "Defensive_Rating_Norm": 0.5625000000000001}, {"Team": "Tottenham", "Attacking_Rating": 1.0625, "Defensive_Rating": 1.1375, "Attacking_Rating_Norm": 0.2672413793103448, "Defensive_Rating_Norm": 0.6071428571428572}, {"Team": "West Ham", "Attacking_Rating": 0.9285714285714286, "Defensive_Rating": 1.5714285714285714, "Attacking_Rating_Norm": 0.1748768472906404, "Defensive_Rating_Norm": 0.2971938775510205}, {"Team": "Wolves", "Attacking_Rating": 0.875, "Defensive_Rating": 1.2375, "Attacking_Rating_Norm": 0.1379310344827586, "Defensive_Rating_Norm": 0.5357142857142857}], "data-3a10ac337a97dc375e4824a97342d683": [{"x": 0.5}], "data-56e8450a96e5483e8a99fd90422daa8f": [{"y": 0.5}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
