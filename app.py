@@ -4,14 +4,12 @@ import numpy as np
 import altair as alt
 from config import Config
 
+
 # Initialize configuration
 config = Config()
-
-# Set page config
 st.set_page_config(page_title=config.PAGE_TITLE, layout=config.PAGE_LAYOUT)
-
-# Configure Altair to handle larger datasets
 alt.data_transformers.disable_max_rows()
+
 
 # Load data
 @st.cache_data
@@ -43,15 +41,9 @@ def load_data():
         st.error(f"Error loading data: {str(e)}")
         return pd.DataFrame()
 
-# Load the data
-df = load_data()
 
-if not df.empty:
-    st.title("⚽ Premier League Player Statistics")
-
-    # Sidebar filters
-    st.sidebar.header("Filters")
-
+# Design filters
+def sidebar_filters(df):
     # Comparison settings
     selected_metric = st.sidebar.selectbox(
         "Select Metric to Compare", config.METRICS, index=0
@@ -69,24 +61,27 @@ if not df.empty:
     recent_weeks = st.sidebar.slider(
         "Consider Last N Weeks", 1, max_gameweek, max_gameweek
     )
-    recent_data = df[df["gameweek_number"] > (max_gameweek - recent_weeks)]
+    selections = {
+        'metric': selected_metric,
+        'n_players': top_n,
+        'n_weeks': recent_weeks
+    }
+    return selections
 
-    # Get top players for the selected metric in recent weeks
+
+def get_selected_data(df, selections):
+    max_gameweek = df["gameweek_number"].max()
+    recent_data = df[df["gameweek_number"] > (max_gameweek - selections.get('n_weeks'))]
     metric_totals = (
-        recent_data.groupby("Player")[selected_metric]
+        recent_data.groupby("Player")[selections.get('metric')]
         .sum()
         .sort_values(ascending=False)
     )
-    top_players = metric_totals.head(top_n).index.tolist()
+    top_players = metric_totals.head(selections.get('n_players')).index.tolist()
+    return recent_data, top_players
 
-    # Display header
-    period_text = (
-        "All Season"
-        if recent_weeks == max_gameweek
-        else f"Last {recent_weeks} Weeks"
-    )
-    st.header(f"Top {top_n} Players - {selected_metric} ({period_text})")
-    
+
+def get_player_comparisons(recent_data, top_players, selections):
     # Prepare comparison data
     comparison_data = []
     
@@ -98,7 +93,7 @@ if not df.empty:
         # Reset index to ensure proper cumulative calculation
         player_stats = player_stats.reset_index(drop=True)
         # Calculate cumulative sum starting from 0 for the selected period
-        cumulative_value = player_stats[selected_metric].cumsum()
+        cumulative_value = player_stats[selections.get('metric')].cumsum()
         
         for idx, row in player_stats.iterrows():
             comparison_data.append({
@@ -107,11 +102,15 @@ if not df.empty:
                 "Opponent": row["Opponent"],
                 "Gameweek": row["gameweek_number"],
                 "Value": cumulative_value[idx],
-                "Game Value": row[selected_metric],
+                "Game Value": row[selections.get('metric')],
             })
     
     comparison_df = pd.DataFrame(comparison_data)
+    
+    return comparison_df
 
+
+def get_comparison_chart(comparison_df, selections):
     # Create a selection for the legend
     selection = alt.selection_point(
         fields=['Player'],
@@ -124,7 +123,7 @@ if not df.empty:
         .mark_line(point=True)
         .encode(
             x=alt.X("Gameweek:Q", title="Gameweek"),
-            y=alt.Y("Value:Q", title=f"Cumulative {selected_metric}"),
+            y=alt.Y("Value:Q", title=f"Cumulative {selections.get('metric')}"),
             color=alt.Color(
                 "Player:N",
                 sort=None,
@@ -133,17 +132,16 @@ if not df.empty:
             opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
             tooltip=["Player", "Team", "Opponent", "Value", "Game Value"],
         )
-        .properties(height=config.CHART_HEIGHT, title=f"Cumulative {selected_metric} Over Time")
+        .properties(height=config.CHART_HEIGHT, title=f"Cumulative {selections.get('metric')} Over Time")
         .add_params(selection)
     )
+    return comparison_chart
 
-    st.altair_chart(comparison_chart, use_container_width=True)
 
-    # Show summary statistics
-    st.subheader("Summary Statistics")
+def get_summary_stats(recent_data, top_players, selections):
     summary_stats = (
         recent_data.groupby("Player")
-        .agg({selected_metric: ["sum", "mean", "max"]})
+        .agg({selections.get('metric'): ["sum", "mean", "max"]})
         .round(2)
     )
     summary_stats.columns = ["Total", "Average", "Best in Game"]
@@ -154,12 +152,35 @@ if not df.empty:
     summary_stats["Per 90"] = (
         summary_stats["Total"] / minutes_played[top_players] * 90
     ).round(2)
-    st.dataframe(
-        summary_stats.sort_values("Total", ascending=False), 
-        width="stretch"
-    )
+    return summary_stats
+
+
+def app():
+    st.title("⚽ Premier League Player Statistics")
     
-else:
-    st.error(
-        "No data available. Please check if the data file exists in the data folder."
-    )
+    # Load all data
+    df = load_data()
+
+    # Sidebar filters
+    st.sidebar.header("Filters")
+    selections = sidebar_filters(df)
+    
+    # Get selected data
+    recent_data, top_players = get_selected_data(df, selections)
+
+    # Display page header
+    st.header(f"Top {selections.get('n_players')} Players - {selections.get('metric')} (Last {selections.get('n_weeks')} Weeks)")
+    
+    # Player comparison visualisation
+    comparison_df = get_player_comparisons(recent_data, top_players, selections)
+    comparison_chart = get_comparison_chart(comparison_df, selections)
+    st.altair_chart(comparison_chart, use_container_width=True)
+
+    # PLayer summary statistics
+    st.subheader("Summary Statistics")
+    summary_stats = get_summary_stats(recent_data, top_players, selections)
+    st.dataframe(summary_stats.sort_values("Total", ascending=False), width="stretch")
+
+
+if __name__ == '__main__':
+    app()
