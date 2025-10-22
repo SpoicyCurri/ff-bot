@@ -2419,3 +2419,33 @@ Leny Yoro,15.0,fr FRA,CB,19-340,6,5,3,3,2,0,0,5,0,0,,0,,0,0,0,0,0,0,0,1,1,0,Fals
 Harry Maguire,5.0,eng ENG,CB,32-228,90,34,9,19,12,3,3,34,0,0,,0,,6,37,11,0,0,0,0,0,12,0,False,Liverpool_ManchesterUtd_20251019
 Matthijs de Ligt,4.0,nl NED,CB,26-068,90,30,4,18,10,2,2,30,0,0,,0,,9,17,8,0,0,0,0,0,14,0,False,Liverpool_ManchesterUtd_20251019
 Senne Lammens,31.0,be BEL,GK,23-104,90,48,42,48,0,0,0,48,0,0,,0,,25,135,91,0,0,0,0,0,14,0,False,Liverpool_ManchesterUtd_20251019
+Lucas Paquetá,10.0,br BRA,"FW,CM",28-054,90,59,5,9,34,16,1,59,2,0,0.0,1,50.0,17,87,38,1,1,0,3,1,40,5,True,WestHam_Brentford_20251020
+Mateus Fernandes,18.0,pt POR,LW,21-102,45,17,1,3,7,7,0,17,1,0,0.0,1,100.0,5,71,44,1,1,0,0,0,10,0,True,WestHam_Brentford_20251020
+Konstantinos Mavropanos,15.0,gr GRE,CB,27-313,45,24,1,15,8,1,0,24,0,0,,0,,5,23,7,0,0,0,0,0,8,0,True,WestHam_Brentford_20251020
+Jarrod Bowen,20.0,eng ENG,"RM,RW",28-304,90,38,4,10,9,19,5,38,3,0,0.0,3,100.0,20,120,25,2,1,2,2,0,30,6,True,WestHam_Brentford_20251020
+Crysencio Summerville,7.0,nl NED,"LM,AM",23-355,90,33,0,3,13,18,4,33,2,2,100.0,0,0.0,17,211,80,2,3,0,3,1,23,6,True,WestHam_Brentford_20251020
+Andy Irving,39.0,sct SCO,"DM,CM",25-160,60,49,1,10,27,13,1,49,1,0,0.0,1,100.0,14,79,39,1,1,0,1,1,24,1,True,WestHam_Brentford_20251020
+Callum Marshall,50.0,nir NIR,FW,20-326,30,6,0,0,3,3,0,6,0,0,,0,,1,1,0,0,0,0,1,0,2,0,True,WestHam_Brentford_20251020
+Tomáš Souček,28.0,cz CZE,"DM,CM",30-235,70,42,8,15,19,8,1,42,0,0,,0,,10,29,10,0,0,0,0,0,22,2,True,WestHam_Brentford_20251020
+Guido Rodríguez,24.0,ar ARG,CM,31-191,20,4,0,0,4,0,0,4,0,0,,0,,1,4,0,0,0,0,0,0,2,0,True,WestHam_Brentford_20251020
+Kyle Walker-Peters,2.0,eng ENG,LB,28-190,45,21,4,11,10,1,0,21,0,0,,0,,6,28,12,0,0,0,1,0,7,1,True,WestHam_Brentford_20251020
+Aaron Wan-Bissaka,29.0,cd COD,RB,27-328,45,43,1,11,24,8,1,43,0,0,,0,,16,125,68,1,1,0,0,1,23,5,True,WestHam_Brentford_20251020
+Max Kilman,3.0,eng ENG,CB,28-150,90,49,14,29,19,1,0,49,0,0,,0,,20,102,59,0,0,0,0,0,27,0,True,WestHam_Brentford_20251020
+Jean-Clair Todibo,25.0,fr FRA,CB,25-294,90,48,6,23,24,1,1,48,0,0,,0,,26,159,89,0,0,0,0,0,30,0,True,WestHam_Brentford_20251020
+Oliver Scarles,30.0,eng ENG,RB,19-312,45,28,3,13,9,6,0,28,1,0,0.0,1,100.0,9,32,9,0,0,0,0,0,12,2,True,WestHam_Brentford_20251020
+El Hadji Malick Diouf,12.0,sn SEN,LB,20-296,45,30,1,8,16,6,0,30,0,0,,0,,9,49,35,0,0,0,3,0,15,1,True,WestHam_Brentford_20251020
+Alphonse Areola,23.0,fr FRA,GK,32-235,90,41,34,40,1,0,0,41,0,0,,0,,19,116,85,0,0,0,0,0,13,0,True,WestHam_Brentford_20251020
+Thiago,9.0,br BRA,FW,24-116,90,35,1,4,12,19,10,35,1,1,100.0,0,0.0,14,40,9,0,1,0,4,0,24,8,False,WestHam_Brentford_20251020
+Kevin Schade,7.0,de GER,"LW,LM",23-327,90,35,3,7,9,20,6,35,5,3,60.0,2,40.0,14,177,106,5,2,2,3,0,24,8,False,WestHam_Brentford_20251020
+Dango Ouattara,19.0,bf BFA,RW,23-251,75,34,2,2,11,21,9,34,3,0,0.0,3,100.0,15,75,48,3,0,3,2,1,23,5,False,WestHam_Brentford_20251020
+Keane Lewis-Potter,23.0,eng ENG,RM,24-240,15,3,1,1,0,2,0,3,0,0,,0,,1,25,23,1,1,0,0,0,2,0,False,WestHam_Brentford_20251020
+Mikkel Damsgaard,24.0,dk DEN,AM,25-109,74,47,0,5,17,25,4,47,1,0,0.0,1,100.0,26,145,66,4,1,2,2,0,31,8,False,WestHam_Brentford_20251020
+Vitaly Janelt,27.0,de GER,CM,27-163,16,9,0,2,6,1,0,9,0,0,,0,,5,6,0,0,0,0,0,1,6,0,False,WestHam_Brentford_20251020
+Jordan Henderson,6.0,eng ENG,DM,35-125,89,85,4,23,50,13,1,85,0,0,,0,,39,174,64,1,2,1,2,0,61,0,False,WestHam_Brentford_20251020
+Mathias Jensen,8.0,dk DEN,DM,29-292,1,2,0,0,1,1,1,2,0,0,,0,,1,3,1,0,0,0,0,0,2,1,False,WestHam_Brentford_20251020
+Yehor Yarmoliuk,18.0,ua UKR,"DM,CM",21-233,90,77,1,13,52,13,0,77,4,1,25.0,3,75.0,38,216,130,3,2,0,0,0,51,0,False,WestHam_Brentford_20251020
+Kristoffer Ajer,20.0,no NOR,LB,27-186,90,55,2,15,28,13,5,55,1,0,0.0,1,100.0,18,162,107,3,2,0,2,1,27,2,False,WestHam_Brentford_20251020
+Sepp van den Berg,4.0,nl NED,CB,23-304,90,58,14,31,25,2,1,58,0,0,,0,,18,99,67,1,0,0,0,0,29,0,False,WestHam_Brentford_20251020
+Nathan Collins,22.0,ie IRL,CB,24-173,90,78,10,43,29,6,3,78,0,0,,0,,43,226,122,0,0,0,0,0,52,1,False,WestHam_Brentford_20251020
+Michael Kayode,33.0,it ITA,RB,21-102,90,74,2,21,32,22,2,74,3,1,33.3,2,66.7,41,152,47,1,1,1,1,1,46,7,False,WestHam_Brentford_20251020
+Caoimhín Kelleher,1.0,ie IRL,GK,26-331,90,34,28,34,0,0,0,34,0,0,,0,,21,83,39,0,0,0,0,0,22,0,False,WestHam_Brentford_20251020
