@@ -5,6 +5,7 @@ This module handles the scraping of football statistics from FBRef.com.
 It collects fixture data and detailed player statistics for various metrics.
 """
 
+import argparse
 import io
 import logging
 import random
@@ -36,11 +37,12 @@ class ScraperConfig:
 
     base_url: str = "https://fbref.com"
     data_dir: Path = Path("data")
-    players_dir: Path = Path("data/players")
+    players_dir: Path = Path("players")
     min_delay: float = 6.0
     max_delay: float = 10.0
     viewport_width: int = 1920
     viewport_height: int = 1080
+    season: Optional[str] = None
     user_agent: str = (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -49,6 +51,13 @@ class ScraperConfig:
 
     def __post_init__(self):
         """Create necessary directories after initialization."""
+        self.data_dir.mkdir(exist_ok=True)
+        
+        # Create season-specific directories if season is specified
+        if self.season:
+            self.data_dir = self.data_dir / self.season
+            self.players_dir = self.data_dir / self.players_dir
+        
         self.data_dir.mkdir(exist_ok=True)
         self.players_dir.mkdir(exist_ok=True)
 
@@ -132,7 +141,19 @@ class FBRefScraper:
             raise ValueError(f"Unknown league: {league_name}")
 
         league, league_id = self.LEAGUES[league_name]
-        url = f"{self.config.base_url}/en/comps/{league_id}/schedule/{league}-Scores-and-Fixtures"
+        
+        # Build URL based on whether a season is specified
+        if self.config.season:
+            url = (
+                f"{self.config.base_url}/en/comps/{league_id}/{self.config.season}/"
+                f"schedule/{self.config.season}-{league}-Scores-and-Fixtures"
+            )
+        else:
+            url = (
+                f"{self.config.base_url}/en/comps/{league_id}/schedule/"
+                f"{league}-Scores-and-Fixtures"
+            )
+        
         return url, league
 
     def get_fixture_data(self, url: str) -> Optional[DataFrameType]:
@@ -414,7 +435,23 @@ class FBRefScraper:
 
 def main() -> None:
     """Entry point for the scraper."""
-    scraper = FBRefScraper()
+    available_seasons = [
+        "2024-2025",
+        "2023-2024",
+        "2022-2023",
+        "2021-2022",
+        "2020-2021",
+        "2019-2020",
+    ]
+    
+    parser = argparse.ArgumentParser(description='FBRef Data Scraper')
+    parser.add_argument('--season', 
+                       choices=available_seasons,
+                       help='Season to scrape (e.g., "2023-2024")')
+    args = parser.parse_args()
+
+    config = ScraperConfig(season=args.season)
+    scraper = FBRefScraper(config)
 
     try:
         scraper.run()

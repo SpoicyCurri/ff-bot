@@ -1439,3 +1439,23 @@ Exception: Browser.close: Connection closed while reading from the driver
 2025-10-21 20:03:38,852 - INFO - Added 2 rows to goalkeeper data (total: 161)
 2025-10-21 20:03:38,859 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
 2025-10-21 20:03:45,530 - INFO - Data collection completed successfully
+2025-10-23 09:33:18,936 - INFO - Starting FBRef data collection for Premier League
+2025-10-23 09:33:18,938 - INFO - Processing league: Premier-League from https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-10-23 09:33:18,939 - INFO - Getting fixture data...
+2025-10-23 09:33:27,622 - INFO - Navigating to https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-10-23 09:33:40,991 - INFO - Found 10 tables on page
+2025-10-23 09:33:40,991 - INFO - Fixture table shape: (426, 14)
+2025-10-23 09:33:43,080 - INFO - Found 380 match report links
+2025-10-23 09:33:43,092 - INFO - Fixture data saved to data\fixture_data.csv
+2025-10-23 09:33:43,240 - INFO - Successfully retrieved 380 fixtures
+2025-10-23 09:33:43,240 - INFO - Starting player data collection
+2025-10-23 09:33:43,280 - INFO - Found 80 existing games
+2025-10-23 09:33:43,295 - INFO - Loaded existing summary data
+2025-10-23 09:33:43,326 - INFO - Loaded existing passing data
+2025-10-23 09:33:43,357 - INFO - Loaded existing passing_types data
+2025-10-23 09:33:43,387 - INFO - Loaded existing defensive_actions data
+2025-10-23 09:33:43,420 - INFO - Loaded existing possession data
+2025-10-23 09:33:43,447 - INFO - Loaded existing miscellaneous data
+2025-10-23 09:33:43,464 - INFO - Loaded existing goalkeeper data
+2025-10-23 09:33:43,466 - INFO - No new games to process
+2025-10-23 09:33:43,467 - INFO - Data collection completed successfully

@@ -1,0 +1,381 @@
+Wk,Day,Date,Time,Home,xG Home,Score,xG Away,Away,Match Report,game_played,game_id
+1,Fri,2024-08-16,20:00,Manchester Utd,2.4,1–0,0.4,Fulham,https://fbref.com/en/matches/cc5b4244/Manchester-United-Fulham-August-16-2024-Premier-League,True,ManchesterUtd_Fulham_20240816
+1,Sat,2024-08-17,12:30,Ipswich Town,0.5,0–2,2.6,Liverpool,https://fbref.com/en/matches/a1d0d529/Ipswich-Town-Liverpool-August-17-2024-Premier-League,True,IpswichTown_Liverpool_20240817
+1,Sat,2024-08-17,15:00,Newcastle Utd,0.3,1–0,1.8,Southampton,https://fbref.com/en/matches/34557647/Newcastle-United-Southampton-August-17-2024-Premier-League,True,NewcastleUtd_Southampton_20240817
+1,Sat,2024-08-17,15:00,Everton,0.5,0–3,1.4,Brighton,https://fbref.com/en/matches/71618ace/Everton-Brighton-and-Hove-Albion-August-17-2024-Premier-League,True,Everton_Brighton_20240817
+1,Sat,2024-08-17,15:00,Nott'ham Forest,1.3,1–1,1.2,Bournemouth,https://fbref.com/en/matches/4efc72e4/Nottingham-Forest-Bournemouth-August-17-2024-Premier-League,True,Nott'hamForest_Bournemouth_20240817
+1,Sat,2024-08-17,15:00,Arsenal,1.2,2–0,0.5,Wolves,https://fbref.com/en/matches/c0e3342a/Arsenal-Wolverhampton-Wanderers-August-17-2024-Premier-League,True,Arsenal_Wolves_20240817
+1,Sat,2024-08-17,17:30,West Ham,2.3,1–2,2.0,Aston Villa,https://fbref.com/en/matches/eac7c00b/West-Ham-United-Aston-Villa-August-17-2024-Premier-League,True,WestHam_AstonVilla_20240817
+1,Sun,2024-08-18,14:00,Brentford,1.6,2–1,1.2,Crystal Palace,https://fbref.com/en/matches/b63822b9/Brentford-Crystal-Palace-August-18-2024-Premier-League,True,Brentford_CrystalPalace_20240818
+1,Sun,2024-08-18,16:30,Chelsea,1.0,0–2,0.8,Manchester City,https://fbref.com/en/matches/67a0c715/Chelsea-Manchester-City-August-18-2024-Premier-League,True,Chelsea_ManchesterCity_20240818
+1,Mon,2024-08-19,20:00,Leicester City,1.0,1–1,1.2,Tottenham,https://fbref.com/en/matches/62eea1d6/Leicester-City-Tottenham-Hotspur-August-19-2024-Premier-League,True,LeicesterCity_Tottenham_20240819
+2,Sat,2024-08-24,12:30,Brighton,2.1,2–1,1.4,Manchester Utd,https://fbref.com/en/matches/fc8ab8b2/Brighton-and-Hove-Albion-Manchester-United-August-24-2024-Premier-League,True,Brighton_ManchesterUtd_20240824
+2,Sat,2024-08-24,15:00,Manchester City,3.3,4–1,0.3,Ipswich Town,https://fbref.com/en/matches/a24b7a43/Manchester-City-Ipswich-Town-August-24-2024-Premier-League,True,ManchesterCity_IpswichTown_20240824
+2,Sat,2024-08-24,15:00,Southampton,0.1,0–1,2.2,Nott'ham Forest,https://fbref.com/en/matches/a641f3a0/Southampton-Nottingham-Forest-August-24-2024-Premier-League,True,Southampton_Nott'hamForest_20240824
+2,Sat,2024-08-24,15:00,Tottenham,2.4,4–0,1.0,Everton,https://fbref.com/en/matches/1eef1717/Tottenham-Hotspur-Everton-August-24-2024-Premier-League,True,Tottenham_Everton_20240824
+2,Sat,2024-08-24,15:00,Fulham,1.8,2–1,0.6,Leicester City,https://fbref.com/en/matches/4d0079fb/Fulham-Leicester-City-August-24-2024-Premier-League,True,Fulham_LeicesterCity_20240824
+2,Sat,2024-08-24,15:00,Crystal Palace,1.3,0–2,1.4,West Ham,https://fbref.com/en/matches/540cfb68/Crystal-Palace-West-Ham-United-August-24-2024-Premier-League,True,CrystalPalace_WestHam_20240824
+2,Sat,2024-08-24,17:30,Aston Villa,1.2,0–2,0.9,Arsenal,https://fbref.com/en/matches/4692171a/Aston-Villa-Arsenal-August-24-2024-Premier-League,True,AstonVilla_Arsenal_20240824
+2,Sun,2024-08-25,14:00,Wolves,1.9,2–6,1.6,Chelsea,https://fbref.com/en/matches/e76c15c9/Wolverhampton-Wanderers-Chelsea-August-25-2024-Premier-League,True,Wolves_Chelsea_20240825
+2,Sun,2024-08-25,14:00,Bournemouth,2.2,1–1,1.6,Newcastle Utd,https://fbref.com/en/matches/1934f267/Bournemouth-Newcastle-United-August-25-2024-Premier-League,True,Bournemouth_NewcastleUtd_20240825
+2,Sun,2024-08-25,16:30,Liverpool,2.5,2–0,0.5,Brentford,https://fbref.com/en/matches/09b1742e/Liverpool-Brentford-August-25-2024-Premier-League,True,Liverpool_Brentford_20240825
+3,Sat,2024-08-31,12:30,Arsenal,2.1,1–1,1.7,Brighton,https://fbref.com/en/matches/a843d023/Arsenal-Brighton-and-Hove-Albion-August-31-2024-Premier-League,True,Arsenal_Brighton_20240831
+3,Sat,2024-08-31,15:00,Ipswich Town,0.4,1–1,0.9,Fulham,https://fbref.com/en/matches/cec85838/Ipswich-Town-Fulham-August-31-2024-Premier-League,True,IpswichTown_Fulham_20240831
+3,Sat,2024-08-31,15:00,Nott'ham Forest,1.0,1–1,0.7,Wolves,https://fbref.com/en/matches/837f0304/Nottingham-Forest-Wolverhampton-Wanderers-August-31-2024-Premier-League,True,Nott'hamForest_Wolves_20240831
+3,Sat,2024-08-31,15:00,Brentford,2.8,3–1,1.5,Southampton,https://fbref.com/en/matches/fec3438b/Brentford-Southampton-August-31-2024-Premier-League,True,Brentford_Southampton_20240831
+3,Sat,2024-08-31,15:00,Leicester City,0.4,1–2,1.4,Aston Villa,https://fbref.com/en/matches/5af68b76/Leicester-City-Aston-Villa-August-31-2024-Premier-League,True,LeicesterCity_AstonVilla_20240831
+3,Sat,2024-08-31,15:00,Everton,1.8,2–3,2.4,Bournemouth,https://fbref.com/en/matches/58bbe046/Everton-Bournemouth-August-31-2024-Premier-League,True,Everton_Bournemouth_20240831
+3,Sat,2024-08-31,17:30,West Ham,0.7,1–3,3.0,Manchester City,https://fbref.com/en/matches/97ce60d4/West-Ham-United-Manchester-City-August-31-2024-Premier-League,True,WestHam_ManchesterCity_20240831
+3,Sun,2024-09-01,13:30,Newcastle Utd,1.8,2–1,1.2,Tottenham,https://fbref.com/en/matches/0c994746/Newcastle-United-Tottenham-Hotspur-September-1-2024-Premier-League,True,NewcastleUtd_Tottenham_20240901
+3,Sun,2024-09-01,13:30,Chelsea,2.4,1–1,0.5,Crystal Palace,https://fbref.com/en/matches/3387c2c8/Chelsea-Crystal-Palace-September-1-2024-Premier-League,True,Chelsea_CrystalPalace_20240901
+3,Sun,2024-09-01,16:00,Manchester Utd,1.4,0–3,1.8,Liverpool,https://fbref.com/en/matches/a7ab7a12/North-West-Derby-Manchester-United-Liverpool-September-1-2024-Premier-League,True,ManchesterUtd_Liverpool_20240901
+4,Sat,2024-09-14,12:30,Southampton,1.1,0–3,2.6,Manchester Utd,https://fbref.com/en/matches/b96c3759/Southampton-Manchester-United-September-14-2024-Premier-League,True,Southampton_ManchesterUtd_20240914
+4,Sat,2024-09-14,15:00,Manchester City,2.1,2–1,1.0,Brentford,https://fbref.com/en/matches/54405f8a/Manchester-City-Brentford-September-14-2024-Premier-League,True,ManchesterCity_Brentford_20240914
+4,Sat,2024-09-14,15:00,Liverpool,0.9,0–1,0.4,Nott'ham Forest,https://fbref.com/en/matches/674bfe9e/Liverpool-Nottingham-Forest-September-14-2024-Premier-League,True,Liverpool_Nott'hamForest_20240914
+4,Sat,2024-09-14,15:00,Crystal Palace,2.5,2–2,1.2,Leicester City,https://fbref.com/en/matches/430cce12/Crystal-Palace-Leicester-City-September-14-2024-Premier-League,True,CrystalPalace_LeicesterCity_20240914
+4,Sat,2024-09-14,15:00,Fulham,1.5,1–1,0.8,West Ham,https://fbref.com/en/matches/fa2b1777/Fulham-West-Ham-United-September-14-2024-Premier-League,True,Fulham_WestHam_20240914
+4,Sat,2024-09-14,15:00,Brighton,1.6,0–0,0.3,Ipswich Town,https://fbref.com/en/matches/2ffa4354/Brighton-and-Hove-Albion-Ipswich-Town-September-14-2024-Premier-League,True,Brighton_IpswichTown_20240914
+4,Sat,2024-09-14,17:30,Aston Villa,2.1,3–2,0.9,Everton,https://fbref.com/en/matches/cdb4c33b/Aston-Villa-Everton-September-14-2024-Premier-League,True,AstonVilla_Everton_20240914
+4,Sat,2024-09-14,20:00,Bournemouth,1.7,0–1,0.8,Chelsea,https://fbref.com/en/matches/456b4762/Bournemouth-Chelsea-September-14-2024-Premier-League,True,Bournemouth_Chelsea_20240914
+4,Sun,2024-09-15,14:00,Tottenham,0.7,0–1,0.7,Arsenal,https://fbref.com/en/matches/17774a57/North-London-Derby-Tottenham-Hotspur-Arsenal-September-15-2024-Premier-League,True,Tottenham_Arsenal_20240915
+4,Sun,2024-09-15,16:30,Wolves,1.2,1–2,1.5,Newcastle Utd,https://fbref.com/en/matches/4b01981e/Wolverhampton-Wanderers-Newcastle-United-September-15-2024-Premier-League,True,Wolves_NewcastleUtd_20240915
+5,Sat,2024-09-21,12:30,West Ham,0.9,0–3,2.2,Chelsea,https://fbref.com/en/matches/ce0fb1f5/West-Ham-United-Chelsea-September-21-2024-Premier-League,True,WestHam_Chelsea_20240921
+5,Sat,2024-09-21,15:00,Tottenham,3.5,3–1,0.8,Brentford,https://fbref.com/en/matches/9511708f/Tottenham-Hotspur-Brentford-September-21-2024-Premier-League,True,Tottenham_Brentford_20240921
+5,Sat,2024-09-21,15:00,Aston Villa,1.7,3–1,0.5,Wolves,https://fbref.com/en/matches/e2b62260/Aston-Villa-Wolverhampton-Wanderers-September-21-2024-Premier-League,True,AstonVilla_Wolves_20240921
+5,Sat,2024-09-21,15:00,Fulham,2.2,3–1,1.5,Newcastle Utd,https://fbref.com/en/matches/de7298df/Fulham-Newcastle-United-September-21-2024-Premier-League,True,Fulham_NewcastleUtd_20240921
+5,Sat,2024-09-21,15:00,Southampton,2.4,1–1,1.6,Ipswich Town,https://fbref.com/en/matches/948d52cc/Southampton-Ipswich-Town-September-21-2024-Premier-League,True,Southampton_IpswichTown_20240921
+5,Sat,2024-09-21,15:00,Leicester City,0.7,1–1,1.1,Everton,https://fbref.com/en/matches/4e6e1cc7/Leicester-City-Everton-September-21-2024-Premier-League,True,LeicesterCity_Everton_20240921
+5,Sat,2024-09-21,15:00,Liverpool,2.0,3–0,1.1,Bournemouth,https://fbref.com/en/matches/32a9539b/Liverpool-Bournemouth-September-21-2024-Premier-League,True,Liverpool_Bournemouth_20240921
+5,Sat,2024-09-21,17:30,Crystal Palace,1.0,0–0,1.6,Manchester Utd,https://fbref.com/en/matches/929e225f/Crystal-Palace-Manchester-United-September-21-2024-Premier-League,True,CrystalPalace_ManchesterUtd_20240921
+5,Sun,2024-09-22,14:00,Brighton,1.0,2–2,1.4,Nott'ham Forest,https://fbref.com/en/matches/d701a1df/Brighton-and-Hove-Albion-Nottingham-Forest-September-22-2024-Premier-League,True,Brighton_Nott'hamForest_20240922
+5,Sun,2024-09-22,16:30,Manchester City,2.1,2–2,0.7,Arsenal,https://fbref.com/en/matches/d7538020/Manchester-City-Arsenal-September-22-2024-Premier-League,True,ManchesterCity_Arsenal_20240922
+6,Sat,2024-09-28,12:30,Newcastle Utd,1.6,1–1,0.9,Manchester City,https://fbref.com/en/matches/b4df0bca/Newcastle-United-Manchester-City-September-28-2024-Premier-League,True,NewcastleUtd_ManchesterCity_20240928
+6,Sat,2024-09-28,15:00,Brentford,0.4,1–1,1.0,West Ham,https://fbref.com/en/matches/9c4f2bcd/Brentford-West-Ham-United-September-28-2024-Premier-League,True,Brentford_WestHam_20240928
+6,Sat,2024-09-28,15:00,Everton,0.9,2–1,0.9,Crystal Palace,https://fbref.com/en/matches/d47382cd/Everton-Crystal-Palace-September-28-2024-Premier-League,True,Everton_CrystalPalace_20240928
+6,Sat,2024-09-28,15:00,Arsenal,4.4,4–2,0.3,Leicester City,https://fbref.com/en/matches/2ee60ac7/Arsenal-Leicester-City-September-28-2024-Premier-League,True,Arsenal_LeicesterCity_20240928
+6,Sat,2024-09-28,15:00,Chelsea,4.2,4–2,1.1,Brighton,https://fbref.com/en/matches/1714cebe/Chelsea-Brighton-and-Hove-Albion-September-28-2024-Premier-League,True,Chelsea_Brighton_20240928
+6,Sat,2024-09-28,15:00,Nott'ham Forest,0.8,0–1,1.3,Fulham,https://fbref.com/en/matches/ee7d3371/Nottingham-Forest-Fulham-September-28-2024-Premier-League,True,Nott'hamForest_Fulham_20240928
+6,Sat,2024-09-28,17:30,Wolves,0.6,1–2,2.5,Liverpool,https://fbref.com/en/matches/f2633f1d/Wolverhampton-Wanderers-Liverpool-September-28-2024-Premier-League,True,Wolves_Liverpool_20240928
+6,Sun,2024-09-29,14:00,Ipswich Town,1.2,2–2,0.8,Aston Villa,https://fbref.com/en/matches/ef742b9c/Ipswich-Town-Aston-Villa-September-29-2024-Premier-League,True,IpswichTown_AstonVilla_20240929
+6,Sun,2024-09-29,16:30,Manchester Utd,1.0,0–3,4.4,Tottenham,https://fbref.com/en/matches/c4b97377/Manchester-United-Tottenham-Hotspur-September-29-2024-Premier-League,True,ManchesterUtd_Tottenham_20240929
+6,Mon,2024-09-30,20:00,Bournemouth,1.3,3–1,0.6,Southampton,https://fbref.com/en/matches/04d2cc03/Bournemouth-Southampton-September-30-2024-Premier-League,True,Bournemouth_Southampton_20240930
+7,Sat,2024-10-05,12:30,Crystal Palace,0.6,0–1,1.4,Liverpool,https://fbref.com/en/matches/49ea224b/Crystal-Palace-Liverpool-October-5-2024-Premier-League,True,CrystalPalace_Liverpool_20241005
+7,Sat,2024-10-05,15:00,Brentford,4.2,5–3,1.0,Wolves,https://fbref.com/en/matches/909090f8/Brentford-Wolverhampton-Wanderers-October-5-2024-Premier-League,True,Brentford_Wolves_20241005
+7,Sat,2024-10-05,15:00,Leicester City,0.8,1–0,2.1,Bournemouth,https://fbref.com/en/matches/d153872e/Leicester-City-Bournemouth-October-5-2024-Premier-League,True,LeicesterCity_Bournemouth_20241005
+7,Sat,2024-10-05,15:00,Manchester City,1.6,3–2,2.6,Fulham,https://fbref.com/en/matches/61d60f62/Manchester-City-Fulham-October-5-2024-Premier-League,True,ManchesterCity_Fulham_20241005
+7,Sat,2024-10-05,15:00,West Ham,3.6,4–1,0.6,Ipswich Town,https://fbref.com/en/matches/93e19c5e/West-Ham-United-Ipswich-Town-October-5-2024-Premier-League,True,WestHam_IpswichTown_20241005
+7,Sat,2024-10-05,15:00,Arsenal,2.8,3–1,0.6,Southampton,https://fbref.com/en/matches/c6439e5b/Arsenal-Southampton-October-5-2024-Premier-League,True,Arsenal_Southampton_20241005
+7,Sat,2024-10-05,17:30,Everton,0.7,0–0,2.1,Newcastle Utd,https://fbref.com/en/matches/e99a7857/Everton-Newcastle-United-October-5-2024-Premier-League,True,Everton_NewcastleUtd_20241005
+7,Sun,2024-10-06,14:00,Aston Villa,0.5,0–0,0.6,Manchester Utd,https://fbref.com/en/matches/abef5f2a/Aston-Villa-Manchester-United-October-6-2024-Premier-League,True,AstonVilla_ManchesterUtd_20241006
+7,Sun,2024-10-06,14:00,Chelsea,2.3,1–1,0.9,Nott'ham Forest,https://fbref.com/en/matches/b9e00aac/Chelsea-Nottingham-Forest-October-6-2024-Premier-League,True,Chelsea_Nott'hamForest_20241006
+7,Sun,2024-10-06,16:30,Brighton,1.8,3–2,1.3,Tottenham,https://fbref.com/en/matches/dac142c7/Brighton-and-Hove-Albion-Tottenham-Hotspur-October-6-2024-Premier-League,True,Brighton_Tottenham_20241006
+8,Sat,2024-10-19,12:30,Tottenham,1.9,4–1,0.8,West Ham,https://fbref.com/en/matches/923bfab0/Tottenham-Hotspur-West-Ham-United-October-19-2024-Premier-League,True,Tottenham_WestHam_20241019
+8,Sat,2024-10-19,15:00,Fulham,1.8,1–3,1.6,Aston Villa,https://fbref.com/en/matches/615d637e/Fulham-Aston-Villa-October-19-2024-Premier-League,True,Fulham_AstonVilla_20241019
+8,Sat,2024-10-19,15:00,Ipswich Town,1.3,0–2,1.7,Everton,https://fbref.com/en/matches/2273e126/Ipswich-Town-Everton-October-19-2024-Premier-League,True,IpswichTown_Everton_20241019
+8,Sat,2024-10-19,15:00,Southampton,2.1,2–3,3.1,Leicester City,https://fbref.com/en/matches/03d28c48/Southampton-Leicester-City-October-19-2024-Premier-League,True,Southampton_LeicesterCity_20241019
+8,Sat,2024-10-19,15:00,Manchester Utd,1.3,2–1,0.9,Brentford,https://fbref.com/en/matches/7f2c3291/Manchester-United-Brentford-October-19-2024-Premier-League,True,ManchesterUtd_Brentford_20241019
+8,Sat,2024-10-19,15:00,Newcastle Utd,2.0,0–1,1.1,Brighton,https://fbref.com/en/matches/48081db0/Newcastle-United-Brighton-and-Hove-Albion-October-19-2024-Premier-League,True,NewcastleUtd_Brighton_20241019
+8,Sat,2024-10-19,17:30,Bournemouth,1.8,2–0,0.7,Arsenal,https://fbref.com/en/matches/01e63a1f/Bournemouth-Arsenal-October-19-2024-Premier-League,True,Bournemouth_Arsenal_20241019
+8,Sun,2024-10-20,14:00,Wolves,0.8,1–2,1.6,Manchester City,https://fbref.com/en/matches/90b22cd5/Wolverhampton-Wanderers-Manchester-City-October-20-2024-Premier-League,True,Wolves_ManchesterCity_20241020
+8,Sun,2024-10-20,16:30,Liverpool,1.9,2–1,1.0,Chelsea,https://fbref.com/en/matches/99b4737c/Liverpool-Chelsea-October-20-2024-Premier-League,True,Liverpool_Chelsea_20241020
+8,Mon,2024-10-21,20:00,Nott'ham Forest,1.7,1–0,1.0,Crystal Palace,https://fbref.com/en/matches/5ed3894e/Nottingham-Forest-Crystal-Palace-October-21-2024-Premier-League,True,Nott'hamForest_CrystalPalace_20241021
+9,Fri,2024-10-25,20:00,Leicester City,0.8,1–3,1.7,Nott'ham Forest,https://fbref.com/en/matches/292d8bc4/Leicester-City-Nottingham-Forest-October-25-2024-Premier-League,True,LeicesterCity_Nott'hamForest_20241025
+9,Sat,2024-10-26,15:00,Brighton,1.3,2–2,1.3,Wolves,https://fbref.com/en/matches/9487e056/Brighton-and-Hove-Albion-Wolverhampton-Wanderers-October-26-2024-Premier-League,True,Brighton_Wolves_20241026
+9,Sat,2024-10-26,15:00,Manchester City,2.9,1–0,0.2,Southampton,https://fbref.com/en/matches/b66f6389/Manchester-City-Southampton-October-26-2024-Premier-League,True,ManchesterCity_Southampton_20241026
+9,Sat,2024-10-26,15:00,Brentford,4.0,4–3,1.3,Ipswich Town,https://fbref.com/en/matches/1fb2dcde/Brentford-Ipswich-Town-October-26-2024-Premier-League,True,Brentford_IpswichTown_20241026
+9,Sat,2024-10-26,15:00,Aston Villa,1.8,1–1,0.3,Bournemouth,https://fbref.com/en/matches/bce300b2/Aston-Villa-Bournemouth-October-26-2024-Premier-League,True,AstonVilla_Bournemouth_20241026
+9,Sat,2024-10-26,17:30,Everton,0.8,1–1,1.2,Fulham,https://fbref.com/en/matches/1e5152bf/Everton-Fulham-October-26-2024-Premier-League,True,Everton_Fulham_20241026
+9,Sun,2024-10-27,14:00,West Ham,2.8,2–1,2.3,Manchester Utd,https://fbref.com/en/matches/38c31a07/West-Ham-United-Manchester-United-October-27-2024-Premier-League,True,WestHam_ManchesterUtd_20241027
+9,Sun,2024-10-27,14:00,Chelsea,1.6,2–1,1.8,Newcastle Utd,https://fbref.com/en/matches/33571b04/Chelsea-Newcastle-United-October-27-2024-Premier-League,True,Chelsea_NewcastleUtd_20241027
+9,Sun,2024-10-27,14:00,Crystal Palace,0.8,1–0,0.7,Tottenham,https://fbref.com/en/matches/e995d937/Crystal-Palace-Tottenham-Hotspur-October-27-2024-Premier-League,True,CrystalPalace_Tottenham_20241027
+9,Sun,2024-10-27,16:30,Arsenal,0.9,2–2,0.8,Liverpool,https://fbref.com/en/matches/68aa1099/Arsenal-Liverpool-October-27-2024-Premier-League,True,Arsenal_Liverpool_20241027
+10,Sat,2024-11-02,12:30,Newcastle Utd,0.5,1–0,1.1,Arsenal,https://fbref.com/en/matches/cc960c22/Newcastle-United-Arsenal-November-2-2024-Premier-League,True,NewcastleUtd_Arsenal_20241102
+10,Sat,2024-11-02,15:00,Liverpool,1.6,2–1,1.0,Brighton,https://fbref.com/en/matches/7d114c70/Liverpool-Brighton-and-Hove-Albion-November-2-2024-Premier-League,True,Liverpool_Brighton_20241102
+10,Sat,2024-11-02,15:00,Southampton,0.7,1–0,1.6,Everton,https://fbref.com/en/matches/2be42fdb/Southampton-Everton-November-2-2024-Premier-League,True,Southampton_Everton_20241102
+10,Sat,2024-11-02,15:00,Nott'ham Forest,2.2,3–0,0.1,West Ham,https://fbref.com/en/matches/c2505640/Nottingham-Forest-West-Ham-United-November-2-2024-Premier-League,True,Nott'hamForest_WestHam_20241102
+10,Sat,2024-11-02,15:00,Ipswich Town,1.0,1–1,1.5,Leicester City,https://fbref.com/en/matches/ed8f93a0/Ipswich-Town-Leicester-City-November-2-2024-Premier-League,True,IpswichTown_LeicesterCity_20241102
+10,Sat,2024-11-02,15:00,Bournemouth,2.0,2–1,1.6,Manchester City,https://fbref.com/en/matches/ed970fef/Bournemouth-Manchester-City-November-2-2024-Premier-League,True,Bournemouth_ManchesterCity_20241102
+10,Sat,2024-11-02,17:30,Wolves,1.5,2–2,2.4,Crystal Palace,https://fbref.com/en/matches/a4251fae/Wolverhampton-Wanderers-Crystal-Palace-November-2-2024-Premier-League,True,Wolves_CrystalPalace_20241102
+10,Sun,2024-11-03,14:00,Tottenham,2.4,4–1,1.8,Aston Villa,https://fbref.com/en/matches/8fa951f9/Tottenham-Hotspur-Aston-Villa-November-3-2024-Premier-League,True,Tottenham_AstonVilla_20241103
+10,Sun,2024-11-03,16:30,Manchester Utd,2.0,1–1,1.1,Chelsea,https://fbref.com/en/matches/1273ae28/Manchester-United-Chelsea-November-3-2024-Premier-League,True,ManchesterUtd_Chelsea_20241103
+10,Mon,2024-11-04,20:00,Fulham,1.3,2–1,0.6,Brentford,https://fbref.com/en/matches/e1590847/Fulham-Brentford-November-4-2024-Premier-League,True,Fulham_Brentford_20241104
+11,Sat,2024-11-09,15:00,West Ham,0.8,0–0,1.1,Everton,https://fbref.com/en/matches/a4cf40b4/West-Ham-United-Everton-November-9-2024-Premier-League,True,WestHam_Everton_20241109
+11,Sat,2024-11-09,15:00,Crystal Palace,1.5,0–2,1.8,Fulham,https://fbref.com/en/matches/d5015ba4/Crystal-Palace-Fulham-November-9-2024-Premier-League,True,CrystalPalace_Fulham_20241109
+11,Sat,2024-11-09,15:00,Wolves,1.3,2–0,0.6,Southampton,https://fbref.com/en/matches/dbec2d40/Wolverhampton-Wanderers-Southampton-November-9-2024-Premier-League,True,Wolves_Southampton_20241109
+11,Sat,2024-11-09,15:00,Brentford,1.5,3–2,2.6,Bournemouth,https://fbref.com/en/matches/1c998ef5/Brentford-Bournemouth-November-9-2024-Premier-League,True,Brentford_Bournemouth_20241109
+11,Sat,2024-11-09,17:30,Brighton,2.3,2–1,2.1,Manchester City,https://fbref.com/en/matches/62aa7905/Brighton-and-Hove-Albion-Manchester-City-November-9-2024-Premier-League,True,Brighton_ManchesterCity_20241109
+11,Sat,2024-11-09,20:00,Liverpool,2.0,2–0,1.2,Aston Villa,https://fbref.com/en/matches/737af5bf/Liverpool-Aston-Villa-November-9-2024-Premier-League,True,Liverpool_AstonVilla_20241109
+11,Sun,2024-11-10,14:00,Tottenham,1.5,1–2,1.6,Ipswich Town,https://fbref.com/en/matches/f9b9c3c4/Tottenham-Hotspur-Ipswich-Town-November-10-2024-Premier-League,True,Tottenham_IpswichTown_20241110
+11,Sun,2024-11-10,14:00,Nott'ham Forest,0.6,1–3,1.6,Newcastle Utd,https://fbref.com/en/matches/a41ce5c3/Nottingham-Forest-Newcastle-United-November-10-2024-Premier-League,True,Nott'hamForest_NewcastleUtd_20241110
+11,Sun,2024-11-10,14:00,Manchester Utd,0.8,3–0,0.6,Leicester City,https://fbref.com/en/matches/35888afe/Manchester-United-Leicester-City-November-10-2024-Premier-League,True,ManchesterUtd_LeicesterCity_20241110
+11,Sun,2024-11-10,16:30,Chelsea,1.5,1–1,1.5,Arsenal,https://fbref.com/en/matches/2874d56e/North-West-London-Derby-Chelsea-Arsenal-November-10-2024-Premier-League,True,Chelsea_Arsenal_20241110
+12,Sat,2024-11-23,12:30,Leicester City,1.1,1–2,2.7,Chelsea,https://fbref.com/en/matches/bb885467/Leicester-City-Chelsea-November-23-2024-Premier-League,True,LeicesterCity_Chelsea_20241123
+12,Sat,2024-11-23,15:00,Aston Villa,3.0,2–2,1.3,Crystal Palace,https://fbref.com/en/matches/bf2e07a1/Aston-Villa-Crystal-Palace-November-23-2024-Premier-League,True,AstonVilla_CrystalPalace_20241123
+12,Sat,2024-11-23,15:00,Fulham,1.0,1–4,1.3,Wolves,https://fbref.com/en/matches/ed24aeb8/Fulham-Wolverhampton-Wanderers-November-23-2024-Premier-League,True,Fulham_Wolves_20241123
+12,Sat,2024-11-23,15:00,Bournemouth,1.6,1–2,0.9,Brighton,https://fbref.com/en/matches/4708a5bf/Bournemouth-Brighton-and-Hove-Albion-November-23-2024-Premier-League,True,Bournemouth_Brighton_20241123
+12,Sat,2024-11-23,15:00,Arsenal,1.2,3–0,0.3,Nott'ham Forest,https://fbref.com/en/matches/0cb4129b/Arsenal-Nottingham-Forest-November-23-2024-Premier-League,True,Arsenal_Nott'hamForest_20241123
+12,Sat,2024-11-23,15:00,Everton,1.2,0–0,1.1,Brentford,https://fbref.com/en/matches/dd7675a7/Everton-Brentford-November-23-2024-Premier-League,True,Everton_Brentford_20241123
+12,Sat,2024-11-23,17:30,Manchester City,2.1,0–4,2.5,Tottenham,https://fbref.com/en/matches/c48b896c/Manchester-City-Tottenham-Hotspur-November-23-2024-Premier-League,True,ManchesterCity_Tottenham_20241123
+12,Sun,2024-11-24,14:00,Southampton,1.3,2–3,3.1,Liverpool,https://fbref.com/en/matches/eb6f8e39/Southampton-Liverpool-November-24-2024-Premier-League,True,Southampton_Liverpool_20241124
+12,Sun,2024-11-24,16:30,Ipswich Town,1.6,1–1,0.8,Manchester Utd,https://fbref.com/en/matches/db1e4ea5/Ipswich-Town-Manchester-United-November-24-2024-Premier-League,True,IpswichTown_ManchesterUtd_20241124
+12,Mon,2024-11-25,20:00,Newcastle Utd,1.6,0–2,0.9,West Ham,https://fbref.com/en/matches/79f46eec/Newcastle-United-West-Ham-United-November-25-2024-Premier-League,True,NewcastleUtd_WestHam_20241125
+13,Fri,2024-11-29,20:00,Brighton,1.7,1–1,1.0,Southampton,https://fbref.com/en/matches/d38c4a31/Brighton-and-Hove-Albion-Southampton-November-29-2024-Premier-League,True,Brighton_Southampton_20241129
+13,Sat,2024-11-30,15:00,Wolves,0.5,2–4,3.3,Bournemouth,https://fbref.com/en/matches/adfb1b89/Wolverhampton-Wanderers-Bournemouth-November-30-2024-Premier-League,True,Wolves_Bournemouth_20241130
+13,Sat,2024-11-30,15:00,Nott'ham Forest,1.6,1–0,0.6,Ipswich Town,https://fbref.com/en/matches/ddc8856c/Nottingham-Forest-Ipswich-Town-November-30-2024-Premier-League,True,Nott'hamForest_IpswichTown_20241130
+13,Sat,2024-11-30,15:00,Brentford,2.4,4–1,1.1,Leicester City,https://fbref.com/en/matches/f4f9a64f/Brentford-Leicester-City-November-30-2024-Premier-League,True,Brentford_LeicesterCity_20241130
+13,Sat,2024-11-30,15:00,Crystal Palace,1.7,1–1,0.0,Newcastle Utd,https://fbref.com/en/matches/a4f03af0/Crystal-Palace-Newcastle-United-November-30-2024-Premier-League,True,CrystalPalace_NewcastleUtd_20241130
+13,Sat,2024-11-30,17:30,West Ham,1.5,2–5,3.5,Arsenal,https://fbref.com/en/matches/f78bee62/West-Ham-United-Arsenal-November-30-2024-Premier-League,True,WestHam_Arsenal_20241130
+13,Sun,2024-12-01,13:30,Manchester Utd,1.1,4–0,0.6,Everton,https://fbref.com/en/matches/e6eef20f/Manchester-United-Everton-December-1-2024-Premier-League,True,ManchesterUtd_Everton_20241201
+13,Sun,2024-12-01,13:30,Tottenham,0.8,1–1,1.5,Fulham,https://fbref.com/en/matches/9aaa6ed5/Tottenham-Hotspur-Fulham-December-1-2024-Premier-League,True,Tottenham_Fulham_20241201
+13,Sun,2024-12-01,13:30,Chelsea,1.6,3–0,1.2,Aston Villa,https://fbref.com/en/matches/080b797b/Chelsea-Aston-Villa-December-1-2024-Premier-League,True,Chelsea_AstonVilla_20241201
+13,Sun,2024-12-01,16:00,Liverpool,3.4,2–0,0.8,Manchester City,https://fbref.com/en/matches/0bd6ad44/Liverpool-Manchester-City-December-1-2024-Premier-League,True,Liverpool_ManchesterCity_20241201
+14,Tue,2024-12-03,19:30,Ipswich Town,0.5,0–1,1.6,Crystal Palace,https://fbref.com/en/matches/f7a96e82/Ipswich-Town-Crystal-Palace-December-3-2024-Premier-League,True,IpswichTown_CrystalPalace_20241203
+14,Tue,2024-12-03,20:15,Leicester City,1.7,3–1,3.0,West Ham,https://fbref.com/en/matches/355fd8ce/Leicester-City-West-Ham-United-December-3-2024-Premier-League,True,LeicesterCity_WestHam_20241203
+14,Wed,2024-12-04,19:30,Newcastle Utd,2.1,3–3,1.9,Liverpool,https://fbref.com/en/matches/ca898c29/Newcastle-United-Liverpool-December-4-2024-Premier-League,True,NewcastleUtd_Liverpool_20241204
+14,Wed,2024-12-04,19:30,Everton,1.0,4–0,0.8,Wolves,https://fbref.com/en/matches/71f00b04/Everton-Wolverhampton-Wanderers-December-4-2024-Premier-League,True,Everton_Wolves_20241204
+14,Wed,2024-12-04,19:30,Manchester City,2.4,3–0,1.0,Nott'ham Forest,https://fbref.com/en/matches/dedb0eee/Manchester-City-Nottingham-Forest-December-4-2024-Premier-League,True,ManchesterCity_Nott'hamForest_20241204
+14,Wed,2024-12-04,19:30,Southampton,1.6,1–5,5.2,Chelsea,https://fbref.com/en/matches/e4480630/Southampton-Chelsea-December-4-2024-Premier-League,True,Southampton_Chelsea_20241204
+14,Wed,2024-12-04,20:15,Arsenal,2.1,2–0,0.2,Manchester Utd,https://fbref.com/en/matches/9938aa27/Arsenal-Manchester-United-December-4-2024-Premier-League,True,Arsenal_ManchesterUtd_20241204
+14,Wed,2024-12-04,20:15,Aston Villa,2.4,3–1,0.9,Brentford,https://fbref.com/en/matches/c24a734b/Aston-Villa-Brentford-December-4-2024-Premier-League,True,AstonVilla_Brentford_20241204
+14,Thu,2024-12-05,19:30,Fulham,1.1,3–1,1.4,Brighton,https://fbref.com/en/matches/32aaf579/Fulham-Brighton-and-Hove-Albion-December-5-2024-Premier-League,True,Fulham_Brighton_20241205
+14,Thu,2024-12-05,20:15,Bournemouth,3.5,1–0,0.9,Tottenham,https://fbref.com/en/matches/c7e59a0a/Bournemouth-Tottenham-Hotspur-December-5-2024-Premier-League,True,Bournemouth_Tottenham_20241205
+15,Sat,2024-12-07,15:00,Aston Villa,2.3,1–0,0.3,Southampton,https://fbref.com/en/matches/92cfde2c/Aston-Villa-Southampton-December-7-2024-Premier-League,True,AstonVilla_Southampton_20241207
+15,Sat,2024-12-07,15:00,Crystal Palace,1.3,2–2,1.4,Manchester City,https://fbref.com/en/matches/6b7fbda1/Crystal-Palace-Manchester-City-December-7-2024-Premier-League,True,CrystalPalace_ManchesterCity_20241207
+15,Sat,2024-12-07,15:00,Brentford,1.2,4–2,1.5,Newcastle Utd,https://fbref.com/en/matches/1042592d/Brentford-Newcastle-United-December-7-2024-Premier-League,True,Brentford_NewcastleUtd_20241207
+15,Sat,2024-12-07,17:30,Manchester Utd,1.6,2–3,0.8,Nott'ham Forest,https://fbref.com/en/matches/08966ea6/Manchester-United-Nottingham-Forest-December-7-2024-Premier-League,True,ManchesterUtd_Nott'hamForest_20241207
+15,Sun,2024-12-08,14:00,Leicester City,1.3,2–2,1.5,Brighton,https://fbref.com/en/matches/7b549f8f/Leicester-City-Brighton-and-Hove-Albion-December-8-2024-Premier-League,True,LeicesterCity_Brighton_20241208
+15,Sun,2024-12-08,14:00,Ipswich Town,1.3,1–2,3.2,Bournemouth,https://fbref.com/en/matches/392c7b1f/Ipswich-Town-Bournemouth-December-8-2024-Premier-League,True,IpswichTown_Bournemouth_20241208
+15,Sun,2024-12-08,14:00,Fulham,0.2,1–1,1.8,Arsenal,https://fbref.com/en/matches/038dfa98/Fulham-Arsenal-December-8-2024-Premier-League,True,Fulham_Arsenal_20241208
+15,Sun,2024-12-08,16:30,Tottenham,2.8,3–4,2.8,Chelsea,https://fbref.com/en/matches/abff9b73/Tottenham-Hotspur-Chelsea-December-8-2024-Premier-League,True,Tottenham_Chelsea_20241208
+15,Mon,2024-12-09,20:00,West Ham,1.0,2–1,1.4,Wolves,https://fbref.com/en/matches/4d72ec87/West-Ham-United-Wolverhampton-Wanderers-December-9-2024-Premier-League,True,WestHam_Wolves_20241209
+16,Sat,2024-12-14,15:00,Liverpool,2.1,2–2,1.2,Fulham,https://fbref.com/en/matches/a436996c/Liverpool-Fulham-December-14-2024-Premier-League,True,Liverpool_Fulham_20241214
+16,Sat,2024-12-14,15:00,Wolves,1.3,1–2,1.1,Ipswich Town,https://fbref.com/en/matches/46d52e33/Wolverhampton-Wanderers-Ipswich-Town-December-14-2024-Premier-League,True,Wolves_IpswichTown_20241214
+16,Sat,2024-12-14,15:00,Newcastle Utd,3.8,4–0,0.2,Leicester City,https://fbref.com/en/matches/0b6fe43f/Newcastle-United-Leicester-City-December-14-2024-Premier-League,True,NewcastleUtd_LeicesterCity_20241214
+16,Sat,2024-12-14,15:00,Arsenal,1.2,0–0,0.1,Everton,https://fbref.com/en/matches/32aa9e8e/Arsenal-Everton-December-14-2024-Premier-League,True,Arsenal_Everton_20241214
+16,Sat,2024-12-14,17:30,Nott'ham Forest,1.7,2–1,0.4,Aston Villa,https://fbref.com/en/matches/26926fd3/Nottingham-Forest-Aston-Villa-December-14-2024-Premier-League,True,Nott'hamForest_AstonVilla_20241214
+16,Sun,2024-12-15,14:00,Brighton,1.0,1–3,2.2,Crystal Palace,https://fbref.com/en/matches/c8314a05/Brighton-and-Hove-Albion-Crystal-Palace-December-15-2024-Premier-League,True,Brighton_CrystalPalace_20241215
+16,Sun,2024-12-15,16:30,Manchester City,0.9,1–2,2.1,Manchester Utd,https://fbref.com/en/matches/3d772028/Manchester-Derby-Manchester-City-Manchester-United-December-15-2024-Premier-League,True,ManchesterCity_ManchesterUtd_20241215
+16,Sun,2024-12-15,19:00,Southampton,0.8,0–5,2.3,Tottenham,https://fbref.com/en/matches/37afd6da/Southampton-Tottenham-Hotspur-December-15-2024-Premier-League,True,Southampton_Tottenham_20241215
+16,Sun,2024-12-15,19:00,Chelsea,2.2,2–1,1.6,Brentford,https://fbref.com/en/matches/5f0803f7/Chelsea-Brentford-December-15-2024-Premier-League,True,Chelsea_Brentford_20241215
+16,Mon,2024-12-16,20:00,Bournemouth,1.9,1–1,2.1,West Ham,https://fbref.com/en/matches/49cd674b/Bournemouth-West-Ham-United-December-16-2024-Premier-League,True,Bournemouth_WestHam_20241216
+17,Sat,2024-12-21,12:30,Aston Villa,1.6,2–1,1.0,Manchester City,https://fbref.com/en/matches/ce9dc982/Aston-Villa-Manchester-City-December-21-2024-Premier-League,True,AstonVilla_ManchesterCity_20241221
+17,Sat,2024-12-21,15:00,Ipswich Town,0.7,0–4,2.3,Newcastle Utd,https://fbref.com/en/matches/764fc51e/Ipswich-Town-Newcastle-United-December-21-2024-Premier-League,True,IpswichTown_NewcastleUtd_20241221
+17,Sat,2024-12-21,15:00,Brentford,0.7,0–2,0.9,Nott'ham Forest,https://fbref.com/en/matches/1c60d037/Brentford-Nottingham-Forest-December-21-2024-Premier-League,True,Brentford_Nott'hamForest_20241221
+17,Sat,2024-12-21,15:00,West Ham,1.2,1–1,0.9,Brighton,https://fbref.com/en/matches/04be8e87/West-Ham-United-Brighton-and-Hove-Albion-December-21-2024-Premier-League,True,WestHam_Brighton_20241221
+17,Sat,2024-12-21,17:30,Crystal Palace,1.6,1–5,2.5,Arsenal,https://fbref.com/en/matches/5e7aa707/Crystal-Palace-Arsenal-December-21-2024-Premier-League,True,CrystalPalace_Arsenal_20241221
+17,Sun,2024-12-22,14:00,Manchester Utd,2.2,0–3,1.6,Bournemouth,https://fbref.com/en/matches/8381ba53/Manchester-United-Bournemouth-December-22-2024-Premier-League,True,ManchesterUtd_Bournemouth_20241222
+17,Sun,2024-12-22,14:00,Leicester City,0.8,0–3,1.1,Wolves,https://fbref.com/en/matches/ecd6cb1d/Leicester-City-Wolverhampton-Wanderers-December-22-2024-Premier-League,True,LeicesterCity_Wolves_20241222
+17,Sun,2024-12-22,14:00,Everton,1.0,0–0,1.2,Chelsea,https://fbref.com/en/matches/de72140c/Everton-Chelsea-December-22-2024-Premier-League,True,Everton_Chelsea_20241222
+17,Sun,2024-12-22,14:00,Fulham,0.9,0–0,0.3,Southampton,https://fbref.com/en/matches/ba3fcb1e/Fulham-Southampton-December-22-2024-Premier-League,True,Fulham_Southampton_20241222
+17,Sun,2024-12-22,16:30,Tottenham,1.3,3–6,5.6,Liverpool,https://fbref.com/en/matches/1e1cea4c/Tottenham-Hotspur-Liverpool-December-22-2024-Premier-League,True,Tottenham_Liverpool_20241222
+18,Thu,2024-12-26,12:30,Manchester City,2.1,1–1,0.7,Everton,https://fbref.com/en/matches/87f2d794/Manchester-City-Everton-December-26-2024-Premier-League,True,ManchesterCity_Everton_20241226
+18,Thu,2024-12-26,15:00,Southampton,1.4,0–1,1.7,West Ham,https://fbref.com/en/matches/8050686b/Southampton-West-Ham-United-December-26-2024-Premier-League,True,Southampton_WestHam_20241226
+18,Thu,2024-12-26,15:00,Newcastle Utd,2.7,3–0,0.3,Aston Villa,https://fbref.com/en/matches/9985f304/Newcastle-United-Aston-Villa-December-26-2024-Premier-League,True,NewcastleUtd_AstonVilla_20241226
+18,Thu,2024-12-26,15:00,Nott'ham Forest,1.1,1–0,0.9,Tottenham,https://fbref.com/en/matches/eb738106/Nottingham-Forest-Tottenham-Hotspur-December-26-2024-Premier-League,True,Nott'hamForest_Tottenham_20241226
+18,Thu,2024-12-26,15:00,Bournemouth,1.4,0–0,0.4,Crystal Palace,https://fbref.com/en/matches/886ca6b3/Bournemouth-Crystal-Palace-December-26-2024-Premier-League,True,Bournemouth_CrystalPalace_20241226
+18,Thu,2024-12-26,15:00,Chelsea,1.1,1–2,1.8,Fulham,https://fbref.com/en/matches/03d6159c/Chelsea-Fulham-December-26-2024-Premier-League,True,Chelsea_Fulham_20241226
+18,Thu,2024-12-26,17:30,Wolves,0.9,2–0,0.4,Manchester Utd,https://fbref.com/en/matches/77bcad49/Wolverhampton-Wanderers-Manchester-United-December-26-2024-Premier-League,True,Wolves_ManchesterUtd_20241226
+18,Thu,2024-12-26,20:00,Liverpool,2.0,3–1,0.3,Leicester City,https://fbref.com/en/matches/1f604fbd/Liverpool-Leicester-City-December-26-2024-Premier-League,True,Liverpool_LeicesterCity_20241226
+18,Fri,2024-12-27,19:30,Brighton,1.3,0–0,1.1,Brentford,https://fbref.com/en/matches/15b10b33/Brighton-and-Hove-Albion-Brentford-December-27-2024-Premier-League,True,Brighton_Brentford_20241227
+18,Fri,2024-12-27,20:15,Arsenal,1.8,1–0,0.2,Ipswich Town,https://fbref.com/en/matches/668dad03/Arsenal-Ipswich-Town-December-27-2024-Premier-League,True,Arsenal_IpswichTown_20241227
+19,Sun,2024-12-29,14:30,Leicester City,1.3,0–2,1.3,Manchester City,https://fbref.com/en/matches/8bbb6d95/Leicester-City-Manchester-City-December-29-2024-Premier-League,True,LeicesterCity_ManchesterCity_20241229
+19,Sun,2024-12-29,15:00,Everton,0.9,0–2,1.5,Nott'ham Forest,https://fbref.com/en/matches/5fa986dc/Everton-Nottingham-Forest-December-29-2024-Premier-League,True,Everton_Nott'hamForest_20241229
+19,Sun,2024-12-29,15:00,Tottenham,2.2,2–2,0.7,Wolves,https://fbref.com/en/matches/3d2ef5b4/Tottenham-Hotspur-Wolverhampton-Wanderers-December-29-2024-Premier-League,True,Tottenham_Wolves_20241229
+19,Sun,2024-12-29,15:00,Fulham,1.1,2–2,2.0,Bournemouth,https://fbref.com/en/matches/4b4023dc/Fulham-Bournemouth-December-29-2024-Premier-League,True,Fulham_Bournemouth_20241229
+19,Sun,2024-12-29,15:00,Crystal Palace,2.0,2–1,0.9,Southampton,https://fbref.com/en/matches/6d06b29c/Crystal-Palace-Southampton-December-29-2024-Premier-League,True,CrystalPalace_Southampton_20241229
+19,Sun,2024-12-29,17:15,West Ham,0.4,0–5,3.1,Liverpool,https://fbref.com/en/matches/c1a66ac0/West-Ham-United-Liverpool-December-29-2024-Premier-League,True,WestHam_Liverpool_20241229
+19,Mon,2024-12-30,19:45,Aston Villa,1.8,2–2,1.1,Brighton,https://fbref.com/en/matches/5e8340e9/Aston-Villa-Brighton-and-Hove-Albion-December-30-2024-Premier-League,True,AstonVilla_Brighton_20241230
+19,Mon,2024-12-30,19:45,Ipswich Town,1.6,2–0,2.0,Chelsea,https://fbref.com/en/matches/88073205/Ipswich-Town-Chelsea-December-30-2024-Premier-League,True,IpswichTown_Chelsea_20241230
+19,Mon,2024-12-30,20:00,Manchester Utd,0.8,0–2,1.9,Newcastle Utd,https://fbref.com/en/matches/8cff7a63/Manchester-United-Newcastle-United-December-30-2024-Premier-League,True,ManchesterUtd_NewcastleUtd_20241230
+19,Wed,2025-01-01,17:30,Brentford,0.3,1–3,1.9,Arsenal,https://fbref.com/en/matches/7e6892e4/Brentford-Arsenal-January-1-2025-Premier-League,True,Brentford_Arsenal_20250101
+20,Sat,2025-01-04,12:30,Tottenham,0.9,1–2,2.5,Newcastle Utd,https://fbref.com/en/matches/be247ac3/Tottenham-Hotspur-Newcastle-United-January-4-2025-Premier-League,True,Tottenham_NewcastleUtd_20250104
+20,Sat,2025-01-04,15:00,Aston Villa,1.4,2–1,0.4,Leicester City,https://fbref.com/en/matches/f5ae8d7d/Aston-Villa-Leicester-City-January-4-2025-Premier-League,True,AstonVilla_LeicesterCity_20250104
+20,Sat,2025-01-04,15:00,Bournemouth,1.8,1–0,0.7,Everton,https://fbref.com/en/matches/43f0c302/Bournemouth-Everton-January-4-2025-Premier-League,True,Bournemouth_Everton_20250104
+20,Sat,2025-01-04,15:00,Crystal Palace,1.1,1–1,1.2,Chelsea,https://fbref.com/en/matches/cd9861d5/Crystal-Palace-Chelsea-January-4-2025-Premier-League,True,CrystalPalace_Chelsea_20250104
+20,Sat,2025-01-04,15:00,Southampton,0.3,0–5,4.4,Brentford,https://fbref.com/en/matches/36fc576a/Southampton-Brentford-January-4-2025-Premier-League,True,Southampton_Brentford_20250104
+20,Sat,2025-01-04,15:00,Manchester City,1.9,4–1,1.4,West Ham,https://fbref.com/en/matches/d7773a4c/Manchester-City-West-Ham-United-January-4-2025-Premier-League,True,ManchesterCity_WestHam_20250104
+20,Sat,2025-01-04,17:30,Brighton,1.5,1–1,0.9,Arsenal,https://fbref.com/en/matches/52186da4/Brighton-and-Hove-Albion-Arsenal-January-4-2025-Premier-League,True,Brighton_Arsenal_20250104
+20,Sun,2025-01-05,14:00,Fulham,2.2,2–2,1.5,Ipswich Town,https://fbref.com/en/matches/8b69ef69/Fulham-Ipswich-Town-January-5-2025-Premier-League,True,Fulham_IpswichTown_20250105
+20,Sun,2025-01-05,16:30,Liverpool,2.7,2–2,1.0,Manchester Utd,https://fbref.com/en/matches/4cef863f/North-West-Derby-Liverpool-Manchester-United-January-5-2025-Premier-League,True,Liverpool_ManchesterUtd_20250105
+20,Mon,2025-01-06,20:00,Wolves,1.5,0–3,2.1,Nott'ham Forest,https://fbref.com/en/matches/56c4250a/Wolverhampton-Wanderers-Nottingham-Forest-January-6-2025-Premier-League,True,Wolves_Nott'hamForest_20250106
+21,Tue,2025-01-14,19:30,West Ham,1.0,3–2,1.7,Fulham,https://fbref.com/en/matches/c6168c73/West-Ham-United-Fulham-January-14-2025-Premier-League,True,WestHam_Fulham_20250114
+21,Tue,2025-01-14,19:30,Chelsea,2.5,2–2,1.2,Bournemouth,https://fbref.com/en/matches/fff671a9/Chelsea-Bournemouth-January-14-2025-Premier-League,True,Chelsea_Bournemouth_20250114
+21,Tue,2025-01-14,19:30,Brentford,2.5,2–2,2.2,Manchester City,https://fbref.com/en/matches/68c2e6b8/Brentford-Manchester-City-January-14-2025-Premier-League,True,Brentford_ManchesterCity_20250114
+21,Tue,2025-01-14,20:00,Nott'ham Forest,0.3,1–1,2.0,Liverpool,https://fbref.com/en/matches/118f8df8/Nottingham-Forest-Liverpool-January-14-2025-Premier-League,True,Nott'hamForest_Liverpool_20250114
+21,Wed,2025-01-15,19:30,Leicester City,1.7,0–2,1.8,Crystal Palace,https://fbref.com/en/matches/99eb6105/Leicester-City-Crystal-Palace-January-15-2025-Premier-League,True,LeicesterCity_CrystalPalace_20250115
+21,Wed,2025-01-15,19:30,Everton,1.1,0–1,1.2,Aston Villa,https://fbref.com/en/matches/3e70b855/Everton-Aston-Villa-January-15-2025-Premier-League,True,Everton_AstonVilla_20250115
+21,Wed,2025-01-15,19:30,Newcastle Utd,2.1,3–0,1.6,Wolves,https://fbref.com/en/matches/535d70d7/Newcastle-United-Wolverhampton-Wanderers-January-15-2025-Premier-League,True,NewcastleUtd_Wolves_20250115
+21,Wed,2025-01-15,20:00,Arsenal,1.4,2–1,0.8,Tottenham,https://fbref.com/en/matches/ee9ce5e2/North-London-Derby-Arsenal-Tottenham-Hotspur-January-15-2025-Premier-League,True,Arsenal_Tottenham_20250115
+21,Thu,2025-01-16,19:30,Ipswich Town,0.3,0–2,1.0,Brighton,https://fbref.com/en/matches/ace86fcc/Ipswich-Town-Brighton-and-Hove-Albion-January-16-2025-Premier-League,True,IpswichTown_Brighton_20250116
+21,Thu,2025-01-16,20:00,Manchester Utd,3.4,3–1,1.4,Southampton,https://fbref.com/en/matches/f443a602/Manchester-United-Southampton-January-16-2025-Premier-League,True,ManchesterUtd_Southampton_20250116
+22,Sat,2025-01-18,12:30,Newcastle Utd,0.8,1–4,2.0,Bournemouth,https://fbref.com/en/matches/99d11a39/Newcastle-United-Bournemouth-January-18-2025-Premier-League,True,NewcastleUtd_Bournemouth_20250118
+22,Sat,2025-01-18,15:00,Leicester City,0.6,0–2,2.0,Fulham,https://fbref.com/en/matches/bc3ae18e/Leicester-City-Fulham-January-18-2025-Premier-League,True,LeicesterCity_Fulham_20250118
+22,Sat,2025-01-18,15:00,West Ham,0.3,0–2,1.3,Crystal Palace,https://fbref.com/en/matches/03ac4a9c/West-Ham-United-Crystal-Palace-January-18-2025-Premier-League,True,WestHam_CrystalPalace_20250118
+22,Sat,2025-01-18,15:00,Brentford,0.7,0–2,3.4,Liverpool,https://fbref.com/en/matches/5e8445c1/Brentford-Liverpool-January-18-2025-Premier-League,True,Brentford_Liverpool_20250118
+22,Sat,2025-01-18,17:30,Arsenal,1.3,2–2,1.0,Aston Villa,https://fbref.com/en/matches/1fdaaaba/Arsenal-Aston-Villa-January-18-2025-Premier-League,True,Arsenal_AstonVilla_20250118
+22,Sun,2025-01-19,14:00,Everton,1.8,3–2,1.1,Tottenham,https://fbref.com/en/matches/e9f61cb0/Everton-Tottenham-Hotspur-January-19-2025-Premier-League,True,Everton_Tottenham_20250119
+22,Sun,2025-01-19,14:00,Manchester Utd,1.5,1–3,1.9,Brighton,https://fbref.com/en/matches/45028d5b/Manchester-United-Brighton-and-Hove-Albion-January-19-2025-Premier-League,True,ManchesterUtd_Brighton_20250119
+22,Sun,2025-01-19,14:00,Nott'ham Forest,1.8,3–2,0.9,Southampton,https://fbref.com/en/matches/e0f90407/Nottingham-Forest-Southampton-January-19-2025-Premier-League,True,Nott'hamForest_Southampton_20250119
+22,Sun,2025-01-19,16:30,Ipswich Town,0.5,0–6,3.0,Manchester City,https://fbref.com/en/matches/6c829b8f/Ipswich-Town-Manchester-City-January-19-2025-Premier-League,True,IpswichTown_ManchesterCity_20250119
+22,Mon,2025-01-20,20:00,Chelsea,3.1,3–1,0.8,Wolves,https://fbref.com/en/matches/e62cfa12/Chelsea-Wolverhampton-Wanderers-January-20-2025-Premier-League,True,Chelsea_Wolves_20250120
+23,Sat,2025-01-25,15:00,Southampton,0.8,1–3,2.9,Newcastle Utd,https://fbref.com/en/matches/7d05223b/Southampton-Newcastle-United-January-25-2025-Premier-League,True,Southampton_NewcastleUtd_20250125
+23,Sat,2025-01-25,15:00,Brighton,0.7,0–1,0.8,Everton,https://fbref.com/en/matches/b54aac79/Brighton-and-Hove-Albion-Everton-January-25-2025-Premier-League,True,Brighton_Everton_20250125
+23,Sat,2025-01-25,15:00,Liverpool,2.0,4–1,0.5,Ipswich Town,https://fbref.com/en/matches/ee59115f/Liverpool-Ipswich-Town-January-25-2025-Premier-League,True,Liverpool_IpswichTown_20250125
+23,Sat,2025-01-25,15:00,Bournemouth,1.7,5–0,1.0,Nott'ham Forest,https://fbref.com/en/matches/efa8ddd7/Bournemouth-Nottingham-Forest-January-25-2025-Premier-League,True,Bournemouth_Nott'hamForest_20250125
+23,Sat,2025-01-25,15:00,Wolves,0.7,0–1,1.0,Arsenal,https://fbref.com/en/matches/0b39252e/Wolverhampton-Wanderers-Arsenal-January-25-2025-Premier-League,True,Wolves_Arsenal_20250125
+23,Sat,2025-01-25,17:30,Manchester City,2.2,3–1,1.8,Chelsea,https://fbref.com/en/matches/bfd54040/Manchester-City-Chelsea-January-25-2025-Premier-League,True,ManchesterCity_Chelsea_20250125
+23,Sun,2025-01-26,14:00,Crystal Palace,1.1,1–2,1.3,Brentford,https://fbref.com/en/matches/68d6e8fe/Crystal-Palace-Brentford-January-26-2025-Premier-League,True,CrystalPalace_Brentford_20250126
+23,Sun,2025-01-26,14:00,Tottenham,1.0,1–2,1.6,Leicester City,https://fbref.com/en/matches/8226bca2/Tottenham-Hotspur-Leicester-City-January-26-2025-Premier-League,True,Tottenham_LeicesterCity_20250126
+23,Sun,2025-01-26,16:30,Aston Villa,0.9,1–1,1.3,West Ham,https://fbref.com/en/matches/bb05246c/Aston-Villa-West-Ham-United-January-26-2025-Premier-League,True,AstonVilla_WestHam_20250126
+23,Sun,2025-01-26,19:00,Fulham,0.7,0–1,0.3,Manchester Utd,https://fbref.com/en/matches/eb14e391/Fulham-Manchester-United-January-26-2025-Premier-League,True,Fulham_ManchesterUtd_20250126
+24,Sat,2025-02-01,12:30,Nott'ham Forest,3.3,7–0,0.9,Brighton,https://fbref.com/en/matches/897ab235/Nottingham-Forest-Brighton-and-Hove-Albion-February-1-2025-Premier-League,True,Nott'hamForest_Brighton_20250201
+24,Sat,2025-02-01,15:00,Everton,2.5,4–0,0.3,Leicester City,https://fbref.com/en/matches/475670fb/Everton-Leicester-City-February-1-2025-Premier-League,True,Everton_LeicesterCity_20250201
+24,Sat,2025-02-01,15:00,Newcastle Utd,0.8,1–2,1.6,Fulham,https://fbref.com/en/matches/5ec3f48b/Newcastle-United-Fulham-February-1-2025-Premier-League,True,NewcastleUtd_Fulham_20250201
+24,Sat,2025-02-01,15:00,Bournemouth,1.6,0–2,2.5,Liverpool,https://fbref.com/en/matches/886603cd/Bournemouth-Liverpool-February-1-2025-Premier-League,True,Bournemouth_Liverpool_20250201
+24,Sat,2025-02-01,15:00,Ipswich Town,1.8,1–2,0.9,Southampton,https://fbref.com/en/matches/1098cac0/Ipswich-Town-Southampton-February-1-2025-Premier-League,True,IpswichTown_Southampton_20250201
+24,Sat,2025-02-01,17:30,Wolves,1.6,2–0,0.4,Aston Villa,https://fbref.com/en/matches/693ab427/Wolverhampton-Wanderers-Aston-Villa-February-1-2025-Premier-League,True,Wolves_AstonVilla_20250201
+24,Sun,2025-02-02,14:00,Manchester Utd,1.1,0–2,2.6,Crystal Palace,https://fbref.com/en/matches/83dba981/Manchester-United-Crystal-Palace-February-2-2025-Premier-League,True,ManchesterUtd_CrystalPalace_20250202
+24,Sun,2025-02-02,14:00,Brentford,2.1,0–2,0.8,Tottenham,https://fbref.com/en/matches/7193a229/Brentford-Tottenham-Hotspur-February-2-2025-Premier-League,True,Brentford_Tottenham_20250202
+24,Sun,2025-02-02,16:30,Arsenal,1.0,5–1,0.8,Manchester City,https://fbref.com/en/matches/2906e921/Arsenal-Manchester-City-February-2-2025-Premier-League,True,Arsenal_ManchesterCity_20250202
+24,Mon,2025-02-03,20:00,Chelsea,1.6,2–1,1.2,West Ham,https://fbref.com/en/matches/ed7df9b1/Chelsea-West-Ham-United-February-3-2025-Premier-League,True,Chelsea_WestHam_20250203
+15,Wed,2025-02-12,19:30,Everton,1.0,2–2,0.6,Liverpool,https://fbref.com/en/matches/92627434/Merseyside-Derby-Everton-Liverpool-February-12-2025-Premier-League,True,Everton_Liverpool_20250212
+25,Fri,2025-02-14,20:00,Brighton,1.4,3–0,0.5,Chelsea,https://fbref.com/en/matches/ed780e1d/Brighton-and-Hove-Albion-Chelsea-February-14-2025-Premier-League,True,Brighton_Chelsea_20250214
+25,Sat,2025-02-15,12:30,Leicester City,0.2,0–2,1.4,Arsenal,https://fbref.com/en/matches/af8aa0dd/Leicester-City-Arsenal-February-15-2025-Premier-League,True,LeicesterCity_Arsenal_20250215
+25,Sat,2025-02-15,15:00,Fulham,2.1,2–1,0.4,Nott'ham Forest,https://fbref.com/en/matches/5968d7ad/Fulham-Nottingham-Forest-February-15-2025-Premier-League,True,Fulham_Nott'hamForest_20250215
+25,Sat,2025-02-15,15:00,Manchester City,1.9,4–0,0.5,Newcastle Utd,https://fbref.com/en/matches/8c51fa01/Manchester-City-Newcastle-United-February-15-2025-Premier-League,True,ManchesterCity_NewcastleUtd_20250215
+25,Sat,2025-02-15,15:00,Southampton,0.8,1–3,1.2,Bournemouth,https://fbref.com/en/matches/ce3da486/Southampton-Bournemouth-February-15-2025-Premier-League,True,Southampton_Bournemouth_20250215
+25,Sat,2025-02-15,15:00,Aston Villa,2.4,1–1,0.4,Ipswich Town,https://fbref.com/en/matches/06fee8c4/Aston-Villa-Ipswich-Town-February-15-2025-Premier-League,True,AstonVilla_IpswichTown_20250215
+25,Sat,2025-02-15,15:00,West Ham,0.8,0–1,1.6,Brentford,https://fbref.com/en/matches/79406a7e/West-Ham-United-Brentford-February-15-2025-Premier-League,True,WestHam_Brentford_20250215
+25,Sat,2025-02-15,17:30,Crystal Palace,1.6,1–2,0.9,Everton,https://fbref.com/en/matches/35ee3617/Crystal-Palace-Everton-February-15-2025-Premier-League,True,CrystalPalace_Everton_20250215
+25,Sun,2025-02-16,14:00,Liverpool,1.7,2–1,1.5,Wolves,https://fbref.com/en/matches/6a917c79/Liverpool-Wolverhampton-Wanderers-February-16-2025-Premier-League,True,Liverpool_Wolves_20250216
+25,Sun,2025-02-16,16:30,Tottenham,2.2,1–0,1.5,Manchester Utd,https://fbref.com/en/matches/09db2a2f/Tottenham-Hotspur-Manchester-United-February-16-2025-Premier-League,True,Tottenham_ManchesterUtd_20250216
+29,Wed,2025-02-19,19:30,Aston Villa,0.6,2–2,2.5,Liverpool,https://fbref.com/en/matches/39c7b656/Aston-Villa-Liverpool-February-19-2025-Premier-League,True,AstonVilla_Liverpool_20250219
+26,Fri,2025-02-21,20:00,Leicester City,0.5,0–4,1.5,Brentford,https://fbref.com/en/matches/da5a149a/Leicester-City-Brentford-February-21-2025-Premier-League,True,LeicesterCity_Brentford_20250221
+26,Sat,2025-02-22,12:30,Everton,1.6,2–2,0.4,Manchester Utd,https://fbref.com/en/matches/e5b45c4d/Everton-Manchester-United-February-22-2025-Premier-League,True,Everton_ManchesterUtd_20250222
+26,Sat,2025-02-22,15:00,Fulham,0.2,0–2,1.3,Crystal Palace,https://fbref.com/en/matches/7289bcdf/Fulham-Crystal-Palace-February-22-2025-Premier-League,True,Fulham_CrystalPalace_20250222
+26,Sat,2025-02-22,15:00,Bournemouth,0.9,0–1,2.0,Wolves,https://fbref.com/en/matches/ccdda6d3/Bournemouth-Wolverhampton-Wanderers-February-22-2025-Premier-League,True,Bournemouth_Wolves_20250222
+26,Sat,2025-02-22,15:00,Ipswich Town,1.1,1–4,1.7,Tottenham,https://fbref.com/en/matches/7853cd1a/Ipswich-Town-Tottenham-Hotspur-February-22-2025-Premier-League,True,IpswichTown_Tottenham_20250222
+26,Sat,2025-02-22,15:00,Arsenal,1.2,0–1,1.1,West Ham,https://fbref.com/en/matches/e511e91c/Arsenal-West-Ham-United-February-22-2025-Premier-League,True,Arsenal_WestHam_20250222
+26,Sat,2025-02-22,15:00,Southampton,0.1,0–4,3.9,Brighton,https://fbref.com/en/matches/e757bea1/Southampton-Brighton-and-Hove-Albion-February-22-2025-Premier-League,True,Southampton_Brighton_20250222
+26,Sat,2025-02-22,17:30,Aston Villa,2.3,2–1,2.3,Chelsea,https://fbref.com/en/matches/5109d405/Aston-Villa-Chelsea-February-22-2025-Premier-League,True,AstonVilla_Chelsea_20250222
+26,Sun,2025-02-23,14:00,Newcastle Utd,2.9,4–3,1.7,Nott'ham Forest,https://fbref.com/en/matches/93caf0bc/Newcastle-United-Nottingham-Forest-February-23-2025-Premier-League,True,NewcastleUtd_Nott'hamForest_20250223
+26,Sun,2025-02-23,16:30,Manchester City,0.6,0–2,0.7,Liverpool,https://fbref.com/en/matches/e51a316b/Manchester-City-Liverpool-February-23-2025-Premier-League,True,ManchesterCity_Liverpool_20250223
+27,Tue,2025-02-25,19:30,Brighton,2.4,2–1,1.5,Bournemouth,https://fbref.com/en/matches/fade9277/Brighton-and-Hove-Albion-Bournemouth-February-25-2025-Premier-League,True,Brighton_Bournemouth_20250225
+27,Tue,2025-02-25,19:30,Crystal Palace,4.3,4–1,0.4,Aston Villa,https://fbref.com/en/matches/0a97629a/Crystal-Palace-Aston-Villa-February-25-2025-Premier-League,True,CrystalPalace_AstonVilla_20250225
+27,Tue,2025-02-25,19:30,Wolves,1.3,1–2,1.7,Fulham,https://fbref.com/en/matches/7aecfc4c/Wolverhampton-Wanderers-Fulham-February-25-2025-Premier-League,True,Wolves_Fulham_20250225
+27,Tue,2025-02-25,20:15,Chelsea,2.4,4–0,0.7,Southampton,https://fbref.com/en/matches/21d4a457/Chelsea-Southampton-February-25-2025-Premier-League,True,Chelsea_Southampton_20250225
+27,Wed,2025-02-26,19:30,Tottenham,1.3,0–1,2.1,Manchester City,https://fbref.com/en/matches/3b8160bd/Tottenham-Hotspur-Manchester-City-February-26-2025-Premier-League,True,Tottenham_ManchesterCity_20250226
+27,Wed,2025-02-26,19:30,Nott'ham Forest,0.4,0–0,1.0,Arsenal,https://fbref.com/en/matches/d4387bc1/Nottingham-Forest-Arsenal-February-26-2025-Premier-League,True,Nott'hamForest_Arsenal_20250226
+27,Wed,2025-02-26,19:30,Manchester Utd,0.7,3–2,1.4,Ipswich Town,https://fbref.com/en/matches/bf6aa8ee/Manchester-United-Ipswich-Town-February-26-2025-Premier-League,True,ManchesterUtd_IpswichTown_20250226
+27,Wed,2025-02-26,19:30,Brentford,1.4,1–1,1.5,Everton,https://fbref.com/en/matches/1218933c/Brentford-Everton-February-26-2025-Premier-League,True,Brentford_Everton_20250226
+27,Wed,2025-02-26,20:15,Liverpool,1.7,2–0,0.2,Newcastle Utd,https://fbref.com/en/matches/a0975f8c/Liverpool-Newcastle-United-February-26-2025-Premier-League,True,Liverpool_NewcastleUtd_20250226
+27,Thu,2025-02-27,20:00,West Ham,1.3,2–0,0.4,Leicester City,https://fbref.com/en/matches/08b1b7de/West-Ham-United-Leicester-City-February-27-2025-Premier-League,True,WestHam_LeicesterCity_20250227
+28,Sat,2025-03-08,12:30,Nott'ham Forest,0.7,1–0,0.9,Manchester City,https://fbref.com/en/matches/d53c0405/Nottingham-Forest-Manchester-City-March-8-2025-Premier-League,True,Nott'hamForest_ManchesterCity_20250308
+28,Sat,2025-03-08,15:00,Liverpool,3.9,3–1,0.4,Southampton,https://fbref.com/en/matches/049341ab/Liverpool-Southampton-March-8-2025-Premier-League,True,Liverpool_Southampton_20250308
+28,Sat,2025-03-08,15:00,Brighton,1.5,2–1,0.9,Fulham,https://fbref.com/en/matches/fb4bb61d/Brighton-and-Hove-Albion-Fulham-March-8-2025-Premier-League,True,Brighton_Fulham_20250308
+28,Sat,2025-03-08,15:00,Crystal Palace,3.2,1–0,1.5,Ipswich Town,https://fbref.com/en/matches/b1ad79e4/Crystal-Palace-Ipswich-Town-March-8-2025-Premier-League,True,CrystalPalace_IpswichTown_20250308
+28,Sat,2025-03-08,17:30,Brentford,0.8,0–1,1.3,Aston Villa,https://fbref.com/en/matches/fb9126ab/Brentford-Aston-Villa-March-8-2025-Premier-League,True,Brentford_AstonVilla_20250308
+28,Sat,2025-03-08,20:00,Wolves,0.8,1–1,1.2,Everton,https://fbref.com/en/matches/2ac7408b/Wolverhampton-Wanderers-Everton-March-8-2025-Premier-League,True,Wolves_Everton_20250308
+28,Sun,2025-03-09,14:00,Chelsea,1.7,1–0,0.1,Leicester City,https://fbref.com/en/matches/236640be/Chelsea-Leicester-City-March-9-2025-Premier-League,True,Chelsea_LeicesterCity_20250309
+28,Sun,2025-03-09,14:00,Tottenham,1.5,2–2,2.2,Bournemouth,https://fbref.com/en/matches/81575514/Tottenham-Hotspur-Bournemouth-March-9-2025-Premier-League,True,Tottenham_Bournemouth_20250309
+28,Sun,2025-03-09,16:30,Manchester Utd,1.5,1–1,1.6,Arsenal,https://fbref.com/en/matches/8efec987/Manchester-United-Arsenal-March-9-2025-Premier-League,True,ManchesterUtd_Arsenal_20250309
+28,Mon,2025-03-10,20:00,West Ham,0.7,0–1,1.4,Newcastle Utd,https://fbref.com/en/matches/61ad9d6a/West-Ham-United-Newcastle-United-March-10-2025-Premier-League,True,WestHam_NewcastleUtd_20250310
+29,Sat,2025-03-15,15:00,Everton,1.0,1–1,0.8,West Ham,https://fbref.com/en/matches/d4bd829f/Everton-West-Ham-United-March-15-2025-Premier-League,True,Everton_WestHam_20250315
+29,Sat,2025-03-15,15:00,Southampton,1.3,1–2,0.4,Wolves,https://fbref.com/en/matches/eea61e7f/Southampton-Wolverhampton-Wanderers-March-15-2025-Premier-League,True,Southampton_Wolves_20250315
+29,Sat,2025-03-15,15:00,Ipswich Town,0.4,2–4,1.5,Nott'ham Forest,https://fbref.com/en/matches/a44e04e9/Ipswich-Town-Nottingham-Forest-March-15-2025-Premier-League,True,IpswichTown_Nott'hamForest_20250315
+29,Sat,2025-03-15,15:00,Manchester City,1.7,2–2,2.0,Brighton,https://fbref.com/en/matches/83fc3d29/Manchester-City-Brighton-and-Hove-Albion-March-15-2025-Premier-League,True,ManchesterCity_Brighton_20250315
+29,Sat,2025-03-15,17:30,Bournemouth,1.6,1–2,0.8,Brentford,https://fbref.com/en/matches/f3480c01/Bournemouth-Brentford-March-15-2025-Premier-League,True,Bournemouth_Brentford_20250315
+29,Sun,2025-03-16,13:30,Arsenal,0.7,1–0,0.4,Chelsea,https://fbref.com/en/matches/22de525d/North-West-London-Derby-Arsenal-Chelsea-March-16-2025-Premier-League,True,Arsenal_Chelsea_20250316
+29,Sun,2025-03-16,13:30,Fulham,1.0,2–0,0.9,Tottenham,https://fbref.com/en/matches/61428001/Fulham-Tottenham-Hotspur-March-16-2025-Premier-League,True,Fulham_Tottenham_20250316
+29,Sun,2025-03-16,19:00,Leicester City,1.0,0–3,0.9,Manchester Utd,https://fbref.com/en/matches/7bab156e/Leicester-City-Manchester-United-March-16-2025-Premier-League,True,LeicesterCity_ManchesterUtd_20250316
+30,Tue,2025-04-01,19:45,Arsenal,2.2,2–1,1.0,Fulham,https://fbref.com/en/matches/777d595c/Arsenal-Fulham-April-1-2025-Premier-League,True,Arsenal_Fulham_20250401
+30,Tue,2025-04-01,19:45,Wolves,1.2,1–0,1.3,West Ham,https://fbref.com/en/matches/6e6e9d8b/Wolverhampton-Wanderers-West-Ham-United-April-1-2025-Premier-League,True,Wolves_WestHam_20250401
+30,Tue,2025-04-01,20:00,Nott'ham Forest,0.5,1–0,1.6,Manchester Utd,https://fbref.com/en/matches/9f8a856e/Nottingham-Forest-Manchester-United-April-1-2025-Premier-League,True,Nott'hamForest_ManchesterUtd_20250401
+30,Wed,2025-04-02,19:45,Newcastle Utd,1.3,2–1,1.5,Brentford,https://fbref.com/en/matches/e202c3b7/Newcastle-United-Brentford-April-2-2025-Premier-League,True,NewcastleUtd_Brentford_20250402
+30,Wed,2025-04-02,19:45,Manchester City,2.2,2–0,0.1,Leicester City,https://fbref.com/en/matches/464a9c6c/Manchester-City-Leicester-City-April-2-2025-Premier-League,True,ManchesterCity_LeicesterCity_20250402
+30,Wed,2025-04-02,19:45,Southampton,0.7,1–1,0.7,Crystal Palace,https://fbref.com/en/matches/1c75bcda/Southampton-Crystal-Palace-April-2-2025-Premier-League,True,Southampton_CrystalPalace_20250402
+30,Wed,2025-04-02,19:45,Bournemouth,1.8,1–2,1.2,Ipswich Town,https://fbref.com/en/matches/19c54be2/Bournemouth-Ipswich-Town-April-2-2025-Premier-League,True,Bournemouth_IpswichTown_20250402
+30,Wed,2025-04-02,19:45,Brighton,0.9,0–3,1.2,Aston Villa,https://fbref.com/en/matches/158e64b3/Brighton-and-Hove-Albion-Aston-Villa-April-2-2025-Premier-League,True,Brighton_AstonVilla_20250402
+30,Wed,2025-04-02,20:00,Liverpool,1.5,1–0,0.9,Everton,https://fbref.com/en/matches/7e2a8ebe/Merseyside-Derby-Liverpool-Everton-April-2-2025-Premier-League,True,Liverpool_Everton_20250402
+30,Thu,2025-04-03,20:00,Chelsea,1.0,1–0,0.9,Tottenham,https://fbref.com/en/matches/33e26065/Chelsea-Tottenham-Hotspur-April-3-2025-Premier-League,True,Chelsea_Tottenham_20250403
+31,Sat,2025-04-05,12:30,Everton,1.1,1–1,1.8,Arsenal,https://fbref.com/en/matches/8a72e3dc/Everton-Arsenal-April-5-2025-Premier-League,True,Everton_Arsenal_20250405
+31,Sat,2025-04-05,15:00,Crystal Palace,0.6,2–1,1.0,Brighton,https://fbref.com/en/matches/e9cb51b4/Crystal-Palace-Brighton-and-Hove-Albion-April-5-2025-Premier-League,True,CrystalPalace_Brighton_20250405
+31,Sat,2025-04-05,15:00,Ipswich Town,0.8,1–2,2.6,Wolves,https://fbref.com/en/matches/b6f200da/Ipswich-Town-Wolverhampton-Wanderers-April-5-2025-Premier-League,True,IpswichTown_Wolves_20250405
+31,Sat,2025-04-05,15:00,West Ham,0.7,2–2,2.1,Bournemouth,https://fbref.com/en/matches/3812dc28/West-Ham-United-Bournemouth-April-5-2025-Premier-League,True,WestHam_Bournemouth_20250405
+31,Sat,2025-04-05,17:30,Aston Villa,3.0,2–1,1.5,Nott'ham Forest,https://fbref.com/en/matches/7b024699/Aston-Villa-Nottingham-Forest-April-5-2025-Premier-League,True,AstonVilla_Nott'hamForest_20250405
+31,Sun,2025-04-06,14:00,Fulham,0.7,3–2,1.5,Liverpool,https://fbref.com/en/matches/b34400d3/Fulham-Liverpool-April-6-2025-Premier-League,True,Fulham_Liverpool_20250406
+31,Sun,2025-04-06,14:00,Brentford,1.1,0–0,1.2,Chelsea,https://fbref.com/en/matches/5984e216/Brentford-Chelsea-April-6-2025-Premier-League,True,Brentford_Chelsea_20250406
+31,Sun,2025-04-06,14:00,Tottenham,2.1,3–1,1.0,Southampton,https://fbref.com/en/matches/f671e515/Tottenham-Hotspur-Southampton-April-6-2025-Premier-League,True,Tottenham_Southampton_20250406
+31,Sun,2025-04-06,16:30,Manchester Utd,0.9,0–0,0.5,Manchester City,https://fbref.com/en/matches/53e359bb/Manchester-Derby-Manchester-United-Manchester-City-April-6-2025-Premier-League,True,ManchesterUtd_ManchesterCity_20250406
+31,Mon,2025-04-07,20:00,Leicester City,0.5,0–3,3.2,Newcastle Utd,https://fbref.com/en/matches/d8efb6cc/Leicester-City-Newcastle-United-April-7-2025-Premier-League,True,LeicesterCity_NewcastleUtd_20250407
+32,Sat,2025-04-12,12:30,Manchester City,3.7,5–2,1.8,Crystal Palace,https://fbref.com/en/matches/7be33a60/Manchester-City-Crystal-Palace-April-12-2025-Premier-League,True,ManchesterCity_CrystalPalace_20250412
+32,Sat,2025-04-12,15:00,Brighton,3.8,2–2,1.5,Leicester City,https://fbref.com/en/matches/6c4e0e71/Brighton-and-Hove-Albion-Leicester-City-April-12-2025-Premier-League,True,Brighton_LeicesterCity_20250412
+32,Sat,2025-04-12,15:00,Southampton,0.3,0–3,3.0,Aston Villa,https://fbref.com/en/matches/eb58af0b/Southampton-Aston-Villa-April-12-2025-Premier-League,True,Southampton_AstonVilla_20250412
+32,Sat,2025-04-12,15:00,Nott'ham Forest,0.5,0–1,1.4,Everton,https://fbref.com/en/matches/83138c75/Nottingham-Forest-Everton-April-12-2025-Premier-League,True,Nott'hamForest_Everton_20250412
+32,Sat,2025-04-12,17:30,Arsenal,1.0,1–1,0.2,Brentford,https://fbref.com/en/matches/471d2141/Arsenal-Brentford-April-12-2025-Premier-League,True,Arsenal_Brentford_20250412
+32,Sun,2025-04-13,14:00,Liverpool,1.8,2–1,1.4,West Ham,https://fbref.com/en/matches/4975981b/Liverpool-West-Ham-United-April-13-2025-Premier-League,True,Liverpool_WestHam_20250413
+32,Sun,2025-04-13,14:00,Chelsea,2.2,2–2,1.1,Ipswich Town,https://fbref.com/en/matches/a45626b5/Chelsea-Ipswich-Town-April-13-2025-Premier-League,True,Chelsea_IpswichTown_20250413
+32,Sun,2025-04-13,14:00,Wolves,2.4,4–2,2.0,Tottenham,https://fbref.com/en/matches/5a44bda9/Wolverhampton-Wanderers-Tottenham-Hotspur-April-13-2025-Premier-League,True,Wolves_Tottenham_20250413
+32,Sun,2025-04-13,16:30,Newcastle Utd,2.2,4–1,0.7,Manchester Utd,https://fbref.com/en/matches/4254acea/Newcastle-United-Manchester-United-April-13-2025-Premier-League,True,NewcastleUtd_ManchesterUtd_20250413
+32,Mon,2025-04-14,20:00,Bournemouth,1.4,1–0,1.0,Fulham,https://fbref.com/en/matches/12ecaa9f/Bournemouth-Fulham-April-14-2025-Premier-League,True,Bournemouth_Fulham_20250414
+29,Wed,2025-04-16,19:30,Newcastle Utd,1.5,5–0,2.0,Crystal Palace,https://fbref.com/en/matches/6e87f6cf/Newcastle-United-Crystal-Palace-April-16-2025-Premier-League,True,NewcastleUtd_CrystalPalace_20250416
+33,Sat,2025-04-19,15:00,Everton,0.9,0–2,2.0,Manchester City,https://fbref.com/en/matches/a95e25da/Everton-Manchester-City-April-19-2025-Premier-League,True,Everton_ManchesterCity_20250419
+33,Sat,2025-04-19,15:00,West Ham,0.9,1–1,0.6,Southampton,https://fbref.com/en/matches/8d613b28/West-Ham-United-Southampton-April-19-2025-Premier-League,True,WestHam_Southampton_20250419
+33,Sat,2025-04-19,15:00,Crystal Palace,0.4,0–0,0.7,Bournemouth,https://fbref.com/en/matches/9d095ebf/Crystal-Palace-Bournemouth-April-19-2025-Premier-League,True,CrystalPalace_Bournemouth_20250419
+33,Sat,2025-04-19,15:00,Brentford,2.1,4–2,1.4,Brighton,https://fbref.com/en/matches/36afccb6/Brentford-Brighton-and-Hove-Albion-April-19-2025-Premier-League,True,Brentford_Brighton_20250419
+33,Sat,2025-04-19,17:30,Aston Villa,2.2,4–1,1.0,Newcastle Utd,https://fbref.com/en/matches/45a3960e/Aston-Villa-Newcastle-United-April-19-2025-Premier-League,True,AstonVilla_NewcastleUtd_20250419
+33,Sun,2025-04-20,14:00,Fulham,0.3,1–2,0.9,Chelsea,https://fbref.com/en/matches/aaac9748/Fulham-Chelsea-April-20-2025-Premier-League,True,Fulham_Chelsea_20250420
+33,Sun,2025-04-20,14:00,Ipswich Town,0.2,0–4,2.4,Arsenal,https://fbref.com/en/matches/2b599f1a/Ipswich-Town-Arsenal-April-20-2025-Premier-League,True,IpswichTown_Arsenal_20250420
+33,Sun,2025-04-20,14:00,Manchester Utd,1.3,0–1,0.2,Wolves,https://fbref.com/en/matches/e50fd749/Manchester-United-Wolverhampton-Wanderers-April-20-2025-Premier-League,True,ManchesterUtd_Wolves_20250420
+33,Sun,2025-04-20,16:30,Leicester City,0.3,0–1,2.5,Liverpool,https://fbref.com/en/matches/0a2030a0/Leicester-City-Liverpool-April-20-2025-Premier-League,True,LeicesterCity_Liverpool_20250420
+33,Mon,2025-04-21,20:00,Tottenham,2.1,1–2,0.5,Nott'ham Forest,https://fbref.com/en/matches/708743bf/Tottenham-Hotspur-Nottingham-Forest-April-21-2025-Premier-League,True,Tottenham_Nott'hamForest_20250421
+34,Tue,2025-04-22,20:00,Manchester City,1.3,2–1,1.8,Aston Villa,https://fbref.com/en/matches/3de68b91/Manchester-City-Aston-Villa-April-22-2025-Premier-League,True,ManchesterCity_AstonVilla_20250422
+34,Wed,2025-04-23,20:00,Arsenal,1.2,2–2,1.7,Crystal Palace,https://fbref.com/en/matches/67651145/Arsenal-Crystal-Palace-April-23-2025-Premier-League,True,Arsenal_CrystalPalace_20250423
+34,Sat,2025-04-26,12:30,Chelsea,0.8,1–0,0.4,Everton,https://fbref.com/en/matches/06c5f0ab/Chelsea-Everton-April-26-2025-Premier-League,True,Chelsea_Everton_20250426
+34,Sat,2025-04-26,15:00,Brighton,1.3,3–2,1.3,West Ham,https://fbref.com/en/matches/e1669507/Brighton-and-Hove-Albion-West-Ham-United-April-26-2025-Premier-League,True,Brighton_WestHam_20250426
+34,Sat,2025-04-26,15:00,Wolves,2.0,3–0,1.1,Leicester City,https://fbref.com/en/matches/1ced4069/Wolverhampton-Wanderers-Leicester-City-April-26-2025-Premier-League,True,Wolves_LeicesterCity_20250426
+34,Sat,2025-04-26,15:00,Southampton,0.6,1–2,2.4,Fulham,https://fbref.com/en/matches/9c6532bc/Southampton-Fulham-April-26-2025-Premier-League,True,Southampton_Fulham_20250426
+34,Sat,2025-04-26,15:00,Newcastle Utd,2.4,3–0,0.1,Ipswich Town,https://fbref.com/en/matches/3402b61b/Newcastle-United-Ipswich-Town-April-26-2025-Premier-League,True,NewcastleUtd_IpswichTown_20250426
+34,Sun,2025-04-27,14:00,Bournemouth,0.5,1–1,2.3,Manchester Utd,https://fbref.com/en/matches/81b6c6b4/Bournemouth-Manchester-United-April-27-2025-Premier-League,True,Bournemouth_ManchesterUtd_20250427
+34,Sun,2025-04-27,16:30,Liverpool,2.2,5–1,0.5,Tottenham,https://fbref.com/en/matches/64bc833f/Liverpool-Tottenham-Hotspur-April-27-2025-Premier-League,True,Liverpool_Tottenham_20250427
+34,Thu,2025-05-01,19:30,Nott'ham Forest,0.9,0–2,1.3,Brentford,https://fbref.com/en/matches/a896a308/Nottingham-Forest-Brentford-May-1-2025-Premier-League,True,Nott'hamForest_Brentford_20250501
+35,Fri,2025-05-02,20:00,Manchester City,0.7,1–0,0.4,Wolves,https://fbref.com/en/matches/6a433468/Manchester-City-Wolverhampton-Wanderers-May-2-2025-Premier-League,True,ManchesterCity_Wolves_20250502
+35,Sat,2025-05-03,12:30,Aston Villa,1.0,1–0,0.9,Fulham,https://fbref.com/en/matches/d8e391ab/Aston-Villa-Fulham-May-3-2025-Premier-League,True,AstonVilla_Fulham_20250503
+35,Sat,2025-05-03,15:00,Leicester City,1.4,2–0,0.5,Southampton,https://fbref.com/en/matches/e89fe486/Leicester-City-Southampton-May-3-2025-Premier-League,True,LeicesterCity_Southampton_20250503
+35,Sat,2025-05-03,15:00,Everton,0.6,2–2,0.8,Ipswich Town,https://fbref.com/en/matches/b93c98b0/Everton-Ipswich-Town-May-3-2025-Premier-League,True,Everton_IpswichTown_20250503
+35,Sat,2025-05-03,17:30,Arsenal,1.4,1–2,0.9,Bournemouth,https://fbref.com/en/matches/ad3827f3/Arsenal-Bournemouth-May-3-2025-Premier-League,True,Arsenal_Bournemouth_20250503
+35,Sun,2025-05-04,14:00,Brighton,0.7,1–1,1.7,Newcastle Utd,https://fbref.com/en/matches/e09b4b94/Brighton-and-Hove-Albion-Newcastle-United-May-4-2025-Premier-League,True,Brighton_NewcastleUtd_20250504
+35,Sun,2025-05-04,14:00,West Ham,0.8,1–1,0.8,Tottenham,https://fbref.com/en/matches/70dcad6e/West-Ham-United-Tottenham-Hotspur-May-4-2025-Premier-League,True,WestHam_Tottenham_20250504
+35,Sun,2025-05-04,14:00,Brentford,2.8,4–3,1.5,Manchester Utd,https://fbref.com/en/matches/29dbd7d1/Brentford-Manchester-United-May-4-2025-Premier-League,True,Brentford_ManchesterUtd_20250504
+35,Sun,2025-05-04,16:30,Chelsea,3.1,3–1,1.0,Liverpool,https://fbref.com/en/matches/157740ee/Chelsea-Liverpool-May-4-2025-Premier-League,True,Chelsea_Liverpool_20250504
+35,Mon,2025-05-05,20:00,Crystal Palace,2.3,1–1,0.7,Nott'ham Forest,https://fbref.com/en/matches/89cb2963/Crystal-Palace-Nottingham-Forest-May-5-2025-Premier-League,True,CrystalPalace_Nott'hamForest_20250505
+36,Sat,2025-05-10,15:00,Ipswich Town,0.9,0–1,1.4,Brentford,https://fbref.com/en/matches/ea2685e0/Ipswich-Town-Brentford-May-10-2025-Premier-League,True,IpswichTown_Brentford_20250510
+36,Sat,2025-05-10,15:00,Fulham,0.8,1–3,1.1,Everton,https://fbref.com/en/matches/a637fb4e/Fulham-Everton-May-10-2025-Premier-League,True,Fulham_Everton_20250510
+36,Sat,2025-05-10,15:00,Wolves,0.9,0–2,1.6,Brighton,https://fbref.com/en/matches/f1bf04cb/Wolverhampton-Wanderers-Brighton-and-Hove-Albion-May-10-2025-Premier-League,True,Wolves_Brighton_20250510
+36,Sat,2025-05-10,15:00,Southampton,0.1,0–0,1.7,Manchester City,https://fbref.com/en/matches/35a46606/Southampton-Manchester-City-May-10-2025-Premier-League,True,Southampton_ManchesterCity_20250510
+36,Sat,2025-05-10,17:30,Bournemouth,0.8,0–1,1.0,Aston Villa,https://fbref.com/en/matches/dd48659a/Bournemouth-Aston-Villa-May-10-2025-Premier-League,True,Bournemouth_AstonVilla_20250510
+36,Sun,2025-05-11,12:00,Newcastle Utd,1.6,2–0,0.7,Chelsea,https://fbref.com/en/matches/b409de42/Newcastle-United-Chelsea-May-11-2025-Premier-League,True,NewcastleUtd_Chelsea_20250511
+36,Sun,2025-05-11,14:15,Nott'ham Forest,1.3,2–2,1.1,Leicester City,https://fbref.com/en/matches/c3e242fc/Nottingham-Forest-Leicester-City-May-11-2025-Premier-League,True,Nott'hamForest_LeicesterCity_20250511
+36,Sun,2025-05-11,14:15,Tottenham,0.7,0–2,3.3,Crystal Palace,https://fbref.com/en/matches/a442e11f/Tottenham-Hotspur-Crystal-Palace-May-11-2025-Premier-League,True,Tottenham_CrystalPalace_20250511
+36,Sun,2025-05-11,14:15,Manchester Utd,2.1,0–2,1.7,West Ham,https://fbref.com/en/matches/c4548397/Manchester-United-West-Ham-United-May-11-2025-Premier-League,True,ManchesterUtd_WestHam_20250511
+36,Sun,2025-05-11,16:30,Liverpool,2.4,2–2,2.6,Arsenal,https://fbref.com/en/matches/0dc9bdd9/Liverpool-Arsenal-May-11-2025-Premier-League,True,Liverpool_Arsenal_20250511
+37,Fri,2025-05-16,19:30,Aston Villa,1.4,2–0,0.5,Tottenham,https://fbref.com/en/matches/b2651680/Aston-Villa-Tottenham-Hotspur-May-16-2025-Premier-League,True,AstonVilla_Tottenham_20250516
+37,Fri,2025-05-16,20:15,Chelsea,0.8,1–0,0.3,Manchester Utd,https://fbref.com/en/matches/c95dd208/Chelsea-Manchester-United-May-16-2025-Premier-League,True,Chelsea_ManchesterUtd_20250516
+37,Sun,2025-05-18,12:00,Everton,2.7,2–0,1.2,Southampton,https://fbref.com/en/matches/9e338dfb/Everton-Southampton-May-18-2025-Premier-League,True,Everton_Southampton_20250518
+37,Sun,2025-05-18,14:15,West Ham,1.1,1–2,1.9,Nott'ham Forest,https://fbref.com/en/matches/79180ca6/West-Ham-United-Nottingham-Forest-May-18-2025-Premier-League,True,WestHam_Nott'hamForest_20250518
+37,Sun,2025-05-18,15:00,Brentford,2.5,2–3,1.0,Fulham,https://fbref.com/en/matches/064e6a34/Brentford-Fulham-May-18-2025-Premier-League,True,Brentford_Fulham_20250518
+37,Sun,2025-05-18,15:00,Leicester City,0.8,2–0,1.4,Ipswich Town,https://fbref.com/en/matches/20b5a00b/Leicester-City-Ipswich-Town-May-18-2025-Premier-League,True,LeicesterCity_IpswichTown_20250518
+37,Sun,2025-05-18,16:30,Arsenal,0.6,1–0,1.5,Newcastle Utd,https://fbref.com/en/matches/0a51acae/Arsenal-Newcastle-United-May-18-2025-Premier-League,True,Arsenal_NewcastleUtd_20250518
+37,Mon,2025-05-19,20:00,Brighton,2.2,3–2,2.2,Liverpool,https://fbref.com/en/matches/1f3db37a/Brighton-and-Hove-Albion-Liverpool-May-19-2025-Premier-League,True,Brighton_Liverpool_20250519
+37,Tue,2025-05-20,20:00,Manchester City,1.5,3–1,1.1,Bournemouth,https://fbref.com/en/matches/e5e516e9/Manchester-City-Bournemouth-May-20-2025-Premier-League,True,ManchesterCity_Bournemouth_20250520
+37,Tue,2025-05-20,20:00,Crystal Palace,1.7,4–2,1.4,Wolves,https://fbref.com/en/matches/f85454d3/Crystal-Palace-Wolverhampton-Wanderers-May-20-2025-Premier-League,True,CrystalPalace_Wolves_20250520
+38,Sun,2025-05-25,16:00,Manchester Utd,2.9,2–0,0.4,Aston Villa,https://fbref.com/en/matches/7ea43929/Manchester-United-Aston-Villa-May-25-2025-Premier-League,True,ManchesterUtd_AstonVilla_20250525
+38,Sun,2025-05-25,16:00,Ipswich Town,0.7,1–3,1.1,West Ham,https://fbref.com/en/matches/15559cff/Ipswich-Town-West-Ham-United-May-25-2025-Premier-League,True,IpswichTown_WestHam_20250525
+38,Sun,2025-05-25,16:00,Wolves,1.0,1–1,1.4,Brentford,https://fbref.com/en/matches/812ef8ad/Wolverhampton-Wanderers-Brentford-May-25-2025-Premier-League,True,Wolves_Brentford_20250525
+38,Sun,2025-05-25,16:00,Southampton,0.6,1–2,2.3,Arsenal,https://fbref.com/en/matches/01d155b4/Southampton-Arsenal-May-25-2025-Premier-League,True,Southampton_Arsenal_20250525
+38,Sun,2025-05-25,16:00,Liverpool,2.1,1–1,1.8,Crystal Palace,https://fbref.com/en/matches/0958eb7a/Liverpool-Crystal-Palace-May-25-2025-Premier-League,True,Liverpool_CrystalPalace_20250525
+38,Sun,2025-05-25,16:00,Nott'ham Forest,1.2,0–1,1.1,Chelsea,https://fbref.com/en/matches/464cbad6/Nottingham-Forest-Chelsea-May-25-2025-Premier-League,True,Nott'hamForest_Chelsea_20250525
+38,Sun,2025-05-25,16:00,Fulham,1.3,0–2,3.0,Manchester City,https://fbref.com/en/matches/3d22336e/Fulham-Manchester-City-May-25-2025-Premier-League,True,Fulham_ManchesterCity_20250525
+38,Sun,2025-05-25,16:00,Newcastle Utd,1.2,0–1,1.2,Everton,https://fbref.com/en/matches/36844e73/Newcastle-United-Everton-May-25-2025-Premier-League,True,NewcastleUtd_Everton_20250525
+38,Sun,2025-05-25,16:00,Bournemouth,1.6,2–0,0.3,Leicester City,https://fbref.com/en/matches/1ff370e8/Bournemouth-Leicester-City-May-25-2025-Premier-League,True,Bournemouth_LeicesterCity_20250525
+38,Sun,2025-05-25,16:00,Tottenham,2.0,1–4,2.2,Brighton,https://fbref.com/en/matches/e4bb1c35/Tottenham-Hotspur-Brighton-and-Hove-Albion-May-25-2025-Premier-League,True,Tottenham_Brighton_20250525
