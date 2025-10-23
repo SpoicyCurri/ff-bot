@@ -11,7 +11,6 @@ st.set_page_config(page_title=config.PAGE_TITLE, layout=config.PAGE_LAYOUT)
 alt.data_transformers.disable_max_rows()
 
 
-# Load data
 @st.cache_data
 def load_data():
     """Load player summary data and fixture data"""
@@ -42,7 +41,6 @@ def load_data():
         return pd.DataFrame()
 
 
-# Design filters
 def sidebar_filters(df):
     # Comparison settings
     selected_metric = st.sidebar.selectbox(

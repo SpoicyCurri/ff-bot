@@ -1404,3 +1404,38 @@ Exception: Browser.close: Connection closed while reading from the driver
 2025-10-20 08:19:25,311 - INFO - Added 2 rows to goalkeeper data (total: 159)
 2025-10-20 08:19:25,318 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
 2025-10-20 08:19:35,432 - INFO - Data collection completed successfully
+2025-10-21 20:03:13,542 - INFO - Starting FBRef data collection for Premier League
+2025-10-21 20:03:13,544 - INFO - Processing league: Premier-League from https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-10-21 20:03:13,545 - INFO - Getting fixture data...
+2025-10-21 20:03:22,222 - INFO - Navigating to https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-10-21 20:03:31,701 - INFO - Found 10 tables on page
+2025-10-21 20:03:31,702 - INFO - Fixture table shape: (426, 14)
+2025-10-21 20:03:34,100 - INFO - Found 380 match report links
+2025-10-21 20:03:34,111 - INFO - Fixture data saved to data\fixture_data.csv
+2025-10-21 20:03:34,256 - INFO - Successfully retrieved 380 fixtures
+2025-10-21 20:03:34,256 - INFO - Starting player data collection
+2025-10-21 20:03:34,273 - INFO - Found 79 existing games
+2025-10-21 20:03:34,287 - INFO - Loaded existing summary data
+2025-10-21 20:03:34,313 - INFO - Loaded existing passing data
+2025-10-21 20:03:34,338 - INFO - Loaded existing passing_types data
+2025-10-21 20:03:34,364 - INFO - Loaded existing defensive_actions data
+2025-10-21 20:03:34,392 - INFO - Loaded existing possession data
+2025-10-21 20:03:34,416 - INFO - Loaded existing miscellaneous data
+2025-10-21 20:03:34,432 - INFO - Loaded existing goalkeeper data
+2025-10-21 20:03:34,436 - INFO - Found 1 new games to process
+2025-10-21 20:03:35,565 - INFO - Processing match 1/1: https://fbref.com/en/matches/3322a47b/West-Ham-United-Brentford-October-20-2025-Premier-League
+2025-10-21 20:03:38,683 - INFO - Added 30 rows to summary data (total: 2450)
+2025-10-21 20:03:38,709 - INFO - Saved summary data to data\players\players_summary.csv
+2025-10-21 20:03:38,715 - INFO - Added 30 rows to passing data (total: 2450)
+2025-10-21 20:03:38,738 - INFO - Saved passing data to data\players\players_passing.csv
+2025-10-21 20:03:38,743 - INFO - Added 30 rows to passing_types data (total: 2450)
+2025-10-21 20:03:38,763 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-10-21 20:03:38,769 - INFO - Added 30 rows to defensive_actions data (total: 2450)
+2025-10-21 20:03:38,789 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-10-21 20:03:38,795 - INFO - Added 30 rows to possession data (total: 2450)
+2025-10-21 20:03:38,822 - INFO - Saved possession data to data\players\players_possession.csv
+2025-10-21 20:03:38,827 - INFO - Added 30 rows to miscellaneous data (total: 2450)
+2025-10-21 20:03:38,848 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-10-21 20:03:38,852 - INFO - Added 2 rows to goalkeeper data (total: 161)
+2025-10-21 20:03:38,859 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-10-21 20:03:45,530 - INFO - Data collection completed successfully
