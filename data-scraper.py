@@ -56,8 +56,8 @@ class ScraperConfig:
         # Create season-specific directories if season is specified
         if self.season:
             self.data_dir = self.data_dir / self.season
-            self.players_dir = self.data_dir / self.players_dir
         
+        self.players_dir = self.data_dir / self.players_dir
         self.data_dir.mkdir(exist_ok=True)
         self.players_dir.mkdir(exist_ok=True)
 
