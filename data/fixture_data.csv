@@ -90,14 +90,14 @@ Wk,Day,Date,Time,Home,xG Home,Score,xG Away,Away,Match Report,game_played,game_i
 9,Sun,2025-10-26,14:00,Bournemouth,0.6,2–0,0.4,Nott'ham Forest,https://fbref.com/en/matches/0676a57a/Bournemouth-Nottingham-Forest-October-26-2025-Premier-League,True,Bournemouth_Nott'hamForest_20251026
 9,Sun,2025-10-26,16:30,Everton,1.7,0–3,1.7,Tottenham,https://fbref.com/en/matches/4234aaa9/Everton-Tottenham-Hotspur-October-26-2025-Premier-League,True,Everton_Tottenham_20251026
 10,Sat,2025-11-01,15:00,Crystal Palace,0.7,2–0,0.5,Brentford,https://fbref.com/en/matches/96c4864b/Crystal-Palace-Brentford-November-1-2025-Premier-League,True,CrystalPalace_Brentford_20251101
-10,Sat,2025-11-01,15:00,Nott'ham Forest,1.9,2–2,1.1,Manchester Utd,https://fbref.com/en/matches/6f99be65/Nottingham-Forest-Manchester-United-November-1-2025-Premier-League,True,Nott'hamForest_ManchesterUtd_20251101
-10,Sat,2025-11-01,15:00,Fulham,1.4,3–0,0.2,Wolves,https://fbref.com/en/matches/03f6bccd/Fulham-Wolverhampton-Wanderers-November-1-2025-Premier-League,True,Fulham_Wolves_20251101
-10,Sat,2025-11-01,15:00,Burnley,0.4,0–2,2.4,Arsenal,https://fbref.com/en/matches/2e2f2939/Burnley-Arsenal-November-1-2025-Premier-League,True,Burnley_Arsenal_20251101
+10,Sat,2025-11-01,15:00,Nott'ham Forest,1.9,2–2,1.2,Manchester Utd,https://fbref.com/en/matches/6f99be65/Nottingham-Forest-Manchester-United-November-1-2025-Premier-League,True,Nott'hamForest_ManchesterUtd_20251101
+10,Sat,2025-11-01,15:00,Fulham,1.3,3–0,0.2,Wolves,https://fbref.com/en/matches/03f6bccd/Fulham-Wolverhampton-Wanderers-November-1-2025-Premier-League,True,Fulham_Wolves_20251101
+10,Sat,2025-11-01,15:00,Burnley,0.4,0–2,2.3,Arsenal,https://fbref.com/en/matches/2e2f2939/Burnley-Arsenal-November-1-2025-Premier-League,True,Burnley_Arsenal_20251101
 10,Sat,2025-11-01,15:00,Brighton,3.0,3–0,0.5,Leeds United,https://fbref.com/en/matches/40e608f4/Brighton-and-Hove-Albion-Leeds-United-November-1-2025-Premier-League,True,Brighton_LeedsUnited_20251101
-10,Sat,2025-11-01,17:30,Tottenham,0.1,0–1,3.0,Chelsea,https://fbref.com/en/matches/cb498e0b/Tottenham-Hotspur-Chelsea-November-1-2025-Premier-League,True,Tottenham_Chelsea_20251101
-10,Sat,2025-11-01,20:00,Liverpool,1.1,2–0,0.4,Aston Villa,https://fbref.com/en/matches/c15115cb/Liverpool-Aston-Villa-November-1-2025-Premier-League,True,Liverpool_AstonVilla_20251101
-10,Sun,2025-11-02,14:00,West Ham,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/7c21e445/Newcastle-United-vs-West-Ham-United-History,False,WestHam_NewcastleUtd_20251102
-10,Sun,2025-11-02,16:30,Manchester City,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/4ba7cbea/Manchester-City-vs-Bournemouth-History,False,ManchesterCity_Bournemouth_20251102
+10,Sat,2025-11-01,17:30,Tottenham,0.1,0–1,3.7,Chelsea,https://fbref.com/en/matches/cb498e0b/Tottenham-Hotspur-Chelsea-November-1-2025-Premier-League,True,Tottenham_Chelsea_20251101
+10,Sat,2025-11-01,20:00,Liverpool,1.2,2–0,0.4,Aston Villa,https://fbref.com/en/matches/c15115cb/Liverpool-Aston-Villa-November-1-2025-Premier-League,True,Liverpool_AstonVilla_20251101
+10,Sun,2025-11-02,14:00,West Ham,1.7,3–1,0.5,Newcastle Utd,https://fbref.com/en/matches/55587dfc/West-Ham-United-Newcastle-United-November-2-2025-Premier-League,True,WestHam_NewcastleUtd_20251102
+10,Sun,2025-11-02,16:30,Manchester City,2.2,3–1,0.7,Bournemouth,https://fbref.com/en/matches/cc77588b/Manchester-City-Bournemouth-November-2-2025-Premier-League,True,ManchesterCity_Bournemouth_20251102
 10,Mon,2025-11-03,20:00,Sunderland,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/8ef52968/Everton-vs-Sunderland-History,False,Sunderland_Everton_20251103
 11,Sat,2025-11-08,12:30,Tottenham,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/361ca564/19538871/Tottenham-Hotspur-vs-Manchester-United-History,False,Tottenham_ManchesterUtd_20251108
 11,Sat,2025-11-08,15:00,West Ham,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/943e8050/7c21e445/Burnley-vs-West-Ham-United-History,False,WestHam_Burnley_20251108

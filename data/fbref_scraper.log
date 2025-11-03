@@ -2056,3 +2056,53 @@ Exception: Browser.close: Connection closed while reading from the driver
 2025-11-02 17:05:22,736 - INFO - Added 2 rows to goalkeeper data (total: 195)
 2025-11-02 17:05:22,745 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
 2025-11-02 17:05:32,724 - INFO - Data collection completed successfully
+2025-11-03 07:40:10,984 - INFO - Starting FBRef data collection for Premier League
+2025-11-03 07:40:10,985 - INFO - Processing league: Premier-League from https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-11-03 07:40:10,987 - INFO - Getting fixture data...
+2025-11-03 07:40:18,307 - INFO - Navigating to https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-11-03 07:40:28,802 - INFO - Found 10 tables on page
+2025-11-03 07:40:28,802 - INFO - Fixture table shape: (426, 14)
+2025-11-03 07:40:31,645 - INFO - Found 380 match report links
+2025-11-03 07:40:31,655 - INFO - Fixture data saved to data\fixture_data.csv
+2025-11-03 07:40:31,808 - INFO - Successfully retrieved 380 fixtures
+2025-11-03 07:40:31,808 - INFO - Starting player data collection
+2025-11-03 07:40:31,849 - INFO - Found 97 existing games
+2025-11-03 07:40:31,867 - INFO - Loaded existing summary data
+2025-11-03 07:40:31,899 - INFO - Loaded existing passing data
+2025-11-03 07:40:31,930 - INFO - Loaded existing passing_types data
+2025-11-03 07:40:31,964 - INFO - Loaded existing defensive_actions data
+2025-11-03 07:40:32,001 - INFO - Loaded existing possession data
+2025-11-03 07:40:32,031 - INFO - Loaded existing miscellaneous data
+2025-11-03 07:40:32,050 - INFO - Loaded existing goalkeeper data
+2025-11-03 07:40:32,056 - INFO - Found 2 new games to process
+2025-11-03 07:40:33,449 - INFO - Processing match 1/2: https://fbref.com/en/matches/55587dfc/West-Ham-United-Newcastle-United-November-2-2025-Premier-League
+2025-11-03 07:40:37,121 - INFO - Added 30 rows to summary data (total: 3007)
+2025-11-03 07:40:37,162 - INFO - Saved summary data to data\players\players_summary.csv
+2025-11-03 07:40:37,170 - INFO - Added 30 rows to passing data (total: 3007)
+2025-11-03 07:40:37,201 - INFO - Saved passing data to data\players\players_passing.csv
+2025-11-03 07:40:37,210 - INFO - Added 30 rows to passing_types data (total: 3007)
+2025-11-03 07:40:37,237 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-11-03 07:40:37,244 - INFO - Added 30 rows to defensive_actions data (total: 3007)
+2025-11-03 07:40:37,270 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-11-03 07:40:37,279 - INFO - Added 30 rows to possession data (total: 3007)
+2025-11-03 07:40:37,313 - INFO - Saved possession data to data\players\players_possession.csv
+2025-11-03 07:40:37,318 - INFO - Added 30 rows to miscellaneous data (total: 3007)
+2025-11-03 07:40:37,346 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-11-03 07:40:37,352 - INFO - Added 2 rows to goalkeeper data (total: 197)
+2025-11-03 07:40:37,360 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-11-03 07:40:44,274 - INFO - Processing match 2/2: https://fbref.com/en/matches/cc77588b/Manchester-City-Bournemouth-November-2-2025-Premier-League
+2025-11-03 07:40:46,807 - INFO - Added 32 rows to summary data (total: 3039)
+2025-11-03 07:40:46,842 - INFO - Saved summary data to data\players\players_summary.csv
+2025-11-03 07:40:46,849 - INFO - Added 32 rows to passing data (total: 3039)
+2025-11-03 07:40:46,876 - INFO - Saved passing data to data\players\players_passing.csv
+2025-11-03 07:40:46,882 - INFO - Added 32 rows to passing_types data (total: 3039)
+2025-11-03 07:40:46,903 - INFO - Saved passing_types data to data\players\players_passing_types.csv
+2025-11-03 07:40:46,911 - INFO - Added 32 rows to defensive_actions data (total: 3039)
+2025-11-03 07:40:46,999 - INFO - Saved defensive_actions data to data\players\players_defensive_actions.csv
+2025-11-03 07:40:47,009 - INFO - Added 32 rows to possession data (total: 3039)
+2025-11-03 07:40:47,045 - INFO - Saved possession data to data\players\players_possession.csv
+2025-11-03 07:40:47,050 - INFO - Added 32 rows to miscellaneous data (total: 3039)
+2025-11-03 07:40:47,076 - INFO - Saved miscellaneous data to data\players\players_miscellaneous.csv
+2025-11-03 07:40:47,084 - INFO - Added 2 rows to goalkeeper data (total: 199)
+2025-11-03 07:40:47,090 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
+2025-11-03 07:40:55,342 - INFO - Data collection completed successfully
