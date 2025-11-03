@@ -19,6 +19,8 @@ def load_player_data():
         df = pd.read_csv(config.PLAYERS_FILE)
         # Load fixture data
         fixtures_df = pd.read_csv(config.FIXTURES_FILE)
+        # Load FPL data
+        fpl_df = pd.read_csv(config.FPL_FILE)
 
         # Merge player data with fixture data to get team information and gameweek
         df = pd.merge(
@@ -26,11 +28,16 @@ def load_player_data():
         )
         df = df.rename(columns={"Wk": "gameweek_number"})
 
+        # Merge with FPL data to get additional player info
+        df = pd.merge(df, fpl_df[["fbref_name", 'position', 'fpl_cost']], left_on="Player", right_on="fbref_name", how="inner")
+
         # Add team and opponent columns based on home flag
         df["Team"] = np.where(df["home"], df["Home"], df["Away"])
         df["Opponent"] = np.where(df["home"], df["Away"], df["Home"])
 
         # Add derived statistics
+        df['Defensive Contributions'] = df['Tkl'] + df['Int'] + df['Blocks']
+        df['xGI'] = df["xG"] + df["xAG"]
         df["Minutes_Per_Goal"] = df["Min"] / df["Gls"].replace(0, np.nan)
         df["Goal_Involvement"] = df["Gls"] + df["Ast"]
         df["xG_Overperformance"] = df["Gls"] - df["xG"]
@@ -67,6 +74,9 @@ def load_team_data():
 
 
 def sidebar_filters(df, is_team_tab=False):
+    # Get the maximum gameweek number
+    max_gameweek = df["gameweek_number"].max()
+    
     # Comparison settings
     if is_team_tab:
         selected_metric = "xGA"  # Fixed metric for team tab
@@ -78,6 +88,17 @@ def sidebar_filters(df, is_team_tab=False):
             10,
             key="team_slider_n"
         )
+        recent_weeks = st.sidebar.slider(
+            "Consider Last N Weeks", 1, max_gameweek, max_gameweek,
+            key="team_weeks_slider"
+        )
+
+        return {
+            'metric': selected_metric,
+            'n_players': top_n,
+            'n_weeks': recent_weeks
+            }
+    
     else:
         selected_metric = st.sidebar.selectbox(
             "Select Metric to Compare", config.METRICS, index=0,
@@ -90,23 +111,37 @@ def sidebar_filters(df, is_team_tab=False):
             config.DEFAULT_PLAYERS,
             key="player_slider_n"
         )
+        recent_weeks = st.sidebar.slider(
+            "Consider Last N Weeks", 1, max_gameweek, max_gameweek,
+            key="player_weeks_slider"
+        )
+        fpl_position = st.sidebar.selectbox(
+            "Select FPL Position", 
+            config.FPL_POSITIONS,
+            index=0,
+            key="player_position_select"
+        )
+        fpl_price = st.sidebar.slider(
+            "Maximum FPL Price", 
+            df["fpl_cost"].min(), 
+            df["fpl_cost"].max(),
+            df["fpl_cost"].max(),
+            step=0.1,
+            key="player_price_select"
+        )
 
-    # Get the maximum gameweek number
-    max_gameweek = df["gameweek_number"].max()
-    # Add filter for recent weeks
-    recent_weeks = st.sidebar.slider(
-        "Consider Last N Weeks", 1, max_gameweek, max_gameweek,
-        key="team_weeks_slider" if is_team_tab else "player_weeks_slider"
-    )
-    selections = {
-        'metric': selected_metric,
-        'n_players': top_n,
-        'n_weeks': recent_weeks
-    }
-    return selections
+        return {
+            'metric': selected_metric,
+            'n_players': top_n,
+            'n_weeks': recent_weeks,
+            'fpl_position': fpl_position,
+            'fpl_price': fpl_price
+            }
 
 
 def get_selected_data(df, selections):
+    df = df[df['position'] == selections.get('fpl_position')]
+    df = df[df['fpl_cost'] <= selections.get('fpl_price')]
     max_gameweek = df["gameweek_number"].max()
     recent_data = df[df["gameweek_number"] > (max_gameweek - selections.get('n_weeks'))]
     metric_totals = (
@@ -263,7 +298,7 @@ def player_analysis_tab(df):
     recent_data, top_players = get_selected_data(df, selections)
 
     # Display page header
-    st.header(f"Top {selections.get('n_players')} Players - {selections.get('metric')} (Last {selections.get('n_weeks')} Weeks)")
+    st.header(f"Top {selections.get('n_players')} {selections.get('fpl_position')}s - {selections.get('metric')} (Last {selections.get('n_weeks')} Weeks)")
     
     # Player comparison visualisation
     comparison_df = get_player_comparisons(recent_data, top_players, selections)

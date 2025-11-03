@@ -13,6 +13,7 @@ class Config:
     DATA_DIR: Path = Path.cwd().joinpath("data")
     PLAYERS_FILE: Path = DATA_DIR / "players" / "players_summary.csv"
     FIXTURES_FILE: Path = DATA_DIR / "fixture_data.csv"
+    FPL_FILE: Path = "fpl_players.csv"
     
     # Chart settings
     CHART_HEIGHT: int = 400
@@ -25,7 +26,11 @@ class Config:
     
     # Available metrics
     METRICS: List[str] = field(default_factory=lambda: [
-        "xG", "Gls", "Ast", "xAG", "Sh", "SoT", "Min",
-        "Carries", "PrgC", "PrgP", "Cmp%", "SCA", "GCA",
-        "Tkl", "Int", "Blocks", "Touches"
+        "xG", "xAG", "xGI", "Defensive Contributions", 
+        "Gls", "Ast", "Sh", "SoT", "SCA", "GCA",
+    ])
+    
+    # FPL Positions
+    FPL_POSITIONS: List[str] = field(default_factory=lambda: [
+        "FWD", "MID", "DEF",  "GK",
     ])
