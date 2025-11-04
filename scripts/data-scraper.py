@@ -36,7 +36,7 @@ class ScraperConfig:
     """Configuration settings for the scraper."""
 
     base_url: str = "https://fbref.com"
-    data_dir: Path = Path("data")
+    data_dir: Path = Path.cwd() / "data"
     players_dir: Path = Path("players")
     min_delay: float = 6.0
     max_delay: float = 10.0

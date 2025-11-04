@@ -1,6 +1,17 @@
 import requests
 import pandas as pd
 from rapidfuzz import fuzz, process
+from pathlib import Path
+
+print(Path.cwd())
+
+DATA_DIR = Path.cwd() / "data"
+FBREF_FILE = DATA_DIR / "players" / "players_summary.csv"
+FPL_DIR = DATA_DIR / "fpl"
+FPL_FILE = FPL_DIR / "fpl_players.csv"
+REF_ALL_FPL_DATAS = FPL_DIR / "ref__all_fpl_datas.csv"
+REFERENCE_PLAYER_NAMES = FPL_DIR / "reference_player_names.csv"
+FUZZY_MATCHES_DEBUG = FPL_DIR / "fuzzy_matches_debug.csv"
 
 URL="https://fantasy.premierleague.com/api/bootstrap-static/"
 COLUMNS = {
@@ -41,8 +52,7 @@ UPDATE_REF=False
 
 
 def get_fbref():
-    filename= "data\players\players_summary.csv"
-    df = pd.read_csv(filename)
+    df = pd.read_csv(FBREF_FILE)
     df = df[['Player']].drop_duplicates().reset_index(drop=True)
     return df
 
@@ -52,7 +62,7 @@ def get_fpl_data():
     data = response.json()
     players = data['elements']
     df = pd.DataFrame(players)
-    df.to_csv("ref__all_fpl_datas.csv", index=False)
+    df.to_csv(REF_ALL_FPL_DATAS, index=False)
     
     df = df[COLUMNS.keys()]
     df = df.rename(columns=COLUMNS)
@@ -67,7 +77,7 @@ def get_fpl_data():
 
 def get_ref_data():
     try:
-        return pd.read_csv('reference_player_names.csv')
+        return pd.read_csv(REFERENCE_PLAYER_NAMES)
     except FileNotFoundError:
         return pd.DataFrame(columns=['player_code', 'fbref_name', 'fpl_name'])
 
@@ -118,7 +128,7 @@ def suggest_fuzzy_matches(fpl_names, fbref_names, threshold=80):
 
 def update_reference_names(exact_matches):
     # Fuzzy Matches
-    fuzzy_matches = pd.read_csv("fuzzy_matches_debug.csv")
+    fuzzy_matches = pd.read_csv(FUZZY_MATCHES_DEBUG)
     
     # Combine new matches
     new_matches = pd.merge(
@@ -141,7 +151,7 @@ def update_reference_names(exact_matches):
     # Update reference file
     ref_names = get_ref_data()
     ref_names_new = pd.concat([ref_names, new_matches], ignore_index=True)
-    ref_names_new.to_csv("reference_player_names.csv", index=False)
+    ref_names_new.to_csv(REFERENCE_PLAYER_NAMES, index=False)
     
     return None
 
@@ -163,7 +173,7 @@ def match_player_names(df_fpl):
     
     print("review fuzzy matches and update manual overrides as needed...")
     fuzzy_matches = fuzzy_matches.sort_values(by='score', ascending=False)
-    fuzzy_matches.to_csv("fuzzy_matches_debug.csv", index=False)
+    fuzzy_matches.to_csv(FUZZY_MATCHES_DEBUG, index=False)
 
     return df
 
@@ -184,7 +194,7 @@ def main():
             update_reference_names(df)
             raise ValueError("Reference Data updated. Please re-run the script.")
 
-        raise ValueError("Review fuzzy_matches_debug.csv for potential matches. Update Manual Overrides as needed, and re-run with UPDATE_REF=True to update reference data.")
+        raise ValueError(f"Review {FUZZY_MATCHES_DEBUG} for potential matches. Update Manual Overrides as needed, and re-run with UPDATE_REF=True to update reference data.")
     
     df = df[['player_code', 'fbref_name', 'position', 'fpl_cost', 'fpl_form', 'season_ppg', 'total_points']]
     
@@ -193,4 +203,4 @@ def main():
 
 if __name__ == "__main__":
     df = main()
-    df.to_csv("fpl_players.csv", index=False)
+    df.to_csv(FPL_FILE, index=False)

@@ -13,7 +13,7 @@ class Config:
     DATA_DIR: Path = Path.cwd().joinpath("data")
     PLAYERS_FILE: Path = DATA_DIR / "players" / "players_summary.csv"
     FIXTURES_FILE: Path = DATA_DIR / "fixture_data.csv"
-    FPL_FILE: Path = "fpl_players.csv"
+    FPL_FILE: Path = DATA_DIR / "fpl" / "fpl_players.csv"
     
     # Chart settings
     CHART_HEIGHT: int = 400

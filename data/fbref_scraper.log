@@ -2106,3 +2106,179 @@ Exception: Browser.close: Connection closed while reading from the driver
 2025-11-03 07:40:47,084 - INFO - Added 2 rows to goalkeeper data (total: 199)
 2025-11-03 07:40:47,090 - INFO - Saved goalkeeper data to data\players\players_goalkeeper.csv
 2025-11-03 07:40:55,342 - INFO - Data collection completed successfully
+2025-11-03 16:48:04,083 - INFO - Starting FBRef data collection for Premier League
+2025-11-03 16:48:04,085 - INFO - Processing league: Premier-League from https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-11-03 16:48:04,088 - INFO - Getting fixture data...
+2025-11-03 16:48:05,485 - INFO - Navigating to https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-11-03 16:48:35,500 - ERROR - Error fetching fixture data: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures", waiting until "networkidle"
+Traceback (most recent call last):
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\scripts\data-scraper.py", line 167, in get_fixture_data
+    page.goto(url, wait_until="networkidle")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9019, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+            url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures", waiting until "networkidle"
+
+2025-11-03 16:49:32,215 - INFO - Starting FBRef data collection for Premier League
+2025-11-03 16:49:32,215 - INFO - Processing league: Premier-League from https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-11-03 16:49:32,216 - INFO - Getting fixture data...
+2025-11-03 16:49:33,537 - INFO - Navigating to https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-11-03 16:50:03,548 - ERROR - Error fetching fixture data: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures", waiting until "networkidle"
+Traceback (most recent call last):
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\scripts\data-scraper.py", line 167, in get_fixture_data
+    page.goto(url, wait_until="networkidle")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9019, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+            url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures", waiting until "networkidle"
+
+2025-11-03 17:02:25,245 - INFO - Starting FBRef data collection for Premier League
+2025-11-03 17:02:25,246 - INFO - Processing league: Premier-League from https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-11-03 17:02:25,247 - INFO - Getting fixture data...
+2025-11-03 17:02:26,512 - INFO - Navigating to https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-11-03 17:02:56,521 - ERROR - Error fetching fixture data: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures", waiting until "networkidle"
+Traceback (most recent call last):
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\scripts\data-scraper.py", line 167, in get_fixture_data
+    page.goto(url, wait_until="networkidle")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9019, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+            url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures", waiting until "networkidle"
+
+2025-11-04 09:04:02,432 - INFO - Starting FBRef data collection for Premier League
+2025-11-04 09:04:02,433 - INFO - Processing league: Premier-League from https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-11-04 09:04:02,434 - INFO - Getting fixture data...
+2025-11-04 09:04:05,404 - INFO - Navigating to https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-11-04 09:04:35,425 - ERROR - Error fetching fixture data: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures", waiting until "networkidle"
+Traceback (most recent call last):
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\scripts\data-scraper.py", line 167, in get_fixture_data
+    page.goto(url, wait_until="networkidle")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9019, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+            url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\spoic\OneDrive\Documents\Python Projects\ff-bot\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures", waiting until "networkidle"
+
