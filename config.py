@@ -10,7 +10,7 @@ class Config:
     PAGE_LAYOUT: str = "wide"
     
     # File paths
-    DATA_DIR: Path = Path.cwd().joinpath("data")
+    DATA_DIR: Path = Path.cwd().joinpath("data") / "2025-2026"
     PLAYERS_FILE: Path = DATA_DIR / "players" / "players_summary.csv"
     FIXTURES_FILE: Path = DATA_DIR / "fixture_data.csv"
     FPL_FILE: Path = DATA_DIR / "fpl" / "fpl_players.csv"

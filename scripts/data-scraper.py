@@ -56,7 +56,9 @@ class ScraperConfig:
         # Create season-specific directories if season is specified
         if self.season:
             self.data_dir = self.data_dir / self.season
-        
+        else:
+            self.data_dir = self.data_dir / "2025-2026"  # Default to current season
+
         self.players_dir = self.data_dir / self.players_dir
         self.data_dir.mkdir(exist_ok=True)
         self.players_dir.mkdir(exist_ok=True)
@@ -97,16 +99,13 @@ class FBRefScraper:
         if not logger.handlers:
             logger.setLevel(logging.INFO)
             formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
-
-            # File handler
-            fh = logging.FileHandler(self.config.data_dir / "fbref_scraper.log")
-            fh.setFormatter(formatter)
-            logger.addHandler(fh)
-
-            # Console handler
             ch = logging.StreamHandler()
+            ch.setLevel(logging.INFO)
             ch.setFormatter(formatter)
             logger.addHandler(ch)
+
+            # Do not save logs to file; keep logs only in the console
+            logger.propagate = False
 
         return logger
 
