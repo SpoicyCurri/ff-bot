@@ -2335,3 +2335,47 @@ playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at 
 ║                                                            ║
 ║ <3 Playwright Team                                         ║
 ╚════════════════════════════════════════════════════════════╝
+2025-11-04 17:16:18,125 - INFO - Starting FBRef data collection for Premier League
+2025-11-04 17:16:18,125 - INFO - Processing league: Premier-League from https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-11-04 17:16:18,125 - INFO - Getting fixture data...
+2025-11-04 17:16:21,043 - INFO - Navigating to https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures
+2025-11-04 17:16:51,045 - ERROR - Error fetching fixture data: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures", waiting until "networkidle"
+Traceback (most recent call last):
+  File "/home/runner/work/ff-bot/ff-bot/scripts/data-scraper.py", line 167, in get_fixture_data
+    page.goto(url, wait_until="networkidle")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ff-bot/ff-bot/.venv/lib/python3.13/site-packages/playwright/sync_api/_generated.py", line 9019, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+            url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "/home/runner/work/ff-bot/ff-bot/.venv/lib/python3.13/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "/home/runner/work/ff-bot/ff-bot/.venv/lib/python3.13/site-packages/playwright/_impl/_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ff-bot/ff-bot/.venv/lib/python3.13/site-packages/playwright/_impl/_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "/home/runner/work/ff-bot/ff-bot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/runner/work/ff-bot/ff-bot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures", waiting until "networkidle"
+
