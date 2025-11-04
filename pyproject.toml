@@ -24,3 +24,8 @@ dependencies = [
 dev = [
     "ruff>=0.13.3",
 ]
+[tool.uv.scripts]
+setup = [
+    "uv sync",
+    "playwright install"
+]
