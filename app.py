@@ -308,7 +308,7 @@ def player_analysis_tab(df):
     # Player summary statistics
     st.subheader("Summary Statistics")
     summary_stats = get_summary_stats(recent_data, top_players, selections)
-    st.dataframe(summary_stats.sort_values("Total", ascending=False), use_container_width=True)
+    st.dataframe(summary_stats.sort_values("Total", ascending=False), width='stretch')
 
 
 def team_xg_conceded_tab(df):
@@ -330,7 +330,7 @@ def team_xg_conceded_tab(df):
     # Team summary statistics
     st.subheader("Summary Statistics")
     summary_stats = get_team_summary_stats(team_xga, top_teams)
-    st.dataframe(summary_stats.sort_values("Total", ascending=False), use_container_width=True)
+    st.dataframe(summary_stats.sort_values("Total", ascending=False), width='stretch')
 
 
 
