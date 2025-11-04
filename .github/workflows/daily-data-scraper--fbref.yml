@@ -31,7 +31,7 @@ jobs:
     - name: Install the project
       run: |
         uv sync --locked --all-extras --dev
-        uv run setup-playwright
+        uv run playwright install
     
     - name: Update FBref data
       run: |
