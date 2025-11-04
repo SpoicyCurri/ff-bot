@@ -1,0 +1,40 @@
+name: Daily Data Refresh - FPL
+
+on:
+  schedule:
+    # Run daily at 7:00 AM GMT (GMT == UTC)
+    - cron: '0 7 * * *'
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+      
+    - name: "Set up Python"
+      uses: actions/setup-python@v6
+      with:
+        python-version-file: "pyproject.toml"
+    
+    - name: Install uv
+      uses: astral-sh/setup-uv@v6
+    
+    - name: Install the project
+      run: uv sync --locked --all-extras --dev
+    
+    - name: Update FPL data
+      run: |
+        uv run scripts/fpl-players.py
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/
+        git diff --staged --quiet || git commit -m "Auto-update FPL data $(date)"
+        git push

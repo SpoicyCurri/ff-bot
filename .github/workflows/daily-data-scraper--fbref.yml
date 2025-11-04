@@ -1,4 +1,4 @@
-name: Daily Data Update
+name: Daily Data Refresh - FBref
 
 on:
   schedule:
@@ -29,16 +29,12 @@ jobs:
     
     - name: Update FBref data
       run: |
-        uv run scripts\data-scraper.py
-    
-    - name: Update FPL data
-      run: |
-        uv run scripts\fpl-players.py
+        uv run scripts/data-scraper.py
     
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/
-        git diff --staged --quiet || git commit -m "Auto-update data $(date)"
+        git diff --staged --quiet || git commit -m "Auto-update FBrefdata $(date)"
         git push
