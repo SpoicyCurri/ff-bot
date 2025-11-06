@@ -11,3 +11,7 @@ wheels/
 
 # local env files
 .env
+
+# data folders
+data/2025-2026/players/
+data/test-data
