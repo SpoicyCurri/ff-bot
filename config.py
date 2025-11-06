@@ -11,8 +11,8 @@ class Config:
     
     # File paths
     DATA_DIR: Path = Path.cwd().joinpath("data")
-    PLAYERS_FILE: Path = DATA_DIR / "2025-2026" / "players" / "players_summary.csv"
-    FIXTURES_FILE: Path = DATA_DIR / "2025-2026" / "fixture_data.csv"
+    PLAYERS_FILE: Path = DATA_DIR / "2025-2026" / "players_v2" / "players_summary.csv"
+    FIXTURES_FILE: Path = DATA_DIR / "2025-2026" / "fixture_data__pydoll.csv"
     FPL_FILE: Path = DATA_DIR / "fpl" / "fpl_players.csv"
     
     # Chart settings
@@ -26,8 +26,8 @@ class Config:
     
     # Available metrics
     METRICS: List[str] = field(default_factory=lambda: [
-        "xG", "xAG", "xGI", "Defensive Contributions", 
-        "Gls", "Ast", "Sh", "SoT", "SCA", "GCA",
+        "xg", "npxg", "xg_assist", "xGI", "Defensive Contributions", 
+        "goals", "assists", "shots", "shots_on_target", "sca", "gca",
     ])
     
     # FPL Positions

@@ -6,7 +6,7 @@ from pathlib import Path
 print(Path.cwd())
 
 DATA_DIR = Path.cwd() / "data"
-FBREF_FILE = DATA_DIR / "players" / "players_summary.csv"
+FBREF_FILE = DATA_DIR / "players_v2" / "players_summary.csv"
 FPL_DIR = DATA_DIR / "fpl"
 FPL_FILE = FPL_DIR / "fpl_players.csv"
 REF_ALL_FPL_DATAS = FPL_DIR / "ref__all_fpl_datas.csv"
@@ -53,7 +53,7 @@ UPDATE_REF=False
 
 def get_fbref():
     df = pd.read_csv(FBREF_FILE)
-    df = df[['Player']].drop_duplicates().reset_index(drop=True)
+    df = df[['player']].drop_duplicates().reset_index(drop=True)
     return df
 
 
@@ -84,7 +84,7 @@ def get_ref_data():
 
 def print_comparison_metrics(df):
     rows = df.shape[0]
-    exact_matches = df['Player'].notnull().sum()
+    exact_matches = df['player'].notnull().sum()
     fuzzy_matches = df['Manual Override'].isnull().sum() - exact_matches
     manual_matches = df['Manual Override'].notnull().sum()
     missing_matches = df[df['name_match'].isnull()]['fpl_name'].tolist()
@@ -138,7 +138,7 @@ def update_reference_names(exact_matches):
         right_on='fpl_name',
         how='left'
     )
-    new_matches['name_match'] = new_matches['Player'].combine_first(new_matches['Manual Override']).combine_first(new_matches['fbref_name'])
+    new_matches['name_match'] = new_matches['player'].combine_first(new_matches['Manual Override']).combine_first(new_matches['fbref_name'])
     
     print_comparison_metrics(new_matches)
 
@@ -161,11 +161,11 @@ def match_player_names(df_fpl):
     df_fpl_missing = df_fpl.loc[df_fpl['fbref_name'].isnull(), ['player_code', 'fullname']]
     
     # Exact Matches
-    df = pd.merge(df_fbref, df_fpl_missing, left_on='Player', right_on='fullname', how='right')
+    df = pd.merge(df_fbref, df_fpl_missing, left_on='player', right_on='fullname', how='right')
     
     # Fuzzy Matches
-    no_matches = df[df['Player'].isnull()]['fullname']
-    fbref_names = df_fbref['Player'].tolist()
+    no_matches = df[df['player'].isnull()]['fullname']
+    fbref_names = df_fbref['player'].tolist()
     fuzzy_matches = suggest_fuzzy_matches(no_matches, fbref_names, threshold=30)
     
     # Manual Override

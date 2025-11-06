@@ -24,24 +24,25 @@ def load_player_data():
 
         # Merge player data with fixture data to get team information and gameweek
         df = pd.merge(
-            df, fixtures_df[["game_id", "Home", "Away", "Wk"]], on="game_id", how="left"
+            df, fixtures_df[["game_id", "home_team", "away_team", "gameweek"]], on="game_id", how="left"
         )
-        df = df.rename(columns={"Wk": "gameweek_number"})
+        df = df.rename(columns={"gameweek": "gameweek_number"})
 
         # Merge with FPL data to get additional player info
-        df = pd.merge(df, fpl_df[["fbref_name", 'position', 'fpl_cost']], left_on="Player", right_on="fbref_name", how="inner")
+        df = df.drop(columns=["position"], errors="ignore")
+        df = pd.merge(df, fpl_df[["fbref_name", 'position', 'fpl_cost']], left_on="player", right_on="fbref_name", how="inner")
 
         # Add team and opponent columns based on home flag
-        df["Team"] = np.where(df["home"], df["Home"], df["Away"])
-        df["Opponent"] = np.where(df["home"], df["Away"], df["Home"])
+        df["team"] = np.where(df["home"], df["home_team"], df["away_team"])
+        df["opponent"] = np.where(df["home"], df["away_team"], df["home_team"])
 
         # Add derived statistics
-        df['Defensive Contributions'] = df['Tkl'] + df['Int'] + df['Blocks']
-        df['xGI'] = df["xG"] + df["xAG"]
-        df["Minutes_Per_Goal"] = df["Min"] / df["Gls"].replace(0, np.nan)
-        df["Goal_Involvement"] = df["Gls"] + df["Ast"]
-        df["xG_Overperformance"] = df["Gls"] - df["xG"]
-        df["Shot_Conversion"] = (df["Gls"] / df["Sh"] * 100).round(1)
+        df['Defensive Contributions'] = df['tackles'] + df['interceptions'] + df['blocks']
+        df['xGI'] = df["xg"] + df["xg_assist"]
+        df["Minutes_Per_Goal"] = df["minutes"] / df["goals"].replace(0, np.nan)
+        df["Goal_Involvement"] = df["goals"] + df["assists"]
+        df["xG_Overperformance"] = df["goals"] - df["xg"]
+        df["Shot_Conversion"] = (df["goals"] / df["shots"] * 100).round(1)
         return df
     except Exception as e:
         st.error(f"Error loading data: {str(e)}")
@@ -54,19 +55,19 @@ def load_team_data():
     try:
         df = pd.read_csv(config.FIXTURES_FILE)
         df = df[df['game_played']]
-        df = df[['Wk', 'Home', 'xG Home', 'Away', 'xG Away']]
-        df_home = df[['Wk', 'Home', 'xG Home', 'xG Away']].rename(columns={
-            'Home': 'Team',
-            'xG Home': 'xG',
-            'xG Away': 'xGA'
-        }).assign(home_away='Home')
-        df_away = df[['Wk', 'Away', 'xG Home', 'xG Away']].rename(columns={
-            'Away': 'Team',
-            'xG Away': 'xG',
-            'xG Home': 'xGA'
-        }).assign(home_away='Away')
+        df = df[["gameweek", "home_team", "home_xg", "away_team", "away_xg"]]
+        df_home = df[["gameweek", "home_team", "home_xg", "away_xg"]].rename(columns={
+            "home_team": "team",
+            "home_xg": "xg",
+            "away_xg": "xg_against"
+        }).assign(home_away="home_team")
+        df_away = df[["gameweek", "away_team", "home_xg", "away_xg"]].rename(columns={
+            "away_team": "team",
+            "away_xg": "xg",
+            "home_xg": "xg_against"
+        }).assign(home_away="away_team")
         df = pd.concat([df_home, df_away], ignore_index=True)
-        df = df.rename(columns={'Wk': 'gameweek_number'}).sort_values(['gameweek_number', 'Team'])
+        df = df.rename(columns={"gameweek": 'gameweek_number'}).sort_values(['gameweek_number', "team"])
         return df
     except Exception as e:
         st.error(f"Error loading team data: {str(e)}")
@@ -79,7 +80,7 @@ def sidebar_filters(df, is_team_tab=False):
     
     # Comparison settings
     if is_team_tab:
-        selected_metric = "xGA"  # Fixed metric for team tab
+        selected_metric = "xg_against"  # Fixed metric for team tab
         st.sidebar.write("**Metric:** xG Conceded")
         top_n = st.sidebar.slider(
             "Number of Teams to Compare", 
@@ -145,7 +146,7 @@ def get_selected_data(df, selections):
     max_gameweek = df["gameweek_number"].max()
     recent_data = df[df["gameweek_number"] > (max_gameweek - selections.get('n_weeks'))]
     metric_totals = (
-        recent_data.groupby("Player")[selections.get('metric')]
+        recent_data.groupby("player")[selections.get('metric')]
         .sum()
         .sort_values(ascending=False)
     )
@@ -157,11 +158,11 @@ def get_team_data(df, selections):
     """Get team-level xG conceded data"""
     max_gameweek = df["gameweek_number"].max()
     recent_data = df[df["gameweek_number"] > (max_gameweek - selections.get('n_weeks'))]
-    recent_data['xGA'] = recent_data['xGA'].astype(float) * -1
+    recent_data["xg_against"] = recent_data["xg_against"].astype(float) * -1
     
     # Get total xGA for each team to determine top teams
     team_totals = (
-        recent_data.groupby("Team")["xGA"]
+        recent_data.groupby("team")["xg_against"]
         .sum()
         .sort_values(ascending=False)
     )
@@ -176,7 +177,7 @@ def get_player_comparisons(recent_data, top_players, selections):
     
     for player in top_players:
         # Filter for recent weeks first
-        player_stats = recent_data[recent_data["Player"] == player]
+        player_stats = recent_data[recent_data["player"] == player]
         player_stats = player_stats.sort_values("gameweek_number")
         
         # Reset index to ensure proper cumulative calculation
@@ -186,12 +187,12 @@ def get_player_comparisons(recent_data, top_players, selections):
         
         for idx, row in player_stats.iterrows():
             comparison_data.append({
-                "Player": player,
-                "Team": row["Team"],
-                "Opponent": row["Opponent"],
-                "Gameweek": row["gameweek_number"],
-                "Value": cumulative_value[idx],
-                "Game Value": row[selections.get('metric')],
+                "player": player,
+                "team": row["team"],
+                "opponent": row["opponent"],
+                "gameweek": row["gameweek_number"],
+                "value": cumulative_value[idx],
+                "game value": row[selections.get('metric')],
             })
     
     comparison_df = pd.DataFrame(comparison_data)
@@ -204,18 +205,18 @@ def get_team_comparisons(team_xga, top_teams):
     comparison_data = []
     
     for team in top_teams:
-        team_stats = team_xga[team_xga["Team"] == team].sort_values("gameweek_number")
+        team_stats = team_xga[team_xga["team"] == team].sort_values("gameweek_number")
         team_stats = team_stats.reset_index(drop=True)
         
         # Calculate cumulative sum
-        cumulative_xga = team_stats["xGA"].cumsum()
+        cumulative_xga = team_stats["xg_against"].cumsum()
         
         for idx, row in team_stats.iterrows():
             comparison_data.append({
-                "Team": team,
-                "Gameweek": row["gameweek_number"],
-                "Value": cumulative_xga[idx],
-                "Game Value": row["xGA"],
+                "team": team,
+                "gameweek": row["gameweek_number"],
+                "value": cumulative_xga[idx],
+                "game value": row["xg_against"],
             })
     
     return pd.DataFrame(comparison_data)
@@ -224,11 +225,11 @@ def get_team_comparisons(team_xga, top_teams):
 def get_comparison_chart(comparison_df, selections, is_team_tab=False):
     # Create a selection for the legend
     selection = alt.selection_point(
-        fields=['Team' if is_team_tab else 'Player'],
+        fields=["team" if is_team_tab else "player"],
         bind='legend'
     )
     
-    entity_field = "Team" if is_team_tab else "Player"
+    entity_field = "team" if is_team_tab else "player"
     metric_name = "xG Conceded" if is_team_tab else selections.get('metric')
     
     # Create comparison chart with selectable legend
@@ -236,16 +237,16 @@ def get_comparison_chart(comparison_df, selections, is_team_tab=False):
         alt.Chart(comparison_df)
         .mark_line(point=True)
         .encode(
-            x=alt.X("Gameweek:Q", title="Gameweek"),
-            y=alt.Y("Value:Q", title=f"Cumulative {metric_name}"),
+            x=alt.X("gameweek:Q", title="Gameweek"),
+            y=alt.Y("value:Q", title=f"Cumulative {metric_name}"),
             color=alt.Color(
                 f"{entity_field}:N",
                 sort=None,
                 scale=alt.Scale(scheme=config.CHART_COLOR_SCHEME)
             ),
             opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
-            tooltip=[entity_field, "Value", "Game Value"] if is_team_tab 
-                    else ["Player", "Team", "Opponent", "Value", "Game Value"],
+            tooltip=[entity_field, "value", "game value"] if is_team_tab 
+                    else ["player", "team", "opponent", "value", "game value"],
         )
         .properties(height=config.CHART_HEIGHT, title=f"Cumulative {metric_name} Over Time")
         .add_params(selection)
@@ -255,7 +256,7 @@ def get_comparison_chart(comparison_df, selections, is_team_tab=False):
 
 def get_summary_stats(recent_data, top_players, selections):
     summary_stats = (
-        recent_data.groupby("Player")
+        recent_data.groupby("player")
         .agg({selections.get('metric'): ["sum", "mean", "max"]})
         .round(2)
     )
@@ -263,7 +264,7 @@ def get_summary_stats(recent_data, top_players, selections):
     summary_stats = summary_stats.loc[top_players]
 
     # Add per 90 minutes stats
-    minutes_played = recent_data.groupby("Player")["Min"].sum()
+    minutes_played = recent_data.groupby("player")["minutes"].sum()
     summary_stats["Per 90"] = (
         summary_stats["Total"] / minutes_played[top_players] * 90
     ).round(2)
@@ -273,7 +274,7 @@ def get_summary_stats(recent_data, top_players, selections):
 def get_team_summary_stats(team_xga, top_teams):
     """Get summary statistics for team xG conceded"""
     summary_stats = (
-        team_xga.groupby("Team")["xGA"]
+        team_xga.groupby("team")["xg_against"]
         .agg(["sum", "mean", "max"])
         .round(2)
     )
@@ -281,7 +282,7 @@ def get_team_summary_stats(team_xga, top_teams):
     summary_stats = summary_stats.loc[top_teams]
     
     # Calculate per game average
-    games_played = team_xga.groupby("Team").size()
+    games_played = team_xga.groupby("team").size()
     summary_stats["Per Game"] = (
         summary_stats["Total"] / games_played[top_teams]
     ).round(2)
@@ -293,6 +294,8 @@ def player_analysis_tab(df):
     """Player analysis tab content"""
     # Sidebar filters
     selections = sidebar_filters(df, is_team_tab=False)
+    
+    print(df.columns)
     
     # Get selected data
     recent_data, top_players = get_selected_data(df, selections)
