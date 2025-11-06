@@ -82,21 +82,21 @@ class ScraperConfig:
             options.add_argument('--disable-setuid-sandbox')
             options.add_argument('--disable-dev-shm-usage')
             
-           # Set Chrome path - try multiple possible locations
-            chrome_path = os.getenv('CHROME_PATH', '/usr/bin/google-chrome')
-            if os.path.exists(chrome_path):
-                options.binary_location = chrome_path
-            else:
-                # Try alternative paths
-                alternative_paths = [
-                    '/usr/bin/google-chrome-stable',
-                    '/usr/bin/chromium-browser',
-                    '/usr/bin/chromium'
-                ]
-                for path in alternative_paths:
-                    if os.path.exists(path):
-                        options.binary_location = path
-                        break
+           # Try to find Chrome in common locations
+            chrome_paths = [
+                os.getenv('CHROME_PATH'),  # From environment
+                '/usr/bin/google-chrome',
+                '/usr/bin/google-chrome-stable', 
+                '/usr/bin/chrome',
+                '/usr/bin/chromium-browser',
+                '/usr/bin/chromium',
+                '/opt/google/chrome/chrome'  # Sometimes installed here
+            ]
+            
+            for path in chrome_paths:
+                if path and os.path.exists(path) and os.access(path, os.X_OK):
+                    options.binary_location = path
+                    break
         else:
             # Local development - keep visible browser
             options.headless = False
