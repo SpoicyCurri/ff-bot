@@ -26,25 +26,14 @@ jobs:
         python-version-file: "pyproject.toml"
     
     - name: Setup Chrome
-      uses: browser-actions/setup-chrome@v1
+      uses: browser-actions/setup-chrome@v2
       with:
         chrome-version: stable
+        install-chromedriver: true
+        install-dependencies: true
     
-    - name: Install system dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y --no-install-recommends \
-          xvfb \
-          libnss3 \
-          libatk1.0-0 \
-          libatk-bridge2.0-0 \
-          libcups2 \
-          libdrm2 \
-          libgtk-3-0 \
-          libgbm1
-        
-        # Verify installation
-        google-chrome --version
+    - name: Check Chrome Version
+      run: google-chrome --version
     
     - name: Start Xvfb
       run: |

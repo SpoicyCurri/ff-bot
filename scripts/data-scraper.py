@@ -19,6 +19,7 @@ import numpy as np
 import pandas as pd
 from pydoll.browser.chromium import Chrome
 from pydoll.browser.options import ChromiumOptions
+from pydoll.constants import PageLoadState
 
 # Type aliases
 DataFrameType = pd.DataFrame
@@ -59,46 +60,34 @@ class ScraperConfig:
         """Generate options for pydoll browser."""
         options = ChromiumOptions()
         
-        # Detect CI/GitHub Actions environment
-        is_github_actions = os.getenv('GITHUB_ACTIONS') == 'true'
+        options.add_argument('--headless=new')
+        options.start_timeout = 20
+        options.page_load_state = PageLoadState.INTERACTIVE
         
-        # Base options for all environments
+        # Core stealth
         options.add_argument('--disable-blink-features=AutomationControlled')
-        options.add_argument('--disable-web-security')
-        options.add_argument('--disable-features=VizDisplayCompositor')
-        
-        if is_github_actions:
-            # CI-specific options for better compatibility
-            options.headless = False  # Use Xvfb instead of headless for full rendering
-            options.add_argument('--no-sandbox')
-            options.add_argument('--disable-dev-shm-usage')
-            options.add_argument('--disable-gpu')
-            options.add_argument('--disable-extensions')
-            options.add_argument('--disable-background-timer-throttling')
-            options.add_argument('--disable-backgrounding-occluded-windows')
-            options.add_argument('--disable-renderer-backgrounding')
-            options.add_argument('--remote-debugging-port=9222')
-            options.add_argument('--window-size=1920,1080')
-            options.add_argument('--disable-setuid-sandbox')
-            
-           # Try to find Chrome in common locations
-            chrome_paths = [
-                os.getenv('CHROME_PATH'),  # From environment
-                '/usr/bin/google-chrome',
-                '/usr/bin/google-chrome-stable', 
-                '/usr/bin/chrome',
-                '/usr/bin/chromium-browser',
-                '/usr/bin/chromium',
-                '/opt/google/chrome/chrome'  # Sometimes installed here
-            ]
-            
-            for path in chrome_paths:
-                if path and os.path.exists(path) and os.access(path, os.X_OK):
-                    options.binary_location = path
-                    break
-        else:
-            # Local development - keep visible browser
-            options.headless = False
+        options.add_argument('--disable-features=IsolateOrigins,site-per-process')
+
+        # User agent (use a recent, common one)
+        options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36')
+
+        # Language and locale
+        options.add_argument('--lang=en-US')
+        options.add_argument('--accept-lang=en-US,en;q=0.9')
+
+        # WebGL (software renderer to avoid unique GPU signatures)
+        options.add_argument('--use-gl=swiftshader')
+        options.add_argument('--disable-features=WebGLDraftExtensions')
+
+        # WebRTC IP leak prevention
+        options.add_argument('--force-webrtc-ip-handling-policy=disable_non_proxied_udp')
+
+        # Permissions and first-run -- Already exist
+        # options.add_argument('--no-first-run')
+        # options.add_argument('--no-default-browser-check')
+
+        # Window size (common resolution)
+        options.add_argument('--window-size=1920,1080')
         
         return options
 
@@ -217,8 +206,8 @@ class FBRefScraper:
             _, tab = await self._setup_browser()
             
             # Handle captcha and navigate
-            # async with tab.expect_and_bypass_cloudflare_captcha():
-            await tab.go_to(url)
+            async with tab.expect_and_bypass_cloudflare_captcha():
+                await tab.go_to(url)
             
             self.logger.info("Captcha bypass complete!")
             await self._random_delay()
@@ -249,8 +238,9 @@ class FBRefScraper:
         # Get the fixture table (adjust index as needed)
         if len(tables) < 1:
             raise ValueError("No tables found on page")
-            
-        table_body = await tables[0].find(tag_name="tbody")
+        
+        table_fixtures = [table for table in tables if table.id and 'sched_' in table.id]
+        table_body = await table_fixtures[-1].find(tag_name="tbody")
         rows = await table_body.find(tag_name="tr", find_all=True)
         
         # Extract table data
