@@ -158,7 +158,7 @@ def get_team_data(df, selections):
     """Get team-level xG conceded data"""
     max_gameweek = df["gameweek_number"].max()
     recent_data = df[df["gameweek_number"] > (max_gameweek - selections.get('n_weeks'))]
-    recent_data["xg_against"] = recent_data["xg_against"].astype(float) * -1
+    recent_data.loc[:, "xg_against"] = recent_data.loc[:, "xg_against"].astype(float) * -1
     
     # Get total xGA for each team to determine top teams
     team_totals = (
@@ -294,8 +294,6 @@ def player_analysis_tab(df):
     """Player analysis tab content"""
     # Sidebar filters
     selections = sidebar_filters(df, is_team_tab=False)
-    
-    print(df.columns)
     
     # Get selected data
     recent_data, top_players = get_selected_data(df, selections)
