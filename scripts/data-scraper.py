@@ -80,7 +80,6 @@ class ScraperConfig:
             options.add_argument('--remote-debugging-port=9222')
             options.add_argument('--window-size=1920,1080')
             options.add_argument('--disable-setuid-sandbox')
-            options.add_argument('--disable-dev-shm-usage')
             
            # Try to find Chrome in common locations
             chrome_paths = [
