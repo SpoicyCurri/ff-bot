@@ -36,8 +36,8 @@ jobs:
     - name: Check Chrome Version
       run: google-chrome --version
       
-    - name: Install xvfb
-      run: sudo apt-get install xvfb
+    # - name: Install xvfb
+    #   run: sudo apt-get install xvfb
     
     - name: Install uv
       uses: astral-sh/setup-uv@v6
