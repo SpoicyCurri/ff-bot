@@ -13,6 +13,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from urllib.error import HTTPError
+import os
 
 import numpy as np
 import pandas as pd
@@ -56,11 +57,37 @@ class ScraperConfig:
         
     def get_pydoll_options(self) -> ChromiumOptions:
         """Generate options for pydoll browser."""
-
         options = ChromiumOptions()
+        
+        # Detect CI/GitHub Actions environment
+        is_github_actions = os.getenv('GITHUB_ACTIONS') == 'true'
+        
+        # Base options for all environments
         options.add_argument('--disable-blink-features=AutomationControlled')
-        options.headless = False
-
+        options.add_argument('--disable-web-security')
+        options.add_argument('--disable-features=VizDisplayCompositor')
+        
+        if is_github_actions:
+            # CI-specific options for better compatibility
+            options.headless = False  # Use Xvfb instead of headless for full rendering
+            options.add_argument('--no-sandbox')
+            options.add_argument('--disable-dev-shm-usage')
+            options.add_argument('--disable-gpu')
+            options.add_argument('--disable-extensions')
+            options.add_argument('--disable-background-timer-throttling')
+            options.add_argument('--disable-backgrounding-occluded-windows')
+            options.add_argument('--disable-renderer-backgrounding')
+            options.add_argument('--remote-debugging-port=9222')
+            options.add_argument('--window-size=1920,1080')
+            
+            # Set Chrome path if available
+            chrome_path = os.getenv('CHROME_PATH')
+            if chrome_path:
+                options.binary_location = chrome_path
+        else:
+            # Local development - keep visible browser
+            options.headless = False
+        
         return options
 
 
@@ -117,9 +144,19 @@ class FBRefScraper:
         """Set up and return pydoll browser."""
         if not self._browser:
             self._browser = Chrome(options=self.config.options)
-        await self._browser.__aenter__()
-        self._tab = await self._browser.start()
-        return self._browser, self._tab
+        
+        try:
+            await self._browser.__aenter__()
+            self._tab = await self._browser.start()
+            
+            # In CI, give extra time for browser initialization
+            if os.getenv('GITHUB_ACTIONS') == 'true':
+                await asyncio.sleep(2)
+                
+            return self._browser, self._tab
+        except Exception as e:
+            self.logger.error(f"Failed to setup browser: {e}")
+            raise
 
     async def _cleanup_browser(self) -> None:
         """Clean up browser resources."""
@@ -358,10 +395,16 @@ class FBRefScraper:
         """Process a single match's player data."""
         try:
             self.logger.info(f"Processing match {count + 1}/{total}: {link}")
-            # Handle captcha and navigate
-            async with tab.expect_and_bypass_cloudflare_captcha():
+            
+            # Handle captcha and navigate - more robust for CI
+            try:
+                async with tab.expect_and_bypass_cloudflare_captcha():
+                    await tab.go_to(link)
+            except Exception as captcha_error:
+                # Fallback for CI environments where captcha bypass might fail
+                self.logger.warning(f"Captcha bypass failed, trying direct navigation: {captcha_error}")
                 await tab.go_to(link)
-                await self._random_delay()
+                await self._random_delay()  # Extra delay to avoid rate limiting
 
             # Find all product cards
             tables = await tab.find(tag_name="table", find_all=True)

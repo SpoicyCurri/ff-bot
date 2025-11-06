@@ -25,6 +25,23 @@ jobs:
       with:
         python-version-file: "pyproject.toml"
     
+    - name: Install system deps and Chromium
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y --no-install-recommends \
+        chromium-browser \
+        xvfb \
+        libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+        libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 \
+        libasound2 libgbm1 libgtk-3-0 fonts-liberation fonts-noto-color-emoji
+        rm -rf /var/lib/apt/lists/*
+        which chromium-browser || which chromium || echo "chromium not found"
+    
+    - name: Start Xvfb
+      run: |
+        Xvfb :99 -screen 0 1920x1080x24 &
+        sleep 3  # Give Xvfb time to start
+    
     - name: Install uv
       uses: astral-sh/setup-uv@v6
     
@@ -33,6 +50,10 @@ jobs:
         uv sync --only-group scraper-fbref
     
     - name: Update FBref data
+      env:
+        CHROME_PATH: /usr/bin/chromium-browser
+        DISPLAY: :99
+        GITHUB_ACTIONS: true
       run: |
         uv run scripts/data-scraper.py
     
