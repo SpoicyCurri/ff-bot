@@ -82,14 +82,14 @@ class ScraperConfig:
         # WebRTC IP leak prevention
         options.add_argument('--force-webrtc-ip-handling-policy=disable_non_proxied_udp')
 
-        # Permissions and first-run -- Already exist
-        # options.add_argument('--no-first-run')
-        # options.add_argument('--no-default-browser-check')
-
         # Window size (common resolution)
         options.add_argument('--window-size=1920,1080')
 
         if os.getenv('GITHUB_ACTIONS') == 'true':
+            # Docker/CI issues
+            options.add_argument('--no-sandbox')
+            options.add_argument('--disable-dev-shm-usage')
+            
             # Try to find Chrome in common locations
             chrome_paths = [
                 '/opt/hostedtoolcache/setup-chrome/chrome/stable/x64/chrome',
@@ -102,6 +102,7 @@ class ScraperConfig:
                 '/opt/google/chrome/chrome',
             ]
             
+            chrome_found = False
             for path in chrome_paths:
                 if path and os.path.exists(path) and os.access(path, os.X_OK):
                     options.binary_location = path
