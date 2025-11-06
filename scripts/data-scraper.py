@@ -102,15 +102,17 @@ class ScraperConfig:
                 '/usr/bin/chrome',
                 '/usr/bin/chromium-browser',
                 '/usr/bin/chromium',
-                '/opt/google/chrome/chrome'  # Sometimes installed here
+                '/opt/google/chrome/chrome',
+                '/opt/hostedtoolcache/setup-chrome/chrome/stable/x64',
+                '/opt/hostedtoolcache/setup-chrome/chrome/stable/x64/chrome',
             ]
             
             for path in chrome_paths:
                 if path and os.path.exists(path) and os.access(path, os.X_OK):
                     options.binary_location = path
                     break
-            if not os.path.exists(chrome_path):
-                raise FileNotFoundError(f"Chrome binary not found in common locations: {chrome_paths}")
+            if not os.path.exists(options.binary_location):
+                raise FileNotFoundError(f"Chrome binary not found in common locations: {options.binary_location}")
         
         return options
 
