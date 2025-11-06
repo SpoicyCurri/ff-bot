@@ -90,28 +90,24 @@ class ScraperConfig:
         options.add_argument('--window-size=1920,1080')
 
         if os.getenv('GITHUB_ACTIONS') == 'true':
-            chrome_path = os.getenv('CHROME_PATH')
-            if chrome_path and os.path.exists(chrome_path):
-                options.binary_location = chrome_path
-            else:
-                raise FileNotFoundError(f"Chrome binary not found at specified CHROME_PATH: {chrome_path}")
             # Try to find Chrome in common locations
             chrome_paths = [
+                '/opt/hostedtoolcache/setup-chrome/chrome/stable/x64/chrome',
+                '/opt/hostedtoolcache/setup-chrome/chrome/stable/x64',
                 '/usr/bin/google-chrome',
                 '/usr/bin/google-chrome-stable', 
                 '/usr/bin/chrome',
                 '/usr/bin/chromium-browser',
                 '/usr/bin/chromium',
                 '/opt/google/chrome/chrome',
-                '/opt/hostedtoolcache/setup-chrome/chrome/stable/x64',
-                '/opt/hostedtoolcache/setup-chrome/chrome/stable/x64/chrome',
             ]
             
             for path in chrome_paths:
                 if path and os.path.exists(path) and os.access(path, os.X_OK):
                     options.binary_location = path
+                    chrome_found = True
                     break
-            if not os.path.exists(options.binary_location):
+            if not chrome_found:
                 raise FileNotFoundError(f"Chrome binary not found in common locations: {options.binary_location}")
         
         return options
