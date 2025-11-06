@@ -25,18 +25,36 @@ jobs:
       with:
         python-version-file: "pyproject.toml"
     
-    - name: Install system deps and Chromium
+    - name: Install system dependencies and Chrome
       run: |
         sudo apt-get update
-        sudo apt-get install -y \
-        chromium \
-        chromium-driver \
-        xvfb
+        sudo apt-get install -y --no-install-recommends \
+          wget \
+          gnupg \
+          xvfb \
+          libnss3 \
+          libatk1.0-0 \
+          libatk-bridge2.0-0 \
+          libcups2 \
+          libdrm2 \
+          libgtk-3-0 \
+          libgbm1 \
+          libasound2
+        
+        # Install Google Chrome (more reliable than chromium)
+        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+        
+        # Verify installation
+        google-chrome --version
     
     - name: Start Xvfb
       run: |
         Xvfb :99 -screen 0 1920x1080x24 &
         sleep 3  # Give Xvfb time to start
+        echo "Xvfb started on display :99"
     
     - name: Install uv
       uses: astral-sh/setup-uv@v6
@@ -47,7 +65,7 @@ jobs:
     
     - name: Update FBref data
       env:
-        CHROME_PATH: /usr/bin/chromium-browser
+        CHROME_PATH: /usr/bin/google-chrome
         DISPLAY: :99
         GITHUB_ACTIONS: true
       run: |

@@ -79,11 +79,24 @@ class ScraperConfig:
             options.add_argument('--disable-renderer-backgrounding')
             options.add_argument('--remote-debugging-port=9222')
             options.add_argument('--window-size=1920,1080')
+            options.add_argument('--disable-setuid-sandbox')
+            options.add_argument('--disable-dev-shm-usage')
             
-            # Set Chrome path if available
-            chrome_path = os.getenv('CHROME_PATH')
-            if chrome_path:
+           # Set Chrome path - try multiple possible locations
+            chrome_path = os.getenv('CHROME_PATH', '/usr/bin/google-chrome')
+            if os.path.exists(chrome_path):
                 options.binary_location = chrome_path
+            else:
+                # Try alternative paths
+                alternative_paths = [
+                    '/usr/bin/google-chrome-stable',
+                    '/usr/bin/chromium-browser',
+                    '/usr/bin/chromium'
+                ]
+                for path in alternative_paths:
+                    if os.path.exists(path):
+                        options.binary_location = path
+                        break
         else:
             # Local development - keep visible browser
             options.headless = False
@@ -143,6 +156,15 @@ class FBRefScraper:
     async def _setup_browser(self):
         """Set up and return pydoll browser."""
         if not self._browser:
+            # Debug Chrome path in CI
+            if os.getenv('GITHUB_ACTIONS') == 'true':
+                chrome_path = getattr(self.config.options, 'binary_location', None)
+                self.logger.info(f"Using Chrome binary at: {chrome_path}")
+                if chrome_path and os.path.exists(chrome_path):
+                    self.logger.info(f"Chrome binary exists and is executable: {os.access(chrome_path, os.X_OK)}")
+                else:
+                    self.logger.error(f"Chrome binary not found at: {chrome_path}")
+            
             self._browser = Chrome(options=self.config.options)
         
         try:
@@ -156,6 +178,10 @@ class FBRefScraper:
             return self._browser, self._tab
         except Exception as e:
             self.logger.error(f"Failed to setup browser: {e}")
+            # In CI, provide more debugging info
+            if os.getenv('GITHUB_ACTIONS') == 'true':
+                self.logger.error(f"Chrome options: {self.config.options}")
+                self.logger.error(f"DISPLAY environment: {os.getenv('DISPLAY')}")
             raise
 
     async def _cleanup_browser(self) -> None:
