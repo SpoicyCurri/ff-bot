@@ -7,7 +7,6 @@ It collects fixture data and detailed player statistics for various metrics.
 
 import argparse
 import asyncio
-import io
 import logging
 import random
 from dataclasses import dataclass

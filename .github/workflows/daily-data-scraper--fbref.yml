@@ -31,7 +31,6 @@ jobs:
     - name: Install the project
       run: |
         uv sync --only-group scraper-fbref
-        uv run playwright install
     
     - name: Update FBref data
       run: |
