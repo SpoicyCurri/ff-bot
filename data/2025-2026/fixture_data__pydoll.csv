@@ -99,11 +99,11 @@ gameweek,dayofweek,date,start_time,home_team,home_xg,score,away_xg,away_team,mat
 10,Sun,2025-11-02,14:00,West Ham,1.7,3–1,0.5,Newcastle Utd,https://fbref.com/en/matches/55587dfc/West-Ham-United-Newcastle-United-November-2-2025-Premier-League,True,WestHam_NewcastleUtd_20251102
 10,Sun,2025-11-02,16:30,Manchester City,2.2,3–1,0.6,Bournemouth,https://fbref.com/en/matches/cc77588b/Manchester-City-Bournemouth-November-2-2025-Premier-League,True,ManchesterCity_Bournemouth_20251102
 10,Mon,2025-11-03,20:00,Sunderland,1.2,1–1,0.9,Everton,https://fbref.com/en/matches/bb37daa2/Sunderland-Everton-November-3-2025-Premier-League,True,Sunderland_Everton_20251103
-11,Sat,2025-11-08,12:30,Tottenham,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/361ca564/19538871/Tottenham-Hotspur-vs-Manchester-United-History,False,Tottenham_ManchesterUtd_20251108
-11,Sat,2025-11-08,15:00,West Ham,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/943e8050/7c21e445/Burnley-vs-West-Ham-United-History,False,WestHam_Burnley_20251108
-11,Sat,2025-11-08,15:00,Everton,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/d3fd31cc/Fulham-vs-Everton-History,False,Everton_Fulham_20251108
-11,Sat,2025-11-08,17:30,Sunderland,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/8ef52968/18bb7c10/Sunderland-vs-Arsenal-History,False,Sunderland_Arsenal_20251108
-11,Sat,2025-11-08,20:00,Chelsea,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/8cec06e1/Chelsea-vs-Wolverhampton-Wanderers-History,False,Chelsea_Wolves_20251108
+11,Sat,2025-11-08,12:30,Tottenham,0.9,2–2,0.8,Manchester Utd,https://fbref.com/en/matches/ad74e791/Tottenham-Hotspur-Manchester-United-November-8-2025-Premier-League,True,Tottenham_ManchesterUtd_20251108
+11,Sat,2025-11-08,15:00,West Ham,3.0,3–2,1.2,Burnley,https://fbref.com/en/matches/9a904d13/West-Ham-United-Burnley-November-8-2025-Premier-League,True,WestHam_Burnley_20251108
+11,Sat,2025-11-08,15:00,Everton,1.4,2–0,0.4,Fulham,https://fbref.com/en/matches/0e46b968/Everton-Fulham-November-8-2025-Premier-League,True,Everton_Fulham_20251108
+11,Sat,2025-11-08,17:30,Sunderland,0.4,2–2,2.1,Arsenal,https://fbref.com/en/matches/34884979/Sunderland-Arsenal-November-8-2025-Premier-League,True,Sunderland_Arsenal_20251108
+11,Sat,2025-11-08,20:00,Chelsea,3.4,3–0,0.2,Wolves,https://fbref.com/en/matches/098d4b9c/Chelsea-Wolverhampton-Wanderers-November-8-2025-Premier-League,True,Chelsea_Wolves_20251108
 11,Sun,2025-11-09,14:00,Aston Villa,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/8602292d/4ba7cbea/Aston-Villa-vs-Bournemouth-History,False,AstonVilla_Bournemouth_20251109
 11,Sun,2025-11-09,14:00,Nott'ham Forest,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/e4a775cb/5bfb9659/Nottingham-Forest-vs-Leeds-United-History,False,Nott'hamForest_LeedsUnited_20251109
 11,Sun,2025-11-09,14:00,Crystal Palace,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/d07537b9/47c64c55/Brighton-and-Hove-Albion-vs-Crystal-Palace-History,False,CrystalPalace_Brighton_20251109
