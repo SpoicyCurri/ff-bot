@@ -6,7 +6,7 @@ from pathlib import Path
 print(Path.cwd())
 
 DATA_DIR = Path.cwd() / "data"
-FBREF_FILE = DATA_DIR / "players_v2" / "players_summary.csv"
+FBREF_FILE = DATA_DIR / "2025-2026" / "players_v2" / "players_summary.csv"
 FPL_DIR = DATA_DIR / "fpl"
 FPL_FILE = FPL_DIR / "fpl_players.csv"
 REF_ALL_FPL_DATAS = FPL_DIR / "ref__all_fpl_datas.csv"
@@ -46,9 +46,10 @@ PLAYER_NAME_MANUAL = {
     'Igor Julio dos Santos de Paulo': 'Igor',
     'Sávio Moreira de Oliveira': 'Sávio',
     'Norberto Bercique Gomes Betuncal': 'Beto',
-    'João Pedro Ferreira da Silva': 'Jota Silva'
+    'João Pedro Ferreira da Silva': 'Jota Silva',
+    'Lucas Pires Silva': 'Lucas',
 }
-UPDATE_REF=False
+UPDATE_REF=True
 
 
 def get_fbref():
