@@ -4,7 +4,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 462424,William Saliba,DEF,6.0,3.5,3.9,39
 466075,Riccardo Calafiori,DEF,5.8,4.8,5.5,61
 445122,Jurriën Timber,DEF,6.1,4.8,6.1,67
-499169,Myles Lewis-Skelly,DEF,5.2,0.5,0.9,6
+499169,Myles Lewis-Skelly,DEF,5.1,0.5,0.9,6
 198869,Ben White,DEF,5.3,0.0,6.0,6
 223340,Bukayo Saka,MID,10.1,6.2,5.0,45
 184029,Martin Ødegaard,MID,7.8,0.0,2.2,13
@@ -27,7 +27,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 199796,Matty Cash,DEF,4.6,5.8,4.7,52
 101188,Lucas Digne,DEF,4.5,5.2,3.8,42
 199798,Ezri Konsa,DEF,4.4,4.2,3.3,33
-441302,Ian Maatsen,DEF,4.3,0.8,0.9,6
+441302,Ian Maatsen,DEF,4.2,0.8,0.9,6
 149484,Tyrone Mings,DEF,4.4,0.2,3.4,24
 244954,Pau Torres,DEF,4.3,4.2,3.1,25
 515597,Lamare Bogarde,DEF,4.0,0.2,2.3,16
@@ -53,7 +53,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 519895,Oliver Sonne,DEF,3.9,0.0,1.0,3
 180804,Axel Tuanzebe,DEF,3.9,3.8,3.2,16
 208912,Joe Worrall,DEF,3.9,0.0,1.0,4
-444180,Jaidon Anthony,MID,5.7,2.0,4.5,49
+444180,Jaidon Anthony,MID,5.6,2.0,4.5,49
 179458,Jacob Bruun Larsen,MID,5.3,1.2,1.8,16
 172567,Josh Cullen,MID,5.0,4.0,4.8,53
 174592,Marcus Edwards,MID,4.7,0.5,1.0,3
@@ -188,7 +188,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 59949,Séamus Coleman,DEF,4.3,0.0,1.0,2
 106611,Michael Keane,DEF,4.5,5.2,5.1,56
 440993,Iliman Ndiaye,MID,6.6,4.5,5.0,55
-433154,Dwight McNeil,MID,5.6,0.5,1.0,3
+433154,Dwight McNeil,MID,5.5,0.5,1.0,3
 502697,Carlos Alcaraz,MID,5.2,0.8,1.0,8
 80801,Idrissa Gana Gueye,MID,5.4,4.5,3.8,42
 232928,James Garner,MID,5.0,2.2,3.8,42
@@ -285,14 +285,14 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 465694,Nicolás González,MID,5.9,4.2,2.8,28
 477555,Oscar Bobb,MID,5.3,0.8,2.2,18
 433036,Tijjani Reijnders,MID,5.5,0.8,3.4,34
-223094,Erling Haaland,FWD,14.8,8.0,9.3,102
+223094,Erling Haaland,FWD,14.9,8.0,9.3,102
 204936,Gianluigi Donnarumma,GK,5.7,4.0,3.9,31
 446008,Bryan Mbeumo,MID,8.5,8.2,5.5,60
 451302,Altay Bayındır,GK,4.8,0.0,1.8,11
 209365,Matthijs de Ligt,DEF,5.0,3.2,3.5,39
 230001,Noussair Mazraoui,DEF,4.9,0.2,2.0,10
 216051,Diogo Dalot,DEF,4.4,1.5,2.4,22
-596777,Patrick Dorgu,DEF,4.3,1.5,1.6,16
+596777,Patrick Dorgu,DEF,4.2,1.5,1.6,16
 95658,Harry Maguire,DEF,4.4,4.2,4.1,33
 106760,Luke Shaw,DEF,4.5,3.2,2.5,28
 550864,Leny Yoro,DEF,4.4,0.8,2.1,23
