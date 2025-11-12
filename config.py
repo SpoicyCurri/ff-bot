@@ -6,7 +6,8 @@ from typing import List
 class Config:
     """Application configuration settings."""
     # Page settings
-    PAGE_TITLE: str = "Premier League Player Statistics"
+    PLAYER_TITLE: str = "⚽FPL Stats"
+    TEAM_TITLE: str = "⚽FPL Stats"
     PAGE_LAYOUT: str = "wide"
     
     # File paths
