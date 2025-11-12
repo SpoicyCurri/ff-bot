@@ -94,3 +94,10 @@ The dashboard provides two main views:
 ## 🤝 Contributing
 
 Feel free to submit issues, fork the repository, and create pull requests for any improvements.
+
+## Resources
+
+- [FBRef](https://fbref.com/en/comps/9/Premier-League-Stats): football statistics
+- [FPL](https://fantasy.premierleague.com/api/bootstrap-static/): fantasy football API
+- [Pydoll Docs](https://pydoll.tech/docs/): webscraping instructions
+- [Emojipedia](https://emojipedia.org/): unicodes for emojis
