@@ -290,7 +290,7 @@ def get_team_summary_stats(team_xga, top_teams):
     return summary_stats
 
 
-def player_analysis_tab(df):
+def player_tab(df):
     """Player analysis tab content"""
     # Sidebar filters
     selections = sidebar_filters(df, is_team_tab=False)
@@ -312,7 +312,7 @@ def player_analysis_tab(df):
     st.dataframe(summary_stats.sort_values("Total", ascending=False), width='stretch')
 
 
-def team_xg_conceded_tab(df):
+def teams_tab(df):
     """Team xG conceded analysis tab content"""
     # Sidebar filters for teams
     selections = sidebar_filters(df, is_team_tab=True)
@@ -336,23 +336,22 @@ def team_xg_conceded_tab(df):
 
 
 def app():
-    st.title("⚽ Premier League Player Statistics")
+    st.title("⚽ Fantasy Premier League Analysis")
     
     # Load all data
     df = load_player_data()
     df_team = load_team_data()
-
-    # Create tabs
-    tab1, tab2 = st.tabs(["Player Analysis", "Team xG Conceded"])
     
-    # Sidebar header
-    st.sidebar.header("Filters")
+    # Create tabs
+    tab1, tab2 = st.tabs(["Player Comps", "Team Comps"])
     
     with tab1:
-        player_analysis_tab(df)
+        st.sidebar.header("Player Filters")
+        player_tab(df)
     
     with tab2:
-        team_xg_conceded_tab(df_team)
+        st.sidebar.header("Team Filters")
+        teams_tab(df_team)
 
 
 if __name__ == '__main__':
