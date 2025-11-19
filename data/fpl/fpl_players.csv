@@ -3,7 +3,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 226597,Gabriel Magalhães,DEF,6.6,7.3,7.4,81
 462424,William Saliba,DEF,6.0,2.7,3.9,39
 466075,Riccardo Calafiori,DEF,5.8,4.3,5.5,61
-445122,Jurriën Timber,DEF,6.1,4.3,6.1,67
+445122,Jurriën Timber,DEF,6.2,4.3,6.1,67
 499169,Myles Lewis-Skelly,DEF,5.1,0.7,0.9,6
 198869,Ben White,DEF,5.3,0.0,6.0,6
 223340,Bukayo Saka,MID,10.1,6.0,5.0,45
@@ -22,27 +22,27 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 224117,Viktor Gyökeres,FWD,8.9,3.0,3.7,37
 616077,Max Dowman,MID,4.3,0.0,2.5,5
 448104,Piero Hincapié,DEF,5.4,0.7,1.0,2
-98980,Emiliano Martínez,GK,5.0,6.2,4.4,40
+98980,Emiliano Martínez,GK,5.0,7.7,4.4,40
 72147,Marco Bizot,GK,4.3,0.0,3.5,7
-199796,Matty Cash,DEF,4.6,5.8,4.7,52
-101188,Lucas Digne,DEF,4.5,5.2,3.8,42
-199798,Ezri Konsa,DEF,4.4,4.2,3.3,33
-441302,Ian Maatsen,DEF,4.2,0.8,0.9,6
-149484,Tyrone Mings,DEF,4.4,0.2,3.4,24
-244954,Pau Torres,DEF,4.3,4.2,3.1,25
-515597,Lamare Bogarde,DEF,4.0,0.2,2.3,16
-244850,Morgan Rogers,MID,6.8,3.2,3.2,35
-166989,Youri Tielemans,MID,5.9,1.0,2.4,12
-195546,Emi Buendía,MID,5.3,5.5,4.3,39
-204646,Donyell Malen,MID,5.1,2.5,2.9,32
-122806,John McGinn,MID,5.4,2.2,2.7,30
-88894,Ross Barkley,MID,4.8,2.2,2.0,10
+199796,Matty Cash,DEF,4.6,7.0,4.7,52
+101188,Lucas Digne,DEF,4.5,5.3,3.8,42
+199798,Ezri Konsa,DEF,4.4,5.0,3.3,33
+441302,Ian Maatsen,DEF,4.2,0.7,0.9,6
+149484,Tyrone Mings,DEF,4.4,0.3,3.4,24
+244954,Pau Torres,DEF,4.3,5.0,3.1,25
+515597,Lamare Bogarde,DEF,4.0,0.3,2.3,16
+244850,Morgan Rogers,MID,6.8,2.0,3.2,35
+166989,Youri Tielemans,MID,5.9,1.3,2.4,12
+195546,Emi Buendía,MID,5.3,5.0,4.3,39
+204646,Donyell Malen,MID,5.1,2.7,2.9,32
+122806,John McGinn,MID,5.4,2.3,2.7,30
+88894,Ross Barkley,MID,4.8,2.7,2.0,10
 226944,Boubacar Kamara,MID,4.9,2.0,2.6,23
-449871,Amadou Onana,MID,4.8,4.2,3.4,24
-178301,Ollie Watkins,FWD,8.5,1.8,2.5,27
+449871,Amadou Onana,MID,4.8,4.3,3.4,24
+178301,Ollie Watkins,FWD,8.5,2.0,2.5,27
 444884,Harvey Elliott,MID,5.4,0.0,1.0,4
-209243,Jadon Sancho,MID,5.8,0.8,1.0,4
-485337,Evann Guessand,MID,6.2,1.2,1.4,14
+209243,Jadon Sancho,MID,5.8,1.0,1.0,4
+485337,Evann Guessand,MID,6.2,1.0,1.4,14
 645618,Bradley Paul Burrowes,MID,4.4,0.0,1.0,1
 184667,Victor Lindelöf,DEF,4.5,0.0,1.0,3
 58621,Kyle Walker,DEF,4.4,1.3,2.6,29
@@ -244,26 +244,26 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 435997,Noah Okafor,MID,5.5,2.7,3.6,29
 220627,James Justin,DEF,3.9,0.3,0.8,4
 116535,Alisson,GK,5.4,0.0,3.3,20
-449027,Giorgi Mamardashvili,GK,4.3,4.2,3.8,19
-216094,Jeremie Frimpong,DEF,5.7,0.2,1.8,7
-544877,Milos Kerkez,DEF,5.7,2.0,2.1,21
-122798,Andrew Robertson,DEF,5.8,2.2,1.8,11
+449027,Giorgi Mamardashvili,GK,4.3,5.3,3.8,19
+216094,Jeremie Frimpong,DEF,5.7,0.0,1.8,7
+544877,Milos Kerkez,DEF,5.7,2.3,2.1,21
+122798,Andrew Robertson,DEF,5.8,3.0,1.8,11
 97032,Virgil van Dijk,DEF,5.9,3.0,3.7,41
-204716,Ibrahima Konaté,DEF,5.4,3.8,3.5,39
-492777,Conor Bradley,DEF,5.0,3.0,1.7,15
-171287,Joe Gomez,DEF,4.9,0.5,1.0,4
-118748,Mohamed Salah,MID,14.2,5.0,4.9,54
-494595,Florian Wirtz,MID,8.0,1.5,1.7,19
-243298,Cody Gakpo,MID,7.5,3.2,4.2,46
-223541,Federico Chiesa,MID,6.4,1.5,2.5,20
-243016,Alexis Mac Allister,MID,6.3,2.5,2.5,25
-424876,Dominik Szoboszlai,MID,6.6,4.2,4.0,44
-206915,Curtis Jones,MID,5.4,0.8,1.4,13
-441266,Ryan Gravenberch,MID,5.6,3.8,5.8,52
+204716,Ibrahima Konaté,DEF,5.4,4.0,3.5,39
+492777,Conor Bradley,DEF,5.0,3.3,1.7,15
+171287,Joe Gomez,DEF,4.9,0.7,1.0,4
+118748,Mohamed Salah,MID,14.2,6.0,4.9,54
+494595,Florian Wirtz,MID,8.0,1.7,1.7,19
+243298,Cody Gakpo,MID,7.5,2.0,4.2,46
+223541,Federico Chiesa,MID,6.4,0.7,2.5,20
+243016,Alexis Mac Allister,MID,6.3,2.7,2.5,25
+424876,Dominik Szoboszlai,MID,6.6,4.3,4.0,44
+206915,Curtis Jones,MID,5.4,0.7,1.4,13
+441266,Ryan Gravenberch,MID,5.6,4.3,5.8,52
 158983,Wataru Endo,MID,4.9,0.0,1.5,6
-219168,Alexander Isak,FWD,10.4,0.5,2.5,10
-510663,Hugo Ekitike,FWD,8.6,1.5,3.9,39
-611922,Rio Ngumoha,MID,4.5,0.2,2.2,9
+219168,Alexander Isak,FWD,10.4,0.0,2.5,10
+510663,Hugo Ekitike,FWD,8.6,1.7,3.9,39
+611922,Rio Ngumoha,MID,4.5,0.3,2.2,9
 432720,James Trafford,GK,4.7,0.0,3.7,11
 448514,Rayan Aït-Nouri,DEF,5.7,0.3,2.8,11
 477424,Joško Gvardiol,DEF,5.8,3.3,4.9,34
@@ -287,26 +287,26 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 433036,Tijjani Reijnders,MID,5.5,0.7,3.4,34
 223094,Erling Haaland,FWD,14.9,6.3,9.3,102
 204936,Gianluigi Donnarumma,GK,5.7,3.3,3.9,31
-446008,Bryan Mbeumo,MID,8.5,8.2,5.5,60
+446008,Bryan Mbeumo,MID,8.5,8.0,5.5,60
 451302,Altay Bayındır,GK,4.8,0.0,1.8,11
-209365,Matthijs de Ligt,DEF,5.0,3.2,3.5,39
-230001,Noussair Mazraoui,DEF,4.9,0.2,2.0,10
-216051,Diogo Dalot,DEF,4.4,1.5,2.4,22
-596777,Patrick Dorgu,DEF,4.2,1.5,1.6,16
-95658,Harry Maguire,DEF,4.4,4.2,4.1,33
-106760,Luke Shaw,DEF,4.5,3.2,2.5,28
-550864,Leny Yoro,DEF,4.4,0.8,2.1,23
-606745,Ayden Heaven,DEF,3.8,0.8,2.0,4
-141746,Bruno Fernandes,MID,8.9,5.5,4.5,50
-430871,Matheus Cunha,MID,7.9,4.2,2.6,26
-493250,Amad Diallo,MID,6.3,5.8,3.7,37
-184341,Mason Mount,MID,5.9,1.0,2.8,22
-61256,Casimiro,MID,5.5,8.0,4.7,47
-516895,Kobbie Mainoo,MID,4.7,0.5,1.0,7
-232112,Manuel Ugarte,MID,4.8,0.8,1.4,13
-458249,Joshua Zirkzee,FWD,5.8,0.2,1.0,4
-485711,Benjamin Šeško,FWD,7.3,2.0,2.8,31
-465247,Senne Lammens,GK,5.0,1.8,3.2,16
+209365,Matthijs de Ligt,DEF,5.0,3.7,3.5,39
+230001,Noussair Mazraoui,DEF,4.9,0.3,2.0,10
+216051,Diogo Dalot,DEF,4.4,0.7,2.4,22
+596777,Patrick Dorgu,DEF,4.2,1.7,1.6,16
+95658,Harry Maguire,DEF,4.4,2.0,4.1,33
+106760,Luke Shaw,DEF,4.5,3.7,2.5,28
+550864,Leny Yoro,DEF,4.4,0.7,2.1,23
+606745,Ayden Heaven,DEF,3.8,1.0,2.0,4
+141746,Bruno Fernandes,MID,8.9,4.7,4.5,50
+430871,Matheus Cunha,MID,7.9,5.0,2.6,26
+493250,Amad Diallo,MID,6.3,6.7,3.7,37
+184341,Mason Mount,MID,5.9,0.3,2.8,22
+61256,Casimiro,MID,5.5,10.7,4.7,47
+516895,Kobbie Mainoo,MID,4.7,0.3,1.0,7
+232112,Manuel Ugarte,MID,4.8,0.7,1.4,13
+458249,Joshua Zirkzee,FWD,5.8,0.3,1.0,4
+485711,Benjamin Šeško,FWD,7.3,2.3,2.8,31
+465247,Senne Lammens,GK,5.0,1.3,3.2,16
 232653,Jacob Ramsey,MID,5.3,0.7,1.0,5
 98747,Nick Pope,GK,5.2,3.0,4.7,52
 487838,Lewis Hall,DEF,5.2,0.0,2.2,9
@@ -338,7 +338,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 575458,Jair Cunha,DEF,4.3,0.0,3.0,3
 485047,Morato,DEF,4.4,0.3,1.3,8
 222531,Morgan Gibbs-White,MID,7.3,6.7,3.6,40
-209046,Callum Hudson-Odoi,MID,5.8,1.0,2.2,22
+209046,Callum Hudson-Odoi,MID,5.7,1.0,2.2,22
 215379,Elliot Anderson,MID,5.3,5.0,3.7,41
 510500,Jota Silva,MID,5.4,0.0,1.0,1
 250199,Nicolás Domínguez,MID,5.0,0.7,0.7,2
@@ -375,26 +375,26 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 247955,Lutsharel Geertruida,DEF,4.5,1.7,1.2,10
 441264,Brian Brobbey,FWD,5.5,3.3,2.2,13
 110504,Bertrand Traoré,MID,5.5,3.0,2.2,13
-184254,Guglielmo Vicario,GK,5.0,3.0,4.3,47
-441164,Pedro Porro,DEF,5.5,4.0,4.2,46
-221632,Cristian Romero,DEF,5.0,0.5,3.8,34
-135720,Kevin Danso,DEF,4.3,2.2,1.7,12
-232859,Djed Spence,DEF,4.5,2.5,3.1,31
-487053,Destiny Udogie,DEF,4.4,1.2,1.7,12
-491279,Micky van de Ven,DEF,4.8,6.5,5.3,58
-242898,Brennan Johnson,MID,6.7,1.5,2.5,28
-460842,Mohammed Kudus,MID,6.5,1.5,4.5,45
-511499,Mathys Tel,MID,6.3,2.0,2.9,23
-202993,Rodrigo Bentancur,MID,5.3,5.2,3.5,35
-570526,Lucas Bergvall,MID,5.4,0.8,2.7,24
-550839,Wilson Odobert,MID,5.3,2.5,1.9,19
+184254,Guglielmo Vicario,GK,5.0,3.7,4.3,47
+441164,Pedro Porro,DEF,5.5,5.0,4.2,46
+221632,Cristian Romero,DEF,5.0,0.7,3.8,34
+135720,Kevin Danso,DEF,4.3,3.0,1.7,12
+232859,Djed Spence,DEF,4.5,3.0,3.1,31
+487053,Destiny Udogie,DEF,4.4,1.7,1.7,12
+491279,Micky van de Ven,DEF,4.8,8.7,5.3,58
+242898,Brennan Johnson,MID,6.7,1.7,2.5,28
+460842,Mohammed Kudus,MID,6.5,1.3,4.5,45
+511499,Mathys Tel,MID,6.3,2.3,2.9,23
+202993,Rodrigo Bentancur,MID,5.3,3.0,3.5,35
+570526,Lucas Bergvall,MID,5.4,0.7,2.7,24
+550839,Wilson Odobert,MID,5.3,2.7,1.9,19
 547701,Archie Gray,MID,4.8,0.0,2.0,4
-482442,Pape Matar Sarr,MID,4.8,3.2,3.7,37
+482442,Pape Matar Sarr,MID,4.8,4.0,3.7,37
 154566,Dominic Solanke,FWD,7.2,0.0,1.0,2
-212319,Richarlison,FWD,6.4,3.0,4.0,44
-154296,João Palhinha,MID,5.5,5.2,4.6,51
-493362,Xavi Simons,MID,6.7,2.5,2.5,20
-247693,Randal Kolo Muani,FWD,6.9,1.5,1.5,6
+212319,Richarlison,FWD,6.4,3.7,4.0,44
+154296,João Palhinha,MID,5.5,4.0,4.6,51
+493362,Xavi Simons,MID,6.7,2.7,2.5,20
+247693,Randal Kolo Muani,FWD,6.9,1.7,1.5,6
 223434,Igor,DEF,4.5,0.5,1.0,3
 84182,Alphonse Areola,GK,4.3,2.2,2.1,15
 613804,El Hadji Malick Diouf,DEF,4.3,1.2,2.8,31
