@@ -209,48 +209,48 @@ gameweek,dayofweek,date,start_time,home_team,home_xg,score,away_xg,away_team,mat
 21,Wed,2026-01-07,20:15,Burnley,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/943e8050/19538871/Burnley-vs-Manchester-United-History,False,Burnley_ManchesterUtd_20260107
 21,Wed,2026-01-07,20:15,Newcastle Utd,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/b2b47a98/5bfb9659/Newcastle-United-vs-Leeds-United-History,False,NewcastleUtd_LeedsUnited_20260107
 21,Thu,2026-01-08,20:00,Arsenal,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/822bd0ba/18bb7c10/Liverpool-vs-Arsenal-History,False,Arsenal_Liverpool_20260108
-22,Sat,2026-01-17,15:00,Brighton,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/d07537b9/4ba7cbea/Brighton-and-Hove-Albion-vs-Bournemouth-History,False,Brighton_Bournemouth_20260117
-22,Sat,2026-01-17,15:00,Aston Villa,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/8602292d/Everton-vs-Aston-Villa-History,False,AstonVilla_Everton_20260117
-22,Sat,2026-01-17,15:00,Nott'ham Forest,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/e4a775cb/18bb7c10/Nottingham-Forest-vs-Arsenal-History,False,Nott'hamForest_Arsenal_20260117
-22,Sat,2026-01-17,15:00,Manchester Utd,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/19538871/Manchester-Derby-Manchester-City-vs-Manchester-United-History,False,ManchesterUtd_ManchesterCity_20260117
-22,Sat,2026-01-17,15:00,Liverpool,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/943e8050/822bd0ba/Burnley-vs-Liverpool-History,False,Liverpool_Burnley_20260117
-22,Sat,2026-01-17,15:00,Leeds United,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/5bfb9659/Fulham-vs-Leeds-United-History,False,LeedsUnited_Fulham_20260117
-22,Sat,2026-01-17,15:00,Wolves,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/8cec06e1/Newcastle-United-vs-Wolverhampton-Wanderers-History,False,Wolves_NewcastleUtd_20260117
-22,Sat,2026-01-17,15:00,Sunderland,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/8ef52968/47c64c55/Sunderland-vs-Crystal-Palace-History,False,Sunderland_CrystalPalace_20260117
+22,Sat,2026-01-17,12:30,Manchester Utd,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/19538871/Manchester-Derby-Manchester-City-vs-Manchester-United-History,False,ManchesterUtd_ManchesterCity_20260117
 22,Sat,2026-01-17,15:00,Chelsea,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/cd051869/Chelsea-vs-Brentford-History,False,Chelsea_Brentford_20260117
 22,Sat,2026-01-17,15:00,Tottenham,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/7c21e445/361ca564/West-Ham-United-vs-Tottenham-Hotspur-History,False,Tottenham_WestHam_20260117
-23,Sat,2026-01-24,15:00,Brentford,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/cd051869/Nottingham-Forest-vs-Brentford-History,False,Brentford_Nott'hamForest_20260124
-23,Sat,2026-01-24,15:00,Newcastle Utd,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/b2b47a98/8602292d/Newcastle-United-vs-Aston-Villa-History,False,NewcastleUtd_AstonVilla_20260124
-23,Sat,2026-01-24,15:00,Bournemouth,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/822bd0ba/4ba7cbea/Liverpool-vs-Bournemouth-History,False,Bournemouth_Liverpool_20260124
-23,Sat,2026-01-24,15:00,Fulham,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/fd962109/d07537b9/Fulham-vs-Brighton-and-Hove-Albion-History,False,Fulham_Brighton_20260124
-23,Sat,2026-01-24,15:00,Arsenal,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/19538871/18bb7c10/Manchester-United-vs-Arsenal-History,False,Arsenal_ManchesterUtd_20260124
+22,Sat,2026-01-17,15:00,Sunderland,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/8ef52968/47c64c55/Sunderland-vs-Crystal-Palace-History,False,Sunderland_CrystalPalace_20260117
+22,Sat,2026-01-17,15:00,Liverpool,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/943e8050/822bd0ba/Burnley-vs-Liverpool-History,False,Liverpool_Burnley_20260117
+22,Sat,2026-01-17,15:00,Leeds United,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/5bfb9659/Fulham-vs-Leeds-United-History,False,LeedsUnited_Fulham_20260117
+22,Sat,2026-01-17,17:30,Nott'ham Forest,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/e4a775cb/18bb7c10/Nottingham-Forest-vs-Arsenal-History,False,Nott'hamForest_Arsenal_20260117
+22,Sun,2026-01-18,14:00,Wolves,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/8cec06e1/Newcastle-United-vs-Wolverhampton-Wanderers-History,False,Wolves_NewcastleUtd_20260118
+22,Sun,2026-01-18,16:30,Aston Villa,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/8602292d/Everton-vs-Aston-Villa-History,False,AstonVilla_Everton_20260118
+22,Mon,2026-01-19,20:00,Brighton,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/d07537b9/4ba7cbea/Brighton-and-Hove-Albion-vs-Bournemouth-History,False,Brighton_Bournemouth_20260119
+23,Sat,2026-01-24,12:30,West Ham,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/8ef52968/7c21e445/Sunderland-vs-West-Ham-United-History,False,WestHam_Sunderland_20260124
 23,Sat,2026-01-24,15:00,Manchester City,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/8cec06e1/Manchester-City-vs-Wolverhampton-Wanderers-History,False,ManchesterCity_Wolves_20260124
+23,Sat,2026-01-24,15:00,Fulham,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/fd962109/d07537b9/Fulham-vs-Brighton-and-Hove-Albion-History,False,Fulham_Brighton_20260124
 23,Sat,2026-01-24,15:00,Burnley,,,,Tottenham,https://fbref.com/en/stathead/matchup/teams/943e8050/361ca564/Burnley-vs-Tottenham-Hotspur-History,False,Burnley_Tottenham_20260124
-23,Sat,2026-01-24,15:00,Everton,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/5bfb9659/Everton-vs-Leeds-United-History,False,Everton_LeedsUnited_20260124
-23,Sat,2026-01-24,15:00,West Ham,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/8ef52968/7c21e445/Sunderland-vs-West-Ham-United-History,False,WestHam_Sunderland_20260124
-23,Sat,2026-01-24,15:00,Crystal Palace,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/47c64c55/Chelsea-vs-Crystal-Palace-History,False,CrystalPalace_Chelsea_20260124
-24,Sat,2026-01-31,15:00,Aston Villa,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cd051869/8602292d/Brentford-vs-Aston-Villa-History,False,AstonVilla_Brentford_20260131
-24,Sat,2026-01-31,15:00,Chelsea,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/7c21e445/Chelsea-vs-West-Ham-United-History,False,Chelsea_WestHam_20260131
-24,Sat,2026-01-31,15:00,Sunderland,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/943e8050/8ef52968/Burnley-vs-Sunderland-History,False,Sunderland_Burnley_20260131
-24,Sat,2026-01-31,15:00,Brighton,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/d07537b9/Everton-vs-Brighton-and-Hove-Albion-History,False,Brighton_Everton_20260131
-24,Sat,2026-01-31,15:00,Leeds United,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/5bfb9659/18bb7c10/Leeds-United-vs-Arsenal-History,False,LeedsUnited_Arsenal_20260131
+23,Sat,2026-01-24,17:30,Bournemouth,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/822bd0ba/4ba7cbea/Liverpool-vs-Bournemouth-History,False,Bournemouth_Liverpool_20260124
+23,Sun,2026-01-25,14:00,Crystal Palace,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/47c64c55/Chelsea-vs-Crystal-Palace-History,False,CrystalPalace_Chelsea_20260125
+23,Sun,2026-01-25,14:00,Newcastle Utd,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/b2b47a98/8602292d/Newcastle-United-vs-Aston-Villa-History,False,NewcastleUtd_AstonVilla_20260125
+23,Sun,2026-01-25,14:00,Brentford,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/cd051869/Nottingham-Forest-vs-Brentford-History,False,Brentford_Nott'hamForest_20260125
+23,Sun,2026-01-25,16:30,Arsenal,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/19538871/18bb7c10/Manchester-United-vs-Arsenal-History,False,Arsenal_ManchesterUtd_20260125
+23,Mon,2026-01-26,20:00,Everton,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/5bfb9659/Everton-vs-Leeds-United-History,False,Everton_LeedsUnited_20260126
 24,Sat,2026-01-31,15:00,Wolves,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/8cec06e1/4ba7cbea/Wolverhampton-Wanderers-vs-Bournemouth-History,False,Wolves_Bournemouth_20260131
-24,Sat,2026-01-31,15:00,Liverpool,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/822bd0ba/Newcastle-United-vs-Liverpool-History,False,Liverpool_NewcastleUtd_20260131
-24,Sat,2026-01-31,15:00,Manchester Utd,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/19538871/Fulham-vs-Manchester-United-History,False,ManchesterUtd_Fulham_20260131
-24,Sat,2026-01-31,15:00,Tottenham,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/361ca564/Manchester-City-vs-Tottenham-Hotspur-History,False,Tottenham_ManchesterCity_20260131
-24,Sat,2026-01-31,15:00,Nott'ham Forest,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/e4a775cb/47c64c55/Nottingham-Forest-vs-Crystal-Palace-History,False,Nott'hamForest_CrystalPalace_20260131
-25,Sat,2026-02-07,15:00,Bournemouth,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/8602292d/4ba7cbea/Aston-Villa-vs-Bournemouth-History,False,Bournemouth_AstonVilla_20260207
-25,Sat,2026-02-07,15:00,Wolves,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/8cec06e1/Chelsea-vs-Wolverhampton-Wanderers-History,False,Wolves_Chelsea_20260207
-25,Sat,2026-02-07,15:00,Arsenal,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/8ef52968/18bb7c10/Sunderland-vs-Arsenal-History,False,Arsenal_Sunderland_20260207
-25,Sat,2026-02-07,15:00,Manchester Utd,,,,Tottenham,https://fbref.com/en/stathead/matchup/teams/361ca564/19538871/Tottenham-Hotspur-vs-Manchester-United-History,False,ManchesterUtd_Tottenham_20260207
-25,Sat,2026-02-07,15:00,Leeds United,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/5bfb9659/Nottingham-Forest-vs-Leeds-United-History,False,LeedsUnited_Nott'hamForest_20260207
+24,Sat,2026-01-31,15:00,Leeds United,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/5bfb9659/18bb7c10/Leeds-United-vs-Arsenal-History,False,LeedsUnited_Arsenal_20260131
+24,Sat,2026-01-31,15:00,Brighton,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/d07537b9/Everton-vs-Brighton-and-Hove-Albion-History,False,Brighton_Everton_20260131
+24,Sat,2026-01-31,17:30,Chelsea,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/7c21e445/Chelsea-vs-West-Ham-United-History,False,Chelsea_WestHam_20260131
+24,Sat,2026-01-31,20:00,Liverpool,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/822bd0ba/Newcastle-United-vs-Liverpool-History,False,Liverpool_NewcastleUtd_20260131
+24,Sun,2026-02-01,14:00,Nott'ham Forest,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/e4a775cb/47c64c55/Nottingham-Forest-vs-Crystal-Palace-History,False,Nott'hamForest_CrystalPalace_20260201
+24,Sun,2026-02-01,14:00,Manchester Utd,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/19538871/Fulham-vs-Manchester-United-History,False,ManchesterUtd_Fulham_20260201
+24,Sun,2026-02-01,14:00,Aston Villa,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cd051869/8602292d/Brentford-vs-Aston-Villa-History,False,AstonVilla_Brentford_20260201
+24,Sun,2026-02-01,16:30,Tottenham,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/361ca564/Manchester-City-vs-Tottenham-Hotspur-History,False,Tottenham_ManchesterCity_20260201
+24,Mon,2026-02-02,20:00,Sunderland,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/943e8050/8ef52968/Burnley-vs-Sunderland-History,False,Sunderland_Burnley_20260202
 25,Sat,2026-02-07,15:00,Brighton,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/d07537b9/47c64c55/Brighton-and-Hove-Albion-vs-Crystal-Palace-History,False,Brighton_CrystalPalace_20260207
+25,Sat,2026-02-07,15:00,Wolves,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/8cec06e1/Chelsea-vs-Wolverhampton-Wanderers-History,False,Wolves_Chelsea_20260207
+25,Sat,2026-02-07,15:00,Leeds United,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/5bfb9659/Nottingham-Forest-vs-Leeds-United-History,False,LeedsUnited_Nott'hamForest_20260207
+25,Sat,2026-02-07,15:00,Arsenal,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/8ef52968/18bb7c10/Sunderland-vs-Arsenal-History,False,Arsenal_Sunderland_20260207
 25,Sat,2026-02-07,15:00,Burnley,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/943e8050/7c21e445/Burnley-vs-West-Ham-United-History,False,Burnley_WestHam_20260207
-25,Sat,2026-02-07,15:00,Liverpool,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/822bd0ba/Manchester-City-vs-Liverpool-History,False,Liverpool_ManchesterCity_20260207
 25,Sat,2026-02-07,15:00,Newcastle Utd,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cd051869/b2b47a98/Brentford-vs-Newcastle-United-History,False,NewcastleUtd_Brentford_20260207
+25,Sat,2026-02-07,15:00,Bournemouth,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/8602292d/4ba7cbea/Aston-Villa-vs-Bournemouth-History,False,Bournemouth_AstonVilla_20260207
 25,Sat,2026-02-07,15:00,Fulham,,,,Everton,https://fbref.com/en/stathead/matchup/teams/fd962109/d3fd31cc/Fulham-vs-Everton-History,False,Fulham_Everton_20260207
-26,Wed,2026-02-11,20:00,Tottenham,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/361ca564/Newcastle-United-vs-Tottenham-Hotspur-History,False,Tottenham_NewcastleUtd_20260211
+25,Sat,2026-02-07,15:00,Liverpool,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/822bd0ba/Manchester-City-vs-Liverpool-History,False,Liverpool_ManchesterCity_20260207
+25,Sat,2026-02-07,15:00,Manchester Utd,,,,Tottenham,https://fbref.com/en/stathead/matchup/teams/361ca564/19538871/Tottenham-Hotspur-vs-Manchester-United-History,False,ManchesterUtd_Tottenham_20260207
 26,Wed,2026-02-11,20:00,West Ham,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/7c21e445/19538871/West-Ham-United-vs-Manchester-United-History,False,WestHam_ManchesterUtd_20260211
+26,Wed,2026-02-11,20:00,Tottenham,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/361ca564/Newcastle-United-vs-Tottenham-Hotspur-History,False,Tottenham_NewcastleUtd_20260211
 26,Wed,2026-02-11,20:00,Nott'ham Forest,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/e4a775cb/8cec06e1/Nottingham-Forest-vs-Wolverhampton-Wanderers-History,False,Nott'hamForest_Wolves_20260211
 26,Wed,2026-02-11,20:00,Manchester City,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/b8fd03ef/Fulham-vs-Manchester-City-History,False,ManchesterCity_Fulham_20260211
 26,Wed,2026-02-11,20:00,Crystal Palace,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/943e8050/47c64c55/Burnley-vs-Crystal-Palace-History,False,CrystalPalace_Burnley_20260211
