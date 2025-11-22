@@ -1,6 +1,6 @@
 player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 154561,David Raya,GK,5.9,4.3,4.8,53
-226597,Gabriel Magalhães,DEF,6.6,7.3,7.4,81
+226597,Gabriel Magalhães,DEF,6.5,7.3,7.4,81
 462424,William Saliba,DEF,6.0,2.7,3.9,39
 466075,Riccardo Calafiori,DEF,5.8,4.3,5.5,61
 445122,Jurriën Timber,DEF,6.2,4.3,6.1,67
@@ -19,7 +19,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 219847,Kai Havertz,FWD,7.3,0.0,1.0,1
 232413,Eberechi Eze,MID,7.6,5.3,4.1,41
 500040,Cristhian Mosquera,DEF,5.4,0.7,2.0,14
-224117,Viktor Gyökeres,FWD,8.9,3.0,3.7,37
+224117,Viktor Gyökeres,FWD,8.8,3.0,3.7,37
 616077,Max Dowman,MID,4.3,0.0,2.5,5
 448104,Piero Hincapié,DEF,5.4,0.7,1.0,2
 98980,Emiliano Martínez,GK,5.0,7.7,4.4,40
@@ -74,7 +74,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 463981,James Hill,DEF,4.0,0.0,2.4,17
 575901,Julio Soler,DEF,4.0,0.0,1.0,1
 222683,Justin Kluivert,MID,7.0,1.3,1.8,18
-437730,Antoine Semenyo,MID,8.1,1.7,6.8,75
+437730,Antoine Semenyo,MID,8.0,1.7,6.8,75
 201658,Marcus Tavernier,MID,5.5,5.0,4.3,47
 200785,Tyler Adams,MID,5.0,5.3,3.4,37
 111317,David Brooks,MID,5.0,1.0,2.1,21
@@ -110,7 +110,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 207283,Mathias Jensen,MID,4.9,1.0,2.3,21
 428580,Frank Onyeka,MID,4.9,0.3,2.0,12
 508395,Yehor Yarmoliuk,MID,5.0,2.3,3.0,33
-502500,Thiago,FWD,6.3,6.7,5.5,60
+502500,Thiago,FWD,6.4,6.7,5.5,60
 489639,Bart Verbruggen,GK,4.4,4.3,2.4,26
 550090,Diego Coppola,DEF,4.3,0.0,1.0,3
 465730,Maxim De Cuyper,DEF,4.3,0.3,1.8,16
@@ -118,9 +118,9 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 231416,Ferdi Kadioglu,DEF,4.4,3.7,2.2,22
 469142,Jan Paul van Hecke,DEF,4.4,4.7,3.6,40
 111478,Joël Veltman,DEF,4.3,0.0,1.4,7
-451340,Kaoru Mitoma,MID,6.2,0.0,3.3,20
+451340,Kaoru Mitoma,MID,6.1,0.0,3.3,20
 463067,Georginio Rutter,MID,5.7,2.3,3.0,30
-592031,Yankuba Minteh,MID,6.0,5.7,4.5,50
+592031,Yankuba Minteh,MID,6.1,5.7,4.5,50
 513433,Brajan Gruda,MID,5.4,0.0,2.7,19
 532529,Jack Hinshelwood,MID,5.1,0.0,1.3,4
 219249,Matt O'Riley,MID,5.5,0.0,6.0,12
@@ -196,7 +196,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 609873,Harrison Armstrong,MID,4.5,0.0,1.0,1
 586309,Thierno Barry,FWD,5.7,1.0,1.1,12
 486385,Beto,FWD,5.2,1.3,1.9,21
-114283,Jack Grealish,MID,6.8,2.0,4.3,43
+114283,Jack Grealish,MID,6.7,2.0,4.3,43
 496661,Tyler Dibling,MID,5.4,0.0,0.8,3
 513466,Merlin Röhl,MID,5.0,0.7,1.0,4
 80201,Bernd Leno,GK,5.0,3.7,3.1,34
@@ -248,7 +248,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 216094,Jeremie Frimpong,DEF,5.7,0.0,1.8,7
 544877,Milos Kerkez,DEF,5.7,2.3,2.1,21
 122798,Andrew Robertson,DEF,5.8,3.0,1.8,11
-97032,Virgil van Dijk,DEF,5.9,3.0,3.7,41
+97032,Virgil van Dijk,DEF,6.0,3.0,3.7,41
 204716,Ibrahima Konaté,DEF,5.4,4.0,3.5,39
 492777,Conor Bradley,DEF,5.0,3.3,1.7,15
 171287,Joe Gomez,DEF,4.9,0.7,1.0,4
@@ -278,16 +278,16 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 209244,Phil Foden,MID,8.0,2.7,3.4,31
 510281,Sávio,MID,6.9,1.0,2.0,16
 165809,Bernardo Silva,MID,6.3,3.0,2.3,25
-466052,Rayan Cherki,MID,6.3,4.0,3.3,20
+466052,Rayan Cherki,MID,6.4,4.0,3.3,20
 248875,Jeremy Doku,MID,6.5,4.7,4.0,44
 220566,Rodri,MID,6.3,0.3,2.0,12
 91651,Mateo Kovačić,MID,5.9,0.0,1.0,1
 465694,Nicolás González,MID,5.9,4.0,2.8,28
 477555,Oscar Bobb,MID,5.3,0.7,2.2,18
-433036,Tijjani Reijnders,MID,5.5,0.7,3.4,34
+433036,Tijjani Reijnders,MID,5.4,0.7,3.4,34
 223094,Erling Haaland,FWD,14.9,6.3,9.3,102
 204936,Gianluigi Donnarumma,GK,5.7,3.3,3.9,31
-446008,Bryan Mbeumo,MID,8.5,8.0,5.5,60
+446008,Bryan Mbeumo,MID,8.6,8.0,5.5,60
 451302,Altay Bayındır,GK,4.8,0.0,1.8,11
 209365,Matthijs de Ligt,DEF,5.0,3.7,3.5,39
 230001,Noussair Mazraoui,DEF,4.9,0.3,2.0,10
@@ -310,9 +310,9 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 232653,Jacob Ramsey,MID,5.3,0.7,1.0,5
 98747,Nick Pope,GK,5.2,3.0,4.7,52
 487838,Lewis Hall,DEF,5.2,0.0,2.2,9
-119471,Fabian Schär,DEF,5.4,0.7,4.2,25
+119471,Fabian Schär,DEF,5.3,0.7,4.2,25
 220237,Sven Botman,DEF,4.9,1.3,3.4,31
-78916,Dan Burn,DEF,5.2,1.0,4.4,48
+78916,Dan Burn,DEF,5.1,1.0,4.4,48
 441191,Valentino Livramento,DEF,4.9,0.0,6.2,37
 77794,Kieran Trippier,DEF,5.0,0.7,3.3,30
 101148,Jamaal Lascelles,DEF,4.3,0.0,0.5,1
@@ -330,7 +330,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 470313,Nick Woltemade,FWD,7.4,2.7,5.0,40
 206325,Oleksandr Zinchenko,DEF,4.9,0.0,1.7,5
 432714,James Mcatee,MID,5.1,0.0,1.0,4
-85633,Matz Sels,GK,4.8,2.0,2.1,23
+85633,Matz Sels,GK,4.7,2.0,2.1,23
 227444,Nikola Milenković,DEF,5.2,2.0,1.7,19
 575476,Murillo,DEF,5.3,1.7,1.6,13
 159506,Ola Aina,DEF,4.7,0.0,2.0,6
@@ -347,7 +347,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 60689,Chris Wood,FWD,7.2,0.0,3.1,25
 482973,Igor Jesus,FWD,5.8,2.3,1.4,14
 210156,Taiwo Awoniyi,FWD,5.2,1.0,1.0,4
-456512,Dan Ndoye,MID,5.7,2.7,3.2,32
+456512,Dan Ndoye,MID,5.6,2.7,3.2,32
 503301,Omari Hutchinson,MID,5.4,3.0,2.2,13
 465680,Arnaud Kalimuendo,FWD,6.0,0.3,1.0,6
 230046,Douglas Luiz,MID,5.0,0.3,1.8,7
@@ -382,7 +382,7 @@ player_code,fbref_name,position,fpl_cost,fpl_form,season_ppg,total_points
 232859,Djed Spence,DEF,4.5,3.0,3.1,31
 487053,Destiny Udogie,DEF,4.4,1.7,1.7,12
 491279,Micky van de Ven,DEF,4.8,8.7,5.3,58
-242898,Brennan Johnson,MID,6.7,1.7,2.5,28
+242898,Brennan Johnson,MID,6.6,1.7,2.5,28
 460842,Mohammed Kudus,MID,6.5,1.3,4.5,45
 511499,Mathys Tel,MID,6.3,2.3,2.9,23
 202993,Rodrigo Bentancur,MID,5.3,3.0,3.5,35
