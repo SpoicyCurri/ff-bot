@@ -3642,3 +3642,33 @@ Cristian Romero,17,arARG,CB,27-210,90,43,52,82.7,853,362,10,13,76.9,29,32,90.6,4
 Kevin Danso,4,atAUT,CB,27-065,45,16,26,61.5,298,129,5,7,71.4,8,9,88.9,1,6,16.7,0,0.0,0.0,0,0,0,0,0,False,Arsenal_Tottenham_20251123
 Xavi Simons,7,nlNED,AM,22-216,45,18,24,75.0,387,71,5,6,83.3,11,14,78.6,2,3,66.7,0,0.0,0.0,0,2,1,0,3,False,Arsenal_Tottenham_20251123
 Guglielmo Vicario,1,itITA,GK,29-047,90,32,52,61.5,943,669,6,6,100.0,13,14,92.9,13,32,40.6,0,0.0,0.0,0,0,0,0,0,False,Arsenal_Tottenham_20251123
+Joshua Zirkzee,11,nlNED,FW,24-186,90,16,26,61.5,220,46,8,9,88.9,6,10,60.0,1,1,100.0,0,0.2,0.1,2,1,2,1,2,True,ManchesterUtd_Everton_20251124
+Amad Diallo,16,ciCIV,"WB,AM",23-136,90,46,56,82.1,681,82,27,30,90.0,18,19,94.7,0,2,0.0,0,0.1,0.1,4,3,1,1,5,True,ManchesterUtd_Everton_20251124
+Bryan Mbeumo,19,cmCMR,AM,26-109,90,28,42,66.7,462,142,14,14,100.0,12,15,80.0,2,5,40.0,0,0.0,0.3,0,1,1,1,3,True,ManchesterUtd_Everton_20251124
+Casemiro,18,brBRA,CM,33-274,57,42,46,91.3,690,180,19,20,95.0,20,20,100.0,2,5,40.0,0,0.0,0.1,1,7,2,0,8,True,ManchesterUtd_Everton_20251124
+Kobbie Mainoo,37,engENG,CM,20-219,33,18,22,81.8,262,43,13,14,92.9,5,7,71.4,0,0,,0,0.1,0.1,1,3,0,0,1,True,ManchesterUtd_Everton_20251124
+Bruno Fernandes,8,ptPOR,CM,31-077,90,90,103,87.4,1683,512,30,32,93.8,47,51,92.2,10,15,66.7,0,0.1,0.3,2,13,3,0,18,True,ManchesterUtd_Everton_20251124
+Patrick Dorgu,13,dkDEN,WB,21-029,57,21,30,70.0,259,29,17,20,85.0,4,7,57.1,0,1,0.0,0,0.0,0.0,1,0,1,0,1,True,ManchesterUtd_Everton_20251124
+Diogo Dalot,2,ptPOR,WB,26-251,33,24,25,96.0,378,84,14,14,100.0,9,9,100.0,1,1,100.0,0,0.1,0.0,2,2,1,0,5,True,ManchesterUtd_Everton_20251124
+Noussair Mazraoui,3,maMAR,WB,28-010,45,27,32,84.4,377,92,18,20,90.0,7,9,77.8,2,3,66.7,0,0.0,0.0,0,3,0,0,2,True,ManchesterUtd_Everton_20251124
+Mason Mount,7,engENG,AM,26-318,45,22,30,73.3,314,79,14,14,100.0,7,11,63.6,1,5,20.0,0,0.2,0.2,1,0,1,0,2,True,ManchesterUtd_Everton_20251124
+Luke Shaw,23,engENG,CB,30-135,90,88,99,88.9,1387,432,44,46,95.7,41,45,91.1,2,6,33.3,0,0.3,0.4,3,10,1,0,10,True,ManchesterUtd_Everton_20251124
+Matthijs de Ligt,4,nlNED,CB,26-104,90,62,67,92.5,1054,421,21,22,95.5,39,41,95.1,1,1,100.0,0,0.1,0.3,1,5,2,0,6,True,ManchesterUtd_Everton_20251124
+Leny Yoro,15,frFRA,CB,20-011,90,77,85,90.6,1180,317,37,39,94.9,38,44,86.4,1,1,100.0,0,0.0,0.1,2,7,1,0,11,True,ManchesterUtd_Everton_20251124
+Senne Lammens,31,beBEL,GK,23-140,90,17,21,81.0,375,260,3,3,100.0,13,14,92.9,1,4,25.0,0,0.0,0.0,0,0,0,0,1,True,ManchesterUtd_Everton_20251124
+Thierno Barry,11,frFRA,FW,23-034,80,15,25,60.0,152,34,11,13,84.6,3,9,33.3,0,1,0.0,0,0.0,0.0,0,2,0,0,2,False,ManchesterUtd_Everton_20251124
+Tim Iroegbunam,42,engENG,RM,22-147,10,3,4,75.0,33,18,3,3,100.0,0,1,0.0,0,0,,0,0.0,0.0,0,1,0,0,0,False,ManchesterUtd_Everton_20251124
+Jack Grealish,18,engENG,"LM,LW",30-075,86,17,24,70.8,253,36,10,12,83.3,5,9,55.6,1,1,100.0,0,0.0,0.0,0,0,0,0,1,False,ManchesterUtd_Everton_20251124
+Dwight McNeil,7,engENG,LM,26-002,4,1,1,100.0,22,0,0,0,,1,1,100.0,0,0,,0,0.0,0.0,0,0,0,0,0,False,ManchesterUtd_Everton_20251124
+Iliman Ndiaye,10,snSEN,"RM,RW",25-263,80,15,24,62.5,218,17,9,12,75.0,3,6,50.0,1,2,50.0,0,0.0,0.0,0,0,0,0,0,False,ManchesterUtd_Everton_20251124
+Beto,9,gwGNB,FW,27-297,10,0,1,0.0,0,0,0,0,,0,0,,0,0,,0,0.0,0.0,0,0,0,0,0,False,ManchesterUtd_Everton_20251124
+Kiernan Dewsbury-Hall,22,engENG,"CM,AM",27-079,87,23,31,74.2,352,41,13,14,92.9,9,11,81.8,1,4,25.0,0,0.1,0.0,1,1,0,0,2,False,ManchesterUtd_Everton_20251124
+Carlos Alcaraz,24,arARG,CM,22-359,3,3,3,100.0,54,33,2,2,100.0,0,0,,1,1,100.0,0,0.0,0.0,0,1,0,0,1,False,ManchesterUtd_Everton_20251124
+Idrissa Gana Gueye,27,snSEN,DM,36-059,12,7,9,77.8,91,50,3,4,75.0,3,4,75.0,0,0,,0,0.0,0.0,0,1,1,0,1,False,ManchesterUtd_Everton_20251124
+James Garner,37,engENG,"CM,DM",24-256,90,21,33,63.6,309,94,14,17,82.4,6,10,60.0,1,3,33.3,1,0.1,0.0,1,3,0,0,1,False,ManchesterUtd_Everton_20251124
+Vitaliy Mykolenko,16,uaUKR,LB,26-179,90,22,40,55.0,354,197,12,13,92.3,7,15,46.7,2,8,25.0,0,0.0,0.0,0,2,1,0,3,False,ManchesterUtd_Everton_20251124
+Michael Keane,5,engENG,CB,32-317,90,15,18,83.3,265,87,6,7,85.7,8,9,88.9,1,2,50.0,0,0.0,0.0,0,1,0,0,0,False,ManchesterUtd_Everton_20251124
+James Tarkowski,6,engENG,CB,33-005,90,10,16,62.5,194,29,3,5,60.0,6,7,85.7,1,3,33.3,0,0.1,0.1,1,0,0,0,0,False,ManchesterUtd_Everton_20251124
+Séamus Coleman,23,ieIRL,RB,37-044,9,5,6,83.3,64,31,4,4,100.0,1,1,100.0,0,1,0.0,0,0.0,0.0,0,0,0,0,1,False,ManchesterUtd_Everton_20251124
+Jake O'Brien,15,ieIRL,RB,24-193,81,17,29,58.6,356,135,7,9,77.8,7,11,63.6,3,7,42.9,0,0.0,0.0,0,1,0,0,1,False,ManchesterUtd_Everton_20251124
+Jordan Pickford,1,engENG,GK,31-262,90,25,46,54.3,1152,1072,3,3,100.0,4,4,100.0,18,39,46.2,0,0.0,0.0,0,3,0,0,0,False,ManchesterUtd_Everton_20251124
