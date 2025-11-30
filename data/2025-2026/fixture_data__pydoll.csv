@@ -119,11 +119,11 @@ gameweek,dayofweek,date,start_time,home_team,home_xg,score,away_xg,away_team,mat
 12,Sun,2025-11-23,14:00,Leeds United,1.6,1–2,1.6,Aston Villa,https://fbref.com/en/matches/53a69c4e/Leeds-United-Aston-Villa-November-23-2025-Premier-League,True,LeedsUnited_AstonVilla_20251123
 12,Sun,2025-11-23,16:30,Arsenal,1.9,4–1,0.1,Tottenham,https://fbref.com/en/matches/51a5792d/North-London-Derby-Arsenal-Tottenham-Hotspur-November-23-2025-Premier-League,True,Arsenal_Tottenham_20251123
 12,Mon,2025-11-24,20:00,Manchester Utd,1.7,0–1,0.2,Everton,https://fbref.com/en/matches/69a9c9a3/Manchester-United-Everton-November-24-2025-Premier-League,True,ManchesterUtd_Everton_20251124
-13,Sat,2025-11-29,15:00,Sunderland,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/8ef52968/4ba7cbea/Sunderland-vs-Bournemouth-History,False,Sunderland_Bournemouth_20251129
-13,Sat,2025-11-29,15:00,Brentford,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/cd051869/943e8050/Brentford-vs-Burnley-History,False,Brentford_Burnley_20251129
-13,Sat,2025-11-29,15:00,Manchester City,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/5bfb9659/Manchester-City-vs-Leeds-United-History,False,ManchesterCity_LeedsUnited_20251129
-13,Sat,2025-11-29,17:30,Everton,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/b2b47a98/Everton-vs-Newcastle-United-History,False,Everton_NewcastleUtd_20251129
-13,Sat,2025-11-29,20:00,Tottenham,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/361ca564/Fulham-vs-Tottenham-Hotspur-History,False,Tottenham_Fulham_20251129
+13,Sat,2025-11-29,15:00,Sunderland,1.2,3–2,1.6,Bournemouth,https://fbref.com/en/matches/e118da78/Sunderland-Bournemouth-November-29-2025-Premier-League,True,Sunderland_Bournemouth_20251129
+13,Sat,2025-11-29,15:00,Brentford,2.7,3–1,0.9,Burnley,https://fbref.com/en/matches/5615f800/Brentford-Burnley-November-29-2025-Premier-League,True,Brentford_Burnley_20251129
+13,Sat,2025-11-29,15:00,Manchester City,2.6,3–2,1.5,Leeds United,https://fbref.com/en/matches/bfa73051/Manchester-City-Leeds-United-November-29-2025-Premier-League,True,ManchesterCity_LeedsUnited_20251129
+13,Sat,2025-11-29,17:30,Everton,1.0,1–4,1.8,Newcastle Utd,https://fbref.com/en/matches/1e17ace9/Everton-Newcastle-United-November-29-2025-Premier-League,True,Everton_NewcastleUtd_20251129
+13,Sat,2025-11-29,20:00,Tottenham,0.9,1–2,0.4,Fulham,https://fbref.com/en/matches/34e802eb/Tottenham-Hotspur-Fulham-November-29-2025-Premier-League,True,Tottenham_Fulham_20251129
 13,Sun,2025-11-30,12:00,Crystal Palace,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/47c64c55/19538871/Crystal-Palace-vs-Manchester-United-History,False,CrystalPalace_ManchesterUtd_20251130
 13,Sun,2025-11-30,14:05,Nott'ham Forest,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/e4a775cb/d07537b9/Nottingham-Forest-vs-Brighton-and-Hove-Albion-History,False,Nott'hamForest_Brighton_20251130
 13,Sun,2025-11-30,14:05,Aston Villa,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/8cec06e1/8602292d/Wolverhampton-Wanderers-vs-Aston-Villa-History,False,AstonVilla_Wolves_20251130
