@@ -30,6 +30,9 @@ class Config:
         "xg", "npxg", "xg_assist", "xGI", "Defensive Contributions", 
         "goals", "assists", "shots", "shots_on_target", "sca", "gca",
     ])
+    TEAM_METRICS: List[str] = field(default_factory=lambda: [
+        "xg", "xg_against",
+    ])
     
     # FPL Positions
     FPL_POSITIONS: List[str] = field(default_factory=lambda: [
