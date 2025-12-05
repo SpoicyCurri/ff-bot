@@ -132,13 +132,13 @@ gameweek,dayofweek,date,start_time,home_team,home_xg,score,away_xg,away_team,mat
 14,Tue,2025-12-02,19:30,Bournemouth,0.5,0–1,1.4,Everton,https://fbref.com/en/matches/6e2749c6/Bournemouth-Everton-December-2-2025-Premier-League,True,Bournemouth_Everton_20251202
 14,Tue,2025-12-02,19:30,Fulham,0.9,4–5,2.3,Manchester City,https://fbref.com/en/matches/83f0391d/Fulham-Manchester-City-December-2-2025-Premier-League,True,Fulham_ManchesterCity_20251202
 14,Tue,2025-12-02,20:15,Newcastle Utd,2.0,2–2,0.7,Tottenham,https://fbref.com/en/matches/7c5f15be/Newcastle-United-Tottenham-Hotspur-December-2-2025-Premier-League,True,NewcastleUtd_Tottenham_20251202
-14,Wed,2025-12-03,19:30,Burnley,0.9,0–1,0.6,Crystal Palace,https://fbref.com/en/matches/9f1131fe/Burnley-Crystal-Palace-December-3-2025-Premier-League,True,Burnley_CrystalPalace_20251203
-14,Wed,2025-12-03,19:30,Arsenal,1.7,2–0,0.3,Brentford,https://fbref.com/en/matches/576f681d/Arsenal-Brentford-December-3-2025-Premier-League,True,Arsenal_Brentford_20251203
-14,Wed,2025-12-03,19:30,Wolves,0.9,0–1,0.8,Nott'ham Forest,https://fbref.com/en/matches/6f03844a/Wolverhampton-Wanderers-Nottingham-Forest-December-3-2025-Premier-League,True,Wolves_Nott'hamForest_20251203
-14,Wed,2025-12-03,19:30,Brighton,1.5,3–4,2.6,Aston Villa,https://fbref.com/en/matches/96d69898/Brighton-and-Hove-Albion-Aston-Villa-December-3-2025-Premier-League,True,Brighton_AstonVilla_20251203
+14,Wed,2025-12-03,19:30,Burnley,0.9,0–1,0.7,Crystal Palace,https://fbref.com/en/matches/9f1131fe/Burnley-Crystal-Palace-December-3-2025-Premier-League,True,Burnley_CrystalPalace_20251203
+14,Wed,2025-12-03,19:30,Arsenal,1.8,2–0,0.3,Brentford,https://fbref.com/en/matches/576f681d/Arsenal-Brentford-December-3-2025-Premier-League,True,Arsenal_Brentford_20251203
+14,Wed,2025-12-03,19:30,Wolves,0.9,0–1,0.7,Nott'ham Forest,https://fbref.com/en/matches/6f03844a/Wolverhampton-Wanderers-Nottingham-Forest-December-3-2025-Premier-League,True,Wolves_Nott'hamForest_20251203
+14,Wed,2025-12-03,19:30,Brighton,1.9,3–4,2.3,Aston Villa,https://fbref.com/en/matches/96d69898/Brighton-and-Hove-Albion-Aston-Villa-December-3-2025-Premier-League,True,Brighton_AstonVilla_20251203
 14,Wed,2025-12-03,20:15,Liverpool,1.4,1–1,0.4,Sunderland,https://fbref.com/en/matches/1666070b/Liverpool-Sunderland-December-3-2025-Premier-League,True,Liverpool_Sunderland_20251203
-14,Wed,2025-12-03,20:15,Leeds United,2.3,3–1,1.1,Chelsea,https://fbref.com/en/matches/6218f36c/Leeds-United-Chelsea-December-3-2025-Premier-League,True,LeedsUnited_Chelsea_20251203
-14,Thu,2025-12-04,20:00,Manchester Utd,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/7c21e445/19538871/West-Ham-United-vs-Manchester-United-History,False,ManchesterUtd_WestHam_20251204
+14,Wed,2025-12-03,20:15,Leeds United,2.3,3–1,0.9,Chelsea,https://fbref.com/en/matches/6218f36c/Leeds-United-Chelsea-December-3-2025-Premier-League,True,LeedsUnited_Chelsea_20251203
+14,Thu,2025-12-04,20:00,Manchester Utd,1.6,1–1,0.8,West Ham,https://fbref.com/en/matches/66fee216/Manchester-United-West-Ham-United-December-4-2025-Premier-League,True,ManchesterUtd_WestHam_20251204
 15,Sat,2025-12-06,12:30,Aston Villa,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/8602292d/18bb7c10/Aston-Villa-vs-Arsenal-History,False,AstonVilla_Arsenal_20251206
 15,Sat,2025-12-06,15:00,Newcastle Utd,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/b2b47a98/943e8050/Newcastle-United-vs-Burnley-History,False,NewcastleUtd_Burnley_20251206
 15,Sat,2025-12-06,15:00,Manchester City,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/8ef52968/Manchester-City-vs-Sunderland-History,False,ManchesterCity_Sunderland_20251206
