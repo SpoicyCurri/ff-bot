@@ -4497,34 +4497,97 @@ Ibrahima Konaté,5.0,frFRA,CB,26-195,90.0,59.0,3.0,23.0,32.0,4.0,1.0,59.0,0.0,0.
 Conor Bradley,12.0,nirNIR,RB,22-150,67.0,41.0,1.0,9.0,14.0,19.0,3.0,41.0,2.0,1.0,50.0,1.0,50.0,28.0,130.0,76.0,2.0,1.0,1.0,1.0,1.0,28.0,2.0,False,LeedsUnited_Liverpool_20251206
 Joe Gomez,2.0,engENG,RB,28-197,23.0,17.0,1.0,9.0,5.0,3.0,0.0,17.0,0.0,0.0,,0.0,,7.0,25.0,8.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,False,LeedsUnited_Liverpool_20251206
 Alisson,1.0,brBRA,GK,33-065,90.0,35.0,28.0,35.0,0.0,0.0,0.0,35.0,0.0,0.0,,0.0,,27.0,114.0,70.0,0.0,0.0,0.0,0.0,0.0,24.0,0.0,False,LeedsUnited_Liverpool_20251206
-Raúl Jiménez,7,mxMEX,FW,34-216,90,27,2,3,10,14,5,27,0,0,,0,,11,65,26,0,0,0,1,3,16,5,True,Fulham_CrystalPalace_20251207
-Samuel Chukwueze,19,ngNGA,"LW,RW",26-199,75,39,1,4,17,18,3,39,5,3,60.0,2,40.0,22,169,57,3,2,1,2,1,28,7,True,Fulham_CrystalPalace_20251207
-Joshua King,24,engENG,AM,18-338,15,8,0,1,6,1,0,8,3,1,33.3,2,66.7,5,17,6,0,1,0,0,0,5,2,True,Fulham_CrystalPalace_20251207
-Harry Wilson,8,wlsWAL,"RW,AM",28-260,87,41,2,6,14,22,3,41,1,0,0.0,0,0.0,22,60,16,0,1,0,2,1,36,8,True,Fulham_CrystalPalace_20251207
-Tom Cairney,10,sctSCO,DM,34-321,3,5,0,0,3,2,0,5,0,0,,0,,3,5,3,0,0,0,0,0,4,0,True,Fulham_CrystalPalace_20251207
-Emile Smith Rowe,32,engENG,AM,25-132,67,33,0,3,21,10,3,33,1,1,100.0,0,0.0,22,125,69,4,1,2,1,0,26,9,True,Fulham_CrystalPalace_20251207
-Kevin,22,brBRA,LW,22-337,23,17,1,2,5,10,3,17,0,0,,0,,10,66,38,1,1,0,1,0,12,6,True,Fulham_CrystalPalace_20251207
-Alex Iwobi,17,ngNGA,DM,29-218,88,74,0,11,44,20,1,74,3,1,33.3,2,66.7,42,242,92,2,4,0,4,1,55,4,True,Fulham_CrystalPalace_20251207
-Adama Traoré,11,esESP,RW,29-316,2,4,0,0,2,2,0,4,0,0,,0,,2,0,0,0,0,0,0,0,4,1,True,Fulham_CrystalPalace_20251207
-Sander Berge,16,noNOR,DM,27-296,75,51,1,7,34,10,1,51,1,0,0.0,1,100.0,18,82,48,2,0,0,1,1,32,0,True,Fulham_CrystalPalace_20251207
-Saša Lukić,20,rsSRB,DM,29-116,15,10,0,0,8,2,0,10,0,0,,0,,6,27,18,0,1,0,0,0,6,0,True,Fulham_CrystalPalace_20251207
-Timothy Castagne,21,beBEL,LB,30-002,90,68,1,15,33,20,0,68,0,0,,0,,25,76,26,1,0,0,0,1,40,10,True,Fulham_CrystalPalace_20251207
-Calvin Bassey,3,ngNGA,CB,25-341,90,137,6,37,96,4,0,137,2,0,0.0,2,100.0,92,530,417,3,1,0,0,0,106,0,True,Fulham_CrystalPalace_20251207
-Joachim Andersen,5,dkDEN,CB,29-190,90,162,8,53,105,4,2,162,1,1,100.0,0,0.0,111,552,409,0,1,0,0,0,141,0,True,Fulham_CrystalPalace_20251207
-Kenny Tete,2,nlNED,RB,30-059,90,91,6,18,56,17,3,91,3,2,66.7,1,33.3,31,207,91,2,1,0,1,2,58,6,True,Fulham_CrystalPalace_20251207
-Bernd Leno,1,deGER,GK,33-278,90,30,21,30,0,0,0,30,0,0,,0,,13,47,31,0,0,0,0,0,15,0,True,Fulham_CrystalPalace_20251207
-Jean-Philippe Mateta,14,frFRA,FW,28-162,65,24,3,7,9,8,4,24,2,0,0.0,2,100.0,16,60,24,0,1,0,1,1,15,3,False,Fulham_CrystalPalace_20251207
-Christantus Uche,12,ngNGA,FW,22-202,25,11,0,0,7,4,3,11,0,0,,0,,5,14,6,0,0,0,3,0,9,1,False,Fulham_CrystalPalace_20251207
-Yeremi Pino,10,esESP,AM,23-048,89,46,1,8,25,14,2,46,3,2,66.7,0,0.0,28,98,73,1,1,0,2,1,28,3,False,Fulham_CrystalPalace_20251207
-Justin Devenny,55,nirNIR,LM,22-057,1,4,1,1,3,0,0,4,1,0,0.0,1,100.0,2,4,0,0,0,0,0,0,1,0,False,Fulham_CrystalPalace_20251207
-Eddie Nketiah,9,engENG,AM,26-191,64,27,0,4,12,11,5,27,2,0,0.0,2,100.0,16,50,8,0,0,0,5,0,16,9,False,Fulham_CrystalPalace_20251207
-Jefferson Lerma,8,coCOL,CM,31-043,26,17,1,2,14,1,0,17,0,0,,0,,8,31,13,0,0,0,0,0,10,0,False,Fulham_CrystalPalace_20251207
-Daichi Kamada,18,jpJPN,"CM,AM,RM",29-124,90,52,1,9,39,5,0,52,2,1,50.0,1,50.0,32,200,91,2,0,0,3,0,36,6,False,Fulham_CrystalPalace_20251207
-Adam Wharton,20,engENG,CM,21-304,90,57,2,14,30,13,0,57,2,0,0.0,2,100.0,29,127,58,0,0,0,2,0,33,0,False,Fulham_CrystalPalace_20251207
-Tyrick Mitchell,3,engENG,"WB,LB",26-097,90,47,6,11,20,17,0,47,4,3,75.0,1,25.0,28,112,43,2,1,0,3,0,28,9,False,Fulham_CrystalPalace_20251207
-Nathaniel Clyne,17,engENG,WB,34-246,76,38,2,13,14,11,1,38,0,0,,0,,16,52,33,1,2,0,2,0,16,6,False,Fulham_CrystalPalace_20251207
-Jaydee Canvot,23,frFRA,"WB,RB",19-131,14,11,1,4,5,2,0,11,0,0,,0,,4,8,4,0,0,0,1,0,5,2,False,Fulham_CrystalPalace_20251207
-Marc Guéhi,6,engENG,CB,25-147,90,54,5,20,32,3,1,54,0,0,,0,,41,215,131,2,0,0,0,0,40,0,False,Fulham_CrystalPalace_20251207
-Maxence Lacroix,5,frFRA,CB,25-245,90,53,9,33,19,1,1,53,0,0,,0,,39,155,40,0,0,0,1,0,37,0,False,Fulham_CrystalPalace_20251207
-Chris Richards,26,usUSA,CB,25-254,90,59,4,25,29,5,1,59,1,0,0.0,1,100.0,34,154,53,0,1,0,1,0,35,2,False,Fulham_CrystalPalace_20251207
-Dean Henderson,1,engENG,GK,28-270,90,36,29,35,1,0,0,36,0,0,,0,,24,124,64,0,0,0,0,0,11,0,False,Fulham_CrystalPalace_20251207
+Raúl Jiménez,7.0,mxMEX,FW,34-216,90.0,27.0,2.0,3.0,10.0,14.0,5.0,27.0,0.0,0.0,,0.0,,11.0,65.0,26.0,0.0,0.0,0.0,1.0,3.0,16.0,5.0,True,Fulham_CrystalPalace_20251207
+Samuel Chukwueze,19.0,ngNGA,"LW,RW",26-199,75.0,39.0,1.0,4.0,17.0,18.0,3.0,39.0,5.0,3.0,60.0,2.0,40.0,22.0,169.0,57.0,3.0,2.0,1.0,2.0,1.0,28.0,7.0,True,Fulham_CrystalPalace_20251207
+Joshua King,24.0,engENG,AM,18-338,15.0,8.0,0.0,1.0,6.0,1.0,0.0,8.0,3.0,1.0,33.3,2.0,66.7,5.0,17.0,6.0,0.0,1.0,0.0,0.0,0.0,5.0,2.0,True,Fulham_CrystalPalace_20251207
+Harry Wilson,8.0,wlsWAL,"RW,AM",28-260,87.0,41.0,2.0,6.0,14.0,22.0,3.0,41.0,1.0,0.0,0.0,0.0,0.0,22.0,60.0,16.0,0.0,1.0,0.0,2.0,1.0,36.0,8.0,True,Fulham_CrystalPalace_20251207
+Tom Cairney,10.0,sctSCO,DM,34-321,3.0,5.0,0.0,0.0,3.0,2.0,0.0,5.0,0.0,0.0,,0.0,,3.0,5.0,3.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,True,Fulham_CrystalPalace_20251207
+Emile Smith Rowe,32.0,engENG,AM,25-132,67.0,33.0,0.0,3.0,21.0,10.0,3.0,33.0,1.0,1.0,100.0,0.0,0.0,22.0,125.0,69.0,4.0,1.0,2.0,1.0,0.0,26.0,9.0,True,Fulham_CrystalPalace_20251207
+Kevin,22.0,brBRA,LW,22-337,23.0,17.0,1.0,2.0,5.0,10.0,3.0,17.0,0.0,0.0,,0.0,,10.0,66.0,38.0,1.0,1.0,0.0,1.0,0.0,12.0,6.0,True,Fulham_CrystalPalace_20251207
+Alex Iwobi,17.0,ngNGA,DM,29-218,88.0,74.0,0.0,11.0,44.0,20.0,1.0,74.0,3.0,1.0,33.3,2.0,66.7,42.0,242.0,92.0,2.0,4.0,0.0,4.0,1.0,55.0,4.0,True,Fulham_CrystalPalace_20251207
+Adama Traoré,11.0,esESP,RW,29-316,2.0,4.0,0.0,0.0,2.0,2.0,0.0,4.0,0.0,0.0,,0.0,,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,1.0,True,Fulham_CrystalPalace_20251207
+Sander Berge,16.0,noNOR,DM,27-296,75.0,51.0,1.0,7.0,34.0,10.0,1.0,51.0,1.0,0.0,0.0,1.0,100.0,18.0,82.0,48.0,2.0,0.0,0.0,1.0,1.0,32.0,0.0,True,Fulham_CrystalPalace_20251207
+Saša Lukić,20.0,rsSRB,DM,29-116,15.0,10.0,0.0,0.0,8.0,2.0,0.0,10.0,0.0,0.0,,0.0,,6.0,27.0,18.0,0.0,1.0,0.0,0.0,0.0,6.0,0.0,True,Fulham_CrystalPalace_20251207
+Timothy Castagne,21.0,beBEL,LB,30-002,90.0,68.0,1.0,15.0,33.0,20.0,0.0,68.0,0.0,0.0,,0.0,,25.0,76.0,26.0,1.0,0.0,0.0,0.0,1.0,40.0,10.0,True,Fulham_CrystalPalace_20251207
+Calvin Bassey,3.0,ngNGA,CB,25-341,90.0,137.0,6.0,37.0,96.0,4.0,0.0,137.0,2.0,0.0,0.0,2.0,100.0,92.0,530.0,417.0,3.0,1.0,0.0,0.0,0.0,106.0,0.0,True,Fulham_CrystalPalace_20251207
+Joachim Andersen,5.0,dkDEN,CB,29-190,90.0,162.0,8.0,53.0,105.0,4.0,2.0,162.0,1.0,1.0,100.0,0.0,0.0,111.0,552.0,409.0,0.0,1.0,0.0,0.0,0.0,141.0,0.0,True,Fulham_CrystalPalace_20251207
+Kenny Tete,2.0,nlNED,RB,30-059,90.0,91.0,6.0,18.0,56.0,17.0,3.0,91.0,3.0,2.0,66.7,1.0,33.3,31.0,207.0,91.0,2.0,1.0,0.0,1.0,2.0,58.0,6.0,True,Fulham_CrystalPalace_20251207
+Bernd Leno,1.0,deGER,GK,33-278,90.0,30.0,21.0,30.0,0.0,0.0,0.0,30.0,0.0,0.0,,0.0,,13.0,47.0,31.0,0.0,0.0,0.0,0.0,0.0,15.0,0.0,True,Fulham_CrystalPalace_20251207
+Jean-Philippe Mateta,14.0,frFRA,FW,28-162,65.0,24.0,3.0,7.0,9.0,8.0,4.0,24.0,2.0,0.0,0.0,2.0,100.0,16.0,60.0,24.0,0.0,1.0,0.0,1.0,1.0,15.0,3.0,False,Fulham_CrystalPalace_20251207
+Christantus Uche,12.0,ngNGA,FW,22-202,25.0,11.0,0.0,0.0,7.0,4.0,3.0,11.0,0.0,0.0,,0.0,,5.0,14.0,6.0,0.0,0.0,0.0,3.0,0.0,9.0,1.0,False,Fulham_CrystalPalace_20251207
+Yeremi Pino,10.0,esESP,AM,23-048,89.0,46.0,1.0,8.0,25.0,14.0,2.0,46.0,3.0,2.0,66.7,0.0,0.0,28.0,98.0,73.0,1.0,1.0,0.0,2.0,1.0,28.0,3.0,False,Fulham_CrystalPalace_20251207
+Justin Devenny,55.0,nirNIR,LM,22-057,1.0,4.0,1.0,1.0,3.0,0.0,0.0,4.0,1.0,0.0,0.0,1.0,100.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,False,Fulham_CrystalPalace_20251207
+Eddie Nketiah,9.0,engENG,AM,26-191,64.0,27.0,0.0,4.0,12.0,11.0,5.0,27.0,2.0,0.0,0.0,2.0,100.0,16.0,50.0,8.0,0.0,0.0,0.0,5.0,0.0,16.0,9.0,False,Fulham_CrystalPalace_20251207
+Jefferson Lerma,8.0,coCOL,CM,31-043,26.0,17.0,1.0,2.0,14.0,1.0,0.0,17.0,0.0,0.0,,0.0,,8.0,31.0,13.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,False,Fulham_CrystalPalace_20251207
+Daichi Kamada,18.0,jpJPN,"CM,AM,RM",29-124,90.0,52.0,1.0,9.0,39.0,5.0,0.0,52.0,2.0,1.0,50.0,1.0,50.0,32.0,200.0,91.0,2.0,0.0,0.0,3.0,0.0,36.0,6.0,False,Fulham_CrystalPalace_20251207
+Adam Wharton,20.0,engENG,CM,21-304,90.0,57.0,2.0,14.0,30.0,13.0,0.0,57.0,2.0,0.0,0.0,2.0,100.0,29.0,127.0,58.0,0.0,0.0,0.0,2.0,0.0,33.0,0.0,False,Fulham_CrystalPalace_20251207
+Tyrick Mitchell,3.0,engENG,"WB,LB",26-097,90.0,47.0,6.0,11.0,20.0,17.0,0.0,47.0,4.0,3.0,75.0,1.0,25.0,28.0,112.0,43.0,2.0,1.0,0.0,3.0,0.0,28.0,9.0,False,Fulham_CrystalPalace_20251207
+Nathaniel Clyne,17.0,engENG,WB,34-246,76.0,38.0,2.0,13.0,14.0,11.0,1.0,38.0,0.0,0.0,,0.0,,16.0,52.0,33.0,1.0,2.0,0.0,2.0,0.0,16.0,6.0,False,Fulham_CrystalPalace_20251207
+Jaydee Canvot,23.0,frFRA,"WB,RB",19-131,14.0,11.0,1.0,4.0,5.0,2.0,0.0,11.0,0.0,0.0,,0.0,,4.0,8.0,4.0,0.0,0.0,0.0,1.0,0.0,5.0,2.0,False,Fulham_CrystalPalace_20251207
+Marc Guéhi,6.0,engENG,CB,25-147,90.0,54.0,5.0,20.0,32.0,3.0,1.0,54.0,0.0,0.0,,0.0,,41.0,215.0,131.0,2.0,0.0,0.0,0.0,0.0,40.0,0.0,False,Fulham_CrystalPalace_20251207
+Maxence Lacroix,5.0,frFRA,CB,25-245,90.0,53.0,9.0,33.0,19.0,1.0,1.0,53.0,0.0,0.0,,0.0,,39.0,155.0,40.0,0.0,0.0,0.0,1.0,0.0,37.0,0.0,False,Fulham_CrystalPalace_20251207
+Chris Richards,26.0,usUSA,CB,25-254,90.0,59.0,4.0,25.0,29.0,5.0,1.0,59.0,1.0,0.0,0.0,1.0,100.0,34.0,154.0,53.0,0.0,1.0,0.0,1.0,0.0,35.0,2.0,False,Fulham_CrystalPalace_20251207
+Dean Henderson,1.0,engENG,GK,28-270,90.0,36.0,29.0,35.0,1.0,0.0,0.0,36.0,0.0,0.0,,0.0,,24.0,124.0,64.0,0.0,0.0,0.0,0.0,0.0,11.0,0.0,False,Fulham_CrystalPalace_20251207
+Danny Welbeck,18,engENG,FW,35-011,90,25,0,1,10,14,4,25,1,0,0.0,1,100.0,7,27,7,0,0,0,1,0,16,3,True,Brighton_WestHam_20251207
+Ferdi Kadioglu,24,trTUR,"LW,LB",26-061,82,71,1,4,25,42,2,71,0,0,,0,,40,356,225,7,6,0,2,0,52,12,True,Brighton_WestHam_20251207
+Olivier Boscagli,21,frFRA,LB,28-019,8,21,0,0,8,13,1,21,0,0,,0,,12,56,21,0,0,0,0,0,15,3,True,Brighton_WestHam_20251207
+Yankuba Minteh,11,gmGAM,RW,21-138,71,36,0,2,12,22,6,36,2,0,0.0,2,100.0,20,139,80,5,0,4,5,0,22,11,True,Brighton_WestHam_20251207
+Brajan Gruda,8,deGER,RW,21-190,19,19,0,1,2,17,0,19,1,0,0.0,1,100.0,13,122,65,2,4,0,1,0,15,2,True,Brighton_WestHam_20251207
+Georginio Rutter,10,frFRA,AM,23-231,90,57,3,4,20,34,12,57,7,3,42.9,2,28.6,36,195,94,4,3,2,4,5,45,10,True,Brighton_WestHam_20251207
+Diego Gómez,25,pyPAR,DM,22-255,90,65,1,10,29,28,3,65,2,1,50.0,1,50.0,39,200,86,2,2,0,0,2,46,4,True,Brighton_WestHam_20251207
+Carlos Baleba,17,cmCMR,DM,21-338,59,28,1,4,16,8,0,28,0,0,,0,,18,83,57,2,3,0,1,0,25,1,True,Brighton_WestHam_20251207
+Jack Hinshelwood,13,engENG,DM,20-240,31,31,0,1,18,12,0,31,0,0,,0,,19,88,52,2,1,0,0,0,22,0,True,Brighton_WestHam_20251207
+Maxim De Cuyper,29,beBEL,LB,24-350,71,68,2,6,29,33,2,68,0,0,,0,,40,241,170,4,3,0,1,0,55,7,True,Brighton_WestHam_20251207
+Charalampos Kostoulas,19,grGRE,LW,18-191,19,16,0,0,3,13,5,16,2,2,100.0,0,0.0,6,34,25,2,0,2,0,0,7,3,True,Brighton_WestHam_20251207
+Lewis Dunk,5,engENG,CB,34-016,90,111,11,39,61,11,2,111,0,0,,0,,60,360,231,1,3,0,0,0,80,0,True,Brighton_WestHam_20251207
+Jan Paul van Hecke,6,nlNED,CB,25-182,90,111,8,26,61,25,2,111,0,0,,0,,68,708,563,12,8,0,0,0,79,0,True,Brighton_WestHam_20251207
+Mats Wieffer,27,nlNED,RB,26-021,90,61,0,10,24,27,4,61,1,0,0.0,0,0.0,33,228,170,4,3,0,2,0,40,7,True,Brighton_WestHam_20251207
+Bart Verbruggen,1,nlNED,GK,23-111,90,40,30,40,0,0,0,40,0,0,,0,,18,68,45,0,0,0,0,0,18,0,True,Brighton_WestHam_20251207
+Crysencio Summerville,7,nlNED,FW,24-038,71,26,0,3,13,11,4,26,4,2,50.0,0,0.0,22,133,80,1,1,1,2,2,20,3,False,Brighton_WestHam_20251207
+Callum Wilson,9,engENG,FW,33-283,19,7,1,1,4,4,2,7,3,2,66.7,1,33.3,5,68,41,3,2,1,1,1,2,0,False,Brighton_WestHam_20251207
+Jarrod Bowen,20,engENG,"FW,RM",28-352,90,41,1,6,14,23,7,41,8,4,50.0,4,50.0,24,147,97,5,2,4,3,1,25,8,False,Brighton_WestHam_20251207
+Lucas Paquetá,10,brBRA,AM,28-102,81,44,0,5,30,9,0,44,2,2,100.0,0,0.0,30,108,41,0,1,0,2,1,34,3,False,Brighton_WestHam_20251207
+Tomáš Souček,28,czCZE,LM,30-283,9,2,1,2,0,0,0,2,0,0,,0,,0,0,0,0,0,0,0,0,0,0,False,Brighton_WestHam_20251207
+Guido Rodríguez,24,arARG,CM,31-239,63,26,0,5,18,3,0,26,0,0,,0,,20,99,35,0,1,0,0,0,21,1,False,Brighton_WestHam_20251207
+Freddie Potts,32,engENG,CM,22-086,27,6,1,3,1,2,0,6,0,0,,0,,1,0,0,0,0,0,1,0,1,0,False,Brighton_WestHam_20251207
+Mateus Fernandes,18,ptPOR,CM,21-150,81,48,5,15,26,9,0,48,4,3,75.0,0,0.0,23,184,37,0,0,0,1,1,18,0,False,Brighton_WestHam_20251207
+Soungoutou Magassa,27,frFRA,CM,22-060,9,2,0,0,1,1,0,2,0,0,,0,,0,0,0,0,0,0,0,0,0,0,False,Brighton_WestHam_20251207
+El Hadji Malick Diouf,12,snSEN,WB,20-344,82,44,7,21,19,5,1,44,0,0,,0,,18,76,28,1,1,0,3,0,20,2,False,Brighton_WestHam_20251207
+Ezra Mayers,63,bbBRB,LB,18-325,8,4,0,1,2,1,0,4,0,0,,0,,0,0,0,0,0,0,0,0,0,0,False,Brighton_WestHam_20251207
+Aaron Wan-Bissaka,29,cdCOD,"WB,RB",28-011,90,43,4,16,17,10,1,43,3,0,0.0,1,33.3,23,141,105,2,0,0,0,0,22,3,False,Brighton_WestHam_20251207
+Jean-Clair Todibo,25,frFRA,CB,25-342,90,38,10,17,19,2,1,38,0,0,,0,,25,129,46,1,0,1,1,0,22,1,False,Brighton_WestHam_20251207
+Max Kilman,3,engENG,CB,28-198,90,29,11,21,7,1,1,29,0,0,,0,,10,27,8,0,0,0,0,0,12,0,False,Brighton_WestHam_20251207
+Konstantinos Mavropanos,15,grGRE,CB,27-361,90,55,15,31,19,5,5,55,0,0,,0,,21,107,56,0,0,0,1,0,22,0,False,Brighton_WestHam_20251207
+Alphonse Areola,23,frFRA,GK,32-283,90,34,31,34,0,0,0,34,0,0,,0,,8,58,38,0,0,0,0,0,4,0,False,Brighton_WestHam_20251207
+Jørgen Strand Larsen,9,noNOR,FW,25-305,68,19,2,3,5,11,3,19,0,0,,0,,6,35,0,0,1,1,3,0,13,4,True,Wolves_ManchesterUtd_20251208
+Tolu Arokodare,14,ngNGA,FW,25-015,22,6,0,0,2,4,1,6,0,0,,0,,3,13,5,0,0,0,2,0,5,1,True,Wolves_ManchesterUtd_20251208
+Jean-Ricner Bellegarde,27,htHAI,AM,27-164,53,31,3,4,10,18,1,31,3,1,33.3,2,66.7,19,121,37,1,2,0,1,2,18,3,True,Wolves_ManchesterUtd_20251208
+Fer López,28,esESP,AM,21-198,37,15,0,2,8,5,0,15,1,0,0.0,1,100.0,12,81,44,2,3,0,0,1,13,0,True,Wolves_ManchesterUtd_20251208
+Jhon Arias,10,coCOL,AM,28-078,69,25,1,5,12,9,1,25,1,1,100.0,0,0.0,7,47,41,1,1,0,2,3,9,1,True,Wolves_ManchesterUtd_20251208
+Mateus Mane,36,ptPOR,AM,18-083,21,16,1,5,2,9,1,16,2,1,50.0,1,50.0,12,51,27,0,0,0,1,1,11,1,True,Wolves_ManchesterUtd_20251208
+Ladislav Krejčí,37,czCZE,CM,26-232,90,40,4,10,18,12,3,40,0,0,,0,,9,49,11,1,0,0,2,0,18,1,True,Wolves_ManchesterUtd_20251208
+André,7,brBRA,CM,24-145,90,45,3,10,25,11,1,45,0,0,,0,,21,82,47,1,1,0,1,2,20,1,True,Wolves_ManchesterUtd_20251208
+David Møller Wolfe,6,noNOR,"WB,CB",23-229,90,37,3,9,14,15,3,37,2,1,50.0,1,50.0,18,98,54,1,0,0,1,0,20,3,True,Wolves_ManchesterUtd_20251208
+Ki-Jana Hoever,26,nlNED,WB,23-324,85,40,2,14,16,13,0,40,2,2,100.0,0,0.0,16,56,30,1,2,0,0,0,16,1,True,Wolves_ManchesterUtd_20251208
+Jackson Tchatchoua,38,cmCMR,WB,24-085,5,3,0,1,0,2,0,3,0,0,,0,,2,1,1,0,0,0,0,0,2,1,True,Wolves_ManchesterUtd_20251208
+Toti Gomes,24,ptPOR,CB,26-326,69,39,7,18,16,5,0,39,0,0,,0,,16,49,16,0,0,0,0,0,22,1,True,Wolves_ManchesterUtd_20251208
+Hugo Bueno,3,esESP,WB,23-081,21,15,2,2,5,8,1,15,0,0,,0,,7,74,36,2,1,0,2,0,8,2,True,Wolves_ManchesterUtd_20251208
+Emmanuel Agbadou,12,ciCIV,CB,28-174,90,58,16,29,25,5,1,58,2,2,100.0,0,0.0,27,136,44,0,1,0,1,1,23,0,True,Wolves_ManchesterUtd_20251208
+Yerson Mosquera,15,coCOL,CB,24-220,90,39,3,13,16,10,4,39,1,1,100.0,0,0.0,10,27,9,1,0,1,0,0,9,1,True,Wolves_ManchesterUtd_20251208
+Sam Johnstone,31,engENG,GK,32-258,90,42,25,41,1,0,0,42,0,0,,0,,17,95,37,0,0,0,0,0,19,0,True,Wolves_ManchesterUtd_20251208
+Matheus Cunha,10,brBRA,FW,26-195,90,62,0,2,30,31,9,62,4,2,50.0,2,50.0,39,268,97,5,3,3,2,5,46,9,False,Wolves_ManchesterUtd_20251208
+Mason Mount,7,engENG,AM,26-332,83,37,0,5,23,11,2,37,2,0,0.0,2,100.0,25,144,53,2,2,0,0,4,29,4,False,Wolves_ManchesterUtd_20251208
+Joshua Zirkzee,11,nlNED,AM,24-200,7,10,0,0,7,3,0,10,2,1,50.0,1,50.0,8,58,19,1,1,0,0,0,9,0,False,Wolves_ManchesterUtd_20251208
+Bryan Mbeumo,19,cmCMR,AM,26-123,90,62,1,10,31,23,5,62,4,1,25.0,3,75.0,35,190,126,4,0,2,2,1,45,10,False,Wolves_ManchesterUtd_20251208
+Bruno Fernandes,8,ptPOR,CM,31-091,90,81,2,11,42,30,5,80,0,0,,0,,30,157,96,2,2,0,1,2,57,5,False,Wolves_ManchesterUtd_20251208
+Casemiro,18,brBRA,CM,33-288,77,59,4,16,34,9,1,59,0,0,,0,,29,106,65,0,1,0,0,0,37,1,False,Wolves_ManchesterUtd_20251208
+Kobbie Mainoo,37,engENG,CM,20-233,13,12,0,2,9,2,0,12,0,0,,0,,8,25,7,0,1,0,0,1,12,0,False,Wolves_ManchesterUtd_20251208
+Diogo Dalot,2,ptPOR,WB,26-265,83,51,0,17,19,15,2,51,0,0,,0,,19,69,40,0,1,0,0,3,24,2,False,Wolves_ManchesterUtd_20251208
+Patrick Dorgu,13,dkDEN,WB,21-043,7,12,0,2,5,5,1,12,0,0,,0,,7,47,36,2,0,1,0,0,7,1,False,Wolves_ManchesterUtd_20251208
+Amad Diallo,16,ciCIV,WB,23-150,90,65,1,14,21,30,10,65,4,2,50.0,2,50.0,32,188,103,4,0,4,0,0,36,8,False,Wolves_ManchesterUtd_20251208
+Luke Shaw,23,engENG,CB,30-149,90,59,6,24,30,5,1,59,0,0,,0,,27,122,56,1,0,0,1,0,38,0,False,Wolves_ManchesterUtd_20251208
+Ayden Heaven,26,engENG,CB,19-077,68,47,7,21,25,1,1,47,0,0,,0,,29,128,33,0,0,0,0,0,31,1,False,Wolves_ManchesterUtd_20251208
+Leny Yoro,15,frFRA,CB,20-025,22,24,3,14,6,4,0,24,1,1,100.0,0,0.0,15,71,29,0,0,0,0,0,17,0,False,Wolves_ManchesterUtd_20251208
+Noussair Mazraoui,3,maMAR,CB,28-024,68,57,7,26,20,11,0,57,0,0,,0,,32,116,54,0,0,0,0,0,39,0,False,Wolves_ManchesterUtd_20251208
+Lisandro Martínez,6,arARG,CB,27-324,22,27,3,15,13,0,0,27,1,1,100.0,0,0.0,18,82,14,0,0,0,0,0,21,0,False,Wolves_ManchesterUtd_20251208
+Senne Lammens,31,beBEL,GK,23-154,90,32,28,32,0,0,0,32,0,0,,0,,21,83,18,0,0,0,0,0,22,0,False,Wolves_ManchesterUtd_20251208
