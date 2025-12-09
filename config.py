@@ -28,10 +28,10 @@ class Config:
     # Available metrics
     METRICS: List[str] = field(default_factory=lambda: [
         "xg", "npxg", "xg_assist", "xGI", "Defensive Contributions", 
-        "goals", "assists", "shots", "shots_on_target", "sca", "gca",
+        "goals", "assists", "xG_Overperformance", "xGI_Overperformance", "shots", "shots_on_target", "sca", "gca",
     ])
     TEAM_METRICS: List[str] = field(default_factory=lambda: [
-        "xg", "xg_against",
+        "xg", "xg_against", "attack_overperformance", "defence_overperformance"
     ])
     
     # FPL Positions

@@ -42,6 +42,8 @@ def load_player_data():
         df["Minutes_Per_Goal"] = df["minutes"] / df["goals"].replace(0, np.nan)
         df["Goal_Involvement"] = df["goals"] + df["assists"]
         df["xG_Overperformance"] = df["goals"] - df["xg"]
+        df["xGAssist_Overperformance"] = df["assists"] - df["xg_assist"]
+        df["xGI_Overperformance"] = df["xG_Overperformance"] + df["xGAssist_Overperformance"]
         df["Shot_Conversion"] = (df["goals"] / df["shots"] * 100).round(1)
         return df
     except Exception as e:
@@ -52,10 +54,7 @@ def load_player_data():
 def sidebar_filters(df):
     # Get the maximum gameweek number
     max_gameweek = df["gameweek_number"].max()
-    temp = df['team'].sort_values().unique()
-    print(temp)
-    print(type(temp))
-    team_list = ['All'] + temp.tolist()
+    team_list = ['All'] + df['team'].sort_values().unique().tolist()
 
     selected_metric = st.sidebar.selectbox(
         "Select Metric to Compare", config.METRICS, index=0,

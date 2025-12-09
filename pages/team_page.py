@@ -17,21 +17,30 @@ def load_team_data():
     try:
         df = pd.read_csv(config.FIXTURES_FILE)
         df = df[df['game_played']]
-        df = df[["gameweek", "home_team", "away_team", "home_xg", "away_xg"]]
-        df_home = df[["gameweek", "home_team", "away_team", "home_xg", "away_xg"]].rename(columns={
+        df[['home_score', 'away_score']] = df['score'].str.split('–', n=1, expand=True)
+        df = df[["gameweek", "home_team", "away_team", "home_xg", "away_xg", 'home_score', 'away_score']]
+        df_home = df.rename(columns={
             "home_team": "team",
             "home_xg": "xg",
+            "home_score": "goals_scored",
             "away_team": "opponent",
-            "away_xg": "xg_against"
+            "away_xg": "xg_against",
+            "away_score": "goals_conceded"
         }).assign(home_away="home_team")
-        df_away = df[["gameweek", "home_team", "away_team", "home_xg", "away_xg"]].rename(columns={
+        df_away = df.rename(columns={
             "away_team": "team",
             "away_xg": "xg",
+            "away_score": "goals_scored",
             "home_team": "opponent",
-            "home_xg": "xg_against"
+            "home_xg": "xg_against",
+            "home_score": "goals_conceded"
         }).assign(home_away="away_team")
         df = pd.concat([df_home, df_away], ignore_index=True)
         df = df.rename(columns={"gameweek": 'gameweek_number'}).sort_values(['gameweek_number', "team"])
+
+        df['attack_overperformance'] = df['goals_scored'].astype(int) - df['xg']
+        df['defence_overperformance'] = df['xg_against'] - df['goals_conceded'].astype(int)
+        
         return df
     except Exception as e:
         st.error(f"Error loading team data: {str(e)}")
@@ -167,7 +176,6 @@ def app():
     
     # Team comparison visualisation
     comparison_df = get_team_comparisons(team_data, top_teams, selections)
-    print(f"columns comparison_df: {comparison_df.columns}")
     comparison_chart = get_comparison_chart(comparison_df, selections)
     st.altair_chart(comparison_chart, use_container_width=True)
 
