@@ -154,7 +154,6 @@ def app():
     st.title("⚽FPL Stats - Team Analysis")
     
     df = load_team_data()
-    print(f"columns df: {df.columns}")
     
     # Sidebar filters for teams
     st.sidebar.header("Team Filters")
@@ -162,7 +161,6 @@ def app():
     
     # Get team data
     team_data, top_teams = get_team_data(df, selections)
-    print(f"columns team_data: {team_data.columns}")
 
     # Display page header
     st.header(f"Top {selections.get('n_players')} Teams - {selections.get('metric')} (Last {selections.get('n_weeks')} Weeks)")
