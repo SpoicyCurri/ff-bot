@@ -52,6 +52,11 @@ def load_player_data():
 def sidebar_filters(df):
     # Get the maximum gameweek number
     max_gameweek = df["gameweek_number"].max()
+    temp = df['team'].sort_values().unique()
+    print(temp)
+    print(type(temp))
+    team_list = ['All'] + temp.tolist()
+
     selected_metric = st.sidebar.selectbox(
         "Select Metric to Compare", config.METRICS, index=0,
         key="player_metric_select"
@@ -66,6 +71,10 @@ def sidebar_filters(df):
     recent_weeks = st.sidebar.slider(
         "Consider Last N Weeks", 1, max_gameweek, max_gameweek,
         key="player_weeks_slider"
+    )
+    team_selection = st.sidebar.selectbox(
+        "Select PL team", team_list, index=0,
+        key="team_select"
     )
     fpl_position = st.sidebar.selectbox(
         "Select FPL Position", 
@@ -84,6 +93,7 @@ def sidebar_filters(df):
 
     return {
         'metric': selected_metric,
+        'team': team_selection,
         'n_players': top_n,
         'n_weeks': recent_weeks,
         'fpl_position': fpl_position,
@@ -95,14 +105,17 @@ def get_selected_data(df, selections):
     df = df[df['position'] == selections.get('fpl_position')]
     df = df[df['fpl_cost'] <= selections.get('fpl_price')]
     max_gameweek = df["gameweek_number"].max()
-    recent_data = df[df["gameweek_number"] > (max_gameweek - selections.get('n_weeks'))]
+    df = df[df["gameweek_number"] > (max_gameweek - selections.get('n_weeks'))]
+    if not selections.get('team') == 'All':
+        df = df[df['team'] == selections.get('team')]
+    
     metric_totals = (
-        recent_data.groupby("player")[selections.get('metric')]
+        df.groupby("player")[selections.get('metric')]
         .sum()
         .sort_values(ascending=False)
     )
     top_players = metric_totals.head(selections.get('n_players')).index.tolist()
-    return recent_data, top_players
+    return df, top_players
 
 
 def get_player_comparisons(recent_data, top_players, selections):
