@@ -149,10 +149,10 @@ gameweek,dayofweek,date,start_time,home_team,home_xg,score,away_xg,away_team,mat
 15,Sun,2025-12-07,14:00,Brighton,1.8,1–1,1.2,West Ham,https://fbref.com/en/matches/e5c1f07b/Brighton-and-Hove-Albion-West-Ham-United-December-7-2025-Premier-League,True,Brighton_WestHam_20251207
 15,Sun,2025-12-07,16:30,Fulham,0.8,1–2,1.6,Crystal Palace,https://fbref.com/en/matches/c0ececfd/Fulham-Crystal-Palace-December-7-2025-Premier-League,True,Fulham_CrystalPalace_20251207
 15,Mon,2025-12-08,20:00,Wolves,0.6,1–4,4.0,Manchester Utd,https://fbref.com/en/matches/d52338cb/Wolverhampton-Wanderers-Manchester-United-December-8-2025-Premier-League,True,Wolves_ManchesterUtd_20251208
-16,Sat,2025-12-13,15:00,Chelsea,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/cff3d9bb/Everton-vs-Chelsea-History,False,Chelsea_Everton_20251213
-16,Sat,2025-12-13,15:00,Liverpool,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/d07537b9/822bd0ba/Brighton-and-Hove-Albion-vs-Liverpool-History,False,Liverpool_Brighton_20251213
-16,Sat,2025-12-13,17:30,Burnley,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/943e8050/Fulham-vs-Burnley-History,False,Burnley_Fulham_20251213
-16,Sat,2025-12-13,20:00,Arsenal,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/8cec06e1/18bb7c10/Wolverhampton-Wanderers-vs-Arsenal-History,False,Arsenal_Wolves_20251213
+16,Sat,2025-12-13,15:00,Chelsea,2.0,2–0,1.0,Everton,https://fbref.com/en/matches/33f5c26d/Chelsea-Everton-December-13-2025-Premier-League,True,Chelsea_Everton_20251213
+16,Sat,2025-12-13,15:00,Liverpool,1.8,2–0,1.9,Brighton,https://fbref.com/en/matches/9b6b7eac/Liverpool-Brighton-and-Hove-Albion-December-13-2025-Premier-League,True,Liverpool_Brighton_20251213
+16,Sat,2025-12-13,17:30,Burnley,2.5,2–3,2.2,Fulham,https://fbref.com/en/matches/993fe4a5/Burnley-Fulham-December-13-2025-Premier-League,True,Burnley_Fulham_20251213
+16,Sat,2025-12-13,20:00,Arsenal,1.0,2–1,0.4,Wolves,https://fbref.com/en/matches/5914e624/Arsenal-Wolverhampton-Wanderers-December-13-2025-Premier-League,True,Arsenal_Wolves_20251213
 16,Sun,2025-12-14,14:00,Nott'ham Forest,,,,Tottenham,https://fbref.com/en/stathead/matchup/teams/e4a775cb/361ca564/Nottingham-Forest-vs-Tottenham-Hotspur-History,False,Nott'hamForest_Tottenham_20251214
 16,Sun,2025-12-14,14:00,West Ham,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/8602292d/7c21e445/Aston-Villa-vs-West-Ham-United-History,False,WestHam_AstonVilla_20251214
 16,Sun,2025-12-14,14:00,Crystal Palace,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/47c64c55/Manchester-City-vs-Crystal-Palace-History,False,CrystalPalace_ManchesterCity_20251214

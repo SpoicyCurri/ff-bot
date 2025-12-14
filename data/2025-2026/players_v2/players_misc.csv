@@ -4528,66 +4528,129 @@ Marc Guéhi,6.0,engENG,CB,25-147,90.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0.
 Maxence Lacroix,5.0,frFRA,CB,25-245,90.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,4.0,1.0,0.0,100.0,False,Fulham_CrystalPalace_20251207
 Chris Richards,26.0,usUSA,CB,25-254,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,100.0,False,Fulham_CrystalPalace_20251207
 Dean Henderson,1.0,engENG,GK,28-270,90.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,100.0,False,Fulham_CrystalPalace_20251207
-Danny Welbeck,18,engENG,FW,35-011,90,0,0,0,2,0,0,0,1,0,0,0,0,2,2,1,66.7,True,Brighton_WestHam_20251207
-Ferdi Kadioglu,24,trTUR,"LW,LB",26-061,82,1,0,0,1,0,0,4,1,1,0,0,0,2,1,1,50.0,True,Brighton_WestHam_20251207
-Olivier Boscagli,21,frFRA,LB,28-019,8,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,True,Brighton_WestHam_20251207
-Yankuba Minteh,11,gmGAM,RW,21-138,71,0,0,0,0,1,1,6,1,0,0,0,0,1,1,0,100.0,True,Brighton_WestHam_20251207
-Brajan Gruda,8,deGER,RW,21-190,19,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,,True,Brighton_WestHam_20251207
-Georginio Rutter,10,frFRA,AM,23-231,90,0,0,0,3,2,0,4,2,2,0,0,0,1,0,0,,True,Brighton_WestHam_20251207
-Diego Gómez,25,pyPAR,DM,22-255,90,0,0,0,2,0,0,1,0,2,0,0,0,8,2,1,66.7,True,Brighton_WestHam_20251207
-Carlos Baleba,17,cmCMR,DM,21-338,59,0,0,0,2,1,0,0,0,0,0,0,0,3,0,1,0.0,True,Brighton_WestHam_20251207
-Jack Hinshelwood,13,engENG,DM,20-240,31,0,0,0,0,0,0,2,0,0,0,0,0,1,0,1,0.0,True,Brighton_WestHam_20251207
-Maxim De Cuyper,29,beBEL,LB,24-350,71,0,0,0,0,0,0,11,0,0,0,0,0,3,0,1,0.0,True,Brighton_WestHam_20251207
-Charalampos Kostoulas,19,grGRE,LW,18-191,19,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,,True,Brighton_WestHam_20251207
-Lewis Dunk,5,engENG,CB,34-016,90,1,0,0,1,0,0,1,2,2,0,0,0,6,3,1,75.0,True,Brighton_WestHam_20251207
-Jan Paul van Hecke,6,nlNED,CB,25-182,90,0,0,0,1,2,0,3,1,0,0,0,0,2,4,1,80.0,True,Brighton_WestHam_20251207
-Mats Wieffer,27,nlNED,RB,26-021,90,0,0,0,0,2,0,1,1,0,0,0,0,2,1,4,20.0,True,Brighton_WestHam_20251207
-Bart Verbruggen,1,nlNED,GK,23-111,90,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,,True,Brighton_WestHam_20251207
-Crysencio Summerville,7,nlNED,FW,24-038,71,0,0,0,3,2,1,0,0,0,0,0,0,4,0,0,,False,Brighton_WestHam_20251207
-Callum Wilson,9,engENG,FW,33-283,19,0,0,0,1,0,0,0,0,0,0,0,0,2,0,3,0.0,False,Brighton_WestHam_20251207
-Jarrod Bowen,20,engENG,"FW,RM",28-352,90,0,0,0,0,0,0,4,0,1,0,0,0,5,1,2,33.3,False,Brighton_WestHam_20251207
-Lucas Paquetá,10,brBRA,AM,28-102,81,0,0,0,0,1,0,0,1,0,0,0,0,1,3,4,42.9,False,Brighton_WestHam_20251207
-Tomáš Souček,28,czCZE,LM,30-283,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,False,Brighton_WestHam_20251207
-Guido Rodríguez,24,arARG,CM,31-239,63,1,0,0,1,2,0,0,1,0,0,0,0,3,0,0,,False,Brighton_WestHam_20251207
-Freddie Potts,32,engENG,CM,22-086,27,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,,False,Brighton_WestHam_20251207
-Mateus Fernandes,18,ptPOR,CM,21-150,81,0,0,0,0,5,0,4,4,5,0,0,0,6,0,1,0.0,False,Brighton_WestHam_20251207
-Soungoutou Magassa,27,frFRA,CM,22-060,9,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,100.0,False,Brighton_WestHam_20251207
-El Hadji Malick Diouf,12,snSEN,WB,20-344,82,0,0,0,0,0,0,1,1,0,0,0,0,2,0,2,0.0,False,Brighton_WestHam_20251207
-Ezra Mayers,63,bbBRB,LB,18-325,8,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,False,Brighton_WestHam_20251207
-Aaron Wan-Bissaka,29,cdCOD,"WB,RB",28-011,90,0,0,0,0,2,0,1,3,1,0,0,0,2,1,1,50.0,False,Brighton_WestHam_20251207
-Jean-Clair Todibo,25,frFRA,CB,25-342,90,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,,False,Brighton_WestHam_20251207
-Max Kilman,3,engENG,CB,28-198,90,0,0,0,1,0,0,0,0,0,0,0,0,0,2,0,100.0,False,Brighton_WestHam_20251207
-Konstantinos Mavropanos,15,grGRE,CB,27-361,90,0,0,0,0,0,0,0,2,0,0,0,0,5,4,1,80.0,False,Brighton_WestHam_20251207
-Alphonse Areola,23,frFRA,GK,32-283,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,False,Brighton_WestHam_20251207
-Jørgen Strand Larsen,9,noNOR,FW,25-305,68,1,0,0,3,0,1,1,0,0,0,0,0,0,2,7,22.2,True,Wolves_ManchesterUtd_20251208
-Tolu Arokodare,14,ngNGA,FW,25-015,22,0,0,0,1,0,0,0,0,0,0,0,0,0,3,0,100.0,True,Wolves_ManchesterUtd_20251208
-Jean-Ricner Bellegarde,27,htHAI,AM,27-164,53,0,0,0,1,3,0,1,0,0,0,0,0,4,1,0,100.0,True,Wolves_ManchesterUtd_20251208
-Fer López,28,esESP,AM,21-198,37,0,0,0,1,2,0,0,0,0,0,0,0,3,0,1,0.0,True,Wolves_ManchesterUtd_20251208
-Jhon Arias,10,coCOL,AM,28-078,69,0,0,0,0,1,1,0,0,2,0,0,0,5,0,0,,True,Wolves_ManchesterUtd_20251208
-Mateus Mane,36,ptPOR,AM,18-083,21,0,0,0,0,2,0,2,0,1,0,0,0,4,0,0,,True,Wolves_ManchesterUtd_20251208
-Ladislav Krejčí,37,czCZE,CM,26-232,90,1,0,0,3,0,0,0,5,2,0,0,0,1,4,3,57.1,True,Wolves_ManchesterUtd_20251208
-André,7,brBRA,CM,24-145,90,0,0,0,3,1,0,5,1,0,0,0,0,8,0,1,0.0,True,Wolves_ManchesterUtd_20251208
-David Møller Wolfe,6,noNOR,"WB,CB",23-229,90,0,0,0,0,0,0,3,1,0,0,0,0,2,2,0,100.0,True,Wolves_ManchesterUtd_20251208
-Ki-Jana Hoever,26,nlNED,WB,23-324,85,0,0,0,1,1,0,3,1,3,0,0,0,4,1,1,50.0,True,Wolves_ManchesterUtd_20251208
-Jackson Tchatchoua,38,cmCMR,WB,24-085,5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,True,Wolves_ManchesterUtd_20251208
-Toti Gomes,24,ptPOR,CB,26-326,69,0,0,0,0,0,0,2,0,0,0,0,0,1,0,2,0.0,True,Wolves_ManchesterUtd_20251208
-Hugo Bueno,3,esESP,WB,23-081,21,0,0,0,2,0,0,3,0,0,0,0,0,1,0,1,0.0,True,Wolves_ManchesterUtd_20251208
-Emmanuel Agbadou,12,ciCIV,CB,28-174,90,0,0,0,0,1,0,0,4,3,0,0,0,10,1,1,50.0,True,Wolves_ManchesterUtd_20251208
-Yerson Mosquera,15,coCOL,CB,24-220,90,1,0,0,2,1,0,3,0,1,0,1,0,4,2,3,40.0,True,Wolves_ManchesterUtd_20251208
-Sam Johnstone,31,engENG,GK,32-258,90,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,,True,Wolves_ManchesterUtd_20251208
-Matheus Cunha,10,brBRA,FW,26-195,90,0,0,0,0,1,0,0,1,3,0,0,0,2,1,0,100.0,False,Wolves_ManchesterUtd_20251208
-Mason Mount,7,engENG,AM,26-332,83,0,0,0,2,3,0,0,0,0,0,0,0,4,0,1,0.0,False,Wolves_ManchesterUtd_20251208
-Joshua Zirkzee,11,nlNED,AM,24-200,7,1,0,0,1,1,0,1,0,0,0,0,0,1,0,0,,False,Wolves_ManchesterUtd_20251208
-Bryan Mbeumo,19,cmCMR,AM,26-123,90,1,0,0,2,1,3,1,0,2,0,0,0,7,1,3,25.0,False,Wolves_ManchesterUtd_20251208
-Bruno Fernandes,8,ptPOR,CM,31-091,90,0,0,0,0,2,0,5,0,1,0,0,0,8,2,4,33.3,False,Wolves_ManchesterUtd_20251208
-Casemiro,18,brBRA,CM,33-288,77,0,0,0,2,0,0,0,1,0,0,0,0,2,2,0,100.0,False,Wolves_ManchesterUtd_20251208
-Kobbie Mainoo,37,engENG,CM,20-233,13,0,0,0,0,2,0,0,0,0,0,0,0,0,1,1,50.0,False,Wolves_ManchesterUtd_20251208
-Diogo Dalot,2,ptPOR,WB,26-265,83,0,0,0,0,0,0,1,1,0,0,0,0,3,5,1,83.3,False,Wolves_ManchesterUtd_20251208
-Patrick Dorgu,13,dkDEN,WB,21-043,7,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,,False,Wolves_ManchesterUtd_20251208
-Amad Diallo,16,ciCIV,WB,23-150,90,0,0,0,0,1,0,3,2,1,0,0,0,3,1,1,50.0,False,Wolves_ManchesterUtd_20251208
-Luke Shaw,23,engENG,CB,30-149,90,0,0,0,1,0,0,0,1,2,0,0,0,0,2,3,40.0,False,Wolves_ManchesterUtd_20251208
-Ayden Heaven,26,engENG,CB,19-077,68,0,0,0,0,2,0,0,0,0,0,0,0,3,4,0,100.0,False,Wolves_ManchesterUtd_20251208
-Leny Yoro,15,frFRA,CB,20-025,22,0,0,0,1,1,0,0,0,1,0,0,0,0,0,1,0.0,False,Wolves_ManchesterUtd_20251208
-Noussair Mazraoui,3,maMAR,CB,28-024,68,0,0,0,3,1,0,1,1,0,0,0,0,1,1,0,100.0,False,Wolves_ManchesterUtd_20251208
-Lisandro Martínez,6,arARG,CB,27-324,22,0,0,0,0,0,0,0,0,0,0,0,0,4,0,1,0.0,False,Wolves_ManchesterUtd_20251208
-Senne Lammens,31,beBEL,GK,23-154,90,0,0,0,0,1,0,0,0,0,0,0,0,3,0,0,,False,Wolves_ManchesterUtd_20251208
+Danny Welbeck,18.0,engENG,FW,35-011,90.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,2.0,1.0,66.7,True,Brighton_WestHam_20251207
+Ferdi Kadioglu,24.0,trTUR,"LW,LB",26-061,82.0,1.0,0.0,0.0,1.0,0.0,0.0,4.0,1.0,1.0,0.0,0.0,0.0,2.0,1.0,1.0,50.0,True,Brighton_WestHam_20251207
+Olivier Boscagli,21.0,frFRA,LB,28-019,8.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,True,Brighton_WestHam_20251207
+Yankuba Minteh,11.0,gmGAM,RW,21-138,71.0,0.0,0.0,0.0,0.0,1.0,1.0,6.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,100.0,True,Brighton_WestHam_20251207
+Brajan Gruda,8.0,deGER,RW,21-190,19.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,True,Brighton_WestHam_20251207
+Georginio Rutter,10.0,frFRA,AM,23-231,90.0,0.0,0.0,0.0,3.0,2.0,0.0,4.0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,,True,Brighton_WestHam_20251207
+Diego Gómez,25.0,pyPAR,DM,22-255,90.0,0.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,8.0,2.0,1.0,66.7,True,Brighton_WestHam_20251207
+Carlos Baleba,17.0,cmCMR,DM,21-338,59.0,0.0,0.0,0.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,1.0,0.0,True,Brighton_WestHam_20251207
+Jack Hinshelwood,13.0,engENG,DM,20-240,31.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,True,Brighton_WestHam_20251207
+Maxim De Cuyper,29.0,beBEL,LB,24-350,71.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,1.0,0.0,True,Brighton_WestHam_20251207
+Charalampos Kostoulas,19.0,grGRE,LW,18-191,19.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,,True,Brighton_WestHam_20251207
+Lewis Dunk,5.0,engENG,CB,34-016,90.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,2.0,0.0,0.0,0.0,6.0,3.0,1.0,75.0,True,Brighton_WestHam_20251207
+Jan Paul van Hecke,6.0,nlNED,CB,25-182,90.0,0.0,0.0,0.0,1.0,2.0,0.0,3.0,1.0,0.0,0.0,0.0,0.0,2.0,4.0,1.0,80.0,True,Brighton_WestHam_20251207
+Mats Wieffer,27.0,nlNED,RB,26-021,90.0,0.0,0.0,0.0,0.0,2.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1.0,4.0,20.0,True,Brighton_WestHam_20251207
+Bart Verbruggen,1.0,nlNED,GK,23-111,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,,True,Brighton_WestHam_20251207
+Crysencio Summerville,7.0,nlNED,FW,24-038,71.0,0.0,0.0,0.0,3.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,,False,Brighton_WestHam_20251207
+Callum Wilson,9.0,engENG,FW,33-283,19.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,3.0,0.0,False,Brighton_WestHam_20251207
+Jarrod Bowen,20.0,engENG,"FW,RM",28-352,90.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,1.0,0.0,0.0,0.0,5.0,1.0,2.0,33.3,False,Brighton_WestHam_20251207
+Lucas Paquetá,10.0,brBRA,AM,28-102,81.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,4.0,42.9,False,Brighton_WestHam_20251207
+Tomáš Souček,28.0,czCZE,LM,30-283,9.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,False,Brighton_WestHam_20251207
+Guido Rodríguez,24.0,arARG,CM,31-239,63.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,,False,Brighton_WestHam_20251207
+Freddie Potts,32.0,engENG,CM,22-086,27.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,False,Brighton_WestHam_20251207
+Mateus Fernandes,18.0,ptPOR,CM,21-150,81.0,0.0,0.0,0.0,0.0,5.0,0.0,4.0,4.0,5.0,0.0,0.0,0.0,6.0,0.0,1.0,0.0,False,Brighton_WestHam_20251207
+Soungoutou Magassa,27.0,frFRA,CM,22-060,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,100.0,False,Brighton_WestHam_20251207
+El Hadji Malick Diouf,12.0,snSEN,WB,20-344,82.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,False,Brighton_WestHam_20251207
+Ezra Mayers,63.0,bbBRB,LB,18-325,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,False,Brighton_WestHam_20251207
+Aaron Wan-Bissaka,29.0,cdCOD,"WB,RB",28-011,90.0,0.0,0.0,0.0,0.0,2.0,0.0,1.0,3.0,1.0,0.0,0.0,0.0,2.0,1.0,1.0,50.0,False,Brighton_WestHam_20251207
+Jean-Clair Todibo,25.0,frFRA,CB,25-342,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,,False,Brighton_WestHam_20251207
+Max Kilman,3.0,engENG,CB,28-198,90.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,100.0,False,Brighton_WestHam_20251207
+Konstantinos Mavropanos,15.0,grGRE,CB,27-361,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,5.0,4.0,1.0,80.0,False,Brighton_WestHam_20251207
+Alphonse Areola,23.0,frFRA,GK,32-283,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,False,Brighton_WestHam_20251207
+Jørgen Strand Larsen,9.0,noNOR,FW,25-305,68.0,1.0,0.0,0.0,3.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,7.0,22.2,True,Wolves_ManchesterUtd_20251208
+Tolu Arokodare,14.0,ngNGA,FW,25-015,22.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,100.0,True,Wolves_ManchesterUtd_20251208
+Jean-Ricner Bellegarde,27.0,htHAI,AM,27-164,53.0,0.0,0.0,0.0,1.0,3.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,100.0,True,Wolves_ManchesterUtd_20251208
+Fer López,28.0,esESP,AM,21-198,37.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,1.0,0.0,True,Wolves_ManchesterUtd_20251208
+Jhon Arias,10.0,coCOL,AM,28-078,69.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,5.0,0.0,0.0,,True,Wolves_ManchesterUtd_20251208
+Mateus Mane,36.0,ptPOR,AM,18-083,21.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,,True,Wolves_ManchesterUtd_20251208
+Ladislav Krejčí,37.0,czCZE,CM,26-232,90.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,5.0,2.0,0.0,0.0,0.0,1.0,4.0,3.0,57.1,True,Wolves_ManchesterUtd_20251208
+André,7.0,brBRA,CM,24-145,90.0,0.0,0.0,0.0,3.0,1.0,0.0,5.0,1.0,0.0,0.0,0.0,0.0,8.0,0.0,1.0,0.0,True,Wolves_ManchesterUtd_20251208
+David Møller Wolfe,6.0,noNOR,"WB,CB",23-229,90.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,100.0,True,Wolves_ManchesterUtd_20251208
+Ki-Jana Hoever,26.0,nlNED,WB,23-324,85.0,0.0,0.0,0.0,1.0,1.0,0.0,3.0,1.0,3.0,0.0,0.0,0.0,4.0,1.0,1.0,50.0,True,Wolves_ManchesterUtd_20251208
+Jackson Tchatchoua,38.0,cmCMR,WB,24-085,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,True,Wolves_ManchesterUtd_20251208
+Toti Gomes,24.0,ptPOR,CB,26-326,69.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,True,Wolves_ManchesterUtd_20251208
+Hugo Bueno,3.0,esESP,WB,23-081,21.0,0.0,0.0,0.0,2.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,True,Wolves_ManchesterUtd_20251208
+Emmanuel Agbadou,12.0,ciCIV,CB,28-174,90.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,4.0,3.0,0.0,0.0,0.0,10.0,1.0,1.0,50.0,True,Wolves_ManchesterUtd_20251208
+Yerson Mosquera,15.0,coCOL,CB,24-220,90.0,1.0,0.0,0.0,2.0,1.0,0.0,3.0,0.0,1.0,0.0,1.0,0.0,4.0,2.0,3.0,40.0,True,Wolves_ManchesterUtd_20251208
+Sam Johnstone,31.0,engENG,GK,32-258,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,,True,Wolves_ManchesterUtd_20251208
+Matheus Cunha,10.0,brBRA,FW,26-195,90.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,2.0,1.0,0.0,100.0,False,Wolves_ManchesterUtd_20251208
+Mason Mount,7.0,engENG,AM,26-332,83.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,1.0,0.0,False,Wolves_ManchesterUtd_20251208
+Joshua Zirkzee,11.0,nlNED,AM,24-200,7.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,False,Wolves_ManchesterUtd_20251208
+Bryan Mbeumo,19.0,cmCMR,AM,26-123,90.0,1.0,0.0,0.0,2.0,1.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,7.0,1.0,3.0,25.0,False,Wolves_ManchesterUtd_20251208
+Bruno Fernandes,8.0,ptPOR,CM,31-091,90.0,0.0,0.0,0.0,0.0,2.0,0.0,5.0,0.0,1.0,0.0,0.0,0.0,8.0,2.0,4.0,33.3,False,Wolves_ManchesterUtd_20251208
+Casemiro,18.0,brBRA,CM,33-288,77.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,100.0,False,Wolves_ManchesterUtd_20251208
+Kobbie Mainoo,37.0,engENG,CM,20-233,13.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,50.0,False,Wolves_ManchesterUtd_20251208
+Diogo Dalot,2.0,ptPOR,WB,26-265,83.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,5.0,1.0,83.3,False,Wolves_ManchesterUtd_20251208
+Patrick Dorgu,13.0,dkDEN,WB,21-043,7.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,False,Wolves_ManchesterUtd_20251208
+Amad Diallo,16.0,ciCIV,WB,23-150,90.0,0.0,0.0,0.0,0.0,1.0,0.0,3.0,2.0,1.0,0.0,0.0,0.0,3.0,1.0,1.0,50.0,False,Wolves_ManchesterUtd_20251208
+Luke Shaw,23.0,engENG,CB,30-149,90.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,2.0,3.0,40.0,False,Wolves_ManchesterUtd_20251208
+Ayden Heaven,26.0,engENG,CB,19-077,68.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,4.0,0.0,100.0,False,Wolves_ManchesterUtd_20251208
+Leny Yoro,15.0,frFRA,CB,20-025,22.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,False,Wolves_ManchesterUtd_20251208
+Noussair Mazraoui,3.0,maMAR,CB,28-024,68.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,100.0,False,Wolves_ManchesterUtd_20251208
+Lisandro Martínez,6.0,arARG,CB,27-324,22.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,1.0,0.0,False,Wolves_ManchesterUtd_20251208
+Senne Lammens,31.0,beBEL,GK,23-154,90.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,,False,Wolves_ManchesterUtd_20251208
+Armando Broja,27,alALB,FW,24-094,90,0,0,0,2,3,0,0,0,1,0,0,0,2,1,4,20.0,True,Burnley_Fulham_20251213
+Jacob Bruun Larsen,7,dkDEN,LW,27-085,76,0,0,0,0,0,0,7,0,0,0,0,0,5,0,1,0.0,True,Burnley_Fulham_20251213
+Jaidon Anthony,11,engENG,LW,26-012,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0.0,True,Burnley_Fulham_20251213
+Lyle Foster,9,zaRSA,RW,25-101,61,0,0,0,1,0,0,1,2,1,0,0,0,2,0,3,0.0,True,Burnley_Fulham_20251213
+Zian Flemming,19,nlNED,RW,27-134,29,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,0.0,True,Burnley_Fulham_20251213
+Florentino Luís,16,ptPOR,LM,26-116,61,0,0,0,1,0,0,1,1,0,0,0,0,4,0,0,,True,Burnley_Fulham_20251213
+Marcus Edwards,10,engENG,LM,27-010,29,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,,True,Burnley_Fulham_20251213
+Josh Cullen,24,ieIRL,CM,29-250,90,1,0,0,1,0,0,0,2,2,0,0,0,4,1,0,100.0,True,Burnley_Fulham_20251213
+Lesley Ugochukwu,8,frFRA,RM,21-262,82,0,0,0,0,3,0,0,0,0,0,0,0,4,0,1,0.0,True,Burnley_Fulham_20251213
+Mike Trésor,31,beBEL,RM,26-199,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.0,True,Burnley_Fulham_20251213
+Quilindschy Hartman,3,nlNED,LB,24-029,90,0,0,0,0,0,0,4,1,1,0,0,0,6,1,1,50.0,True,Burnley_Fulham_20251213
+Maxime Estève,5,frFRA,CB,23-201,90,0,0,0,0,1,0,0,1,0,0,0,0,7,7,0,100.0,True,Burnley_Fulham_20251213
+Hjalmar Ekdal,18,seSWE,CB,27-053,90,0,0,0,1,0,1,0,0,0,0,0,0,4,0,1,0.0,True,Burnley_Fulham_20251213
+Axel Tuanzebe,6,cdCOD,RB,28-029,76,0,0,0,0,0,0,1,1,1,0,0,0,4,0,1,0.0,True,Burnley_Fulham_20251213
+Oliver Sonne,22,pePER,RB,25-033,14,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,100.0,True,Burnley_Fulham_20251213
+Martin Dúbravka,1,skSVK,GK,36-332,90,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,True,Burnley_Fulham_20251213
+Raúl Jiménez,7,mxMEX,FW,34-222,78,0,0,0,2,0,0,0,0,1,0,0,0,2,0,5,0.0,False,Burnley_Fulham_20251213
+Joshua King,24,engENG,FW,18-344,12,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0.0,False,Burnley_Fulham_20251213
+Samuel Chukwueze,19,ngNGA,LW,26-205,90,0,0,0,0,4,0,4,1,0,0,0,0,5,2,1,66.7,False,Burnley_Fulham_20251213
+Harry Wilson,8,wlsWAL,RW,28-266,88,0,0,0,0,0,0,3,1,0,0,0,0,2,0,2,0.0,False,Burnley_Fulham_20251213
+Adama Traoré,11,esESP,RW,29-322,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,False,Burnley_Fulham_20251213
+Emile Smith Rowe,32,engENG,AM,25-138,88,0,0,0,0,0,0,0,0,2,0,0,0,3,0,0,,False,Burnley_Fulham_20251213
+Timothy Castagne,21,beBEL,AM,30-008,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,False,Burnley_Fulham_20251213
+Alex Iwobi,17,ngNGA,DM,29-224,78,0,0,0,0,0,0,2,2,0,0,0,0,6,0,0,,False,Burnley_Fulham_20251213
+Saša Lukić,20,rsSRB,DM,29-122,12,0,0,0,0,0,0,0,0,1,0,0,0,1,5,0,100.0,False,Burnley_Fulham_20251213
+Sander Berge,16,noNOR,DM,27-302,90,0,0,0,1,0,0,0,1,1,0,0,0,4,1,0,100.0,False,Burnley_Fulham_20251213
+Antonee Robinson,33,usUSA,LB,28-127,90,0,0,0,0,0,0,5,2,4,0,0,0,6,2,1,66.7,False,Burnley_Fulham_20251213
+Calvin Bassey,3,ngNGA,CB,25-347,90,0,0,0,1,3,0,1,2,2,0,0,0,9,2,1,66.7,False,Burnley_Fulham_20251213
+Joachim Andersen,5,dkDEN,CB,29-196,90,1,0,0,2,0,0,0,0,0,0,0,0,2,3,0,100.0,False,Burnley_Fulham_20251213
+Kenny Tete,2,nlNED,RB,30-065,90,1,0,0,2,1,0,0,0,2,0,0,0,6,3,0,100.0,False,Burnley_Fulham_20251213
+Bernd Leno,1,deGER,GK,33-284,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,False,Burnley_Fulham_20251213
+Viktor Gyökeres,14,seSWE,FW,27-192,80,0,0,0,1,1,0,1,0,0,0,0,0,1,1,1,50.0,True,Arsenal_Wolves_20251213
+Gabriel Jesus,9,brBRA,FW,28-254,10,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0.0,True,Arsenal_Wolves_20251213
+Gabriel Martinelli,11,brBRA,LW,24-178,56,0,0,0,1,3,0,1,0,0,0,0,0,1,0,2,0.0,True,Arsenal_Wolves_20251213
+Leandro Trossard,19,beBEL,LW,31-009,34,0,0,0,0,1,0,0,0,1,0,0,0,2,0,0,,True,Arsenal_Wolves_20251213
+Bukayo Saka,7,engENG,RW,24-099,90,0,0,0,0,4,0,10,0,0,0,0,0,2,3,0,100.0,True,Arsenal_Wolves_20251213
+Declan Rice,41,engENG,"LM,CM",26-333,90,0,0,0,1,0,0,10,0,0,0,0,0,4,1,1,50.0,True,Arsenal_Wolves_20251213
+Martín Zubimendi,36,esESP,CM,26-314,57,0,0,0,0,0,0,0,2,0,0,0,0,2,2,1,66.7,True,Arsenal_Wolves_20251213
+Mikel Merino,23,esESP,LM,29-174,33,0,0,0,0,1,0,0,0,0,0,0,0,2,3,1,75.0,True,Arsenal_Wolves_20251213
+Eberechi Eze,10,engENG,RM,27-167,56,0,0,0,1,1,0,1,1,0,0,0,0,1,0,0,,True,Arsenal_Wolves_20251213
+Martin Ødegaard,8,noNOR,RM,26-361,34,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,,True,Arsenal_Wolves_20251213
+Piero Hincapié,5,ecECU,"CB,LB",23-338,90,0,0,0,2,1,0,2,3,0,0,0,0,5,6,2,75.0,True,Arsenal_Wolves_20251213
+William Saliba,2,frFRA,CB,24-264,90,0,0,0,0,0,0,0,2,1,0,0,0,4,1,5,16.7,True,Arsenal_Wolves_20251213
+Jurriën Timber,12,nlNED,"RB,CB",24-179,90,0,0,0,1,2,0,4,0,0,0,0,0,2,2,0,100.0,True,Arsenal_Wolves_20251213
+Ben White,4,engENG,RB,28-066,30,0,0,0,0,0,1,1,0,0,0,0,0,2,0,0,,True,Arsenal_Wolves_20251213
+Myles Lewis-Skelly,49,engENG,LB,19-078,60,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,,True,Arsenal_Wolves_20251213
+David Raya,1,esESP,GK,30-089,90,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,True,Arsenal_Wolves_20251213
+Hwang Hee-chan,11,krKOR,FW,29-321,79,1,0,0,6,1,1,1,0,0,0,0,0,5,1,0,100.0,False,Arsenal_Wolves_20251213
+Jhon Arias,10,coCOL,FW,28-083,11,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,False,Arsenal_Wolves_20251213
+Jørgen Strand Larsen,9,noNOR,FW,25-310,68,0,0,0,1,1,0,0,1,0,0,0,0,0,1,2,33.3,False,Arsenal_Wolves_20251213
+Tolu Arokodare,14,ngNGA,FW,25-020,22,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,16.7,False,Arsenal_Wolves_20251213
+Ladislav Krejčí,37,czCZE,CM,26-237,79,0,0,0,1,0,0,0,0,1,0,0,0,0,3,4,42.9,False,Arsenal_Wolves_20251213
+Fer López,28,esESP,CM,21-203,11,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0.0,False,Arsenal_Wolves_20251213
+André,7,brBRA,CM,24-150,90,0,0,0,0,0,0,0,1,0,0,0,0,4,1,0,100.0,False,Arsenal_Wolves_20251213
+João Gomes,8,brBRA,CM,24-304,90,0,0,0,0,1,0,1,2,2,0,0,0,6,1,2,33.3,False,Arsenal_Wolves_20251213
+David Møller Wolfe,6,noNOR,WB,23-234,90,0,0,0,1,0,0,1,0,0,0,0,0,2,1,0,100.0,False,Arsenal_Wolves_20251213
+Matt Doherty,2,ieIRL,WB,33-331,68,1,0,0,5,2,0,0,0,1,0,0,0,0,1,2,33.3,False,Arsenal_Wolves_20251213
+Jackson Tchatchoua,38,cmCMR,WB,24-090,22,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,,False,Arsenal_Wolves_20251213
+Toti Gomes,24,ptPOR,CB,26-331,85,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0.0,False,Arsenal_Wolves_20251213
+Mateus Mane,36,ptPOR,CB,18-088,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,1,0.0,False,Arsenal_Wolves_20251213
+Emmanuel Agbadou,12,ciCIV,CB,28-179,90,1,0,0,1,0,0,0,0,1,0,0,0,4,1,1,50.0,False,Arsenal_Wolves_20251213
+Yerson Mosquera,15,coCOL,CB,24-225,90,1,0,0,0,1,0,0,0,0,0,0,1,4,3,0,100.0,False,Arsenal_Wolves_20251213
+Sam Johnstone,31,engENG,GK,32-263,90,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,False,Arsenal_Wolves_20251213
