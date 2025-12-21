@@ -159,14 +159,14 @@ gameweek,dayofweek,date,start_time,home_team,home_xg,score,away_xg,away_team,mat
 16,Sun,2025-12-14,14:00,Nott'ham Forest,2.3,3–0,0.3,Tottenham,https://fbref.com/en/matches/30741081/Nottingham-Forest-Tottenham-Hotspur-December-14-2025-Premier-League,True,Nott'hamForest_Tottenham_20251214
 16,Sun,2025-12-14,16:30,Brentford,0.6,1–1,1.5,Leeds United,https://fbref.com/en/matches/68c62e00/Brentford-Leeds-United-December-14-2025-Premier-League,True,Brentford_LeedsUnited_20251214
 16,Mon,2025-12-15,20:00,Manchester Utd,3.4,4–4,1.9,Bournemouth,https://fbref.com/en/matches/fe812068/Manchester-United-Bournemouth-December-15-2025-Premier-League,True,ManchesterUtd_Bournemouth_20251215
-17,Sat,2025-12-20,12:30,Newcastle Utd,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/b2b47a98/Chelsea-vs-Newcastle-United-History,False,NewcastleUtd_Chelsea_20251220
-17,Sat,2025-12-20,15:00,Wolves,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cd051869/8cec06e1/Brentford-vs-Wolverhampton-Wanderers-History,False,Wolves_Brentford_20251220
-17,Sat,2025-12-20,15:00,Brighton,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/d07537b9/8ef52968/Brighton-and-Hove-Albion-vs-Sunderland-History,False,Brighton_Sunderland_20251220
-17,Sat,2025-12-20,15:00,Bournemouth,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/943e8050/4ba7cbea/Burnley-vs-Bournemouth-History,False,Bournemouth_Burnley_20251220
-17,Sat,2025-12-20,15:00,Manchester City,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/7c21e445/Manchester-City-vs-West-Ham-United-History,False,ManchesterCity_WestHam_20251220
-17,Sat,2025-12-20,17:30,Tottenham,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/822bd0ba/361ca564/Liverpool-vs-Tottenham-Hotspur-History,False,Tottenham_Liverpool_20251220
-17,Sat,2025-12-20,20:00,Everton,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/18bb7c10/Everton-vs-Arsenal-History,False,Everton_Arsenal_20251220
-17,Sat,2025-12-20,20:00,Leeds United,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/5bfb9659/47c64c55/Leeds-United-vs-Crystal-Palace-History,False,LeedsUnited_CrystalPalace_20251220
+17,Sat,2025-12-20,12:30,Newcastle Utd,2.3,2–2,1.2,Chelsea,https://fbref.com/en/matches/4972e40c/Newcastle-United-Chelsea-December-20-2025-Premier-League,True,NewcastleUtd_Chelsea_20251220
+17,Sat,2025-12-20,15:00,Wolves,1.3,0–2,1.2,Brentford,https://fbref.com/en/matches/3c79be9f/Wolverhampton-Wanderers-Brentford-December-20-2025-Premier-League,True,Wolves_Brentford_20251220
+17,Sat,2025-12-20,15:00,Brighton,1.3,0–0,1.4,Sunderland,https://fbref.com/en/matches/8751f2e2/Brighton-and-Hove-Albion-Sunderland-December-20-2025-Premier-League,True,Brighton_Sunderland_20251220
+17,Sat,2025-12-20,15:00,Bournemouth,1.7,1–1,0.4,Burnley,https://fbref.com/en/matches/f248c97b/Bournemouth-Burnley-December-20-2025-Premier-League,True,Bournemouth_Burnley_20251220
+17,Sat,2025-12-20,15:00,Manchester City,2.4,3–0,1.0,West Ham,https://fbref.com/en/matches/56b82593/Manchester-City-West-Ham-United-December-20-2025-Premier-League,True,ManchesterCity_WestHam_20251220
+17,Sat,2025-12-20,17:30,Tottenham,1.0,1–2,0.6,Liverpool,https://fbref.com/en/matches/30618752/Tottenham-Hotspur-Liverpool-December-20-2025-Premier-League,True,Tottenham_Liverpool_20251220
+17,Sat,2025-12-20,20:00,Everton,0.2,0–1,1.8,Arsenal,https://fbref.com/en/matches/9bf2aba0/Everton-Arsenal-December-20-2025-Premier-League,True,Everton_Arsenal_20251220
+17,Sat,2025-12-20,20:00,Leeds United,3.0,4–1,1.6,Crystal Palace,https://fbref.com/en/matches/a105af33/Leeds-United-Crystal-Palace-December-20-2025-Premier-League,True,LeedsUnited_CrystalPalace_20251220
 17,Sun,2025-12-21,16:30,Aston Villa,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/8602292d/19538871/Aston-Villa-vs-Manchester-United-History,False,AstonVilla_ManchesterUtd_20251221
 17,Mon,2025-12-22,20:00,Fulham,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/fd962109/e4a775cb/Fulham-vs-Nottingham-Forest-History,False,Fulham_Nott'hamForest_20251222
 18,Fri,2025-12-26,20:00,Manchester Utd,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/19538871/Newcastle-United-vs-Manchester-United-History,False,ManchesterUtd_NewcastleUtd_20251226
