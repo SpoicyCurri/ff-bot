@@ -5162,35 +5162,66 @@ Ayden Heaven,26.0,engENG,CB,19-090,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,
 Leny Yoro,15.0,frFRA,CB,20-038,83.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,7.0,0.0,1.0,0.0,False,AstonVilla_ManchesterUtd_20251221
 Shea Lacey,61.0,engENG,WB,18-251,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,False,AstonVilla_ManchesterUtd_20251221
 Senne Lammens,31.0,beBEL,GK,23-167,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,,False,AstonVilla_ManchesterUtd_20251221
-Raúl Jiménez,7,mxMEX,FW,34-231,84,1,0,0,0,0,0,0,1,1,0,0,0,2,3,3,50.0,True,Fulham_Nott'hamForest_20251222
-Jonah Kusi-Asare,18,seSWE,FW,18-171,6,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0.0,True,Fulham_Nott'hamForest_20251222
-Kevin,22,brBRA,LW,22-352,77,0,0,0,0,1,0,1,0,1,1,0,0,5,2,1,66.7,True,Fulham_Nott'hamForest_20251222
-Joshua King,24,engENG,"LM,AM",18-353,13,0,0,0,0,1,0,0,0,1,0,0,0,2,0,0,,True,Fulham_Nott'hamForest_20251222
-Harry Wilson,8,wlsWAL,RW,28-275,83,1,0,0,0,1,0,1,0,2,0,0,0,0,0,0,,True,Fulham_Nott'hamForest_20251222
-Adama Traoré,11,esESP,"RM,RW",29-331,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.0,True,Fulham_Nott'hamForest_20251222
-Emile Smith Rowe,32,engENG,"AM,LW",25-147,84,0,0,0,0,1,0,0,1,0,0,0,0,10,0,0,,True,Fulham_Nott'hamForest_20251222
-Issa Diop,31,frFRA,CB,28-347,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,True,Fulham_Nott'hamForest_20251222
-Sander Berge,16,noNOR,DM,27-311,65,1,0,0,1,0,0,0,1,1,0,0,0,3,4,1,80.0,True,Fulham_Nott'hamForest_20251222
-Tom Cairney,10,sctSCO,"DM,CM",34-336,25,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,True,Fulham_Nott'hamForest_20251222
-Saša Lukić,20,rsSRB,"DM,CM",29-131,90,0,0,0,1,2,0,0,1,4,0,0,0,5,2,3,40.0,True,Fulham_Nott'hamForest_20251222
-Antonee Robinson,33,usUSA,LB,28-136,90,0,0,0,0,0,2,4,0,2,0,0,0,6,1,1,50.0,True,Fulham_Nott'hamForest_20251222
-Jorge Cuenca,15,esESP,CB,26-035,90,1,0,0,1,1,0,0,1,0,0,0,0,4,2,3,40.0,True,Fulham_Nott'hamForest_20251222
-Joachim Andersen,5,dkDEN,CB,29-205,90,1,0,0,1,0,0,0,2,0,0,0,0,2,2,2,50.0,True,Fulham_Nott'hamForest_20251222
-Kenny Tete,2,nlNED,RB,30-074,90,0,0,0,1,2,0,1,3,1,0,0,0,3,1,1,50.0,True,Fulham_Nott'hamForest_20251222
-Bernd Leno,1,deGER,GK,33-293,90,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,True,Fulham_Nott'hamForest_20251222
-Igor Jesus,19,brBRA,FW,24-300,71,0,0,0,1,3,0,0,0,0,0,0,0,4,6,2,75.0,False,Fulham_Nott'hamForest_20251222
-Taiwo Awoniyi,9,ngNGA,FW,28-132,19,0,0,0,0,0,2,0,0,0,0,0,0,0,0,1,0.0,False,Fulham_Nott'hamForest_20251222
-Callum Hudson-Odoi,7,engENG,LW,25-045,89,0,0,0,0,0,0,2,1,0,0,0,0,2,0,0,,False,Fulham_Nott'hamForest_20251222
-Arnaud Kalimuendo,15,frFRA,LW,23-336,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,100.0,False,Fulham_Nott'hamForest_20251222
-Omari Hutchinson,21,engENG,RW,22-053,90,0,0,0,1,0,0,6,2,0,0,0,0,3,0,2,0.0,False,Fulham_Nott'hamForest_20251222
-Morgan Gibbs-White,10,engENG,AM,25-329,72,0,0,0,0,1,0,0,0,0,0,0,0,3,0,6,0.0,False,Fulham_Nott'hamForest_20251222
-James Mcatee,24,engENG,AM,23-065,18,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0.0,False,Fulham_Nott'hamForest_20251222
-Elliot Anderson,8,engENG,DM,23-046,90,0,0,0,3,1,0,3,1,1,0,0,0,10,4,1,80.0,False,Fulham_Nott'hamForest_20251222
-Douglas Luiz,12,brBRA,DM,27-227,72,0,0,0,1,0,0,5,2,1,0,1,0,6,0,0,,False,Fulham_Nott'hamForest_20251222
-Nicolás Domínguez,16,arARG,DM,27-177,18,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,False,Fulham_Nott'hamForest_20251222
-Neco Williams,3,wlsWAL,"LB,RB",24-253,90,0,0,0,0,0,0,2,0,1,0,0,0,5,0,1,0.0,False,Fulham_Nott'hamForest_20251222
-Murillo,5,brBRA,CB,23-171,90,1,0,0,2,0,0,0,1,1,0,0,0,8,0,2,0.0,False,Fulham_Nott'hamForest_20251222
-Nikola Milenković,31,rsSRB,CB,28-071,90,1,0,0,1,0,0,0,1,0,0,0,0,7,4,1,80.0,False,Fulham_Nott'hamForest_20251222
-Nicolò Savona,37,itITA,RB,22-278,80,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,100.0,False,Fulham_Nott'hamForest_20251222
-Oleksandr Zinchenko,35,uaUKR,LB,29-007,10,0,0,0,0,0,0,3,0,0,0,0,0,0,1,0,100.0,False,Fulham_Nott'hamForest_20251222
-John,13,brBRA,GK,29-312,90,1,0,0,0,0,0,0,0,0,0,0,0,3,0,0,,False,Fulham_Nott'hamForest_20251222
+Raúl Jiménez,7.0,mxMEX,FW,34-231,84.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,2.0,3.0,3.0,50.0,True,Fulham_Nott'hamForest_20251222
+Jonah Kusi-Asare,18.0,seSWE,FW,18-171,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,1.0,0.0,True,Fulham_Nott'hamForest_20251222
+Kevin,22.0,brBRA,LW,22-352,77.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,5.0,2.0,1.0,66.7,True,Fulham_Nott'hamForest_20251222
+Joshua King,24.0,engENG,"LM,AM",18-353,13.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,0.0,,True,Fulham_Nott'hamForest_20251222
+Harry Wilson,8.0,wlsWAL,RW,28-275,83.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,,True,Fulham_Nott'hamForest_20251222
+Adama Traoré,11.0,esESP,"RM,RW",29-331,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,True,Fulham_Nott'hamForest_20251222
+Emile Smith Rowe,32.0,engENG,"AM,LW",25-147,84.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,,True,Fulham_Nott'hamForest_20251222
+Issa Diop,31.0,frFRA,CB,28-347,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,True,Fulham_Nott'hamForest_20251222
+Sander Berge,16.0,noNOR,DM,27-311,65.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,3.0,4.0,1.0,80.0,True,Fulham_Nott'hamForest_20251222
+Tom Cairney,10.0,sctSCO,"DM,CM",34-336,25.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,True,Fulham_Nott'hamForest_20251222
+Saša Lukić,20.0,rsSRB,"DM,CM",29-131,90.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,5.0,2.0,3.0,40.0,True,Fulham_Nott'hamForest_20251222
+Antonee Robinson,33.0,usUSA,LB,28-136,90.0,0.0,0.0,0.0,0.0,0.0,2.0,4.0,0.0,2.0,0.0,0.0,0.0,6.0,1.0,1.0,50.0,True,Fulham_Nott'hamForest_20251222
+Jorge Cuenca,15.0,esESP,CB,26-035,90.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,2.0,3.0,40.0,True,Fulham_Nott'hamForest_20251222
+Joachim Andersen,5.0,dkDEN,CB,29-205,90.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,50.0,True,Fulham_Nott'hamForest_20251222
+Kenny Tete,2.0,nlNED,RB,30-074,90.0,0.0,0.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,0.0,0.0,0.0,3.0,1.0,1.0,50.0,True,Fulham_Nott'hamForest_20251222
+Bernd Leno,1.0,deGER,GK,33-293,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,True,Fulham_Nott'hamForest_20251222
+Igor Jesus,19.0,brBRA,FW,24-300,71.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,6.0,2.0,75.0,False,Fulham_Nott'hamForest_20251222
+Taiwo Awoniyi,9.0,ngNGA,FW,28-132,19.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,False,Fulham_Nott'hamForest_20251222
+Callum Hudson-Odoi,7.0,engENG,LW,25-045,89.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,,False,Fulham_Nott'hamForest_20251222
+Arnaud Kalimuendo,15.0,frFRA,LW,23-336,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,100.0,False,Fulham_Nott'hamForest_20251222
+Omari Hutchinson,21.0,engENG,RW,22-053,90.0,0.0,0.0,0.0,1.0,0.0,0.0,6.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,2.0,0.0,False,Fulham_Nott'hamForest_20251222
+Morgan Gibbs-White,10.0,engENG,AM,25-329,72.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,6.0,0.0,False,Fulham_Nott'hamForest_20251222
+James Mcatee,24.0,engENG,AM,23-065,18.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,False,Fulham_Nott'hamForest_20251222
+Elliot Anderson,8.0,engENG,DM,23-046,90.0,0.0,0.0,0.0,3.0,1.0,0.0,3.0,1.0,1.0,0.0,0.0,0.0,10.0,4.0,1.0,80.0,False,Fulham_Nott'hamForest_20251222
+Douglas Luiz,12.0,brBRA,DM,27-227,72.0,0.0,0.0,0.0,1.0,0.0,0.0,5.0,2.0,1.0,0.0,1.0,0.0,6.0,0.0,0.0,,False,Fulham_Nott'hamForest_20251222
+Nicolás Domínguez,16.0,arARG,DM,27-177,18.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,False,Fulham_Nott'hamForest_20251222
+Neco Williams,3.0,wlsWAL,"LB,RB",24-253,90.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,5.0,0.0,1.0,0.0,False,Fulham_Nott'hamForest_20251222
+Murillo,5.0,brBRA,CB,23-171,90.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,8.0,0.0,2.0,0.0,False,Fulham_Nott'hamForest_20251222
+Nikola Milenković,31.0,rsSRB,CB,28-071,90.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,7.0,4.0,1.0,80.0,False,Fulham_Nott'hamForest_20251222
+Nicolò Savona,37.0,itITA,RB,22-278,80.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,100.0,False,Fulham_Nott'hamForest_20251222
+Oleksandr Zinchenko,35.0,uaUKR,LB,29-007,10.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,100.0,False,Fulham_Nott'hamForest_20251222
+John,13.0,brBRA,GK,29-312,90.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,,False,Fulham_Nott'hamForest_20251222
+Benjamin Šeško,30,siSVN,FW,22-209,59,0,0,0,0,0,0,1,1,1,0,0,0,3,0,2,0.0,True,ManchesterUtd_NewcastleUtd_20251226
+Joshua Zirkzee,11,nlNED,FW,24-218,31,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,40.0,True,ManchesterUtd_NewcastleUtd_20251226
+Matheus Cunha,10,brBRA,"LW,FW,AM,RM",26-213,90,1,0,0,2,1,0,0,3,0,0,0,0,6,0,1,0.0,True,ManchesterUtd_NewcastleUtd_20251226
+Patrick Dorgu,13,dkDEN,"RW,CM,LM",21-061,90,0,0,0,0,3,0,2,2,0,0,0,0,4,2,3,40.0,True,ManchesterUtd_NewcastleUtd_20251226
+Mason Mount,7,engENG,AM,26-350,45,0,0,0,1,0,0,2,0,1,0,0,0,4,0,1,0.0,True,ManchesterUtd_NewcastleUtd_20251226
+Jack Fletcher,38,engENG,"CM,LW",18-282,45,0,0,0,1,0,0,0,1,0,0,0,0,0,0,3,0.0,True,ManchesterUtd_NewcastleUtd_20251226
+Manuel Ugarte,25,uyURU,"DM,CM",24-259,90,0,0,0,3,0,0,0,2,3,0,0,0,6,0,1,0.0,True,ManchesterUtd_NewcastleUtd_20251226
+Casemiro,18,brBRA,DM,33-306,60,0,0,0,1,0,0,0,2,1,0,0,0,3,0,0,,True,ManchesterUtd_NewcastleUtd_20251226
+Leny Yoro,15,frFRA,CB,20-043,30,0,0,0,0,0,0,0,2,0,0,0,0,3,1,2,33.3,True,ManchesterUtd_NewcastleUtd_20251226
+Luke Shaw,23,engENG,LB,30-167,87,1,0,0,1,0,0,2,3,1,0,0,0,4,3,1,75.0,True,ManchesterUtd_NewcastleUtd_20251226
+Tyrell Malacia,12,nlNED,LB,26-131,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,True,ManchesterUtd_NewcastleUtd_20251226
+Lisandro Martínez,6,arARG,CB,27-342,87,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,,True,ManchesterUtd_NewcastleUtd_20251226
+Tyler Fredricson,33,engENG,CB,20-306,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,True,ManchesterUtd_NewcastleUtd_20251226
+Ayden Heaven,26,engENG,CB,19-095,90,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,100.0,True,ManchesterUtd_NewcastleUtd_20251226
+Diogo Dalot,2,ptPOR,RB,26-283,90,0,0,0,0,0,0,1,1,1,0,0,0,3,2,0,100.0,True,ManchesterUtd_NewcastleUtd_20251226
+Senne Lammens,31,beBEL,GK,23-172,90,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,100.0,True,ManchesterUtd_NewcastleUtd_20251226
+Nick Woltemade,27,deGER,FW,23-315,67,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,66.7,False,ManchesterUtd_NewcastleUtd_20251226
+Yoane Wissa,9,cdCOD,FW,29-114,23,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,66.7,False,ManchesterUtd_NewcastleUtd_20251226
+Anthony Gordon,10,engENG,LW,24-305,90,0,0,0,1,0,0,10,0,1,0,0,0,2,0,1,0.0,False,ManchesterUtd_NewcastleUtd_20251226
+Jacob Murphy,23,engENG,RW,30-305,67,0,0,0,0,0,1,11,0,0,0,0,0,1,1,1,50.0,False,ManchesterUtd_NewcastleUtd_20251226
+Harvey Barnes,11,engENG,RW,28-017,23,0,0,0,0,0,0,3,0,0,0,0,0,0,0,1,0.0,False,ManchesterUtd_NewcastleUtd_20251226
+Jacob Ramsey,41,engENG,LM,24-212,67,0,0,0,1,0,0,0,1,1,0,0,0,5,0,0,,False,ManchesterUtd_NewcastleUtd_20251226
+Joelinton,7,brBRA,LM,29-134,23,0,0,0,1,0,0,1,0,0,0,0,0,1,1,0,100.0,False,ManchesterUtd_NewcastleUtd_20251226
+Bruno Guimarães,39,brBRA,CM,28-040,90,0,0,0,0,3,0,4,1,1,0,0,0,4,0,0,,False,ManchesterUtd_NewcastleUtd_20251226
+Sandro Tonali,8,itITA,RM,25-232,76,1,0,0,2,2,0,6,1,1,0,0,0,5,1,0,100.0,False,ManchesterUtd_NewcastleUtd_20251226
+Joe Willock,28,engENG,RM,26-128,14,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,,False,ManchesterUtd_NewcastleUtd_20251226
+Lewis Hall,3,engENG,LB,21-109,90,0,0,0,0,3,0,5,0,0,0,0,0,11,2,1,66.7,False,ManchesterUtd_NewcastleUtd_20251226
+Fabian Schär,5,chSUI,CB,34-006,90,0,0,0,0,0,0,0,1,1,0,0,0,4,4,2,66.7,False,ManchesterUtd_NewcastleUtd_20251226
+Malick Thiaw,12,deGER,CB,24-140,90,0,0,0,0,0,0,0,1,1,0,0,0,8,3,3,50.0,False,ManchesterUtd_NewcastleUtd_20251226
+Lewis Miley,67,engENG,RB,19-239,90,0,0,0,0,1,0,4,1,1,0,0,0,5,2,0,100.0,False,ManchesterUtd_NewcastleUtd_20251226
+Aaron Ramsdale,32,engENG,GK,27-226,90,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,False,ManchesterUtd_NewcastleUtd_20251226
