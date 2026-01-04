@@ -189,10 +189,10 @@ gameweek,dayofweek,date,start_time,home_team,home_xg,score,away_xg,away_team,mat
 19,Thu,2026-01-01,17:30,Crystal Palace,1.9,1–1,1.7,Fulham,https://fbref.com/en/matches/08780759/Crystal-Palace-Fulham-January-1-2026-Premier-League,True,CrystalPalace_Fulham_20260101
 19,Thu,2026-01-01,20:00,Sunderland,0.9,0–0,2.1,Manchester City,https://fbref.com/en/matches/3f843d94/Sunderland-Manchester-City-January-1-2026-Premier-League,True,Sunderland_ManchesterCity_20260101
 19,Thu,2026-01-01,20:00,Brentford,0.9,0–0,0.8,Tottenham,https://fbref.com/en/matches/560a0a6c/Brentford-Tottenham-Hotspur-January-1-2026-Premier-League,True,Brentford_Tottenham_20260101
-20,Sat,2026-01-03,12:30,Aston Villa,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/8602292d/Nottingham-Forest-vs-Aston-Villa-History,False,AstonVilla_Nott'hamForest_20260103
-20,Sat,2026-01-03,15:00,Brighton,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/d07537b9/943e8050/Brighton-and-Hove-Albion-vs-Burnley-History,False,Brighton_Burnley_20260103
-20,Sat,2026-01-03,15:00,Wolves,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/8cec06e1/7c21e445/Wolverhampton-Wanderers-vs-West-Ham-United-History,False,Wolves_WestHam_20260103
-20,Sat,2026-01-03,17:30,Bournemouth,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/4ba7cbea/18bb7c10/Bournemouth-vs-Arsenal-History,False,Bournemouth_Arsenal_20260103
+20,Sat,2026-01-03,12:30,Aston Villa,1.7,3–1,0.9,Nott'ham Forest,https://fbref.com/en/matches/4ef85729/Aston-Villa-Nottingham-Forest-January-3-2026-Premier-League,True,AstonVilla_Nott'hamForest_20260103
+20,Sat,2026-01-03,15:00,Brighton,1.4,2–0,0.3,Burnley,https://fbref.com/en/matches/987e9f89/Brighton-and-Hove-Albion-Burnley-January-3-2026-Premier-League,True,Brighton_Burnley_20260103
+20,Sat,2026-01-03,15:00,Wolves,1.5,3–0,0.3,West Ham,https://fbref.com/en/matches/9364f40b/Wolverhampton-Wanderers-West-Ham-United-January-3-2026-Premier-League,True,Wolves_WestHam_20260103
+20,Sat,2026-01-03,17:30,Bournemouth,1.3,2–3,1.1,Arsenal,https://fbref.com/en/matches/db124c87/Bournemouth-Arsenal-January-3-2026-Premier-League,True,Bournemouth_Arsenal_20260103
 20,Sun,2026-01-04,12:30,Leeds United,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/5bfb9659/19538871/Leeds-United-vs-Manchester-United-History,False,LeedsUnited_ManchesterUtd_20260104
 20,Sun,2026-01-04,15:00,Fulham,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/fd962109/822bd0ba/Fulham-vs-Liverpool-History,False,Fulham_Liverpool_20260104
 20,Sun,2026-01-04,15:00,Tottenham,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/8ef52968/361ca564/Sunderland-vs-Tottenham-Hotspur-History,False,Tottenham_Sunderland_20260104
