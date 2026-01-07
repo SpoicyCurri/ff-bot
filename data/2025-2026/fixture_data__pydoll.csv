@@ -199,7 +199,7 @@ gameweek,dayofweek,date,start_time,home_team,home_xg,score,away_xg,away_team,mat
 20,Sun,2026-01-04,15:00,Newcastle Utd,2.1,2–0,0.7,Crystal Palace,https://fbref.com/en/matches/b4262b3c/Newcastle-United-Crystal-Palace-January-4-2026-Premier-League,True,NewcastleUtd_CrystalPalace_20260104
 20,Sun,2026-01-04,15:15,Fulham,0.7,2–2,1.4,Liverpool,https://fbref.com/en/matches/a5b3e9ba/Fulham-Liverpool-January-4-2026-Premier-League,True,Fulham_Liverpool_20260104
 20,Sun,2026-01-04,17:30,Manchester City,1.0,1–1,1.8,Chelsea,https://fbref.com/en/matches/989daed4/Manchester-City-Chelsea-January-4-2026-Premier-League,True,ManchesterCity_Chelsea_20260104
-21,Tue,2026-01-06,20:00,West Ham,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/7c21e445/Nottingham-Forest-vs-West-Ham-United-History,False,WestHam_Nott'hamForest_20260106
+21,Tue,2026-01-06,20:00,West Ham,1.0,1–2,1.3,Nott'ham Forest,https://fbref.com/en/matches/e0b5b423/West-Ham-United-Nottingham-Forest-January-6-2026-Premier-League,True,WestHam_Nott'hamForest_20260106
 21,Wed,2026-01-07,19:30,Crystal Palace,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/8602292d/47c64c55/Aston-Villa-vs-Crystal-Palace-History,False,CrystalPalace_AstonVilla_20260107
 21,Wed,2026-01-07,19:30,Everton,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/8cec06e1/Everton-vs-Wolverhampton-Wanderers-History,False,Everton_Wolves_20260107
 21,Wed,2026-01-07,19:30,Fulham,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/fd962109/cff3d9bb/Fulham-vs-Chelsea-History,False,Fulham_Chelsea_20260107
