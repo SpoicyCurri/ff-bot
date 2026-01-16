@@ -1,52 +1,52 @@
 gameweek,dayofweek,date,start_time,home_team,home_xg,score,away_xg,away_team,match_report_link,game_played,game_id
 1,Fri,2025-08-15,20:00(19:00),Liverpool,2.2,4–2,1.7,Bournemouth,https://fbref.com/en/matches/a071faa8/Liverpool-Bournemouth-August-15-2025-Premier-League,True,Liverpool_Bournemouth_20250815
-1,Sat,2025-08-16,12:30(11:30),Aston Villa,0.2,0–0,1.4,Newcastle Utd,https://fbref.com/en/matches/bbdf4739/Aston-Villa-Newcastle-United-August-16-2025-Premier-League,True,AstonVilla_NewcastleUtd_20250816
-1,Sat,2025-08-16,15:00(14:00),Sunderland,0.7,3–0,0.6,West Ham,https://fbref.com/en/matches/e1058522/Sunderland-West-Ham-United-August-16-2025-Premier-League,True,Sunderland_WestHam_20250816
+1,Sat,2025-08-16,12:30(11:30),Aston Villa,0.2,0–0,1.4,Newcastle United,https://fbref.com/en/matches/bbdf4739/Aston-Villa-Newcastle-United-August-16-2025-Premier-League,True,AstonVilla_NewcastleUnited_20250816
+1,Sat,2025-08-16,15:00(14:00),Sunderland,0.7,3–0,0.6,West Ham United,https://fbref.com/en/matches/e1058522/Sunderland-West-Ham-United-August-16-2025-Premier-League,True,Sunderland_WestHamUnited_20250816
 1,Sat,2025-08-16,15:00(14:00),Brighton,1.5,1–1,0.7,Fulham,https://fbref.com/en/matches/57c49bae/Brighton-and-Hove-Albion-Fulham-August-16-2025-Premier-League,True,Brighton_Fulham_20250816
-1,Sat,2025-08-16,15:00(14:00),Tottenham,2.3,3–0,0.9,Burnley,https://fbref.com/en/matches/d41bb8b3/Tottenham-Hotspur-Burnley-August-16-2025-Premier-League,True,Tottenham_Burnley_20250816
+1,Sat,2025-08-16,15:00(14:00),Tottenham Hotspur,2.3,3–0,0.9,Burnley,https://fbref.com/en/matches/d41bb8b3/Tottenham-Hotspur-Burnley-August-16-2025-Premier-League,True,TottenhamHotspur_Burnley_20250816
 1,Sat,2025-08-16,17:30(16:30),Wolves,0.6,0–4,2.4,Manchester City,https://fbref.com/en/matches/8613020d/Wolverhampton-Wanderers-Manchester-City-August-16-2025-Premier-League,True,Wolves_ManchesterCity_20250816
 1,Sun,2025-08-17,14:00(13:00),Chelsea,1.6,0–0,0.6,Crystal Palace,https://fbref.com/en/matches/2185fc64/Chelsea-Crystal-Palace-August-17-2025-Premier-League,True,Chelsea_CrystalPalace_20250817
-1,Sun,2025-08-17,14:00(13:00),Nott'ham Forest,1.8,3–1,1.4,Brentford,https://fbref.com/en/matches/855f8b5e/Nottingham-Forest-Brentford-August-17-2025-Premier-League,True,Nott'hamForest_Brentford_20250817
+1,Sun,2025-08-17,14:00(13:00),Nottingham Forest,1.8,3–1,1.4,Brentford,https://fbref.com/en/matches/855f8b5e/Nottingham-Forest-Brentford-August-17-2025-Premier-League,True,NottinghamForest_Brentford_20250817
 1,Sun,2025-08-17,16:30(15:30),Manchester Utd,1.5,0–1,1.3,Arsenal,https://fbref.com/en/matches/643d26fd/Manchester-United-Arsenal-August-17-2025-Premier-League,True,ManchesterUtd_Arsenal_20250817
 1,Mon,2025-08-18,20:00(19:00),Leeds United,2.0,1–0,0.8,Everton,https://fbref.com/en/matches/0701e218/Leeds-United-Everton-August-18-2025-Premier-League,True,LeedsUnited_Everton_20250818
-2,Fri,2025-08-22,20:00(19:00),West Ham,0.7,1–5,2.7,Chelsea,https://fbref.com/en/matches/57b35843/West-Ham-United-Chelsea-August-22-2025-Premier-League,True,WestHam_Chelsea_20250822
-2,Sat,2025-08-23,12:30(11:30),Manchester City,1.6,0–2,1.1,Tottenham,https://fbref.com/en/matches/f7e2c9c7/Manchester-City-Tottenham-Hotspur-August-23-2025-Premier-League,True,ManchesterCity_Tottenham_20250823
+2,Fri,2025-08-22,20:00(19:00),West Ham United,0.7,1–5,2.7,Chelsea,https://fbref.com/en/matches/57b35843/West-Ham-United-Chelsea-August-22-2025-Premier-League,True,WestHamUnited_Chelsea_20250822
+2,Sat,2025-08-23,12:30(11:30),Manchester City,1.6,0–2,1.1,Tottenham Hotspur,https://fbref.com/en/matches/f7e2c9c7/Manchester-City-Tottenham-Hotspur-August-23-2025-Premier-League,True,ManchesterCity_TottenhamHotspur_20250823
 2,Sat,2025-08-23,15:00(14:00),Bournemouth,1.3,1–0,0.5,Wolves,https://fbref.com/en/matches/a515fb3a/Bournemouth-Wolverhampton-Wanderers-August-23-2025-Premier-League,True,Bournemouth_Wolves_20250823
 2,Sat,2025-08-23,15:00(14:00),Brentford,1.2,1–0,1.2,Aston Villa,https://fbref.com/en/matches/860c7af2/Brentford-Aston-Villa-August-23-2025-Premier-League,True,Brentford_AstonVilla_20250823
 2,Sat,2025-08-23,15:00(14:00),Burnley,1.0,2–0,0.8,Sunderland,https://fbref.com/en/matches/4e287736/Burnley-Sunderland-August-23-2025-Premier-League,True,Burnley_Sunderland_20250823
 2,Sat,2025-08-23,17:30(16:30),Arsenal,2.7,5–0,0.2,Leeds United,https://fbref.com/en/matches/e8724659/Arsenal-Leeds-United-August-23-2025-Premier-League,True,Arsenal_LeedsUnited_20250823
-2,Sun,2025-08-24,14:00(13:00),Crystal Palace,1.1,1–1,0.9,Nott'ham Forest,https://fbref.com/en/matches/a3984be1/Crystal-Palace-Nottingham-Forest-August-24-2025-Premier-League,True,CrystalPalace_Nott'hamForest_20250824
+2,Sun,2025-08-24,14:00(13:00),Crystal Palace,1.1,1–1,0.9,Nottingham Forest,https://fbref.com/en/matches/a3984be1/Crystal-Palace-Nottingham-Forest-August-24-2025-Premier-League,True,CrystalPalace_NottinghamForest_20250824
 2,Sun,2025-08-24,14:00(13:00),Everton,1.6,2–0,2.4,Brighton,https://fbref.com/en/matches/0bad74e2/Everton-Brighton-and-Hove-Albion-August-24-2025-Premier-League,True,Everton_Brighton_20250824
 2,Sun,2025-08-24,16:30(15:30),Fulham,1.7,1–1,1.6,Manchester Utd,https://fbref.com/en/matches/fc45a8b2/Fulham-Manchester-United-August-24-2025-Premier-League,True,Fulham_ManchesterUtd_20250824
-2,Mon,2025-08-25,20:00(19:00),Newcastle Utd,1.0,2–3,0.7,Liverpool,https://fbref.com/en/matches/2c75d21a/Newcastle-United-Liverpool-August-25-2025-Premier-League,True,NewcastleUtd_Liverpool_20250825
+2,Mon,2025-08-25,20:00(19:00),Newcastle United,1.0,2–3,0.7,Liverpool,https://fbref.com/en/matches/2c75d21a/Newcastle-United-Liverpool-August-25-2025-Premier-League,True,NewcastleUnited_Liverpool_20250825
 3,Sat,2025-08-30,12:30(11:30),Chelsea,2.1,2–0,0.9,Fulham,https://fbref.com/en/matches/2dbd7fbd/Chelsea-Fulham-August-30-2025-Premier-League,True,Chelsea_Fulham_20250830
 3,Sat,2025-08-30,15:00(14:00),Wolves,1.1,2–3,1.9,Everton,https://fbref.com/en/matches/3c399f5e/Wolverhampton-Wanderers-Everton-August-30-2025-Premier-League,True,Wolves_Everton_20250830
 3,Sat,2025-08-30,15:00(14:00),Manchester Utd,3.6,3–2,1.2,Burnley,https://fbref.com/en/matches/0050df89/Manchester-United-Burnley-August-30-2025-Premier-League,True,ManchesterUtd_Burnley_20250830
 3,Sat,2025-08-30,15:00(14:00),Sunderland,1.5,2–1,1.2,Brentford,https://fbref.com/en/matches/f03152d1/Sunderland-Brentford-August-30-2025-Premier-League,True,Sunderland_Brentford_20250830
-3,Sat,2025-08-30,15:00(14:00),Tottenham,0.2,0–1,1.5,Bournemouth,https://fbref.com/en/matches/0e30cf4b/Tottenham-Hotspur-Bournemouth-August-30-2025-Premier-League,True,Tottenham_Bournemouth_20250830
-3,Sat,2025-08-30,17:30(16:30),Leeds United,0.7,0–0,0.5,Newcastle Utd,https://fbref.com/en/matches/bc110e0b/Leeds-United-Newcastle-United-August-30-2025-Premier-League,True,LeedsUnited_NewcastleUtd_20250830
-3,Sun,2025-08-31,14:00(13:00),Nott'ham Forest,0.7,0–3,2.4,West Ham,https://fbref.com/en/matches/299beb27/Nottingham-Forest-West-Ham-United-August-31-2025-Premier-League,True,Nott'hamForest_WestHam_20250831
+3,Sat,2025-08-30,15:00(14:00),Tottenham Hotspur,0.2,0–1,1.5,Bournemouth,https://fbref.com/en/matches/0e30cf4b/Tottenham-Hotspur-Bournemouth-August-30-2025-Premier-League,True,TottenhamHotspur_Bournemouth_20250830
+3,Sat,2025-08-30,17:30(16:30),Leeds United,0.7,0–0,0.5,Newcastle United,https://fbref.com/en/matches/bc110e0b/Leeds-United-Newcastle-United-August-30-2025-Premier-League,True,LeedsUnited_NewcastleUnited_20250830
+3,Sun,2025-08-31,14:00(13:00),Nottingham Forest,0.7,0–3,2.4,West Ham United,https://fbref.com/en/matches/299beb27/Nottingham-Forest-West-Ham-United-August-31-2025-Premier-League,True,NottinghamForest_WestHamUnited_20250831
 3,Sun,2025-08-31,14:00(13:00),Brighton,2.2,2–1,1.8,Manchester City,https://fbref.com/en/matches/810d81e7/Brighton-and-Hove-Albion-Manchester-City-August-31-2025-Premier-League,True,Brighton_ManchesterCity_20250831
 3,Sun,2025-08-31,16:30(15:30),Liverpool,0.5,1–0,0.5,Arsenal,https://fbref.com/en/matches/b0005978/Liverpool-Arsenal-August-31-2025-Premier-League,True,Liverpool_Arsenal_20250831
 3,Sun,2025-08-31,19:00(18:00),Aston Villa,1.1,0–3,2.6,Crystal Palace,https://fbref.com/en/matches/cd51ed93/Aston-Villa-Crystal-Palace-August-31-2025-Premier-League,True,AstonVilla_CrystalPalace_20250831
-4,Sat,2025-09-13,12:30(11:30),Arsenal,1.8,3–0,0.2,Nott'ham Forest,https://fbref.com/en/matches/4fe3e679/Arsenal-Nottingham-Forest-September-13-2025-Premier-League,True,Arsenal_Nott'hamForest_20250913
-4,Sat,2025-09-13,15:00(14:00),Newcastle Utd,1.5,1–0,0.5,Wolves,https://fbref.com/en/matches/55fbbbe6/Newcastle-United-Wolverhampton-Wanderers-September-13-2025-Premier-League,True,NewcastleUtd_Wolves_20250913
+4,Sat,2025-09-13,12:30(11:30),Arsenal,1.8,3–0,0.2,Nottingham Forest,https://fbref.com/en/matches/4fe3e679/Arsenal-Nottingham-Forest-September-13-2025-Premier-League,True,Arsenal_NottinghamForest_20250913
+4,Sat,2025-09-13,15:00(14:00),Newcastle United,1.5,1–0,0.5,Wolves,https://fbref.com/en/matches/55fbbbe6/Newcastle-United-Wolverhampton-Wanderers-September-13-2025-Premier-League,True,NewcastleUnited_Wolves_20250913
 4,Sat,2025-09-13,15:00(14:00),Fulham,0.9,1–0,0.8,Leeds United,https://fbref.com/en/matches/ab8543fb/Fulham-Leeds-United-September-13-2025-Premier-League,True,Fulham_LeedsUnited_20250913
 4,Sat,2025-09-13,15:00(14:00),Crystal Palace,1.8,0–0,0.4,Sunderland,https://fbref.com/en/matches/e3cade07/Crystal-Palace-Sunderland-September-13-2025-Premier-League,True,CrystalPalace_Sunderland_20250913
 4,Sat,2025-09-13,15:00(14:00),Everton,2.0,0–0,0.4,Aston Villa,https://fbref.com/en/matches/a624dc89/Everton-Aston-Villa-September-13-2025-Premier-League,True,Everton_AstonVilla_20250913
 4,Sat,2025-09-13,15:00(14:00),Bournemouth,1.4,2–1,0.6,Brighton,https://fbref.com/en/matches/8398bbef/Bournemouth-Brighton-and-Hove-Albion-September-13-2025-Premier-League,True,Bournemouth_Brighton_20250913
-4,Sat,2025-09-13,17:30(16:30),West Ham,0.6,0–3,1.3,Tottenham,https://fbref.com/en/matches/86c7261a/West-Ham-United-Tottenham-Hotspur-September-13-2025-Premier-League,True,WestHam_Tottenham_20250913
+4,Sat,2025-09-13,17:30(16:30),West Ham United,0.6,0–3,1.3,Tottenham Hotspur,https://fbref.com/en/matches/86c7261a/West-Ham-United-Tottenham-Hotspur-September-13-2025-Premier-League,True,WestHamUnited_TottenhamHotspur_20250913
 4,Sat,2025-09-13,20:00(19:00),Brentford,1.4,2–2,1.3,Chelsea,https://fbref.com/en/matches/d8104c65/Brentford-Chelsea-September-13-2025-Premier-League,True,Brentford_Chelsea_20250913
 4,Sun,2025-09-14,14:00(13:00),Burnley,0.1,0–1,2.6,Liverpool,https://fbref.com/en/matches/fed27aaa/Burnley-Liverpool-September-14-2025-Premier-League,True,Burnley_Liverpool_20250914
 4,Sun,2025-09-14,16:30(15:30),Manchester City,2.7,3–0,1.2,Manchester Utd,https://fbref.com/en/matches/f2b1061a/Manchester-Derby-Manchester-City-Manchester-United-September-14-2025-Premier-League,True,ManchesterCity_ManchesterUtd_20250914
 5,Sat,2025-09-20,12:30(11:30),Liverpool,0.9,2–1,0.7,Everton,https://fbref.com/en/matches/5da72d0e/Merseyside-Derby-Liverpool-Everton-September-20-2025-Premier-League,True,Liverpool_Everton_20250920
 5,Sat,2025-09-20,15:00(14:00),Wolves,1.8,1–3,0.5,Leeds United,https://fbref.com/en/matches/45650a33/Wolverhampton-Wanderers-Leeds-United-September-20-2025-Premier-League,True,Wolves_LeedsUnited_20250920
-5,Sat,2025-09-20,15:00(14:00),Brighton,1.3,2–2,1.2,Tottenham,https://fbref.com/en/matches/fa03feeb/Brighton-and-Hove-Albion-Tottenham-Hotspur-September-20-2025-Premier-League,True,Brighton_Tottenham_20250920
-5,Sat,2025-09-20,15:00(14:00),Burnley,0.9,1–1,1.1,Nott'ham Forest,https://fbref.com/en/matches/e523c1cd/Burnley-Nottingham-Forest-September-20-2025-Premier-League,True,Burnley_Nott'hamForest_20250920
-5,Sat,2025-09-20,15:00(14:00),West Ham,0.6,1–2,2.1,Crystal Palace,https://fbref.com/en/matches/15b707b3/West-Ham-United-Crystal-Palace-September-20-2025-Premier-League,True,WestHam_CrystalPalace_20250920
+5,Sat,2025-09-20,15:00(14:00),Brighton,1.3,2–2,1.2,Tottenham Hotspur,https://fbref.com/en/matches/fa03feeb/Brighton-and-Hove-Albion-Tottenham-Hotspur-September-20-2025-Premier-League,True,Brighton_TottenhamHotspur_20250920
+5,Sat,2025-09-20,15:00(14:00),Burnley,0.9,1–1,1.1,Nottingham Forest,https://fbref.com/en/matches/e523c1cd/Burnley-Nottingham-Forest-September-20-2025-Premier-League,True,Burnley_NottinghamForest_20250920
+5,Sat,2025-09-20,15:00(14:00),West Ham United,0.6,1–2,2.1,Crystal Palace,https://fbref.com/en/matches/15b707b3/West-Ham-United-Crystal-Palace-September-20-2025-Premier-League,True,WestHamUnited_CrystalPalace_20250920
 5,Sat,2025-09-20,17:30(16:30),Manchester Utd,1.8,2–1,0.4,Chelsea,https://fbref.com/en/matches/a562da13/Manchester-United-Chelsea-September-20-2025-Premier-League,True,ManchesterUtd_Chelsea_20250920
 5,Sat,2025-09-20,20:00(19:00),Fulham,1.0,3–1,0.6,Brentford,https://fbref.com/en/matches/295b388b/Fulham-Brentford-September-20-2025-Premier-League,True,Fulham_Brentford_20250920
-5,Sun,2025-09-21,14:00(13:00),Bournemouth,0.5,0–0,0.2,Newcastle Utd,https://fbref.com/en/matches/f55b1b65/Bournemouth-Newcastle-United-September-21-2025-Premier-League,True,Bournemouth_NewcastleUtd_20250921
+5,Sun,2025-09-21,14:00(13:00),Bournemouth,0.5,0–0,0.2,Newcastle United,https://fbref.com/en/matches/f55b1b65/Bournemouth-Newcastle-United-September-21-2025-Premier-League,True,Bournemouth_NewcastleUnited_20250921
 5,Sun,2025-09-21,14:00(13:00),Sunderland,1.0,1–1,0.8,Aston Villa,https://fbref.com/en/matches/4e615d10/Sunderland-Aston-Villa-September-21-2025-Premier-League,True,Sunderland_AstonVilla_20250921
 5,Sun,2025-09-21,16:30(15:30),Arsenal,0.9,1–1,0.9,Manchester City,https://fbref.com/en/matches/2045939c/Arsenal-Manchester-City-September-21-2025-Premier-League,True,Arsenal_ManchesterCity_20250921
 6,Sat,2025-09-27,12:30(11:30),Brentford,1.9,3–1,2.1,Manchester Utd,https://fbref.com/en/matches/f96a49ea/Brentford-Manchester-United-September-27-2025-Premier-League,True,Brentford_ManchesterUtd_20250927
@@ -54,328 +54,328 @@ gameweek,dayofweek,date,start_time,home_team,home_xg,score,away_xg,away_team,mat
 6,Sat,2025-09-27,15:00(14:00),Manchester City,2.0,5–1,0.4,Burnley,https://fbref.com/en/matches/53db8cb5/Manchester-City-Burnley-September-27-2025-Premier-League,True,ManchesterCity_Burnley_20250927
 6,Sat,2025-09-27,15:00(14:00),Chelsea,1.8,1–3,2.3,Brighton,https://fbref.com/en/matches/b3a3df9a/Chelsea-Brighton-and-Hove-Albion-September-27-2025-Premier-League,True,Chelsea_Brighton_20250927
 6,Sat,2025-09-27,15:00(14:00),Leeds United,1.8,2–2,0.7,Bournemouth,https://fbref.com/en/matches/d2fc69e6/Leeds-United-Bournemouth-September-27-2025-Premier-League,True,LeedsUnited_Bournemouth_20250927
-6,Sat,2025-09-27,17:30(16:30),Nott'ham Forest,1.6,0–1,1.6,Sunderland,https://fbref.com/en/matches/78970349/Nottingham-Forest-Sunderland-September-27-2025-Premier-League,True,Nott'hamForest_Sunderland_20250927
-6,Sat,2025-09-27,20:00(19:00),Tottenham,0.8,1–1,1.1,Wolves,https://fbref.com/en/matches/116cff7d/Tottenham-Hotspur-Wolverhampton-Wanderers-September-27-2025-Premier-League,True,Tottenham_Wolves_20250927
+6,Sat,2025-09-27,17:30(16:30),Nottingham Forest,1.6,0–1,1.6,Sunderland,https://fbref.com/en/matches/78970349/Nottingham-Forest-Sunderland-September-27-2025-Premier-League,True,NottinghamForest_Sunderland_20250927
+6,Sat,2025-09-27,20:00(19:00),Tottenham Hotspur,0.8,1–1,1.1,Wolves,https://fbref.com/en/matches/116cff7d/Tottenham-Hotspur-Wolverhampton-Wanderers-September-27-2025-Premier-League,True,TottenhamHotspur_Wolves_20250927
 6,Sun,2025-09-28,14:00(13:00),Aston Villa,1.1,3–1,1.1,Fulham,https://fbref.com/en/matches/7345f259/Aston-Villa-Fulham-September-28-2025-Premier-League,True,AstonVilla_Fulham_20250928
-6,Sun,2025-09-28,16:30(15:30),Newcastle Utd,0.6,1–2,2.0,Arsenal,https://fbref.com/en/matches/e851cb5c/Newcastle-United-Arsenal-September-28-2025-Premier-League,True,NewcastleUtd_Arsenal_20250928
-6,Mon,2025-09-29,20:00(19:00),Everton,0.7,1–1,1.2,West Ham,https://fbref.com/en/matches/1163f46d/Everton-West-Ham-United-September-29-2025-Premier-League,True,Everton_WestHam_20250929
+6,Sun,2025-09-28,16:30(15:30),Newcastle United,0.6,1–2,2.0,Arsenal,https://fbref.com/en/matches/e851cb5c/Newcastle-United-Arsenal-September-28-2025-Premier-League,True,NewcastleUnited_Arsenal_20250928
+6,Mon,2025-09-29,20:00(19:00),Everton,0.7,1–1,1.2,West Ham United,https://fbref.com/en/matches/1163f46d/Everton-West-Ham-United-September-29-2025-Premier-League,True,Everton_WestHamUnited_20250929
 7,Fri,2025-10-03,20:00(19:00),Bournemouth,1.2,3–1,0.9,Fulham,https://fbref.com/en/matches/200f4acc/Bournemouth-Fulham-October-3-2025-Premier-League,True,Bournemouth_Fulham_20251003
-7,Sat,2025-10-04,12:30(11:30),Leeds United,1.7,1–2,0.6,Tottenham,https://fbref.com/en/matches/3e588df8/Leeds-United-Tottenham-Hotspur-October-4-2025-Premier-League,True,LeedsUnited_Tottenham_20251004
-7,Sat,2025-10-04,15:00(14:00),Arsenal,2.8,2–0,0.4,West Ham,https://fbref.com/en/matches/266bddc6/Arsenal-West-Ham-United-October-4-2025-Premier-League,True,Arsenal_WestHam_20251004
+7,Sat,2025-10-04,12:30(11:30),Leeds United,1.7,1–2,0.6,Tottenham Hotspur,https://fbref.com/en/matches/3e588df8/Leeds-United-Tottenham-Hotspur-October-4-2025-Premier-League,True,LeedsUnited_TottenhamHotspur_20251004
+7,Sat,2025-10-04,15:00(14:00),Arsenal,2.8,2–0,0.4,West Ham United,https://fbref.com/en/matches/266bddc6/Arsenal-West-Ham-United-October-4-2025-Premier-League,True,Arsenal_WestHamUnited_20251004
 7,Sat,2025-10-04,15:00(14:00),Manchester Utd,1.8,2–0,0.7,Sunderland,https://fbref.com/en/matches/e33ea33d/Manchester-United-Sunderland-October-4-2025-Premier-League,True,ManchesterUtd_Sunderland_20251004
 7,Sat,2025-10-04,17:30(16:30),Chelsea,1.0,2–1,1.9,Liverpool,https://fbref.com/en/matches/780d534e/Chelsea-Liverpool-October-4-2025-Premier-League,True,Chelsea_Liverpool_20251004
 7,Sun,2025-10-05,14:00(13:00),Wolves,0.6,1–1,0.9,Brighton,https://fbref.com/en/matches/1314f9fd/Wolverhampton-Wanderers-Brighton-and-Hove-Albion-October-5-2025-Premier-League,True,Wolves_Brighton_20251005
 7,Sun,2025-10-05,14:00(13:00),Everton,2.0,2–1,1.5,Crystal Palace,https://fbref.com/en/matches/88e53add/Everton-Crystal-Palace-October-5-2025-Premier-League,True,Everton_CrystalPalace_20251005
 7,Sun,2025-10-05,14:00(13:00),Aston Villa,1.1,2–1,0.4,Burnley,https://fbref.com/en/matches/db870461/Aston-Villa-Burnley-October-5-2025-Premier-League,True,AstonVilla_Burnley_20251005
-7,Sun,2025-10-05,14:00(13:00),Newcastle Utd,3.2,2–0,0.2,Nott'ham Forest,https://fbref.com/en/matches/e33f1657/Newcastle-United-Nottingham-Forest-October-5-2025-Premier-League,True,NewcastleUtd_Nott'hamForest_20251005
+7,Sun,2025-10-05,14:00(13:00),Newcastle United,3.2,2–0,0.2,Nottingham Forest,https://fbref.com/en/matches/e33f1657/Newcastle-United-Nottingham-Forest-October-5-2025-Premier-League,True,NewcastleUnited_NottinghamForest_20251005
 7,Sun,2025-10-05,16:30(15:30),Brentford,0.7,0–1,0.8,Manchester City,https://fbref.com/en/matches/8c0ee359/Brentford-Manchester-City-October-5-2025-Premier-League,True,Brentford_ManchesterCity_20251005
-8,Sat,2025-10-18,12:30(11:30),Nott'ham Forest,2.2,0–3,1.7,Chelsea,https://fbref.com/en/matches/b3ac7e40/Nottingham-Forest-Chelsea-October-18-2025-Premier-League,True,Nott'hamForest_Chelsea_20251018
+8,Sat,2025-10-18,12:30(11:30),Nottingham Forest,2.2,0–3,1.7,Chelsea,https://fbref.com/en/matches/b3ac7e40/Nottingham-Forest-Chelsea-October-18-2025-Premier-League,True,NottinghamForest_Chelsea_20251018
 8,Sat,2025-10-18,15:00(14:00),Sunderland,0.6,2–0,0.8,Wolves,https://fbref.com/en/matches/fe212874/Sunderland-Wolverhampton-Wanderers-October-18-2025-Premier-League,True,Sunderland_Wolves_20251018
 8,Sat,2025-10-18,15:00(14:00),Burnley,0.5,2–0,2.4,Leeds United,https://fbref.com/en/matches/a31356f3/Burnley-Leeds-United-October-18-2025-Premier-League,True,Burnley_LeedsUnited_20251018
-8,Sat,2025-10-18,15:00(14:00),Brighton,0.9,2–1,1.4,Newcastle Utd,https://fbref.com/en/matches/7c25388b/Brighton-and-Hove-Albion-Newcastle-United-October-18-2025-Premier-League,True,Brighton_NewcastleUtd_20251018
+8,Sat,2025-10-18,15:00(14:00),Brighton,0.9,2–1,1.4,Newcastle United,https://fbref.com/en/matches/7c25388b/Brighton-and-Hove-Albion-Newcastle-United-October-18-2025-Premier-League,True,Brighton_NewcastleUnited_20251018
 8,Sat,2025-10-18,15:00(14:00),Crystal Palace,4.4,3–3,2.0,Bournemouth,https://fbref.com/en/matches/7a0ab06b/Crystal-Palace-Bournemouth-October-18-2025-Premier-League,True,CrystalPalace_Bournemouth_20251018
 8,Sat,2025-10-18,15:00(14:00),Manchester City,2.3,2–0,1.1,Everton,https://fbref.com/en/matches/1340e41a/Manchester-City-Everton-October-18-2025-Premier-League,True,ManchesterCity_Everton_20251018
 8,Sat,2025-10-18,17:30(16:30),Fulham,0.4,0–1,1.8,Arsenal,https://fbref.com/en/matches/94eefc1d/Fulham-Arsenal-October-18-2025-Premier-League,True,Fulham_Arsenal_20251018
-8,Sun,2025-10-19,14:00(13:00),Tottenham,0.9,1–2,0.3,Aston Villa,https://fbref.com/en/matches/810c0cb9/Tottenham-Hotspur-Aston-Villa-October-19-2025-Premier-League,True,Tottenham_AstonVilla_20251019
+8,Sun,2025-10-19,14:00(13:00),Tottenham Hotspur,0.9,1–2,0.3,Aston Villa,https://fbref.com/en/matches/810c0cb9/Tottenham-Hotspur-Aston-Villa-October-19-2025-Premier-League,True,TottenhamHotspur_AstonVilla_20251019
 8,Sun,2025-10-19,16:30(15:30),Liverpool,2.6,1–2,1.3,Manchester Utd,https://fbref.com/en/matches/cbec79a5/North-West-Derby-Liverpool-Manchester-United-October-19-2025-Premier-League,True,Liverpool_ManchesterUtd_20251019
-8,Mon,2025-10-20,20:00(19:00),West Ham,0.4,0–2,2.3,Brentford,https://fbref.com/en/matches/3322a47b/West-Ham-United-Brentford-October-20-2025-Premier-League,True,WestHam_Brentford_20251020
-9,Fri,2025-10-24,20:00(19:00),Leeds United,1.5,2–1,0.6,West Ham,https://fbref.com/en/matches/236e3e4c/Leeds-United-West-Ham-United-October-24-2025-Premier-League,True,LeedsUnited_WestHam_20251024
-9,Sat,2025-10-25,15:00(14:00),Newcastle Utd,2.1,2–1,1.3,Fulham,https://fbref.com/en/matches/0f6b6849/Newcastle-United-Fulham-October-25-2025-Premier-League,True,NewcastleUtd_Fulham_20251025
+8,Mon,2025-10-20,20:00(19:00),West Ham United,0.4,0–2,2.3,Brentford,https://fbref.com/en/matches/3322a47b/West-Ham-United-Brentford-October-20-2025-Premier-League,True,WestHamUnited_Brentford_20251020
+9,Fri,2025-10-24,20:00(19:00),Leeds United,1.5,2–1,0.6,West Ham United,https://fbref.com/en/matches/236e3e4c/Leeds-United-West-Ham-United-October-24-2025-Premier-League,True,LeedsUnited_WestHamUnited_20251024
+9,Sat,2025-10-25,15:00(14:00),Newcastle United,2.1,2–1,1.3,Fulham,https://fbref.com/en/matches/0f6b6849/Newcastle-United-Fulham-October-25-2025-Premier-League,True,NewcastleUnited_Fulham_20251025
 9,Sat,2025-10-25,15:00(14:00),Chelsea,0.9,1–2,1.2,Sunderland,https://fbref.com/en/matches/cfda878f/Chelsea-Sunderland-October-25-2025-Premier-League,True,Chelsea_Sunderland_20251025
 9,Sat,2025-10-25,17:30(16:30),Manchester Utd,1.3,4–2,1.1,Brighton,https://fbref.com/en/matches/a190da2c/Manchester-United-Brighton-and-Hove-Albion-October-25-2025-Premier-League,True,ManchesterUtd_Brighton_20251025
 9,Sat,2025-10-25,20:00(19:00),Brentford,2.7,3–2,2.2,Liverpool,https://fbref.com/en/matches/26e5ca72/Brentford-Liverpool-October-25-2025-Premier-League,True,Brentford_Liverpool_20251025
 9,Sun,2025-10-26,14:00,Arsenal,0.9,1–0,0.5,Crystal Palace,https://fbref.com/en/matches/8e08b6c9/Arsenal-Crystal-Palace-October-26-2025-Premier-League,True,Arsenal_CrystalPalace_20251026
 9,Sun,2025-10-26,14:00,Aston Villa,0.8,1–0,1.2,Manchester City,https://fbref.com/en/matches/2324c097/Aston-Villa-Manchester-City-October-26-2025-Premier-League,True,AstonVilla_ManchesterCity_20251026
 9,Sun,2025-10-26,14:00,Wolves,2.3,2–3,1.4,Burnley,https://fbref.com/en/matches/28244556/Wolverhampton-Wanderers-Burnley-October-26-2025-Premier-League,True,Wolves_Burnley_20251026
-9,Sun,2025-10-26,14:00,Bournemouth,0.6,2–0,0.4,Nott'ham Forest,https://fbref.com/en/matches/0676a57a/Bournemouth-Nottingham-Forest-October-26-2025-Premier-League,True,Bournemouth_Nott'hamForest_20251026
-9,Sun,2025-10-26,16:30,Everton,1.7,0–3,1.7,Tottenham,https://fbref.com/en/matches/4234aaa9/Everton-Tottenham-Hotspur-October-26-2025-Premier-League,True,Everton_Tottenham_20251026
+9,Sun,2025-10-26,14:00,Bournemouth,0.6,2–0,0.4,Nottingham Forest,https://fbref.com/en/matches/0676a57a/Bournemouth-Nottingham-Forest-October-26-2025-Premier-League,True,Bournemouth_NottinghamForest_20251026
+9,Sun,2025-10-26,16:30,Everton,1.7,0–3,1.7,Tottenham Hotspur,https://fbref.com/en/matches/4234aaa9/Everton-Tottenham-Hotspur-October-26-2025-Premier-League,True,Everton_TottenhamHotspur_20251026
 10,Sat,2025-11-01,15:00,Crystal Palace,0.7,2–0,0.5,Brentford,https://fbref.com/en/matches/96c4864b/Crystal-Palace-Brentford-November-1-2025-Premier-League,True,CrystalPalace_Brentford_20251101
-10,Sat,2025-11-01,15:00,Nott'ham Forest,1.9,2–2,1.2,Manchester Utd,https://fbref.com/en/matches/6f99be65/Nottingham-Forest-Manchester-United-November-1-2025-Premier-League,True,Nott'hamForest_ManchesterUtd_20251101
+10,Sat,2025-11-01,15:00,Nottingham Forest,1.9,2–2,1.2,Manchester Utd,https://fbref.com/en/matches/6f99be65/Nottingham-Forest-Manchester-United-November-1-2025-Premier-League,True,NottinghamForest_ManchesterUtd_20251101
 10,Sat,2025-11-01,15:00,Fulham,1.3,3–0,0.2,Wolves,https://fbref.com/en/matches/03f6bccd/Fulham-Wolverhampton-Wanderers-November-1-2025-Premier-League,True,Fulham_Wolves_20251101
 10,Sat,2025-11-01,15:00,Burnley,0.4,0–2,2.3,Arsenal,https://fbref.com/en/matches/2e2f2939/Burnley-Arsenal-November-1-2025-Premier-League,True,Burnley_Arsenal_20251101
 10,Sat,2025-11-01,15:00,Brighton,3.0,3–0,0.5,Leeds United,https://fbref.com/en/matches/40e608f4/Brighton-and-Hove-Albion-Leeds-United-November-1-2025-Premier-League,True,Brighton_LeedsUnited_20251101
-10,Sat,2025-11-01,17:30,Tottenham,0.1,0–1,3.7,Chelsea,https://fbref.com/en/matches/cb498e0b/Tottenham-Hotspur-Chelsea-November-1-2025-Premier-League,True,Tottenham_Chelsea_20251101
+10,Sat,2025-11-01,17:30,Tottenham Hotspur,0.1,0–1,3.7,Chelsea,https://fbref.com/en/matches/cb498e0b/Tottenham-Hotspur-Chelsea-November-1-2025-Premier-League,True,TottenhamHotspur_Chelsea_20251101
 10,Sat,2025-11-01,20:00,Liverpool,1.2,2–0,0.4,Aston Villa,https://fbref.com/en/matches/c15115cb/Liverpool-Aston-Villa-November-1-2025-Premier-League,True,Liverpool_AstonVilla_20251101
-10,Sun,2025-11-02,14:00,West Ham,1.7,3–1,0.5,Newcastle Utd,https://fbref.com/en/matches/55587dfc/West-Ham-United-Newcastle-United-November-2-2025-Premier-League,True,WestHam_NewcastleUtd_20251102
+10,Sun,2025-11-02,14:00,West Ham United,1.7,3–1,0.5,Newcastle United,https://fbref.com/en/matches/55587dfc/West-Ham-United-Newcastle-United-November-2-2025-Premier-League,True,WestHamUnited_NewcastleUnited_20251102
 10,Sun,2025-11-02,16:30,Manchester City,2.2,3–1,0.6,Bournemouth,https://fbref.com/en/matches/cc77588b/Manchester-City-Bournemouth-November-2-2025-Premier-League,True,ManchesterCity_Bournemouth_20251102
 10,Mon,2025-11-03,20:00,Sunderland,1.2,1–1,0.9,Everton,https://fbref.com/en/matches/bb37daa2/Sunderland-Everton-November-3-2025-Premier-League,True,Sunderland_Everton_20251103
-11,Sat,2025-11-08,12:30,Tottenham,0.9,2–2,0.8,Manchester Utd,https://fbref.com/en/matches/ad74e791/Tottenham-Hotspur-Manchester-United-November-8-2025-Premier-League,True,Tottenham_ManchesterUtd_20251108
-11,Sat,2025-11-08,15:00,West Ham,3.0,3–2,1.0,Burnley,https://fbref.com/en/matches/9a904d13/West-Ham-United-Burnley-November-8-2025-Premier-League,True,WestHam_Burnley_20251108
+11,Sat,2025-11-08,12:30,Tottenham Hotspur,0.9,2–2,0.8,Manchester Utd,https://fbref.com/en/matches/ad74e791/Tottenham-Hotspur-Manchester-United-November-8-2025-Premier-League,True,TottenhamHotspur_ManchesterUtd_20251108
+11,Sat,2025-11-08,15:00,West Ham United,3.0,3–2,1.0,Burnley,https://fbref.com/en/matches/9a904d13/West-Ham-United-Burnley-November-8-2025-Premier-League,True,WestHamUnited_Burnley_20251108
 11,Sat,2025-11-08,15:00,Everton,1.4,2–0,0.4,Fulham,https://fbref.com/en/matches/0e46b968/Everton-Fulham-November-8-2025-Premier-League,True,Everton_Fulham_20251108
 11,Sat,2025-11-08,17:30,Sunderland,0.4,2–2,1.9,Arsenal,https://fbref.com/en/matches/34884979/Sunderland-Arsenal-November-8-2025-Premier-League,True,Sunderland_Arsenal_20251108
 11,Sat,2025-11-08,20:00,Chelsea,3.3,3–0,0.2,Wolves,https://fbref.com/en/matches/098d4b9c/Chelsea-Wolverhampton-Wanderers-November-8-2025-Premier-League,True,Chelsea_Wolves_20251108
 11,Sun,2025-11-09,14:00,Aston Villa,1.7,4–0,1.6,Bournemouth,https://fbref.com/en/matches/b333094b/Aston-Villa-Bournemouth-November-9-2025-Premier-League,True,AstonVilla_Bournemouth_20251109
-11,Sun,2025-11-09,14:00,Nott'ham Forest,2.5,3–1,0.7,Leeds United,https://fbref.com/en/matches/c2217a56/Nottingham-Forest-Leeds-United-November-9-2025-Premier-League,True,Nott'hamForest_LeedsUnited_20251109
+11,Sun,2025-11-09,14:00,Nottingham Forest,2.5,3–1,0.7,Leeds United,https://fbref.com/en/matches/c2217a56/Nottingham-Forest-Leeds-United-November-9-2025-Premier-League,True,NottinghamForest_LeedsUnited_20251109
 11,Sun,2025-11-09,14:00,Crystal Palace,0.7,0–0,0.4,Brighton,https://fbref.com/en/matches/d6740601/Crystal-Palace-Brighton-and-Hove-Albion-November-9-2025-Premier-League,True,CrystalPalace_Brighton_20251109
-11,Sun,2025-11-09,14:00,Brentford,2.3,3–1,0.4,Newcastle Utd,https://fbref.com/en/matches/7398b723/Brentford-Newcastle-United-November-9-2025-Premier-League,True,Brentford_NewcastleUtd_20251109
+11,Sun,2025-11-09,14:00,Brentford,2.3,3–1,0.4,Newcastle United,https://fbref.com/en/matches/7398b723/Brentford-Newcastle-United-November-9-2025-Premier-League,True,Brentford_NewcastleUnited_20251109
 11,Sun,2025-11-09,16:30,Manchester City,1.5,3–0,0.7,Liverpool,https://fbref.com/en/matches/a126a64c/Manchester-City-Liverpool-November-9-2025-Premier-League,True,ManchesterCity_Liverpool_20251109
 12,Sat,2025-11-22,12:30,Burnley,0.4,0–2,1.7,Chelsea,https://fbref.com/en/matches/43c673dd/Burnley-Chelsea-November-22-2025-Premier-League,True,Burnley_Chelsea_20251122
-12,Sat,2025-11-22,15:00,Bournemouth,3.9,2–2,0.6,West Ham,https://fbref.com/en/matches/f5c9621e/Bournemouth-West-Ham-United-November-22-2025-Premier-League,True,Bournemouth_WestHam_20251122
+12,Sat,2025-11-22,15:00,Bournemouth,3.9,2–2,0.6,West Ham United,https://fbref.com/en/matches/f5c9621e/Bournemouth-West-Ham-United-November-22-2025-Premier-League,True,Bournemouth_WestHamUnited_20251122
 12,Sat,2025-11-22,15:00,Fulham,2.1,1–0,0.2,Sunderland,https://fbref.com/en/matches/5cd7ef12/Fulham-Sunderland-November-22-2025-Premier-League,True,Fulham_Sunderland_20251122
 12,Sat,2025-11-22,15:00,Wolves,1.8,0–2,1.3,Crystal Palace,https://fbref.com/en/matches/c90ed936/Wolverhampton-Wanderers-Crystal-Palace-November-22-2025-Premier-League,True,Wolves_CrystalPalace_20251122
-12,Sat,2025-11-22,15:00,Liverpool,1.9,0–3,1.6,Nott'ham Forest,https://fbref.com/en/matches/2180fc9b/Liverpool-Nottingham-Forest-November-22-2025-Premier-League,True,Liverpool_Nott'hamForest_20251122
+12,Sat,2025-11-22,15:00,Liverpool,1.9,0–3,1.6,Nottingham Forest,https://fbref.com/en/matches/2180fc9b/Liverpool-Nottingham-Forest-November-22-2025-Premier-League,True,Liverpool_NottinghamForest_20251122
 12,Sat,2025-11-22,15:00,Brighton,1.2,2–1,2.0,Brentford,https://fbref.com/en/matches/3ad15355/Brighton-and-Hove-Albion-Brentford-November-22-2025-Premier-League,True,Brighton_Brentford_20251122
-12,Sat,2025-11-22,17:30,Newcastle Utd,2.3,2–1,2.5,Manchester City,https://fbref.com/en/matches/efd005dc/Newcastle-United-Manchester-City-November-22-2025-Premier-League,True,NewcastleUtd_ManchesterCity_20251122
+12,Sat,2025-11-22,17:30,Newcastle United,2.3,2–1,2.5,Manchester City,https://fbref.com/en/matches/efd005dc/Newcastle-United-Manchester-City-November-22-2025-Premier-League,True,NewcastleUnited_ManchesterCity_20251122
 12,Sun,2025-11-23,14:00,Leeds United,1.6,1–2,1.6,Aston Villa,https://fbref.com/en/matches/53a69c4e/Leeds-United-Aston-Villa-November-23-2025-Premier-League,True,LeedsUnited_AstonVilla_20251123
-12,Sun,2025-11-23,16:30,Arsenal,1.9,4–1,0.1,Tottenham,https://fbref.com/en/matches/51a5792d/North-London-Derby-Arsenal-Tottenham-Hotspur-November-23-2025-Premier-League,True,Arsenal_Tottenham_20251123
+12,Sun,2025-11-23,16:30,Arsenal,1.9,4–1,0.1,Tottenham Hotspur,https://fbref.com/en/matches/51a5792d/North-London-Derby-Arsenal-Tottenham-Hotspur-November-23-2025-Premier-League,True,Arsenal_TottenhamHotspur_20251123
 12,Mon,2025-11-24,20:00,Manchester Utd,1.7,0–1,0.2,Everton,https://fbref.com/en/matches/69a9c9a3/Manchester-United-Everton-November-24-2025-Premier-League,True,ManchesterUtd_Everton_20251124
 13,Sat,2025-11-29,15:00,Sunderland,1.5,3–2,1.7,Bournemouth,https://fbref.com/en/matches/e118da78/Sunderland-Bournemouth-November-29-2025-Premier-League,True,Sunderland_Bournemouth_20251129
 13,Sat,2025-11-29,15:00,Brentford,3.0,3–1,0.9,Burnley,https://fbref.com/en/matches/5615f800/Brentford-Burnley-November-29-2025-Premier-League,True,Brentford_Burnley_20251129
 13,Sat,2025-11-29,15:00,Manchester City,2.6,3–2,1.5,Leeds United,https://fbref.com/en/matches/bfa73051/Manchester-City-Leeds-United-November-29-2025-Premier-League,True,ManchesterCity_LeedsUnited_20251129
-13,Sat,2025-11-29,17:30,Everton,1.0,1–4,1.8,Newcastle Utd,https://fbref.com/en/matches/1e17ace9/Everton-Newcastle-United-November-29-2025-Premier-League,True,Everton_NewcastleUtd_20251129
-13,Sat,2025-11-29,20:00,Tottenham,0.9,1–2,0.4,Fulham,https://fbref.com/en/matches/34e802eb/Tottenham-Hotspur-Fulham-November-29-2025-Premier-League,True,Tottenham_Fulham_20251129
+13,Sat,2025-11-29,17:30,Everton,1.0,1–4,1.8,Newcastle United,https://fbref.com/en/matches/1e17ace9/Everton-Newcastle-United-November-29-2025-Premier-League,True,Everton_NewcastleUnited_20251129
+13,Sat,2025-11-29,20:00,Tottenham Hotspur,0.9,1–2,0.4,Fulham,https://fbref.com/en/matches/34e802eb/Tottenham-Hotspur-Fulham-November-29-2025-Premier-League,True,TottenhamHotspur_Fulham_20251129
 13,Sun,2025-11-30,12:00,Crystal Palace,1.8,1–2,1.2,Manchester Utd,https://fbref.com/en/matches/6857b94e/Crystal-Palace-Manchester-United-November-30-2025-Premier-League,True,CrystalPalace_ManchesterUtd_20251130
-13,Sun,2025-11-30,14:05,Nott'ham Forest,0.9,0–2,1.9,Brighton,https://fbref.com/en/matches/2d580ed7/Nottingham-Forest-Brighton-and-Hove-Albion-November-30-2025-Premier-League,True,Nott'hamForest_Brighton_20251130
+13,Sun,2025-11-30,14:05,Nottingham Forest,0.9,0–2,1.9,Brighton,https://fbref.com/en/matches/2d580ed7/Nottingham-Forest-Brighton-and-Hove-Albion-November-30-2025-Premier-League,True,NottinghamForest_Brighton_20251130
 13,Sun,2025-11-30,14:05,Aston Villa,0.9,1–0,0.4,Wolves,https://fbref.com/en/matches/117c4cab/Aston-Villa-Wolverhampton-Wanderers-November-30-2025-Premier-League,True,AstonVilla_Wolves_20251130
-13,Sun,2025-11-30,14:05,West Ham,0.3,0–2,1.2,Liverpool,https://fbref.com/en/matches/090b47a6/West-Ham-United-Liverpool-November-30-2025-Premier-League,True,WestHam_Liverpool_20251130
+13,Sun,2025-11-30,14:05,West Ham United,0.3,0–2,1.2,Liverpool,https://fbref.com/en/matches/090b47a6/West-Ham-United-Liverpool-November-30-2025-Premier-League,True,WestHamUnited_Liverpool_20251130
 13,Sun,2025-11-30,16:30,Chelsea,0.8,1–1,1.0,Arsenal,https://fbref.com/en/matches/455c69b8/North-West-London-Derby-Chelsea-Arsenal-November-30-2025-Premier-League,True,Chelsea_Arsenal_20251130
 14,Tue,2025-12-02,19:30,Bournemouth,0.5,0–1,1.4,Everton,https://fbref.com/en/matches/6e2749c6/Bournemouth-Everton-December-2-2025-Premier-League,True,Bournemouth_Everton_20251202
 14,Tue,2025-12-02,19:30,Fulham,0.9,4–5,2.3,Manchester City,https://fbref.com/en/matches/83f0391d/Fulham-Manchester-City-December-2-2025-Premier-League,True,Fulham_ManchesterCity_20251202
-14,Tue,2025-12-02,20:15,Newcastle Utd,2.0,2–2,0.7,Tottenham,https://fbref.com/en/matches/7c5f15be/Newcastle-United-Tottenham-Hotspur-December-2-2025-Premier-League,True,NewcastleUtd_Tottenham_20251202
-14,Wed,2025-12-03,19:30,Wolves,0.9,0–1,0.7,Nott'ham Forest,https://fbref.com/en/matches/6f03844a/Wolverhampton-Wanderers-Nottingham-Forest-December-3-2025-Premier-League,True,Wolves_Nott'hamForest_20251203
+14,Tue,2025-12-02,20:15,Newcastle United,2.0,2–2,0.7,Tottenham Hotspur,https://fbref.com/en/matches/7c5f15be/Newcastle-United-Tottenham-Hotspur-December-2-2025-Premier-League,True,NewcastleUnited_TottenhamHotspur_20251202
+14,Wed,2025-12-03,19:30,Wolves,0.9,0–1,0.7,Nottingham Forest,https://fbref.com/en/matches/6f03844a/Wolverhampton-Wanderers-Nottingham-Forest-December-3-2025-Premier-League,True,Wolves_NottinghamForest_20251203
 14,Wed,2025-12-03,19:30,Burnley,0.9,0–1,0.7,Crystal Palace,https://fbref.com/en/matches/9f1131fe/Burnley-Crystal-Palace-December-3-2025-Premier-League,True,Burnley_CrystalPalace_20251203
 14,Wed,2025-12-03,19:30,Arsenal,1.8,2–0,0.3,Brentford,https://fbref.com/en/matches/576f681d/Arsenal-Brentford-December-3-2025-Premier-League,True,Arsenal_Brentford_20251203
 14,Wed,2025-12-03,19:30,Brighton,1.9,3–4,2.3,Aston Villa,https://fbref.com/en/matches/96d69898/Brighton-and-Hove-Albion-Aston-Villa-December-3-2025-Premier-League,True,Brighton_AstonVilla_20251203
 14,Wed,2025-12-03,20:15,Leeds United,2.3,3–1,0.9,Chelsea,https://fbref.com/en/matches/6218f36c/Leeds-United-Chelsea-December-3-2025-Premier-League,True,LeedsUnited_Chelsea_20251203
 14,Wed,2025-12-03,20:15,Liverpool,1.4,1–1,0.4,Sunderland,https://fbref.com/en/matches/1666070b/Liverpool-Sunderland-December-3-2025-Premier-League,True,Liverpool_Sunderland_20251203
-14,Thu,2025-12-04,20:00,Manchester Utd,1.8,1–1,0.8,West Ham,https://fbref.com/en/matches/66fee216/Manchester-United-West-Ham-United-December-4-2025-Premier-League,True,ManchesterUtd_WestHam_20251204
+14,Thu,2025-12-04,20:00,Manchester Utd,1.8,1–1,0.8,West Ham United,https://fbref.com/en/matches/66fee216/Manchester-United-West-Ham-United-December-4-2025-Premier-League,True,ManchesterUtd_WestHamUnited_20251204
 15,Sat,2025-12-06,12:30,Aston Villa,2.1,2–1,1.9,Arsenal,https://fbref.com/en/matches/f6d068df/Aston-Villa-Arsenal-December-6-2025-Premier-League,True,AstonVilla_Arsenal_20251206
-15,Sat,2025-12-06,15:00,Newcastle Utd,1.8,2–1,1.6,Burnley,https://fbref.com/en/matches/e5ed4270/Newcastle-United-Burnley-December-6-2025-Premier-League,True,NewcastleUtd_Burnley_20251206
+15,Sat,2025-12-06,15:00,Newcastle United,1.8,2–1,1.6,Burnley,https://fbref.com/en/matches/e5ed4270/Newcastle-United-Burnley-December-6-2025-Premier-League,True,NewcastleUnited_Burnley_20251206
 15,Sat,2025-12-06,15:00,Manchester City,2.4,3–0,0.7,Sunderland,https://fbref.com/en/matches/1f7cfc5f/Manchester-City-Sunderland-December-6-2025-Premier-League,True,ManchesterCity_Sunderland_20251206
-15,Sat,2025-12-06,15:00,Everton,1.1,3–0,0.5,Nott'ham Forest,https://fbref.com/en/matches/cbe24427/Everton-Nottingham-Forest-December-6-2025-Premier-League,True,Everton_Nott'hamForest_20251206
-15,Sat,2025-12-06,15:00,Tottenham,2.2,2–0,0.2,Brentford,https://fbref.com/en/matches/9a4fd973/Tottenham-Hotspur-Brentford-December-6-2025-Premier-League,True,Tottenham_Brentford_20251206
+15,Sat,2025-12-06,15:00,Everton,1.1,3–0,0.5,Nottingham Forest,https://fbref.com/en/matches/cbe24427/Everton-Nottingham-Forest-December-6-2025-Premier-League,True,Everton_NottinghamForest_20251206
+15,Sat,2025-12-06,15:00,Tottenham Hotspur,2.2,2–0,0.2,Brentford,https://fbref.com/en/matches/9a4fd973/Tottenham-Hotspur-Brentford-December-6-2025-Premier-League,True,TottenhamHotspur_Brentford_20251206
 15,Sat,2025-12-06,15:00,Bournemouth,1.5,0–0,0.9,Chelsea,https://fbref.com/en/matches/c6875359/Bournemouth-Chelsea-December-6-2025-Premier-League,True,Bournemouth_Chelsea_20251206
 15,Sat,2025-12-06,17:30,Leeds United,1.6,3–3,1.9,Liverpool,https://fbref.com/en/matches/c0fc0aac/Leeds-United-Liverpool-December-6-2025-Premier-League,True,LeedsUnited_Liverpool_20251206
-15,Sun,2025-12-07,14:00,Brighton,1.8,1–1,1.2,West Ham,https://fbref.com/en/matches/e5c1f07b/Brighton-and-Hove-Albion-West-Ham-United-December-7-2025-Premier-League,True,Brighton_WestHam_20251207
+15,Sun,2025-12-07,14:00,Brighton,1.8,1–1,1.2,West Ham United,https://fbref.com/en/matches/e5c1f07b/Brighton-and-Hove-Albion-West-Ham-United-December-7-2025-Premier-League,True,Brighton_WestHamUnited_20251207
 15,Sun,2025-12-07,16:30,Fulham,0.8,1–2,1.6,Crystal Palace,https://fbref.com/en/matches/c0ececfd/Fulham-Crystal-Palace-December-7-2025-Premier-League,True,Fulham_CrystalPalace_20251207
 15,Mon,2025-12-08,20:00,Wolves,0.6,1–4,4.0,Manchester Utd,https://fbref.com/en/matches/d52338cb/Wolverhampton-Wanderers-Manchester-United-December-8-2025-Premier-League,True,Wolves_ManchesterUtd_20251208
 16,Sat,2025-12-13,15:00,Chelsea,2.2,2–0,1.0,Everton,https://fbref.com/en/matches/33f5c26d/Chelsea-Everton-December-13-2025-Premier-League,True,Chelsea_Everton_20251213
 16,Sat,2025-12-13,15:00,Liverpool,1.8,2–0,1.9,Brighton,https://fbref.com/en/matches/9b6b7eac/Liverpool-Brighton-and-Hove-Albion-December-13-2025-Premier-League,True,Liverpool_Brighton_20251213
 16,Sat,2025-12-13,17:30,Burnley,2.4,2–3,2.0,Fulham,https://fbref.com/en/matches/993fe4a5/Burnley-Fulham-December-13-2025-Premier-League,True,Burnley_Fulham_20251213
 16,Sat,2025-12-13,20:00,Arsenal,1.1,2–1,0.3,Wolves,https://fbref.com/en/matches/5914e624/Arsenal-Wolverhampton-Wanderers-December-13-2025-Premier-League,True,Arsenal_Wolves_20251213
-16,Sun,2025-12-14,14:00,Sunderland,0.3,1–0,0.2,Newcastle Utd,https://fbref.com/en/matches/f0108982/Sunderland-Newcastle-United-December-14-2025-Premier-League,True,Sunderland_NewcastleUtd_20251214
-16,Sun,2025-12-14,14:00,West Ham,1.0,2–3,0.7,Aston Villa,https://fbref.com/en/matches/88b3c085/West-Ham-United-Aston-Villa-December-14-2025-Premier-League,True,WestHam_AstonVilla_20251214
+16,Sun,2025-12-14,14:00,Sunderland,0.3,1–0,0.2,Newcastle United,https://fbref.com/en/matches/f0108982/Sunderland-Newcastle-United-December-14-2025-Premier-League,True,Sunderland_NewcastleUnited_20251214
+16,Sun,2025-12-14,14:00,West Ham United,1.0,2–3,0.7,Aston Villa,https://fbref.com/en/matches/88b3c085/West-Ham-United-Aston-Villa-December-14-2025-Premier-League,True,WestHamUnited_AstonVilla_20251214
 16,Sun,2025-12-14,14:00,Crystal Palace,1.9,0–3,1.2,Manchester City,https://fbref.com/en/matches/88d54a65/Crystal-Palace-Manchester-City-December-14-2025-Premier-League,True,CrystalPalace_ManchesterCity_20251214
-16,Sun,2025-12-14,14:00,Nott'ham Forest,2.3,3–0,0.3,Tottenham,https://fbref.com/en/matches/30741081/Nottingham-Forest-Tottenham-Hotspur-December-14-2025-Premier-League,True,Nott'hamForest_Tottenham_20251214
+16,Sun,2025-12-14,14:00,Nottingham Forest,2.3,3–0,0.3,Tottenham Hotspur,https://fbref.com/en/matches/30741081/Nottingham-Forest-Tottenham-Hotspur-December-14-2025-Premier-League,True,NottinghamForest_TottenhamHotspur_20251214
 16,Sun,2025-12-14,16:30,Brentford,0.6,1–1,1.5,Leeds United,https://fbref.com/en/matches/68c62e00/Brentford-Leeds-United-December-14-2025-Premier-League,True,Brentford_LeedsUnited_20251214
 16,Mon,2025-12-15,20:00,Manchester Utd,3.4,4–4,1.9,Bournemouth,https://fbref.com/en/matches/fe812068/Manchester-United-Bournemouth-December-15-2025-Premier-League,True,ManchesterUtd_Bournemouth_20251215
-17,Sat,2025-12-20,12:30,Newcastle Utd,2.3,2–2,1.2,Chelsea,https://fbref.com/en/matches/4972e40c/Newcastle-United-Chelsea-December-20-2025-Premier-League,True,NewcastleUtd_Chelsea_20251220
+17,Sat,2025-12-20,12:30,Newcastle United,2.3,2–2,1.2,Chelsea,https://fbref.com/en/matches/4972e40c/Newcastle-United-Chelsea-December-20-2025-Premier-League,True,NewcastleUnited_Chelsea_20251220
 17,Sat,2025-12-20,15:00,Wolves,1.3,0–2,1.3,Brentford,https://fbref.com/en/matches/3c79be9f/Wolverhampton-Wanderers-Brentford-December-20-2025-Premier-League,True,Wolves_Brentford_20251220
 17,Sat,2025-12-20,15:00,Brighton,1.1,0–0,1.4,Sunderland,https://fbref.com/en/matches/8751f2e2/Brighton-and-Hove-Albion-Sunderland-December-20-2025-Premier-League,True,Brighton_Sunderland_20251220
 17,Sat,2025-12-20,15:00,Bournemouth,1.4,1–1,0.4,Burnley,https://fbref.com/en/matches/f248c97b/Bournemouth-Burnley-December-20-2025-Premier-League,True,Bournemouth_Burnley_20251220
-17,Sat,2025-12-20,15:00,Manchester City,2.1,3–0,1.1,West Ham,https://fbref.com/en/matches/56b82593/Manchester-City-West-Ham-United-December-20-2025-Premier-League,True,ManchesterCity_WestHam_20251220
-17,Sat,2025-12-20,17:30,Tottenham,1.0,1–2,0.7,Liverpool,https://fbref.com/en/matches/30618752/Tottenham-Hotspur-Liverpool-December-20-2025-Premier-League,True,Tottenham_Liverpool_20251220
+17,Sat,2025-12-20,15:00,Manchester City,2.1,3–0,1.1,West Ham United,https://fbref.com/en/matches/56b82593/Manchester-City-West-Ham-United-December-20-2025-Premier-League,True,ManchesterCity_WestHamUnited_20251220
+17,Sat,2025-12-20,17:30,Tottenham Hotspur,1.0,1–2,0.7,Liverpool,https://fbref.com/en/matches/30618752/Tottenham-Hotspur-Liverpool-December-20-2025-Premier-League,True,TottenhamHotspur_Liverpool_20251220
 17,Sat,2025-12-20,20:00,Everton,0.2,0–1,2.0,Arsenal,https://fbref.com/en/matches/9bf2aba0/Everton-Arsenal-December-20-2025-Premier-League,True,Everton_Arsenal_20251220
 17,Sat,2025-12-20,20:00,Leeds United,2.6,4–1,1.6,Crystal Palace,https://fbref.com/en/matches/a105af33/Leeds-United-Crystal-Palace-December-20-2025-Premier-League,True,LeedsUnited_CrystalPalace_20251220
 17,Sun,2025-12-21,16:30,Aston Villa,1.2,2–1,1.3,Manchester Utd,https://fbref.com/en/matches/0da8e4de/Aston-Villa-Manchester-United-December-21-2025-Premier-League,True,AstonVilla_ManchesterUtd_20251221
-17,Mon,2025-12-22,20:00,Fulham,1.5,1–0,0.7,Nott'ham Forest,https://fbref.com/en/matches/23ee8b09/Fulham-Nottingham-Forest-December-22-2025-Premier-League,True,Fulham_Nott'hamForest_20251222
-18,Fri,2025-12-26,20:00,Manchester Utd,1.3,1–0,1.2,Newcastle Utd,https://fbref.com/en/matches/aff462b8/Manchester-United-Newcastle-United-December-26-2025-Premier-League,True,ManchesterUtd_NewcastleUtd_20251226
-18,Sat,2025-12-27,12:30,Nott'ham Forest,0.6,1–2,1.5,Manchester City,https://fbref.com/en/matches/8d38f2e5/Nottingham-Forest-Manchester-City-December-27-2025-Premier-League,True,Nott'hamForest_ManchesterCity_20251227
+17,Mon,2025-12-22,20:00,Fulham,1.5,1–0,0.7,Nottingham Forest,https://fbref.com/en/matches/23ee8b09/Fulham-Nottingham-Forest-December-22-2025-Premier-League,True,Fulham_NottinghamForest_20251222
+18,Fri,2025-12-26,20:00,Manchester Utd,1.3,1–0,1.2,Newcastle United,https://fbref.com/en/matches/aff462b8/Manchester-United-Newcastle-United-December-26-2025-Premier-League,True,ManchesterUtd_NewcastleUnited_20251226
+18,Sat,2025-12-27,12:30,Nottingham Forest,0.6,1–2,1.5,Manchester City,https://fbref.com/en/matches/8d38f2e5/Nottingham-Forest-Manchester-City-December-27-2025-Premier-League,True,NottinghamForest_ManchesterCity_20251227
 18,Sat,2025-12-27,15:00,Brentford,3.5,4–1,2.3,Bournemouth,https://fbref.com/en/matches/512bb3b3/Brentford-Bournemouth-December-27-2025-Premier-League,True,Brentford_Bournemouth_20251227
 18,Sat,2025-12-27,15:00,Burnley,1.4,0–0,0.8,Everton,https://fbref.com/en/matches/8f2a6c20/Burnley-Everton-December-27-2025-Premier-League,True,Burnley_Everton_20251227
-18,Sat,2025-12-27,15:00,West Ham,0.9,0–1,1.5,Fulham,https://fbref.com/en/matches/424b7408/West-Ham-United-Fulham-December-27-2025-Premier-League,True,WestHam_Fulham_20251227
+18,Sat,2025-12-27,15:00,West Ham United,0.9,0–1,1.5,Fulham,https://fbref.com/en/matches/424b7408/West-Ham-United-Fulham-December-27-2025-Premier-League,True,WestHamUnited_Fulham_20251227
 18,Sat,2025-12-27,15:00,Arsenal,2.7,2–1,0.8,Brighton,https://fbref.com/en/matches/ad61fc31/Arsenal-Brighton-and-Hove-Albion-December-27-2025-Premier-League,True,Arsenal_Brighton_20251227
 18,Sat,2025-12-27,15:00,Liverpool,1.5,2–1,1.2,Wolves,https://fbref.com/en/matches/b329ca7b/Liverpool-Wolverhampton-Wanderers-December-27-2025-Premier-League,True,Liverpool_Wolves_20251227
 18,Sat,2025-12-27,17:30,Chelsea,2.1,1–2,1.2,Aston Villa,https://fbref.com/en/matches/3ddb49f0/Chelsea-Aston-Villa-December-27-2025-Premier-League,True,Chelsea_AstonVilla_20251227
 18,Sun,2025-12-28,14:00,Sunderland,0.7,1–1,2.2,Leeds United,https://fbref.com/en/matches/9c510880/Sunderland-Leeds-United-December-28-2025-Premier-League,True,Sunderland_LeedsUnited_20251228
-18,Sun,2025-12-28,16:30,Crystal Palace,1.5,0–1,0.8,Tottenham,https://fbref.com/en/matches/da05abe0/Crystal-Palace-Tottenham-Hotspur-December-28-2025-Premier-League,True,CrystalPalace_Tottenham_20251228
-19,Tue,2025-12-30,19:30,Burnley,1.1,1–3,2.3,Newcastle Utd,https://fbref.com/en/matches/7e8f51ca/Burnley-Newcastle-United-December-30-2025-Premier-League,True,Burnley_NewcastleUtd_20251230
-19,Tue,2025-12-30,19:30,Nott'ham Forest,1.5,0–2,1.3,Everton,https://fbref.com/en/matches/9e232624/Nottingham-Forest-Everton-December-30-2025-Premier-League,True,Nott'hamForest_Everton_20251230
-19,Tue,2025-12-30,19:30,West Ham,1.9,2–2,2.9,Brighton,https://fbref.com/en/matches/2ed2a547/West-Ham-United-Brighton-and-Hove-Albion-December-30-2025-Premier-League,True,WestHam_Brighton_20251230
+18,Sun,2025-12-28,16:30,Crystal Palace,1.5,0–1,0.8,Tottenham Hotspur,https://fbref.com/en/matches/da05abe0/Crystal-Palace-Tottenham-Hotspur-December-28-2025-Premier-League,True,CrystalPalace_TottenhamHotspur_20251228
+19,Tue,2025-12-30,19:30,Burnley,1.1,1–3,2.3,Newcastle United,https://fbref.com/en/matches/7e8f51ca/Burnley-Newcastle-United-December-30-2025-Premier-League,True,Burnley_NewcastleUnited_20251230
+19,Tue,2025-12-30,19:30,Nottingham Forest,1.5,0–2,1.3,Everton,https://fbref.com/en/matches/9e232624/Nottingham-Forest-Everton-December-30-2025-Premier-League,True,NottinghamForest_Everton_20251230
+19,Tue,2025-12-30,19:30,West Ham United,1.9,2–2,2.9,Brighton,https://fbref.com/en/matches/2ed2a547/West-Ham-United-Brighton-and-Hove-Albion-December-30-2025-Premier-League,True,WestHamUnited_Brighton_20251230
 19,Tue,2025-12-30,19:30,Chelsea,2.3,2–2,3.0,Bournemouth,https://fbref.com/en/matches/6abcb6e9/Chelsea-Bournemouth-December-30-2025-Premier-League,True,Chelsea_Bournemouth_20251230
 19,Tue,2025-12-30,20:15,Arsenal,2.9,4–1,2.5,Aston Villa,https://fbref.com/en/matches/89b4ea51/Arsenal-Aston-Villa-December-30-2025-Premier-League,True,Arsenal_AstonVilla_20251230
 19,Tue,2025-12-30,20:15,Manchester Utd,0.8,1–1,1.2,Wolves,https://fbref.com/en/matches/bf3cb7a6/Manchester-United-Wolverhampton-Wanderers-December-30-2025-Premier-League,True,ManchesterUtd_Wolves_20251230
 19,Thu,2026-01-01,17:30,Liverpool,2.1,0–0,0.7,Leeds United,https://fbref.com/en/matches/148c23a6/Liverpool-Leeds-United-January-1-2026-Premier-League,True,Liverpool_LeedsUnited_20260101
 19,Thu,2026-01-01,17:30,Crystal Palace,1.9,1–1,1.7,Fulham,https://fbref.com/en/matches/08780759/Crystal-Palace-Fulham-January-1-2026-Premier-League,True,CrystalPalace_Fulham_20260101
 19,Thu,2026-01-01,20:00,Sunderland,0.9,0–0,2.1,Manchester City,https://fbref.com/en/matches/3f843d94/Sunderland-Manchester-City-January-1-2026-Premier-League,True,Sunderland_ManchesterCity_20260101
-19,Thu,2026-01-01,20:00,Brentford,0.9,0–0,0.8,Tottenham,https://fbref.com/en/matches/560a0a6c/Brentford-Tottenham-Hotspur-January-1-2026-Premier-League,True,Brentford_Tottenham_20260101
-20,Sat,2026-01-03,12:30,Aston Villa,1.7,3–1,0.9,Nott'ham Forest,https://fbref.com/en/matches/4ef85729/Aston-Villa-Nottingham-Forest-January-3-2026-Premier-League,True,AstonVilla_Nott'hamForest_20260103
+19,Thu,2026-01-01,20:00,Brentford,0.9,0–0,0.8,Tottenham Hotspur,https://fbref.com/en/matches/560a0a6c/Brentford-Tottenham-Hotspur-January-1-2026-Premier-League,True,Brentford_TottenhamHotspur_20260101
+20,Sat,2026-01-03,12:30,Aston Villa,1.7,3–1,0.9,Nottingham Forest,https://fbref.com/en/matches/4ef85729/Aston-Villa-Nottingham-Forest-January-3-2026-Premier-League,True,AstonVilla_NottinghamForest_20260103
 20,Sat,2026-01-03,15:00,Brighton,1.4,2–0,0.3,Burnley,https://fbref.com/en/matches/987e9f89/Brighton-and-Hove-Albion-Burnley-January-3-2026-Premier-League,True,Brighton_Burnley_20260103
-20,Sat,2026-01-03,15:00,Wolves,1.9,3–0,0.3,West Ham,https://fbref.com/en/matches/9364f40b/Wolverhampton-Wanderers-West-Ham-United-January-3-2026-Premier-League,True,Wolves_WestHam_20260103
+20,Sat,2026-01-03,15:00,Wolves,1.9,3–0,0.3,West Ham United,https://fbref.com/en/matches/9364f40b/Wolverhampton-Wanderers-West-Ham-United-January-3-2026-Premier-League,True,Wolves_WestHamUnited_20260103
 20,Sat,2026-01-03,17:30,Bournemouth,1.4,2–3,1.1,Arsenal,https://fbref.com/en/matches/db124c87/Bournemouth-Arsenal-January-3-2026-Premier-League,True,Bournemouth_Arsenal_20260103
 20,Sun,2026-01-04,12:30,Leeds United,0.9,1–1,1.6,Manchester Utd,https://fbref.com/en/matches/7ecdefc0/Leeds-United-Manchester-United-January-4-2026-Premier-League,True,LeedsUnited_ManchesterUtd_20260104
-20,Sun,2026-01-04,15:00,Tottenham,1.1,1–1,0.4,Sunderland,https://fbref.com/en/matches/06bb7d71/Tottenham-Hotspur-Sunderland-January-4-2026-Premier-League,True,Tottenham_Sunderland_20260104
+20,Sun,2026-01-04,15:00,Tottenham Hotspur,1.1,1–1,0.4,Sunderland,https://fbref.com/en/matches/06bb7d71/Tottenham-Hotspur-Sunderland-January-4-2026-Premier-League,True,TottenhamHotspur_Sunderland_20260104
 20,Sun,2026-01-04,15:00,Everton,0.9,2–4,2.7,Brentford,https://fbref.com/en/matches/a67dd0e7/Everton-Brentford-January-4-2026-Premier-League,True,Everton_Brentford_20260104
-20,Sun,2026-01-04,15:00,Newcastle Utd,2.1,2–0,0.7,Crystal Palace,https://fbref.com/en/matches/b4262b3c/Newcastle-United-Crystal-Palace-January-4-2026-Premier-League,True,NewcastleUtd_CrystalPalace_20260104
+20,Sun,2026-01-04,15:00,Newcastle United,2.1,2–0,0.7,Crystal Palace,https://fbref.com/en/matches/b4262b3c/Newcastle-United-Crystal-Palace-January-4-2026-Premier-League,True,NewcastleUnited_CrystalPalace_20260104
 20,Sun,2026-01-04,15:15,Fulham,0.7,2–2,1.4,Liverpool,https://fbref.com/en/matches/a5b3e9ba/Fulham-Liverpool-January-4-2026-Premier-League,True,Fulham_Liverpool_20260104
 20,Sun,2026-01-04,17:30,Manchester City,1.0,1–1,1.8,Chelsea,https://fbref.com/en/matches/989daed4/Manchester-City-Chelsea-January-4-2026-Premier-League,True,ManchesterCity_Chelsea_20260104
-21,Tue,2026-01-06,20:00,West Ham,0.9,1–2,1.4,Nott'ham Forest,https://fbref.com/en/matches/e0b5b423/West-Ham-United-Nottingham-Forest-January-6-2026-Premier-League,True,WestHam_Nott'hamForest_20260106
+21,Tue,2026-01-06,20:00,West Ham United,0.9,1–2,1.4,Nottingham Forest,https://fbref.com/en/matches/e0b5b423/West-Ham-United-Nottingham-Forest-January-6-2026-Premier-League,True,WestHamUnited_NottinghamForest_20260106
 21,Wed,2026-01-07,19:30,Crystal Palace,1.4,0–0,1.7,Aston Villa,https://fbref.com/en/matches/f5a77398/Crystal-Palace-Aston-Villa-January-7-2026-Premier-League,True,CrystalPalace_AstonVilla_20260107
 21,Wed,2026-01-07,19:30,Everton,0.9,1–1,0.7,Wolves,https://fbref.com/en/matches/6512ce95/Everton-Wolverhampton-Wanderers-January-7-2026-Premier-League,True,Everton_Wolves_20260107
 21,Wed,2026-01-07,19:30,Fulham,1.2,2–1,2.3,Chelsea,https://fbref.com/en/matches/21522578/Fulham-Chelsea-January-7-2026-Premier-League,True,Fulham_Chelsea_20260107
 21,Wed,2026-01-07,19:30,Brentford,3.0,3–0,1.8,Sunderland,https://fbref.com/en/matches/9c19f0b3/Brentford-Sunderland-January-7-2026-Premier-League,True,Brentford_Sunderland_20260107
 21,Wed,2026-01-07,19:30,Manchester City,2.5,1–1,1.0,Brighton,https://fbref.com/en/matches/009bbc59/Manchester-City-Brighton-and-Hove-Albion-January-7-2026-Premier-League,True,ManchesterCity_Brighton_20260107
-21,Wed,2026-01-07,19:30,Bournemouth,1.3,3–2,1.2,Tottenham,https://fbref.com/en/matches/269b2844/Bournemouth-Tottenham-Hotspur-January-7-2026-Premier-League,True,Bournemouth_Tottenham_20260107
+21,Wed,2026-01-07,19:30,Bournemouth,1.3,3–2,1.2,Tottenham Hotspur,https://fbref.com/en/matches/269b2844/Bournemouth-Tottenham-Hotspur-January-7-2026-Premier-League,True,Bournemouth_TottenhamHotspur_20260107
 21,Wed,2026-01-07,20:15,Burnley,0.3,2–2,2.5,Manchester Utd,https://fbref.com/en/matches/d85506f2/Burnley-Manchester-United-January-7-2026-Premier-League,True,Burnley_ManchesterUtd_20260107
-21,Wed,2026-01-07,20:15,Newcastle Utd,2.4,4–3,1.9,Leeds United,https://fbref.com/en/matches/460a6353/Newcastle-United-Leeds-United-January-7-2026-Premier-League,True,NewcastleUtd_LeedsUnited_20260107
+21,Wed,2026-01-07,20:15,Newcastle United,2.4,4–3,1.9,Leeds United,https://fbref.com/en/matches/460a6353/Newcastle-United-Leeds-United-January-7-2026-Premier-League,True,NewcastleUnited_LeedsUnited_20260107
 21,Thu,2026-01-08,20:00,Arsenal,0.6,0–0,0.3,Liverpool,https://fbref.com/en/matches/2b794de5/Arsenal-Liverpool-January-8-2026-Premier-League,True,Arsenal_Liverpool_20260108
 22,Sat,2026-01-17,12:30,Manchester Utd,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/19538871/Manchester-Derby-Manchester-City-vs-Manchester-United-History,False,ManchesterUtd_ManchesterCity_20260117
-22,Sat,2026-01-17,15:00,Tottenham,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/7c21e445/361ca564/West-Ham-United-vs-Tottenham-Hotspur-History,False,Tottenham_WestHam_20260117
+22,Sat,2026-01-17,15:00,Tottenham Hotspur,,,,West Ham United,https://fbref.com/en/stathead/matchup/teams/7c21e445/361ca564/West-Ham-United-vs-Tottenham-Hotspur-History,False,TottenhamHotspur_WestHamUnited_20260117
 22,Sat,2026-01-17,15:00,Liverpool,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/943e8050/822bd0ba/Burnley-vs-Liverpool-History,False,Liverpool_Burnley_20260117
 22,Sat,2026-01-17,15:00,Chelsea,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/cd051869/Chelsea-vs-Brentford-History,False,Chelsea_Brentford_20260117
 22,Sat,2026-01-17,15:00,Leeds United,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/5bfb9659/Fulham-vs-Leeds-United-History,False,LeedsUnited_Fulham_20260117
 22,Sat,2026-01-17,15:00,Sunderland,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/8ef52968/47c64c55/Sunderland-vs-Crystal-Palace-History,False,Sunderland_CrystalPalace_20260117
-22,Sat,2026-01-17,17:30,Nott'ham Forest,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/e4a775cb/18bb7c10/Nottingham-Forest-vs-Arsenal-History,False,Nott'hamForest_Arsenal_20260117
-22,Sun,2026-01-18,14:00,Wolves,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/8cec06e1/Newcastle-United-vs-Wolverhampton-Wanderers-History,False,Wolves_NewcastleUtd_20260118
+22,Sat,2026-01-17,17:30,Nottingham Forest,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/e4a775cb/18bb7c10/Nottingham-Forest-vs-Arsenal-History,False,NottinghamForest_Arsenal_20260117
+22,Sun,2026-01-18,14:00,Wolves,,,,Newcastle United,https://fbref.com/en/stathead/matchup/teams/b2b47a98/8cec06e1/Newcastle-United-vs-Wolverhampton-Wanderers-History,False,Wolves_NewcastleUnited_20260118
 22,Sun,2026-01-18,16:30,Aston Villa,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/8602292d/Everton-vs-Aston-Villa-History,False,AstonVilla_Everton_20260118
 22,Mon,2026-01-19,20:00,Brighton,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/d07537b9/4ba7cbea/Brighton-and-Hove-Albion-vs-Bournemouth-History,False,Brighton_Bournemouth_20260119
-23,Sat,2026-01-24,12:30,West Ham,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/8ef52968/7c21e445/Sunderland-vs-West-Ham-United-History,False,WestHam_Sunderland_20260124
+23,Sat,2026-01-24,12:30,West Ham United,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/8ef52968/7c21e445/Sunderland-vs-West-Ham-United-History,False,WestHamUnited_Sunderland_20260124
 23,Sat,2026-01-24,15:00,Manchester City,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/8cec06e1/Manchester-City-vs-Wolverhampton-Wanderers-History,False,ManchesterCity_Wolves_20260124
-23,Sat,2026-01-24,15:00,Burnley,,,,Tottenham,https://fbref.com/en/stathead/matchup/teams/943e8050/361ca564/Burnley-vs-Tottenham-Hotspur-History,False,Burnley_Tottenham_20260124
+23,Sat,2026-01-24,15:00,Burnley,,,,Tottenham Hotspur,https://fbref.com/en/stathead/matchup/teams/943e8050/361ca564/Burnley-vs-Tottenham-Hotspur-History,False,Burnley_TottenhamHotspur_20260124
 23,Sat,2026-01-24,15:00,Fulham,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/fd962109/d07537b9/Fulham-vs-Brighton-and-Hove-Albion-History,False,Fulham_Brighton_20260124
 23,Sat,2026-01-24,17:30,Bournemouth,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/822bd0ba/4ba7cbea/Liverpool-vs-Bournemouth-History,False,Bournemouth_Liverpool_20260124
-23,Sun,2026-01-25,14:00,Brentford,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/cd051869/Nottingham-Forest-vs-Brentford-History,False,Brentford_Nott'hamForest_20260125
-23,Sun,2026-01-25,14:00,Newcastle Utd,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/b2b47a98/8602292d/Newcastle-United-vs-Aston-Villa-History,False,NewcastleUtd_AstonVilla_20260125
+23,Sun,2026-01-25,14:00,Brentford,,,,Nottingham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/cd051869/Nottingham-Forest-vs-Brentford-History,False,Brentford_NottinghamForest_20260125
+23,Sun,2026-01-25,14:00,Newcastle United,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/b2b47a98/8602292d/Newcastle-United-vs-Aston-Villa-History,False,NewcastleUnited_AstonVilla_20260125
 23,Sun,2026-01-25,14:00,Crystal Palace,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/47c64c55/Chelsea-vs-Crystal-Palace-History,False,CrystalPalace_Chelsea_20260125
 23,Sun,2026-01-25,16:30,Arsenal,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/19538871/18bb7c10/Manchester-United-vs-Arsenal-History,False,Arsenal_ManchesterUtd_20260125
 23,Mon,2026-01-26,20:00,Everton,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/5bfb9659/Everton-vs-Leeds-United-History,False,Everton_LeedsUnited_20260126
 24,Sat,2026-01-31,15:00,Leeds United,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/5bfb9659/18bb7c10/Leeds-United-vs-Arsenal-History,False,LeedsUnited_Arsenal_20260131
 24,Sat,2026-01-31,15:00,Brighton,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/d07537b9/Everton-vs-Brighton-and-Hove-Albion-History,False,Brighton_Everton_20260131
 24,Sat,2026-01-31,15:00,Wolves,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/8cec06e1/4ba7cbea/Wolverhampton-Wanderers-vs-Bournemouth-History,False,Wolves_Bournemouth_20260131
-24,Sat,2026-01-31,17:30,Chelsea,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/7c21e445/Chelsea-vs-West-Ham-United-History,False,Chelsea_WestHam_20260131
-24,Sat,2026-01-31,20:00,Liverpool,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/822bd0ba/Newcastle-United-vs-Liverpool-History,False,Liverpool_NewcastleUtd_20260131
-24,Sun,2026-02-01,14:00,Nott'ham Forest,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/e4a775cb/47c64c55/Nottingham-Forest-vs-Crystal-Palace-History,False,Nott'hamForest_CrystalPalace_20260201
+24,Sat,2026-01-31,17:30,Chelsea,,,,West Ham United,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/7c21e445/Chelsea-vs-West-Ham-United-History,False,Chelsea_WestHamUnited_20260131
+24,Sat,2026-01-31,20:00,Liverpool,,,,Newcastle United,https://fbref.com/en/stathead/matchup/teams/b2b47a98/822bd0ba/Newcastle-United-vs-Liverpool-History,False,Liverpool_NewcastleUnited_20260131
+24,Sun,2026-02-01,14:00,Nottingham Forest,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/e4a775cb/47c64c55/Nottingham-Forest-vs-Crystal-Palace-History,False,NottinghamForest_CrystalPalace_20260201
 24,Sun,2026-02-01,14:00,Manchester Utd,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/19538871/Fulham-vs-Manchester-United-History,False,ManchesterUtd_Fulham_20260201
 24,Sun,2026-02-01,14:00,Aston Villa,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cd051869/8602292d/Brentford-vs-Aston-Villa-History,False,AstonVilla_Brentford_20260201
-24,Sun,2026-02-01,16:30,Tottenham,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/361ca564/Manchester-City-vs-Tottenham-Hotspur-History,False,Tottenham_ManchesterCity_20260201
+24,Sun,2026-02-01,16:30,Tottenham Hotspur,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/361ca564/Manchester-City-vs-Tottenham-Hotspur-History,False,TottenhamHotspur_ManchesterCity_20260201
 24,Mon,2026-02-02,20:00,Sunderland,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/943e8050/8ef52968/Burnley-vs-Sunderland-History,False,Sunderland_Burnley_20260202
-25,Fri,2026-02-06,20:00,Leeds United,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/5bfb9659/Nottingham-Forest-vs-Leeds-United-History,False,LeedsUnited_Nott'hamForest_20260206
-25,Sat,2026-02-07,12:30,Manchester Utd,,,,Tottenham,https://fbref.com/en/stathead/matchup/teams/361ca564/19538871/Tottenham-Hotspur-vs-Manchester-United-History,False,ManchesterUtd_Tottenham_20260207
+25,Fri,2026-02-06,20:00,Leeds United,,,,Nottingham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/5bfb9659/Nottingham-Forest-vs-Leeds-United-History,False,LeedsUnited_NottinghamForest_20260206
+25,Sat,2026-02-07,12:30,Manchester Utd,,,,Tottenham Hotspur,https://fbref.com/en/stathead/matchup/teams/361ca564/19538871/Tottenham-Hotspur-vs-Manchester-United-History,False,ManchesterUtd_TottenhamHotspur_20260207
 25,Sat,2026-02-07,15:00,Wolves,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/8cec06e1/Chelsea-vs-Wolverhampton-Wanderers-History,False,Wolves_Chelsea_20260207
 25,Sat,2026-02-07,15:00,Bournemouth,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/8602292d/4ba7cbea/Aston-Villa-vs-Bournemouth-History,False,Bournemouth_AstonVilla_20260207
 25,Sat,2026-02-07,15:00,Arsenal,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/8ef52968/18bb7c10/Sunderland-vs-Arsenal-History,False,Arsenal_Sunderland_20260207
-25,Sat,2026-02-07,15:00,Burnley,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/943e8050/7c21e445/Burnley-vs-West-Ham-United-History,False,Burnley_WestHam_20260207
+25,Sat,2026-02-07,15:00,Burnley,,,,West Ham United,https://fbref.com/en/stathead/matchup/teams/943e8050/7c21e445/Burnley-vs-West-Ham-United-History,False,Burnley_WestHamUnited_20260207
 25,Sat,2026-02-07,15:00,Fulham,,,,Everton,https://fbref.com/en/stathead/matchup/teams/fd962109/d3fd31cc/Fulham-vs-Everton-History,False,Fulham_Everton_20260207
-25,Sat,2026-02-07,17:30,Newcastle Utd,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cd051869/b2b47a98/Brentford-vs-Newcastle-United-History,False,NewcastleUtd_Brentford_20260207
+25,Sat,2026-02-07,17:30,Newcastle United,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cd051869/b2b47a98/Brentford-vs-Newcastle-United-History,False,NewcastleUnited_Brentford_20260207
 25,Sun,2026-02-08,14:00,Brighton,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/d07537b9/47c64c55/Brighton-and-Hove-Albion-vs-Crystal-Palace-History,False,Brighton_CrystalPalace_20260208
 25,Sun,2026-02-08,16:30,Liverpool,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/822bd0ba/Manchester-City-vs-Liverpool-History,False,Liverpool_ManchesterCity_20260208
-26,Tue,2026-02-10,19:30,Tottenham,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/361ca564/Newcastle-United-vs-Tottenham-Hotspur-History,False,Tottenham_NewcastleUtd_20260210
+26,Tue,2026-02-10,19:30,Tottenham Hotspur,,,,Newcastle United,https://fbref.com/en/stathead/matchup/teams/b2b47a98/361ca564/Newcastle-United-vs-Tottenham-Hotspur-History,False,TottenhamHotspur_NewcastleUnited_20260210
 26,Tue,2026-02-10,19:30,Everton,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/4ba7cbea/Everton-vs-Bournemouth-History,False,Everton_Bournemouth_20260210
 26,Tue,2026-02-10,19:30,Chelsea,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/5bfb9659/Chelsea-vs-Leeds-United-History,False,Chelsea_LeedsUnited_20260210
-26,Tue,2026-02-10,20:15,West Ham,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/7c21e445/19538871/West-Ham-United-vs-Manchester-United-History,False,WestHam_ManchesterUtd_20260210
+26,Tue,2026-02-10,20:15,West Ham United,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/7c21e445/19538871/West-Ham-United-vs-Manchester-United-History,False,WestHamUnited_ManchesterUtd_20260210
 26,Wed,2026-02-11,19:30,Manchester City,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/b8fd03ef/Fulham-vs-Manchester-City-History,False,ManchesterCity_Fulham_20260211
-26,Wed,2026-02-11,19:30,Nott'ham Forest,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/e4a775cb/8cec06e1/Nottingham-Forest-vs-Wolverhampton-Wanderers-History,False,Nott'hamForest_Wolves_20260211
+26,Wed,2026-02-11,19:30,Nottingham Forest,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/e4a775cb/8cec06e1/Nottingham-Forest-vs-Wolverhampton-Wanderers-History,False,NottinghamForest_Wolves_20260211
 26,Wed,2026-02-11,19:30,Crystal Palace,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/943e8050/47c64c55/Burnley-vs-Crystal-Palace-History,False,CrystalPalace_Burnley_20260211
 26,Wed,2026-02-11,19:30,Aston Villa,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/d07537b9/8602292d/Brighton-and-Hove-Albion-vs-Aston-Villa-History,False,AstonVilla_Brighton_20260211
 26,Wed,2026-02-11,20:15,Sunderland,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/8ef52968/822bd0ba/Sunderland-vs-Liverpool-History,False,Sunderland_Liverpool_20260211
 26,Thu,2026-02-12,20:00,Brentford,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/cd051869/18bb7c10/Brentford-vs-Arsenal-History,False,Brentford_Arsenal_20260212
-27,Sat,2026-02-21,12:30,Manchester City,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/b2b47a98/Manchester-City-vs-Newcastle-United-History,False,ManchesterCity_NewcastleUtd_20260221
-27,Sat,2026-02-21,15:00,Nott'ham Forest,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/e4a775cb/822bd0ba/Nottingham-Forest-vs-Liverpool-History,False,Nott'hamForest_Liverpool_20260221
+27,Sat,2026-02-21,12:30,Manchester City,,,,Newcastle United,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/b2b47a98/Manchester-City-vs-Newcastle-United-History,False,ManchesterCity_NewcastleUnited_20260221
+27,Sat,2026-02-21,15:00,Nottingham Forest,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/e4a775cb/822bd0ba/Nottingham-Forest-vs-Liverpool-History,False,NottinghamForest_Liverpool_20260221
 27,Sat,2026-02-21,15:00,Crystal Palace,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/8cec06e1/47c64c55/Wolverhampton-Wanderers-vs-Crystal-Palace-History,False,CrystalPalace_Wolves_20260221
 27,Sat,2026-02-21,15:00,Aston Villa,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/8602292d/5bfb9659/Aston-Villa-vs-Leeds-United-History,False,AstonVilla_LeedsUnited_20260221
 27,Sat,2026-02-21,15:00,Chelsea,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/943e8050/Chelsea-vs-Burnley-History,False,Chelsea_Burnley_20260221
 27,Sat,2026-02-21,15:00,Brentford,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/d07537b9/cd051869/Brighton-and-Hove-Albion-vs-Brentford-History,False,Brentford_Brighton_20260221
-27,Sat,2026-02-21,17:30,West Ham,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/7c21e445/4ba7cbea/West-Ham-United-vs-Bournemouth-History,False,WestHam_Bournemouth_20260221
+27,Sat,2026-02-21,17:30,West Ham United,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/7c21e445/4ba7cbea/West-Ham-United-vs-Bournemouth-History,False,WestHamUnited_Bournemouth_20260221
 27,Sun,2026-02-22,14:00,Sunderland,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/8ef52968/Fulham-vs-Sunderland-History,False,Sunderland_Fulham_20260222
-27,Sun,2026-02-22,16:30,Tottenham,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/361ca564/18bb7c10/North-London-Derby-Tottenham-Hotspur-vs-Arsenal-History,False,Tottenham_Arsenal_20260222
+27,Sun,2026-02-22,16:30,Tottenham Hotspur,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/361ca564/18bb7c10/North-London-Derby-Tottenham-Hotspur-vs-Arsenal-History,False,TottenhamHotspur_Arsenal_20260222
 27,Mon,2026-02-23,20:00,Everton,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/19538871/Everton-vs-Manchester-United-History,False,Everton_ManchesterUtd_20260223
 28,Fri,2026-02-27,20:00,Wolves,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/8cec06e1/8602292d/Wolverhampton-Wanderers-vs-Aston-Villa-History,False,Wolves_AstonVilla_20260227
 28,Sat,2026-02-28,12:30,Bournemouth,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/8ef52968/4ba7cbea/Sunderland-vs-Bournemouth-History,False,Bournemouth_Sunderland_20260228
-28,Sat,2026-02-28,15:00,Newcastle Utd,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/b2b47a98/Everton-vs-Newcastle-United-History,False,NewcastleUtd_Everton_20260228
+28,Sat,2026-02-28,15:00,Newcastle United,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/b2b47a98/Everton-vs-Newcastle-United-History,False,NewcastleUnited_Everton_20260228
 28,Sat,2026-02-28,15:00,Burnley,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cd051869/943e8050/Brentford-vs-Burnley-History,False,Burnley_Brentford_20260228
 28,Sat,2026-02-28,15:00,Manchester Utd,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/47c64c55/19538871/Crystal-Palace-vs-Manchester-United-History,False,ManchesterUtd_CrystalPalace_20260228
-28,Sat,2026-02-28,15:00,Liverpool,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/822bd0ba/7c21e445/Liverpool-vs-West-Ham-United-History,False,Liverpool_WestHam_20260228
-28,Sat,2026-02-28,15:00,Brighton,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/d07537b9/Nottingham-Forest-vs-Brighton-and-Hove-Albion-History,False,Brighton_Nott'hamForest_20260228
+28,Sat,2026-02-28,15:00,Liverpool,,,,West Ham United,https://fbref.com/en/stathead/matchup/teams/822bd0ba/7c21e445/Liverpool-vs-West-Ham-United-History,False,Liverpool_WestHamUnited_20260228
+28,Sat,2026-02-28,15:00,Brighton,,,,Nottingham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/d07537b9/Nottingham-Forest-vs-Brighton-and-Hove-Albion-History,False,Brighton_NottinghamForest_20260228
 28,Sat,2026-02-28,17:30,Leeds United,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/5bfb9659/Manchester-City-vs-Leeds-United-History,False,LeedsUnited_ManchesterCity_20260228
-28,Sun,2026-03-01,14:00,Fulham,,,,Tottenham,https://fbref.com/en/stathead/matchup/teams/fd962109/361ca564/Fulham-vs-Tottenham-Hotspur-History,False,Fulham_Tottenham_20260301
+28,Sun,2026-03-01,14:00,Fulham,,,,Tottenham Hotspur,https://fbref.com/en/stathead/matchup/teams/fd962109/361ca564/Fulham-vs-Tottenham-Hotspur-History,False,Fulham_TottenhamHotspur_20260301
 28,Sun,2026-03-01,16:30,Arsenal,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/18bb7c10/North-West-London-Derby-Chelsea-vs-Arsenal-History,False,Arsenal_Chelsea_20260301
-29,Wed,2026-03-04,20:00,Manchester City,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/b8fd03ef/Nottingham-Forest-vs-Manchester-City-History,False,ManchesterCity_Nott'hamForest_20260304
+29,Wed,2026-03-04,20:00,Manchester City,,,,Nottingham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/b8fd03ef/Nottingham-Forest-vs-Manchester-City-History,False,ManchesterCity_NottinghamForest_20260304
 29,Wed,2026-03-04,20:00,Leeds United,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/8ef52968/5bfb9659/Sunderland-vs-Leeds-United-History,False,LeedsUnited_Sunderland_20260304
 29,Wed,2026-03-04,20:00,Wolves,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/8cec06e1/822bd0ba/Wolverhampton-Wanderers-vs-Liverpool-History,False,Wolves_Liverpool_20260304
 29,Wed,2026-03-04,20:00,Bournemouth,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cd051869/4ba7cbea/Brentford-vs-Bournemouth-History,False,Bournemouth_Brentford_20260304
 29,Wed,2026-03-04,20:00,Everton,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/943e8050/Everton-vs-Burnley-History,False,Everton_Burnley_20260304
 29,Wed,2026-03-04,20:00,Brighton,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/d07537b9/18bb7c10/Brighton-and-Hove-Albion-vs-Arsenal-History,False,Brighton_Arsenal_20260304
-29,Wed,2026-03-04,20:00,Tottenham,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/47c64c55/361ca564/Crystal-Palace-vs-Tottenham-Hotspur-History,False,Tottenham_CrystalPalace_20260304
-29,Wed,2026-03-04,20:00,Fulham,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/fd962109/7c21e445/Fulham-vs-West-Ham-United-History,False,Fulham_WestHam_20260304
+29,Wed,2026-03-04,20:00,Tottenham Hotspur,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/47c64c55/361ca564/Crystal-Palace-vs-Tottenham-Hotspur-History,False,TottenhamHotspur_CrystalPalace_20260304
+29,Wed,2026-03-04,20:00,Fulham,,,,West Ham United,https://fbref.com/en/stathead/matchup/teams/fd962109/7c21e445/Fulham-vs-West-Ham-United-History,False,Fulham_WestHamUnited_20260304
 29,Wed,2026-03-04,20:00,Aston Villa,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/8602292d/Chelsea-vs-Aston-Villa-History,False,AstonVilla_Chelsea_20260304
-29,Wed,2026-03-04,20:00,Newcastle Utd,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/19538871/Newcastle-United-vs-Manchester-United-History,False,NewcastleUtd_ManchesterUtd_20260304
+29,Wed,2026-03-04,20:00,Newcastle United,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/19538871/Newcastle-United-vs-Manchester-United-History,False,NewcastleUnited_ManchesterUtd_20260304
 30,Sat,2026-03-14,15:00,Crystal Palace,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/5bfb9659/47c64c55/Leeds-United-vs-Crystal-Palace-History,False,CrystalPalace_LeedsUnited_20260314
-30,Sat,2026-03-14,15:00,West Ham,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/7c21e445/Manchester-City-vs-West-Ham-United-History,False,WestHam_ManchesterCity_20260314
+30,Sat,2026-03-14,15:00,West Ham United,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/7c21e445/Manchester-City-vs-West-Ham-United-History,False,WestHamUnited_ManchesterCity_20260314
 30,Sat,2026-03-14,15:00,Arsenal,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/18bb7c10/Everton-vs-Arsenal-History,False,Arsenal_Everton_20260314
 30,Sat,2026-03-14,15:00,Brentford,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/cd051869/8cec06e1/Brentford-vs-Wolverhampton-Wanderers-History,False,Brentford_Wolves_20260314
 30,Sat,2026-03-14,15:00,Burnley,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/943e8050/4ba7cbea/Burnley-vs-Bournemouth-History,False,Burnley_Bournemouth_20260314
 30,Sat,2026-03-14,15:00,Manchester Utd,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/8602292d/19538871/Aston-Villa-vs-Manchester-United-History,False,ManchesterUtd_AstonVilla_20260314
-30,Sat,2026-03-14,15:00,Liverpool,,,,Tottenham,https://fbref.com/en/stathead/matchup/teams/822bd0ba/361ca564/Liverpool-vs-Tottenham-Hotspur-History,False,Liverpool_Tottenham_20260314
-30,Sat,2026-03-14,15:00,Chelsea,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/b2b47a98/Chelsea-vs-Newcastle-United-History,False,Chelsea_NewcastleUtd_20260314
-30,Sat,2026-03-14,15:00,Nott'ham Forest,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/e4a775cb/Fulham-vs-Nottingham-Forest-History,False,Nott'hamForest_Fulham_20260314
+30,Sat,2026-03-14,15:00,Liverpool,,,,Tottenham Hotspur,https://fbref.com/en/stathead/matchup/teams/822bd0ba/361ca564/Liverpool-vs-Tottenham-Hotspur-History,False,Liverpool_TottenhamHotspur_20260314
+30,Sat,2026-03-14,15:00,Chelsea,,,,Newcastle United,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/b2b47a98/Chelsea-vs-Newcastle-United-History,False,Chelsea_NewcastleUnited_20260314
+30,Sat,2026-03-14,15:00,Nottingham Forest,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/e4a775cb/Fulham-vs-Nottingham-Forest-History,False,NottinghamForest_Fulham_20260314
 30,Sat,2026-03-14,15:00,Sunderland,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/d07537b9/8ef52968/Brighton-and-Hove-Albion-vs-Sunderland-History,False,Sunderland_Brighton_20260314
-31,Sat,2026-03-21,15:00,Tottenham,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/361ca564/Nottingham-Forest-vs-Tottenham-Hotspur-History,False,Tottenham_Nott'hamForest_20260321
+31,Sat,2026-03-21,15:00,Tottenham Hotspur,,,,Nottingham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/361ca564/Nottingham-Forest-vs-Tottenham-Hotspur-History,False,TottenhamHotspur_NottinghamForest_20260321
 31,Sat,2026-03-21,15:00,Leeds United,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cd051869/5bfb9659/Brentford-vs-Leeds-United-History,False,LeedsUnited_Brentford_20260321
 31,Sat,2026-03-21,15:00,Bournemouth,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/4ba7cbea/19538871/Bournemouth-vs-Manchester-United-History,False,Bournemouth_ManchesterUtd_20260321
 31,Sat,2026-03-21,15:00,Manchester City,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/47c64c55/Manchester-City-vs-Crystal-Palace-History,False,ManchesterCity_CrystalPalace_20260321
-31,Sat,2026-03-21,15:00,Newcastle Utd,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/b2b47a98/8ef52968/Newcastle-United-vs-Sunderland-History,False,NewcastleUtd_Sunderland_20260321
+31,Sat,2026-03-21,15:00,Newcastle United,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/b2b47a98/8ef52968/Newcastle-United-vs-Sunderland-History,False,NewcastleUnited_Sunderland_20260321
 31,Sat,2026-03-21,15:00,Brighton,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/d07537b9/822bd0ba/Brighton-and-Hove-Albion-vs-Liverpool-History,False,Brighton_Liverpool_20260321
 31,Sat,2026-03-21,15:00,Everton,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/cff3d9bb/Everton-vs-Chelsea-History,False,Everton_Chelsea_20260321
 31,Sat,2026-03-21,15:00,Fulham,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/fd962109/943e8050/Fulham-vs-Burnley-History,False,Fulham_Burnley_20260321
-31,Sat,2026-03-21,15:00,Aston Villa,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/8602292d/7c21e445/Aston-Villa-vs-West-Ham-United-History,False,AstonVilla_WestHam_20260321
+31,Sat,2026-03-21,15:00,Aston Villa,,,,West Ham United,https://fbref.com/en/stathead/matchup/teams/8602292d/7c21e445/Aston-Villa-vs-West-Ham-United-History,False,AstonVilla_WestHamUnited_20260321
 31,Sat,2026-03-21,15:00,Wolves,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/8cec06e1/18bb7c10/Wolverhampton-Wanderers-vs-Arsenal-History,False,Wolves_Arsenal_20260321
 32,Sat,2026-04-11,15:00(14:00),Manchester Utd,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/5bfb9659/19538871/Leeds-United-vs-Manchester-United-History,False,ManchesterUtd_LeedsUnited_20260411
 32,Sat,2026-04-11,15:00(14:00),Chelsea,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/b8fd03ef/Chelsea-vs-Manchester-City-History,False,Chelsea_ManchesterCity_20260411
 32,Sat,2026-04-11,15:00(14:00),Brentford,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/cd051869/Everton-vs-Brentford-History,False,Brentford_Everton_20260411
 32,Sat,2026-04-11,15:00(14:00),Liverpool,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/822bd0ba/Fulham-vs-Liverpool-History,False,Liverpool_Fulham_20260411
-32,Sat,2026-04-11,15:00(14:00),Crystal Palace,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/47c64c55/Newcastle-United-vs-Crystal-Palace-History,False,CrystalPalace_NewcastleUtd_20260411
+32,Sat,2026-04-11,15:00(14:00),Crystal Palace,,,,Newcastle United,https://fbref.com/en/stathead/matchup/teams/b2b47a98/47c64c55/Newcastle-United-vs-Crystal-Palace-History,False,CrystalPalace_NewcastleUnited_20260411
 32,Sat,2026-04-11,15:00(14:00),Burnley,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/d07537b9/943e8050/Brighton-and-Hove-Albion-vs-Burnley-History,False,Burnley_Brighton_20260411
 32,Sat,2026-04-11,15:00(14:00),Arsenal,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/4ba7cbea/18bb7c10/Bournemouth-vs-Arsenal-History,False,Arsenal_Bournemouth_20260411
-32,Sat,2026-04-11,15:00(14:00),West Ham,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/8cec06e1/7c21e445/Wolverhampton-Wanderers-vs-West-Ham-United-History,False,WestHam_Wolves_20260411
-32,Sat,2026-04-11,15:00(14:00),Nott'ham Forest,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/e4a775cb/8602292d/Nottingham-Forest-vs-Aston-Villa-History,False,Nott'hamForest_AstonVilla_20260411
-32,Sat,2026-04-11,15:00(14:00),Sunderland,,,,Tottenham,https://fbref.com/en/stathead/matchup/teams/8ef52968/361ca564/Sunderland-vs-Tottenham-Hotspur-History,False,Sunderland_Tottenham_20260411
-33,Sat,2026-04-18,15:00(14:00),Crystal Palace,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/7c21e445/47c64c55/West-Ham-United-vs-Crystal-Palace-History,False,CrystalPalace_WestHam_20260418
+32,Sat,2026-04-11,15:00(14:00),West Ham United,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/8cec06e1/7c21e445/Wolverhampton-Wanderers-vs-West-Ham-United-History,False,WestHamUnited_Wolves_20260411
+32,Sat,2026-04-11,15:00(14:00),Nottingham Forest,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/e4a775cb/8602292d/Nottingham-Forest-vs-Aston-Villa-History,False,NottinghamForest_AstonVilla_20260411
+32,Sat,2026-04-11,15:00(14:00),Sunderland,,,,Tottenham Hotspur,https://fbref.com/en/stathead/matchup/teams/8ef52968/361ca564/Sunderland-vs-Tottenham-Hotspur-History,False,Sunderland_TottenhamHotspur_20260411
+33,Sat,2026-04-18,15:00(14:00),Crystal Palace,,,,West Ham United,https://fbref.com/en/stathead/matchup/teams/7c21e445/47c64c55/West-Ham-United-vs-Crystal-Palace-History,False,CrystalPalace_WestHamUnited_20260418
 33,Sat,2026-04-18,15:00(14:00),Everton,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/822bd0ba/Merseyside-Derby-Everton-vs-Liverpool-History,False,Everton_Liverpool_20260418
 33,Sat,2026-04-18,15:00(14:00),Leeds United,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/8cec06e1/5bfb9659/Wolverhampton-Wanderers-vs-Leeds-United-History,False,LeedsUnited_Wolves_20260418
 33,Sat,2026-04-18,15:00(14:00),Brentford,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/cd051869/Fulham-vs-Brentford-History,False,Brentford_Fulham_20260418
-33,Sat,2026-04-18,15:00(14:00),Newcastle Utd,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/b2b47a98/4ba7cbea/Newcastle-United-vs-Bournemouth-History,False,NewcastleUtd_Bournemouth_20260418
+33,Sat,2026-04-18,15:00(14:00),Newcastle United,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/b2b47a98/4ba7cbea/Newcastle-United-vs-Bournemouth-History,False,NewcastleUnited_Bournemouth_20260418
 33,Sat,2026-04-18,15:00(14:00),Chelsea,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/19538871/Chelsea-vs-Manchester-United-History,False,Chelsea_ManchesterUtd_20260418
-33,Sat,2026-04-18,15:00(14:00),Tottenham,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/d07537b9/361ca564/Brighton-and-Hove-Albion-vs-Tottenham-Hotspur-History,False,Tottenham_Brighton_20260418
-33,Sat,2026-04-18,15:00(14:00),Nott'ham Forest,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/e4a775cb/943e8050/Nottingham-Forest-vs-Burnley-History,False,Nott'hamForest_Burnley_20260418
+33,Sat,2026-04-18,15:00(14:00),Tottenham Hotspur,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/d07537b9/361ca564/Brighton-and-Hove-Albion-vs-Tottenham-Hotspur-History,False,TottenhamHotspur_Brighton_20260418
+33,Sat,2026-04-18,15:00(14:00),Nottingham Forest,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/e4a775cb/943e8050/Nottingham-Forest-vs-Burnley-History,False,NottinghamForest_Burnley_20260418
 33,Sat,2026-04-18,15:00(14:00),Manchester City,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/18bb7c10/Manchester-City-vs-Arsenal-History,False,ManchesterCity_Arsenal_20260418
 33,Sat,2026-04-18,15:00(14:00),Aston Villa,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/8ef52968/8602292d/Sunderland-vs-Aston-Villa-History,False,AstonVilla_Sunderland_20260418
-34,Sat,2026-04-25,15:00(14:00),Arsenal,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/b2b47a98/18bb7c10/Newcastle-United-vs-Arsenal-History,False,Arsenal_NewcastleUtd_20260425
+34,Sat,2026-04-25,15:00(14:00),Arsenal,,,,Newcastle United,https://fbref.com/en/stathead/matchup/teams/b2b47a98/18bb7c10/Newcastle-United-vs-Arsenal-History,False,Arsenal_NewcastleUnited_20260425
 34,Sat,2026-04-25,15:00(14:00),Fulham,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/fd962109/8602292d/Fulham-vs-Aston-Villa-History,False,Fulham_AstonVilla_20260425
 34,Sat,2026-04-25,15:00(14:00),Liverpool,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/822bd0ba/47c64c55/Liverpool-vs-Crystal-Palace-History,False,Liverpool_CrystalPalace_20260425
-34,Sat,2026-04-25,15:00(14:00),West Ham,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/7c21e445/Everton-vs-West-Ham-United-History,False,WestHam_Everton_20260425
+34,Sat,2026-04-25,15:00(14:00),West Ham United,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/7c21e445/Everton-vs-West-Ham-United-History,False,WestHamUnited_Everton_20260425
 34,Sat,2026-04-25,15:00(14:00),Brighton,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/d07537b9/cff3d9bb/Brighton-and-Hove-Albion-vs-Chelsea-History,False,Brighton_Chelsea_20260425
-34,Sat,2026-04-25,15:00(14:00),Wolves,,,,Tottenham,https://fbref.com/en/stathead/matchup/teams/8cec06e1/361ca564/Wolverhampton-Wanderers-vs-Tottenham-Hotspur-History,False,Wolves_Tottenham_20260425
-34,Sat,2026-04-25,15:00(14:00),Sunderland,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/8ef52968/Nottingham-Forest-vs-Sunderland-History,False,Sunderland_Nott'hamForest_20260425
+34,Sat,2026-04-25,15:00(14:00),Wolves,,,,Tottenham Hotspur,https://fbref.com/en/stathead/matchup/teams/8cec06e1/361ca564/Wolverhampton-Wanderers-vs-Tottenham-Hotspur-History,False,Wolves_TottenhamHotspur_20260425
+34,Sat,2026-04-25,15:00(14:00),Sunderland,,,,Nottingham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/8ef52968/Nottingham-Forest-vs-Sunderland-History,False,Sunderland_NottinghamForest_20260425
 34,Sat,2026-04-25,15:00(14:00),Manchester Utd,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cd051869/19538871/Brentford-vs-Manchester-United-History,False,ManchesterUtd_Brentford_20260425
 34,Sat,2026-04-25,15:00(14:00),Burnley,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/943e8050/Manchester-City-vs-Burnley-History,False,Burnley_ManchesterCity_20260425
 34,Sat,2026-04-25,15:00(14:00),Bournemouth,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/5bfb9659/4ba7cbea/Leeds-United-vs-Bournemouth-History,False,Bournemouth_LeedsUnited_20260425
-35,Sat,2026-05-02,15:00(14:00),Brentford,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/cd051869/7c21e445/Brentford-vs-West-Ham-United-History,False,Brentford_WestHam_20260502
+35,Sat,2026-05-02,15:00(14:00),Brentford,,,,West Ham United,https://fbref.com/en/stathead/matchup/teams/cd051869/7c21e445/Brentford-vs-West-Ham-United-History,False,Brentford_WestHamUnited_20260502
 35,Sat,2026-05-02,15:00(14:00),Bournemouth,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/4ba7cbea/47c64c55/Bournemouth-vs-Crystal-Palace-History,False,Bournemouth_CrystalPalace_20260502
 35,Sat,2026-05-02,15:00(14:00),Manchester Utd,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/822bd0ba/19538871/North-West-Derby-Liverpool-vs-Manchester-United-History,False,ManchesterUtd_Liverpool_20260502
 35,Sat,2026-05-02,15:00(14:00),Leeds United,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/943e8050/5bfb9659/Burnley-vs-Leeds-United-History,False,LeedsUnited_Burnley_20260502
-35,Sat,2026-05-02,15:00(14:00),Chelsea,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/cff3d9bb/Nottingham-Forest-vs-Chelsea-History,False,Chelsea_Nott'hamForest_20260502
+35,Sat,2026-05-02,15:00(14:00),Chelsea,,,,Nottingham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/cff3d9bb/Nottingham-Forest-vs-Chelsea-History,False,Chelsea_NottinghamForest_20260502
 35,Sat,2026-05-02,15:00(14:00),Wolves,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/8ef52968/8cec06e1/Sunderland-vs-Wolverhampton-Wanderers-History,False,Wolves_Sunderland_20260502
 35,Sat,2026-05-02,15:00(14:00),Everton,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/b8fd03ef/Everton-vs-Manchester-City-History,False,Everton_ManchesterCity_20260502
 35,Sat,2026-05-02,15:00(14:00),Arsenal,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/18bb7c10/Fulham-vs-Arsenal-History,False,Arsenal_Fulham_20260502
-35,Sat,2026-05-02,15:00(14:00),Aston Villa,,,,Tottenham,https://fbref.com/en/stathead/matchup/teams/8602292d/361ca564/Aston-Villa-vs-Tottenham-Hotspur-History,False,AstonVilla_Tottenham_20260502
-35,Sat,2026-05-02,15:00(14:00),Newcastle Utd,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/d07537b9/b2b47a98/Brighton-and-Hove-Albion-vs-Newcastle-United-History,False,NewcastleUtd_Brighton_20260502
+35,Sat,2026-05-02,15:00(14:00),Aston Villa,,,,Tottenham Hotspur,https://fbref.com/en/stathead/matchup/teams/8602292d/361ca564/Aston-Villa-vs-Tottenham-Hotspur-History,False,AstonVilla_TottenhamHotspur_20260502
+35,Sat,2026-05-02,15:00(14:00),Newcastle United,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/d07537b9/b2b47a98/Brighton-and-Hove-Albion-vs-Newcastle-United-History,False,NewcastleUnited_Brighton_20260502
 36,Sat,2026-05-09,15:00(14:00),Manchester City,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cd051869/b8fd03ef/Brentford-vs-Manchester-City-History,False,ManchesterCity_Brentford_20260509
-36,Sat,2026-05-09,15:00(14:00),Nott'ham Forest,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/e4a775cb/b2b47a98/Nottingham-Forest-vs-Newcastle-United-History,False,Nott'hamForest_NewcastleUtd_20260509
+36,Sat,2026-05-09,15:00(14:00),Nottingham Forest,,,,Newcastle United,https://fbref.com/en/stathead/matchup/teams/e4a775cb/b2b47a98/Nottingham-Forest-vs-Newcastle-United-History,False,NottinghamForest_NewcastleUnited_20260509
 36,Sat,2026-05-09,15:00(14:00),Crystal Palace,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/47c64c55/Everton-vs-Crystal-Palace-History,False,CrystalPalace_Everton_20260509
 36,Sat,2026-05-09,15:00(14:00),Brighton,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/d07537b9/8cec06e1/Brighton-and-Hove-Albion-vs-Wolverhampton-Wanderers-History,False,Brighton_Wolves_20260509
 36,Sat,2026-05-09,15:00(14:00),Fulham,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/fd962109/4ba7cbea/Fulham-vs-Bournemouth-History,False,Fulham_Bournemouth_20260509
-36,Sat,2026-05-09,15:00(14:00),Tottenham,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/5bfb9659/361ca564/Leeds-United-vs-Tottenham-Hotspur-History,False,Tottenham_LeedsUnited_20260509
+36,Sat,2026-05-09,15:00(14:00),Tottenham Hotspur,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/5bfb9659/361ca564/Leeds-United-vs-Tottenham-Hotspur-History,False,TottenhamHotspur_LeedsUnited_20260509
 36,Sat,2026-05-09,15:00(14:00),Sunderland,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/8ef52968/19538871/Sunderland-vs-Manchester-United-History,False,Sunderland_ManchesterUtd_20260509
 36,Sat,2026-05-09,15:00(14:00),Burnley,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/943e8050/8602292d/Burnley-vs-Aston-Villa-History,False,Burnley_AstonVilla_20260509
-36,Sat,2026-05-09,15:00(14:00),West Ham,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/7c21e445/18bb7c10/West-Ham-United-vs-Arsenal-History,False,WestHam_Arsenal_20260509
+36,Sat,2026-05-09,15:00(14:00),West Ham United,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/7c21e445/18bb7c10/West-Ham-United-vs-Arsenal-History,False,WestHamUnited_Arsenal_20260509
 36,Sat,2026-05-09,15:00(14:00),Liverpool,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/822bd0ba/Chelsea-vs-Liverpool-History,False,Liverpool_Chelsea_20260509
-37,Sun,2026-05-17,15:00(14:00),Manchester Utd,,,,Nott'ham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/19538871/Nottingham-Forest-vs-Manchester-United-History,False,ManchesterUtd_Nott'hamForest_20260517
-37,Sun,2026-05-17,15:00(14:00),Chelsea,,,,Tottenham,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/361ca564/Chelsea-vs-Tottenham-Hotspur-History,False,Chelsea_Tottenham_20260517
+37,Sun,2026-05-17,15:00(14:00),Manchester Utd,,,,Nottingham Forest,https://fbref.com/en/stathead/matchup/teams/e4a775cb/19538871/Nottingham-Forest-vs-Manchester-United-History,False,ManchesterUtd_NottinghamForest_20260517
+37,Sun,2026-05-17,15:00(14:00),Chelsea,,,,Tottenham Hotspur,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/361ca564/Chelsea-vs-Tottenham-Hotspur-History,False,Chelsea_TottenhamHotspur_20260517
 37,Sun,2026-05-17,15:00(14:00),Arsenal,,,,Burnley,https://fbref.com/en/stathead/matchup/teams/943e8050/18bb7c10/Burnley-vs-Arsenal-History,False,Arsenal_Burnley_20260517
-37,Sun,2026-05-17,15:00(14:00),Newcastle Utd,,,,West Ham,https://fbref.com/en/stathead/matchup/teams/b2b47a98/7c21e445/Newcastle-United-vs-West-Ham-United-History,False,NewcastleUtd_WestHam_20260517
+37,Sun,2026-05-17,15:00(14:00),Newcastle United,,,,West Ham United,https://fbref.com/en/stathead/matchup/teams/b2b47a98/7c21e445/Newcastle-United-vs-West-Ham-United-History,False,NewcastleUnited_WestHamUnited_20260517
 37,Sun,2026-05-17,15:00(14:00),Everton,,,,Sunderland,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/8ef52968/Everton-vs-Sunderland-History,False,Everton_Sunderland_20260517
 37,Sun,2026-05-17,15:00(14:00),Wolves,,,,Fulham,https://fbref.com/en/stathead/matchup/teams/fd962109/8cec06e1/Fulham-vs-Wolverhampton-Wanderers-History,False,Wolves_Fulham_20260517
 37,Sun,2026-05-17,15:00(14:00),Bournemouth,,,,Manchester City,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/4ba7cbea/Manchester-City-vs-Bournemouth-History,False,Bournemouth_ManchesterCity_20260517
 37,Sun,2026-05-17,15:00(14:00),Aston Villa,,,,Liverpool,https://fbref.com/en/stathead/matchup/teams/8602292d/822bd0ba/Aston-Villa-vs-Liverpool-History,False,AstonVilla_Liverpool_20260517
 37,Sun,2026-05-17,15:00(14:00),Brentford,,,,Crystal Palace,https://fbref.com/en/stathead/matchup/teams/cd051869/47c64c55/Brentford-vs-Crystal-Palace-History,False,Brentford_CrystalPalace_20260517
 37,Sun,2026-05-17,15:00(14:00),Leeds United,,,,Brighton,https://fbref.com/en/stathead/matchup/teams/d07537b9/5bfb9659/Brighton-and-Hove-Albion-vs-Leeds-United-History,False,LeedsUnited_Brighton_20260517
-38,Sun,2026-05-24,16:00(15:00),West Ham,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/7c21e445/5bfb9659/West-Ham-United-vs-Leeds-United-History,False,WestHam_LeedsUnited_20260524
+38,Sun,2026-05-24,16:00(15:00),West Ham United,,,,Leeds United,https://fbref.com/en/stathead/matchup/teams/7c21e445/5bfb9659/West-Ham-United-vs-Leeds-United-History,False,WestHamUnited_LeedsUnited_20260524
 38,Sun,2026-05-24,16:00(15:00),Burnley,,,,Wolves,https://fbref.com/en/stathead/matchup/teams/943e8050/8cec06e1/Burnley-vs-Wolverhampton-Wanderers-History,False,Burnley_Wolves_20260524
 38,Sun,2026-05-24,16:00(15:00),Sunderland,,,,Chelsea,https://fbref.com/en/stathead/matchup/teams/cff3d9bb/8ef52968/Chelsea-vs-Sunderland-History,False,Sunderland_Chelsea_20260524
-38,Sun,2026-05-24,16:00(15:00),Nott'ham Forest,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/e4a775cb/4ba7cbea/Nottingham-Forest-vs-Bournemouth-History,False,Nott'hamForest_Bournemouth_20260524
+38,Sun,2026-05-24,16:00(15:00),Nottingham Forest,,,,Bournemouth,https://fbref.com/en/stathead/matchup/teams/e4a775cb/4ba7cbea/Nottingham-Forest-vs-Bournemouth-History,False,NottinghamForest_Bournemouth_20260524
 38,Sun,2026-05-24,16:00(15:00),Crystal Palace,,,,Arsenal,https://fbref.com/en/stathead/matchup/teams/47c64c55/18bb7c10/Crystal-Palace-vs-Arsenal-History,False,CrystalPalace_Arsenal_20260524
-38,Sun,2026-05-24,16:00(15:00),Fulham,,,,Newcastle Utd,https://fbref.com/en/stathead/matchup/teams/fd962109/b2b47a98/Fulham-vs-Newcastle-United-History,False,Fulham_NewcastleUtd_20260524
+38,Sun,2026-05-24,16:00(15:00),Fulham,,,,Newcastle United,https://fbref.com/en/stathead/matchup/teams/fd962109/b2b47a98/Fulham-vs-Newcastle-United-History,False,Fulham_NewcastleUnited_20260524
 38,Sun,2026-05-24,16:00(15:00),Brighton,,,,Manchester Utd,https://fbref.com/en/stathead/matchup/teams/d07537b9/19538871/Brighton-and-Hove-Albion-vs-Manchester-United-History,False,Brighton_ManchesterUtd_20260524
 38,Sun,2026-05-24,16:00(15:00),Liverpool,,,,Brentford,https://fbref.com/en/stathead/matchup/teams/cd051869/822bd0ba/Brentford-vs-Liverpool-History,False,Liverpool_Brentford_20260524
-38,Sun,2026-05-24,16:00(15:00),Tottenham,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/361ca564/Everton-vs-Tottenham-Hotspur-History,False,Tottenham_Everton_20260524
+38,Sun,2026-05-24,16:00(15:00),Tottenham Hotspur,,,,Everton,https://fbref.com/en/stathead/matchup/teams/d3fd31cc/361ca564/Everton-vs-Tottenham-Hotspur-History,False,TottenhamHotspur_Everton_20260524
 38,Sun,2026-05-24,16:00(15:00),Manchester City,,,,Aston Villa,https://fbref.com/en/stathead/matchup/teams/b8fd03ef/8602292d/Manchester-City-vs-Aston-Villa-History,False,ManchesterCity_AstonVilla_20260524
